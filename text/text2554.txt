@@ -1,0 +1,11 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+Chef declared war on Byteland. Chefs best scientist Pramod has designed a new Fighter Plane which can fly with Speed of Light!! So none of the defence forces of Byteland can defeat or defend it.
+Byteland has a structure of a tree with N cities connected by N-1 bidirectional roads. Each city has index between (1, N) (inclusive) and no two cities have same index. The capital city of Byteland has index 1. The distance between two cities is the number of roads in the path from one to other.
+If the plane drops a bomb on a city A, with damage value X then the damage done to a city B will be floor(X/2d) where d is the distance between A and B, note that as the distance of A from itself is 0, the damage done to A will be floor(X/20) = X.
+Each city has a certain wealth Wi in it, if it is damaged by a value of X then its wealth is reduced by X. On a day if the wealth of a city becomes less than or equal to zero then it is considered Economically Dead.
+Your task is to write a program that keeps track of the bombings done by the plane and answer the queries asked by the chef. The chef has a total of Q queries for you. There are two types of queries.1) Chef gives you two integers A and X, which means that the plane drops a bomb on the city with index A with damage value X. A bomb can also be dropped on economically dead city.2) Chef gives you an integer A and you need to print the number of cities that are economically dead which have A in the path from the capital to them.(See explanation for better understanding)
+Input
+First line contains an Integer representing N the number of cites.Next N lines contain one integer each, integer on the ith line represents the Wi, wealth of the city with index i.Next N - 1 lines contain two integers U and V each, which means that there is a road connecting cities U and V.Next line contains an integer Q, the number of Queries.Next Q lines represent one query each, if the first integer in the line is 1 then the query is of type 1, it is followed by two integers A and X, else the query is of type 2, it is followed by one integer A.(The meanings of the variables are well explained in the question)
+Output
+For each query of type 2 print the required value asked in the question.

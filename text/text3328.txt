@@ -1,0 +1,17 @@
+Problem
+Chef has a (0-indexed) binary string S of length N such that N is a power of 2.
+Chef wants to find the number of pairs (i,j) such that:
+
+0≤i,j<N
+Si∣j​=Si&amp;j​
+
+(Here ∣ denotes the bitwise OR operation and &amp; denotes the bitwise AND operation)
+Can you help Chef to do so?
+Input Format
+
+The first line of input contains a single integer T - the number of test cases. The description of T test cases follow.
+The first line of each test case contains an integer N - the length of the string S (N is a power of 2).
+The second line of each test case contains a binary string S of length N.
+
+Output Format
+For each test case, output the number of pairs that satisfy the given conditions.

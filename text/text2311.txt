@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+Chef has a sequence A1​,A2​,…,AN​. Let's call a contiguous subsequence of A a segment.
+A segment is good if it can be divided into at most K segments such that the sum of elements in each of these sub-segments is at most S.
+You need to find the maximum number of elements in a good segment.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, K and S.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, print a single line containing one integer — the maximum length of a good segment.

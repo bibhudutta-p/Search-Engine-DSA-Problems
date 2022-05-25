@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef is a network engineer at CodeChef. Currently, he has to design a network that connects N computers (numbered 1 through N).
+The network should consist of these N computers and exactly M cables. Usually, a cable needs to connect two different computers, but Chef is okay with connecting computers to themselves too. Therefore, let's describe a cable by the pair of computers (u,v) it connects, where 1≤u≤v≤N. However, for each valid pair of computers (u,v), there must be at most one cable that directly connects this pair of computers.
+Let's define the data consumption factor of a computer as the number of computers which are directly connected to it. In particular, if a computer v is directly connected to itself (by a cable (v,v)), it is only counted as connected to itself once. The data consumption factor of the whole network is the maximum of data consumption factors of all computers.
+In the resulting network, each computer needs to be connected (directly or indirectly) to all other computers, so that they could communicate with each other.
+Determine whether it is possible to design such a network. If it is possible, find the minimum possible data consumption factor of the resulting network.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and M.
+
+Output
+For each test case, print a single line containing one integer ― the minimum data consumption factor or −1 if Chef cannot design a required network.

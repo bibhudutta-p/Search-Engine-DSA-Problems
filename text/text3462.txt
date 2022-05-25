@@ -1,0 +1,24 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef has an array A of 3 x N integers. He wants to make as many disjoint triples as possible (a triple is a set of three integers) from this array such that sum of elements in each triple is equal. Two triples (A[a], A[b], A[c]) and (A[x], A[y], A[z]) are considered disjoint iff the sets {a, b, c} and {x, y, z} are disjoint.
+Please, help Chef achieve this task.
+Input
+
+
+The first line of each test file contains a single integer N indicating that the number of elements in the array A is 3 x N.
+The second line contains 3 × N space-separated integers A1, A2, … , A3 x N. 
+
+
+Output
+
+Output two lines as described below.
+
+The first line should contain one integer K denoting the number of triples you found.
+In the second line you should print K triples of integers — indices of numbers in each triple.
+
+
+Scoring
+Your score for each test case will be the number of triples you found. Your goal is to maximise this score.
+Your total score for the problem will be the sum of scores on all the test cases.
+Your solution will be tested only on 20% of the test files during the contest and will be rejudged against 100% after the end of competition.
+You will get "Wrong Answer" verdict if some element of the array is repeated in your output (triples are not disjoint), or if there are two triples with different sum of elements (invalid triples). If you output only one triple, that's ok, you'll get a score of 1.

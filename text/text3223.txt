@@ -1,0 +1,17 @@
+Problem
+There are K travellers who want to travel through a country one after the other. The country is in the form of a 2-d grid and is divided into N rows and M columns, such that each cell of the grid can be considered to be a city.
+Each city is initially marked with either 0 or 1. Let city (i,j) (the city at the intersection of the ith row and jth column) be marked with number Cij​. If a traveller is in the city (i,j), then
+
+If Cij​=0 and j<M, then the traveller moves to city (i,j+1) and at the same time Cij​ is changed to 1.
+If Cij​=1 and i<N, then the traveller moves to city (i+1,j) and at the same time Cij​ is changed to 0.
+
+If the traveller cannot make a move from a city (i,j), then this city is considered to be the destination of that traveller. Note that the marking (Cij​) of the destination cell is unchanged — please see the third sample test for an explained example.
+Each traveller starts their journey from city (1,1), and all travellers (apart from the first) start their journey only once the previous one has reached their destination. Find the destination city of the K-th traveller.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of testcases. The description of T test cases follows.
+The first line of each testcase contains three space-separated integers N,M, and K — the number of rows, number of columns, and number of travellers, respectively.
+The following N lines each contain a binary string of length M, such that j-th character of the i-th string denotes the initial marking of city (i,j), Cij​.
+
+Output Format
+For each testcase, output in a single line two space-separated integers x and y, where city (x,y) is the destination city of the K-th traveller.

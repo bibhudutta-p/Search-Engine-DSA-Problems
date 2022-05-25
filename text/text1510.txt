@@ -1,0 +1,21 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+
+Last week Penguin Charlie had a birthday. Chef presented him a string S.
+
+
+Unfortunately, Charlie doesn't like string S, he likes string F. Charlie wants to create a few strings F from S by cutting. Cutting means getting some substrings from S that are equal to F and delete them from string S. After deleting a substring, the left and right parts of the resulting string remain separated. Note, a substring of a string S is a consecutive sequence of characters in S.
+
+
+In some cases Charlie can still get substrings equal to F from the pieces that remain after cutting the original string. Your task is to calculate the number of ways to cut out at least one occurrence of the substring F in S. As this number may be too large, print it modulo 109 + 7.
+
+ 
+Input
+
+Input begins with an integer T: the number of test cases.
+Each test case consists of a two lines with two strings: S, F.
+
+Output
+
+For each test case, output a single line indicating the number of ways Charlie can cut at least one occurrence of F from S modulo 109 + 7.
+

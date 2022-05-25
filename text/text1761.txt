@@ -1,0 +1,21 @@
+Problem
+Read problem statements in Russian, Mandarin and Vietnamese as well.
+You are given a permutation P of integers from 1 to N, and an integer K such that ⌈32N​⌉≤K≤N. In one operation, you can do the following:
+
+Choose any consecutive segment of at most K elements of the permutation, and sort it in increasing order.
+
+What's the smallest number of operations you have to make to sort the entire permutation in increasing order?
+Input Format
+
+
+The first line of the input contains a single integer T − the number of test cases. The description of test cases follows.
+
+
+The first line of each test case contains two integers N,K.
+
+
+The second line of each test case contains N integers P1​,P2​,…,PN​ − the elements of the permutation.
+
+
+Output Format
+For each test case, output the smallest number of operations you have to make to sort the entire permutation in increasing order.

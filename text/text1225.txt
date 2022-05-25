@@ -1,0 +1,13 @@
+Problem
+For a permutation P of length N, we define L(P) to be the length of the longest increasing subsequence in P. That is, L(P) is the largest integer K such that there exist indices i1​<i2​<…<iK​ such that Pi1​​<Pi2​​<…<PiK​​.
+Define PR to be the permutation (PN​,PN−1​,…,P1​).
+You are given a positive integer N. You need to output a permutation P of length N such that L(P)=L(PR), or say that none exist.
+Note: P is said to be a permutation of length N if P is a sequence of length N consisting of N distinct integers between 1 and N. For example, (3,1,2) is a permutation of length 3, but (1,4,2), (2,2,3) and (2,1) are not.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of a single line containing one integer N — the length of the permutation to be constructed.
+
+Output Format
+For each test case, output on a new line "YES" if there exists a valid permutation, and "NO" if there doesn't. If you outputted "YES", on the next line, output a valid permutation P as N space-separated integers, the ith of which is Pi​.
+You can print each letter of the string in any case (upper or lower) (for instance, strings YES, yEs, and yes will be considered identical).

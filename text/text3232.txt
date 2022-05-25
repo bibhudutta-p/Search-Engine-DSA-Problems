@@ -1,0 +1,19 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given two sequences A1​,A2​,…,AN​ and C1​,C2​,…,CN​. For each valid i, Ci​ is the colour of Ai​.
+You should answer Q queries. In each query:
+
+You are given two colours x and y.
+Consider the subsequence of A which contains only elements Ai​ such that Ci​=x or Ci​=y (in the original order). Let's denote it by B.
+For each contiguous subsequence of B (including empty subsequence), consider the sum of all its elements. Find the maximum of these sums.
+
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+The third line contains N space-separated integers C1​,C2​,…,CN​.
+Q lines follow. Each of these lines contains two space-separated integers x and y describing a query.
+
+Output
+For each query, print a single line containing one integer — the maximum sum of a contiguous subsequence of B.

@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Russian, Mandarin Chinese, Bengali, and Vietnamese as well.
+During a fight with the Joker, Batman's eyes lose the capability to distinguish between some pairs of colors.
+Each color has an integer ID from 1 to N. There are M lists where each color belongs to exactly one list. Batman can distinguish colors belonging to different lists, but he cannot distinguish colors belonging to the same list.
+Given a strip of L colors, find the different number of segments Batman will see as a result of his disability. Two positions of the strip are said to belong to the same segment if they are adjacent on the strip and Batman cannot distinguish their colors. See the sample explanation for clarity.
+Input Format
+
+The first line contains an integer T, the number of test cases. Then the test cases follow.
+The first line contain three integers N, M, and L - the number of colors, the number of lists, and the length of the strip, respectively.
+Each of the next M lines describes a list. It begins with an integer Ki​, the length of the i-th list, followed by Ki​ integers Ai1​,Ai2​,…,AiKi​​ - the color IDs of the i-th list.
+The next line contains L integers S1​,S2​,…,SL​ - the color IDs of the strip.
+
+Output Format
+For each test case, output in a single line the answer to the problem.

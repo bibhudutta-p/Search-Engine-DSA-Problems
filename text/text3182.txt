@@ -1,0 +1,16 @@
+Problem
+You are given an integer N. You have to count the number of distinct tuples (A,B,C,D) with 1≤A,B,C,D≤N such that A⋅B=C⋅D.
+Two tuples, say (A,B,C,D) and (E,F,G,H) are considered to be different if at least one of the following conditions hold true:
+
+A=E
+B=F
+C=G
+D=H.
+
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains a single integer on a new line - N, as described in the problem statement
+
+Output Format
+For each testcase, output the answer on a new line - the number of tuples as described in the problem statement.

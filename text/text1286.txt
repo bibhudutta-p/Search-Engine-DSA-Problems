@@ -1,0 +1,14 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+There are S sine functions and C cosine functions as following:ai sin(2i x), 0 ≤ x ≤ 2π, for i = 0, 1, ..., S−1,bj cos(2j x), 0 ≤ x ≤ 2π, for j = 0, 1, ..., C−1,where ai, bj are some positive constants (and note that the answer of this problem does not depend on ai and bj).
+For example, the following figures show the case of S = 2, C = 0 and the case of S = 3, C = 2.
+
+This figure shows the case of S = 2, C = 0. There are two sine functions a1 sin(x) denoted by the red line, and a2 sin(2x) denoted by the blue line.
+
+This figure shows the case of S = 3, C = 2. There are five functions a1 sin(x), a2 sin(2x), a3 sin(4x), b1 cos(x) and b2 cos(2x). In the figure, three sine functions are denoted by blue lines, and two cosine functions are denoted by red lines.
+Chef wants to find the number of the points on the x-axis such that at least K functions through the points.
+Input
+The first line of input contains an integer T, denoting the number of test cases. Then T test cases follow.
+Each test case contains one line. The line contains three space-separated integers S, C, K.
+Output
+For each test case, print the number of the points on the x-axis such that at least K functions through the points.

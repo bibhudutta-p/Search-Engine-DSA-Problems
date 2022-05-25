@@ -1,0 +1,11 @@
+Problem
+Read problems statements Hindi ,Bengali , Mandarin chinese , Russian and Vietnamese as well.
+Let's define the strength of a matrix as the number of distinct rows in it. Two rows a1​,a2​,…,an​ and b1​,b2​,…,bn​ are distinct if there is an index i such that ai​=bi​.
+You are given an integer matrix A with N rows (numbered 1 through N) and M columns (numbered 1 through M). A submatrix of A is formed as the intersection of rows r1​ through r2​ and columns c1​ through c2​ for any r1​≤r2​,c1​≤c2​. Find the sum of the strengths of all submatrices of A.
+Input
+
+The first line of the input contains two space-separated integers N and M.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains M space-separated integers Ai,1​,Ai,2​,…,Ai,M​.
+
+Output
+Print a single line containing one integer — the sum of strengths of all the submatrices.

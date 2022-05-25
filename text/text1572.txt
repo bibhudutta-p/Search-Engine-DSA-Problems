@@ -1,0 +1,14 @@
+Problem
+"I'm a fan of anything that tries to replace actual human contact." - Sheldon.
+After years of hard work, Sheldon was finally able to develop a formula which would diminish the real human contact.
+He found k integers n1​,n2​...nk​ . Also he found that if he could minimize the value of m such that  ∑i=1k​niCmi is even, where m = \sum_{i=1}^km_i, he would finish the real human contact.
+Since Sheldon is busy choosing between PS-4 and XBOX-ONE, he want you to help him to calculate the minimum value of m.
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. The
+description of T test cases follows.
+The first line of each test case contains a single integer k.
+Next line contains k space separated integers n1​,n2​...nk​ .
+
+Output:
+For each test case output the minimum value of m for which ∑i=1k​niCmi is even, where  m=m1​+m2​+. . . mk​   and  0 <= mi​\lt= ni​ .  If no such answer exists print -1.

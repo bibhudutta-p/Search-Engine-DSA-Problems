@@ -1,0 +1,16 @@
+Problem
+Gotham City is the home of Batman, and Batman likes to keep his people together.
+There are N houses in the city. The resident of the ith house is of type Ai​. It is known that people of the same type are friends and people of different types are not friends.
+To maintain peace, Batman can do the following type of operation:
+
+Choose indices i and j (1≤i≤j≤N) and reverse the substring A[i,j].
+
+Determine the length of the longest range of friends after applying at most k operations on the string for all 0≤k≤N.
+Input Format
+
+First line will contain T, the number of test cases. Then the test cases follow.
+The first line of each test case contains a single integer N, the number of houses in Gotham city.
+The next line contains a string A with N characters. The ith character denotes the type of the ith person.
+
+Output Format
+For each test case, output a single line, (N+1) space-separated integers where the ith integer signifies the length of the longest range of friends after applying  at most i operations.

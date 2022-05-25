@@ -1,0 +1,11 @@
+Problem
+Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
+You are given an integer sequence A1​,A2​,…,AN​ and integers K and M. For 1≤i≤j≤N, let's define S(i,j) as the number of ways to choose exactly K elements of the contiguous subsequence Ai​,Ai+1​,…,Aj​ in such a way that the median of these K elements is ≥M.
+Find the sum of S(i,j) over all i,j such that 1≤i≤j≤N. Since this sum may be large, calculate it modulo 109+7.
+Input
+
+The first line of the input contains three space-separated integers N, K and M.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+Print a single line containing one integer — ∑i=1N​∑j=iN​S(i,j) modulo 109+7.

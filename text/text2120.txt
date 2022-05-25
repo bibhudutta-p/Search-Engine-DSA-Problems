@@ -1,0 +1,10 @@
+Problem
+Read problems statements Hindi ,Bengali , Mandarin chinese , Russian and Vietnamese as well.
+Consider an undirected graph G with N vertices, numbered 1 through N. You are given an integer sequence A1​,A2​,…,AN​ describing the edges of this graph — for each pair of vertices u and v, there is an edge between those vertices if and only if Au​ and Av​ are coprime. Find the number of connected components of G.
+Input
+
+The first line of the input contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+Print a single line containing one integer — the number of connected components.

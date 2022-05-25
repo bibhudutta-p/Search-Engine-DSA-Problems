@@ -1,0 +1,10 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef loves integers, but of course not all of them. For some personal reason, he considers the integers a0, a1, ..., and a9 unlucky. If for an integer x, suppose there exists some digit i (0 ≤ i ≤ 9) which appears exactly ai times in the decimal presentation of x (without leading zeros), then Chef dislikes x. Otherwise Chef loves it.
+Chef wants to count the number of the integers between L and R, both inclusive, which he loves. Can you please help him in this?
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follow.
+The first line of each test case contains two space separated integers L, R. 
+The second line will contain exactly 10 space separated integers, the i-th integer denotes ai-1.
+Output
+For each test case, output an integer corresponding to the answer, in a new line.

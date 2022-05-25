@@ -1,0 +1,20 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef recently finished a birthday cake, which can be represented by a grid with N rows (numbered 1 through N) and M columns (numbered 1 through M). For each valid i, Chef placed a candle with height ai,j​ in the cell in row i and column j.
+A rectangle with the top left corner in row r1​ and column c1​ and the bottom right corner in row r2​ and column c2​ (1≤r1​<r2​≤N; 1≤c1​<c2​≤M) is called sweet if the minimum of heights of candles on some two opposite corners is greater than the maximum of heights of candles on the other two opposite corners. Formally, one of the following conditions should hold:
+
+min(ar1​,c1​​,ar2​,c2​​)>max(ar1​,c2​​,ar2​,c1​​)
+min(ar2​,c1​​,ar1​,c2​​)>max(ar1​,c1​​,ar2​,c2​​)
+
+The quality of the candle placement is defined as the number of sweet rectangles.
+Find the quality of the initial cake and then process Q queries. In each query, we replace the candle currently placed in a row x and a column y by a new candle with height h. The queries are not independent, i.e. each such change affects all subsequent queries. After each query, find the quality of the current candle placement.
+It is guaranteed that initially and after each query, the heights of the candles are pairwise distinct.
+Input
+
+The first line of the input contains two space-separated integers N and M.
+N lines follow. For each valid i, the i-th of these lines contains M space-separated integers ai,1​,ai,2​,…,ai,M​.
+The next line contains a single integer Q.
+Each of the next Q lines contains three space-separated integers x, y and h describing a query.
+
+Output
+First, print a line containing a single integer ― the quality of the initial placement. Then, for each query, print a line containing a single integer ― the quality of the placement after this query.

@@ -1,0 +1,17 @@
+Problem
+Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
+You are given a directed graph with N vertices (numbered 1 through N) and M weighted edges. For each vertex of the graph, find the minimum cost of a walk that passes through this vertex, or determine that the minimum does not exist, i.e. for any integer m, there is a walk with cost smaller than m.
+Notes:
+
+A walk in a directed graph is a sequence of vertices v1​,v2​,…,vK​ for some positive integer K, and an associated (possibly empty) sequence of edges e1​,e2​,…,eK−1​ such that for each valid i, edge ei​ goes from vertex vi​ to vertex vi+1​.
+The cost of a walk is the sum of weights of edges e1​,e2​,…,eK−1​; if K=1, the cost is 0.
+A walk passes through vertex u if u belongs to the sequence v1​,v2​,…,vK​.
+
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+Each of the next M lines contains three space-separated integers u, v and w describing an edge from vertex u to vertex v with weight w.
+
+Output
+For each test case, print N lines. For each valid i, if the minimum cost of a walk through vertex i does not exist, the i-th of these lines should contain the string "INF". Otherwise, it should contain a single integer — the minimum cost.

@@ -1,0 +1,16 @@
+Problem
+ Read problems statements in Mandarin and Russian. Translations in Vietnamese to be uploaded soon.
+Today, you finally have a chance to compete with a famous coder like Vasia and prove your mettle.
+While he likes the real world as well, his adventures in 3D computer puzzles make him the undisputed King of the subject. Until now, that is!
+Vasia has N distinct points in 3 dimensional space and he is going to ask you to find the following sum Q times.
+
+Where A,B,C and D are some evil integers chosen by Vasia, and their values vary for each summation query.
+Input
+
+First line contains two integers N and Q. N is number of points, and Q is number of queries.
+The next N lines contain integer point coordinates Xi, Yi, Zi.
+The last Q lines contain a query each in the form of 4 integers A, B, C, D.
+Note that all the integers in a single line are separated by single spaces.
+
+Output
+For each query, output a single line containing the sum accurate up to 10-6.

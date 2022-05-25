@@ -1,0 +1,16 @@
+Problem
+“I am not in danger, Skyler. I am the danger. A guy opens his door and gets shot, and you think that of me? No! I am the one who knocks!”
+Skyler fears Walter and ponders escaping to Colorado. Walter wants to clean his lab as soon as possible and then go back home to his wife.
+In order clean his lab, he has to achieve cleaning level of lab as Y. The current cleaning level of the lab is X.
+He must choose one positive odd integer a and one positive even integer b. Note that, he cannot change a or b once he starts cleaning.
+He can perform any one of the following operations for one round of cleaning:
+1. Replace X with X+a.
+2. Replace X with X−b.
+Find minimum number of rounds (possibly zero) to make lab clean.
+Input:
+
+First line will contain T, number of test cases. T testcases follow :
+Each test case contains two space separated integers X,Y.
+
+Output:
+For each test case, output an integer denoting minimum number of rounds to clean the lab.### 

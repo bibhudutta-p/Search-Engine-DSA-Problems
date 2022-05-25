@@ -1,0 +1,11 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a binary string S. Chef defines MEX(S) as the smallest non-negative integer such that its binary representation (without leading '0'-s; in particular, the binary representation of 0 is "0") is not a subsequence of S.
+Chef is asking you to find MEX(S). Since this integer could be very large, find its binary representation (without leading '0'-s).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single string S.
+
+Output
+For each test case, print a single line containing one string: MEX(S) in binary representation.

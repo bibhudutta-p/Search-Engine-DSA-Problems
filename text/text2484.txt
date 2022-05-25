@@ -1,0 +1,12 @@
+Problem
+Given a subset of digits S and a number N, find the smallest positive number which contains only the digits from S and is a multiple of N or -1 if solution does not exists.
+Input:
+
+First line contains integer t, denoting the number of test cases
+First line of each test case contains two integers, m,N, denoting size of set S and the number whose multiple you have to find.
+Next Line of the test case consists of m distinct space-separated integers denoting the digits in set S.
+
+Output:
+
+For each test case, output single line with answer to the test case.
+

@@ -1,0 +1,19 @@
+Problem
+MoEngage goes shopping with Chef. There are N ingredients placed on a line, numbered 1 to N from left to right.
+At any point in time, MoEngage can choose the ingredient numbered x and do one of the following operations:
+
+If the chosen ingredient is not the leftmost amongst the remaining ingredients, remove the left neighbor. This operation costs Lx​ coins.
+If the chosen ingredient is not the rightmost amongst the remaining ingredients, remove the right neighbor. This operation costs Rx​ coins.
+
+Note: MoEngage can perform at most one operation of one type on a particular ingredient. For example, you can't remove elements from the left of ingredient x two times. However, you can remove one ingredient each from the left and from the right of ingredient x.
+MoEngage performs the operations until only one ingredient is left.
+Find the minimum number of coins he needs to pay so that only one ingredient is left.
+Input Format
+
+The first line contains a positive integer T - the number of test cases. Then T test cases follow.
+The first line of each test case contains a single integer N - the number of ingredients.
+The second line of each test case contains N integers L1​,L2​,…,LN​ - the number of coins required to remove the ingredient from the left of an ingredient.
+The third line of each test case contains N integers R1​,R2​,…,RN​ - the number of coins required to remove the ingredient from the right of an ingredient.
+
+Output Format
+For each test case, output in a new line, one integer - the minimum number of coins MoEngage needs to pay so that only one ingredient is left.

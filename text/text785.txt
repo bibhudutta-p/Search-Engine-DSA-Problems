@@ -1,0 +1,13 @@
+Problem
+You are given an array A of length K. Find any permutation P of length N such that only the prefixes of length Ai​ (1≤i≤K) form a permutation.
+Under the given constraints, it is guaranteed that there exists at least one permutation which satisfies the given condition.
+If there are multiple solutions, you may print any.
+Note: A permutation of length N is an array where every element from 1 to N occurs exactly once.
+Input Format
+
+The first line of the input contains a single integer T - the number of test cases.
+The first line of each test case contains two integers N and K - the length of the permutation to be constructed and the size of the array A respectively.
+The second line of each test case contains K space-separated integers A1​,A2​,…,AK​ denoting the array A.
+
+Output Format
+For each test case, print a single line containing N space-separated integers P1​,…,PN​ (1≤Pi​≤N). If there are multiple solutions, you may print any.

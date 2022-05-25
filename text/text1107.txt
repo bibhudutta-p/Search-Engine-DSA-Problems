@@ -1,0 +1,9 @@
+Problem
+Read problems statements in Mandarin, Russian and Vietnamese as well.
+There are N sets of integers from 1 to K both inclusive. Find out number of pairs of sets whose union contains all the K elements.
+Input
+The first line contains an integer T denotes number of test cases.
+The first line of each test case contains two space separated integers N, K.
+The each of the next line first contains an integer leni denoting number of elements in the i-th set, followed by leni space separated integers in the range [1, K] denoting the elements in the set.
+Output
+For each test case, output a single integer corresponding to the answer.

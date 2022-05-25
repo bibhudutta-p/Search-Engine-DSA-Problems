@@ -1,0 +1,19 @@
+Problem
+Chef has an array A of length N. He defines the alternating sum of the array as:
+
+S=∣A1​∣−∣A2​∣+∣A3​∣−∣A4​∣+…(−1)N−1⋅∣AN​∣
+
+Chef is allowed to perform the following operation on the array at most once:
+
+Choose two indices i and j (1≤i<j≤N) and swap the elements Ai​ and Aj​.
+
+Find the maximum alternating sum Chef can achieve by performing the operation at most once.
+Note: ∣X∣ denotes the absolute value of X. For example, ∣−4∣=4 and ∣7∣=7.
+Input Format
+
+The first line will contain T - the number of test cases. Then the test cases follow.
+First line of each test case contains a single integer N - size of the array A.
+Second line of each test case contains N space separated integers - denoting the elements of array A.
+
+Output Format
+For each testcase, output in a single line, the maximum alternating sum Chef can obtain by performing the operation at most once.

@@ -1,0 +1,18 @@
+Problem
+You are given an undirected tree of N nodes. A positive weight Wi​ is assigned to the node i for all 1≤i≤N.
+For all 1≤j≤N−1, the j-th edge connects the nodes uj​ and vj​, and has a restriction value of Rj​.
+An array A1​,A2​,⋯,AN​ consisting of N non-negative integers is called valid if:
+
+For all 1≤j≤N−1, the condition Auj​​+Avj​​≤Rj​ holds.
+
+The profit of a valid array A is defined as profit(A)=∑i=1N​Ai​⋅Wi​
+Find the maximum possible value of profit(A) for some valid array A.
+Input Format
+
+The first line of input contains a single integer T - the number of test cases. The description of T test cases follow.
+The first line of each test case contains a single integer N - the number of nodes in the tree.
+The second line of each test case contains N integers W1​,W2​,⋯,WN​ denoting the weights assigned to every node.
+The next N−1 lines contain three space-separated integers each, with the j-th line containing uj​, vj​, and Rj​.
+
+Output Format
+For each test case, output the maximum possible value of profit(A).

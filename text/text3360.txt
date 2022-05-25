@@ -1,0 +1,19 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef is viewing a simulation of creating a tree with N vertices (numbered 1 through N) which calculates mysterious coefficients for all the edges. Initially, there is a graph without edges, but there is a set S containing N−1 edges (numbered 1 through N−1) which should get added to the graph one by one.
+In this process, N−1 times, the following steps are performed:
+
+An edge e is chosen uniformly randomly from the current set S.
+This edge is added to the graph and removed from S.
+The coefficient of e is set to the number of vertices in the connected component created by adding this edge.
+
+Chef is wondering about the expected values of coefficients of the edges. Unfortunately, he does not have much time for such matters since he needs to prepare a superb cake for Chefina's birthday tomorrow.
+Help Chef and for each edge, calculate the expected value of its coefficient modulo 998,244,353. We can prove that each coefficient is a rational number; for a coefficient in the form P/Q, where P and Q are positive integers and Q is coprime with 998,244,353, you should compute P⋅Q−1 modulo 998,244,353, where Q−1 is the multiplicative inverse of Q modulo 998,244,353.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The following N−1 lines describe the edges in S. For each valid i, the i-th of these lines contains two space-separated integers u and v denoting that the i-th edge connects vertices u and v.
+
+Output
+For each test case, print a single line containing N−1 integers. For each valid i, the i-th of these integers should be R⋅Q−1 modulo 998,244,353 for the coefficient of the i-th edge.

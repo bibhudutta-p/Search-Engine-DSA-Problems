@@ -1,0 +1,22 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+
+Chef Ada is not just a Chef but also a detective. Currently she is investigating a massive murdering case in Bake Street.
+
+
+Bake Street is composed of n buildings in a straight line. They are numbered from 1 to n, as you move from left to right. The i-th building is at position  xi  and has height hi. The buildings are so thin that we can consider them as vertical segments.
+The murderer climbed to the top of one of the buildings and shot at all the buildings to the right, which had a lesser height than the building on which he was, and which were in his line of sight.
+
+
+Ada is interested in the rightmost building that was shot by the murderer. Since we don't know the building from which the murderer was shooting, your task is to calculate it for every possible initial position.
+
+Input
+
+The first line of input contains one number T, the number of test cases. T test cases follows.
+The first line of each test case contains an integer n, the number of buildings.
+The next n lines contains two integers xi, hi. the position and height of the i-th building.
+
+Output
+
+For each testcase print n integers: ai, the rightmost building shot at, if the murderer started at building i. If the murderer didn't shoot to any building, print -1.
+

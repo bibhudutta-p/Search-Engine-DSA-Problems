@@ -1,0 +1,27 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+
+Churu is working as a data scientist in Coderpur. He works on a lot of data on the daily basis. One day, he found an interesting problem, which was very easy to solve for small data but was getting more complex with increasing number of data points. So, Churu needs your help in solving this problem.
+
+ Given a set S of N non-negative integers (Some integers might occur more than once in the set), find out the value of SETDIFF(S). 
+
+
+
+Where max(s) represents the maximum value in set s whereas min(s) represents the minimum value in the set s.
+As value of  SETDIFF(S) can be very large, print it modulo  (109 + 7) . 
+
+
+There might be repeated values in the set. For set S = {1,2,2}, consider that first 2 is not same as the second 2 and there will be two different subsets {1,2}. See last sample case for the more clarifications. 
+
+Input
+
+First line of input contains an integer T denoting number of test cases.  
+For each test case, first line will contain an integer N denoting number of elements in set S.  
+ Next line contains N space separated integers denoting the set S. 
+
+Output
+For each test case, print a single integer representing the answer of that test case.
+Note
+
+Two subsets will be called different if there exists an index i such that S[i] occurs in one of the subset and not in another.
+

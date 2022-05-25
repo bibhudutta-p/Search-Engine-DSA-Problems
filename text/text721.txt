@@ -1,0 +1,9 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian
+You are given a string S constisting of uppercase Latin letters. Is it possible to reorder the characters in this string to get a string with prefix "LTIME" and suffix "EMITL"?
+We remind you that a prefix of a string is any substring which contains its first character, while a suffix of a string is substring containing its last character.
+Input
+The first line contains a single integer T, denoting the number of testcases. The descriptions of T test cases follow.
+The first and only line of the test case description has one non-empty string S consisting of uppercase Latin letters only.
+Output
+For each testcase output a single line containing the string "YES" (without quotes) if it's possible to reorder the characters to get the required prefix and suffix, or "NO" (without quotes) otherwise.

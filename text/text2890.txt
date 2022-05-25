@@ -1,0 +1,17 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Consider a set of points in 2D which is initially empty.
+You need to process queries which insert and remove points from it.
+After each query, you should also print the square of the distance between two closest points in the set.
+If there are fewer than 2 points in the set, print 0 instead.
+ It is guaranteed that all the queries are valid — there will be no query of adding a point that is already present in the set or
+removing a point which does not exist in the set.
+Input
+The first line of the input contains an integer Q denoting the number of queries. 
+Each of the next Q lines contains one query, which will be one of the following two types:
+
++ x y — add the point (x, y) to the set
+- x y — remove the point (x, y) from the set
+
+Output
+For each query, output a single line containing one integer — the square of the distance between two closest points in the set.

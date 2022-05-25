@@ -1,0 +1,12 @@
+Problem
+Read problems statements Hindi , Vietnamese , Mandarin Chinese , Russian and Bengali as well.
+In ShareChat, there is a sequence of binary integers A1​,A2​,…,AN​. You should answer Q queries on this sequence. In each query, you are given two indices L and R and a binary integer X.
+The answer to a query is the smallest index i (L≤i≤R) such that the value Ai​⊕X is maximum possible, i.e. equal to max(AL​⊕X,AL+1​⊕X,…,AR​⊕X). Here, ⊕ denotes the bitwise XOR operation.
+Input
+
+The first line of the input contains two space-separated integers N and Q.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains a single binary string denoting the number Ai​ (in binary representation).
+The following Q lines describe queries. Each of these lines contains two space-separated integers L and R, followed by a space and a binary string denoting the number X (in binary representation).
+
+Output
+For each query, print a single line containing one integer — the answer to that query.

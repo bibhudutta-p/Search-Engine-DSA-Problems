@@ -1,0 +1,20 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef was relaxing outdoors after a poor performance during his university varsity's yearly week-long training retreat in the mountains. He was looking for a sign that he should continue competitive programming, even though at times, it can feel insurmountably difficult. Then, he looked up and saw a dazzling rainbow in the sky. He was so moved by the beauty of nature that he decided to continue programming and even created this problem about a mathematical Rainbow Road.
+Let the Rainbow Road be a grid with M rows (numbered 1 through M from top to bottom) and N columns (numbered 1 through N from left to right). Let's denote a cell in row i and column j by (i,j), i.e. (1,1) is the cell in the top left corner and (M,N) is the cell in the bottom right corner. Chef selected N distinct positive integers a1​,a2​,…,aN​ and instead of using colours, he "painted" stripes on the road with these numbers. For each valid j, each cell in column j has the same value aj​.
+You should answer Q queries. In each query:
+
+You are given an integer K. Chef wants to travel from the cell (1,1) to the cell (K,N).
+It is only possible to travel from any cell to the cell directly below it or to the cell directly to the right (if they exist). Formally, if Chef is in a cell (i,j), he may only travel to (i+1,j) or (i,j+1).
+Let's define a path as a sequence of cells c1​,c2​,…,cs​ such that for each i (1≤i<s), Chef can travel from the cell ci​ to the cell ci+1​.
+The weight of a path is the product of the values of all cells in that path.
+Chef wants you to find the sum of the weights of all possible paths that start in the cell (1,1) and end in the cell (K,N). Since this number can be quite large, compute it modulo 998,244,353=7⋅17⋅223+1 (a prime number).
+
+Input
+
+The first line of the input contains three space-separated integers M, N and Q.
+The second line contains N space-separated integers a1​,a2​,…,aN​.
+Q lines follow. Each of these lines contains a single integer K describing a query.
+
+Output
+For each query, print a single line containing one integer ― the sum of weights of paths modulo 998,244,353.

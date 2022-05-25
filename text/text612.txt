@@ -1,0 +1,11 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+The Chef had a box with N numbers arranged inside it: A1, A2, ..., AN. He also had the number N at the front, so that he knows how many numbers are in it. That is, the box actually contains N+1 numbers. But in his excitement due the ongoing IOI, he started dancing with the box in his pocket, and the N+1 numbers got jumbled up. So now, he no longer knows which of the N+1 numbers is N, and which the actual numbers are.
+He wants to find the largest of the N numbers. Help him find this.
+Input
+
+The first line of the input contains an integer T, denoting the number of test cases. The description of each testcase follows.
+Each of the next T lines will contain N and N numbers, but it is not guaranteed that N is the first number. 
+
+Output
+ For each test case, output a single line containing the maximum value of the N numbers in that testcase.

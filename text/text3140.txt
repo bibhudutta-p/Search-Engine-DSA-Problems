@@ -1,0 +1,21 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Let S be a set of N boolean variables X1​,X2​,…,XN​ and their negations ¬X1​,¬X2​,…,¬XN​. You are given the initial values of all variables.
+A 2-CNF boolean expression is defined as a conjunction of clauses, where each clause is a disjunction of two elements of the set S. Ada constructed a 2-CNF boolean expression B with M clauses as follows:
+
+First, Ada painted each of the variables X1​,X2​,…,XN​ with one colour ― either red or black.
+Then, she painted the negated variables ― for each valid i, if Xi​ is painted red, then ¬Xi​ is painted black, and vice versa (if Xi​ is black, ¬Xi​ is painted red).
+Finally, she wrote the boolean expression B=(P1​∨Q1​)∧(P2​∨Q2​)∧…∧(PM​∨QM​), in such a way that no clause contains two variables with the same colour and Pi​=¬Qi​ for each clause.
+
+Ada wants the expression to evaluate to "true". In order to achieve that, she may change the values of variables; for each valid i, the cost of changing the value of Xi​ (from "true" to "false" or vice versa) is Ci​. Find the minimum total cost needed to make the expression B evaluate to "true" or determine that it is impossible.
+Note that you are not given the colours of variables, but it is guaranteed that the expression B is chosen in such a way that there is at least one valid way to assign colours and the minimum cost is the same for each valid assignment of colours.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+The second line contains a binary string S with length N describing the initial values of the variables. For each valid i, the i-th character of S is '1' if Xi​ is true or '0' if Xi​ is false.
+The third line contains N space-separated integers C1​,C2​,…,CN​.
+M lines follow. For each valid i, the i-th of these lines contains two space-separated integers Pi​ and Qi​. For each valid i, the variable Xi​ is represented by the integer i and its negation is represented by −i.
+
+Output
+For each test case, print a single line containing one integer ― the minimum cost needed to make the boolean expression evaluate to "true", or −1 if it is impossible.

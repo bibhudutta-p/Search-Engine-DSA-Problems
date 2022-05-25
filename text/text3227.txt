@@ -1,0 +1,19 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef has a rectangular table consisting of N rows and M columns. Rows are numbered by integers from 1 to N from top to bottom and columns are numbered from 1 to M from left to right. Let (x, y) denote the cell corresponding to xth row and yth column.
+Chef has two bunnies, both initially at the cell (1, 1). He wants them to get to the cell (N, M). Each of the bunny can move from some cell (x, y) to cell (x+1, y) or cell (x, y+1). As bunnies do not really like each other, they do not want to meet along their ways, except at the start (1,1) and end (N, M) cells.
+
+Also, there are exactly C cells in the table containing a carrot. When a bunny goes through such a cell, he eats this carrot. As Chef also wants to eat carrots, he wants that both the bunnies cumulatively don't eat more than D carrots.
+
+Find out number of ways in which bunnies can get from cell (1, 1) to cell (N, M) satisfying the above conditions. As answer could be large, please output your answer modulo MOD.
+
+Input
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains five space-separated integers N, M, C, D and MOD denoting the sizes of table, the number of cells with a carrot, the maximum number of carrots that can be eaten by bunnies and the modulo.
+Each of next C lines contains two space-separated integers xi and yi denoting the coordinates of the cell with a carrot. 
+
+Output
+
+For each test case, output a single line containing the numbers of ways bunnies can get from cell (1,1) to cell (N, M) modulo MOD.
+

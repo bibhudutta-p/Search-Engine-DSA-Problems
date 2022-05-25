@@ -1,0 +1,17 @@
+Problem
+ Read problems statements in  Mandarin Chinese  and  Russian.
+Sereja have N vectors v[1], v[2], ..., v[N]. Every vector is given by K numbers (x[1], x[2], ..., x[K]). Sereja want to choose few vectors, such that sum of those vectors will be smaller than or equal to vector A. 
+In other word you should find such numbers: i[1] < i[2] < ...< i[m], such that v[i[1]]+v[i[2]]+...+v[i[m]] <= A.
+Vector Q <= vector W when Q.x[1] <= W.x[1], Q.x[2] <= W.x[2], ..., Q.x[K] <= W.x[K].
+Help Sereja, find best subset of vectors in such way that all conditions will hold.
+ 
+Input
+
+First line contain integer T - number of testcases.
+
+First line of each testcase contain integer N - number of vectors and K - number of integers that contain every vector. Next N lines contain K numbers - next vector coordinates (x[1], x[2], ..., x[K]). Last line of input contain vector A, that also given by K numbers.
+ 
+Output
+
+For each testcase in first line should contain number q - number of vectors in your subset.  Next line should contain q numbers - coordiates of vector: 1 <= i[1] < i[2] < ... < i[q] <= N . If q equal to 0, you shouldn't output second string.
+ 

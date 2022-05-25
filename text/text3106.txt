@@ -1,0 +1,15 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, and Bengali as well.
+You are given an array A of length N.
+Let F(L,R) be the array you get from A after removing all occurrences of AL​,AL+1​,…,AR​. In other words, for each value in A between the indices L and R, you delete every occurrence of that value, including occurrences outside the range [L,R].
+A pair (L,R) is called good if 1≤L≤R≤N and F(L,R) is sorted in non-decreasing order. In the case that F(L,R) is the empty array, we say it is sorted.
+Count the number of good pairs.
+Example: Suppose A=[1,2,3,5,7,6,8,6,5,8]. Then F(4,6) is the array we get after deleting all occurrences of the numbers 5,7,6. Thus, F(4,6)=[1,2,3,8,8]. This array is sorted in non-decreasing order, so the pair (4,6) is good.
+Input:
+
+The first line of the input contains an integer T, denoting the number of test cases.
+The first line of each test case contains an integer N, denoting the size of the array.
+The second line of each test case contains N space-separated integers, denoting the array A.
+
+Output:
+For each test case, output the number of good subarrays in A, in a separate line.

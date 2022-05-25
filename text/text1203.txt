@@ -1,0 +1,12 @@
+Problem
+Given a sequence A of length N, the weight of this sequence is defined as
+weight(A)=∑i=1N​i⋅Ai​
+Given an integer N, we pick a permutation A of [1,2…N] uniformly at random. What is the expected weight of this permutation?
+It can be shown that the answer can be represented as QP​ where P and Q are coprime integers and Q=0(mod998244353). Print the value of P⋅Q−1 modulo 998244353.
+Input Format
+
+First line of the input contains T, the number of test cases. Then the test cases follow.
+Each test case contains a single integer on a single line N.
+
+Output Format
+For each test case, print a single integer, the answer to the test case.

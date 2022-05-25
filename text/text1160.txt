@@ -1,0 +1,18 @@
+Problem
+There is an array A with N elements. Each element of A has a fixed polarity: either north or south.
+Chef is allowed to perform some (possibly zero) operations on the array A. In one operation, Chef can:
+
+Pick some subarray of array A, such that, the first and last elements of the subarray have different polarities, and, rearrange the elements in this subarray any way he wants.
+
+Note that the polarity of each element remains unchanged after an operation.
+Find the minimum number of operations required to sort the array in non-decreasing order, or state that it is impossible.
+A subarray of A is obtained by deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end.
+Input Format
+
+The first line contains an integer T, denoting the number of test cases. The T test cases then follow.
+The first line of each test case contains a single integer N.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​.
+The third line of each test case contains a string of length N, the ith character of which is either N or S, representing that the ith element of A has north or south polarity, respectively.
+
+Output Format
+For each test case, if it impossible to sort the array, output −1. Otherwise, output a single integer: the minimum number of operations required to sort the array.

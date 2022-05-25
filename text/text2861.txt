@@ -1,0 +1,20 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Chef has a tree with N nodes numbered 1 through N. Each node of the tree has a weight; let's denote the weight of node v by av​.
+Chef should answer Q queries. Each query is described by an integer r and a list of k nodes u1​,u2​,…,uk​. In each query, let S be the connected subgraph of the tree (i.e. a subtree) which contains the nodes u1​,u2​,…,uk​ and has the minimum possible size (it can be proven that these conditions uniquely define S). The answer to a query is minu∈S​(∣au​−r∣).
+Help Chef and answer all the queries. Note the special format of the input, which is intended to ensure you can only know each query (except the first) after answering the previous query.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+The second line contains N space-separated integers a1​,a2​,…,aN​.
+Each of the following N−1 lines contains two space-separated integers x and y denoting an edge between nodes x and y.
+The following Q lines describe queries. Each of these lines contains two space-separated integers r′ and k, followed by a space and k space-separated integers u1′​,u2′​,…,uk′​. Let's denote the answer to the previous query by ans (ans=0 if this is the first query). The values of r and u1​,u2​,…,uk​ for this query can be computed as follows:
+
+r=r′⊕ans
+ui​=ui′​⊕ans for each valid i
+
+
+
+Output
+For each query, print a single line containing one integer — the answer to this query.

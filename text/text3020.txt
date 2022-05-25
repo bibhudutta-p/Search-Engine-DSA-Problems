@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Mandarin, Bengali, and Russian as well.
+There are N players participating in a knockout tournament. The i-th player has the rating Ai​. No two players have the same rating.
+N−1 matches are played in the tournament. In each match, 2 random players are chosen out of the remaining players, and the player with the higher rating wins. The losing player gets eliminated from the tournament.
+Can you find out the expected rating of the player ending up at the second position (that is, the expected rating of the player losing in the (N−1)-th match)?
+The expected rating of the second player can be represented as a fraction of the form QP​. You are required to print P⋅Q−1(mod1000000007).
+Input Format
+
+The first line contains T - the number of test cases. Then the test cases follow.
+The first line of each test case contains N - the number of players participating in the tournament.
+The second line contains N space-separated integers A1​,A2​,⋯,AN​ - the ratings of the players.
+
+Output Format
+For each test case, output on a single line the expected rating of the second player modulo 1000000007.

@@ -1,0 +1,11 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+Chef has finally entered Guinness world records as a maker of longest sandwich in the world by breaking the previous record by making a sandwich of length N meters.
+Celebrating this achievement, Chef decided to have a sandwich party with his friends, and of course no need to make more sandwiches, he will just cut his sandwich of length N meters into parts such that each part has positive integer length, and that too of at most K meters, otherwise it will be too long and it will be hard to be finished. 
+Help Chef by telling him what's the minimum number of sandwiches (since he does not have many friends) the big sandwich has to be cut into, and in how many ways this can be done. Since the number of ways can be large output it modulo M
+Two ways are said to be different if the positions of the cuts of first way is different from the positions of cuts of the second way.
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follow.
+Each line of the next T describes a test-case and contains three integers N, K and M.
+Output
+For each test case, output a single line containing two space separated integers, minimum number of sandwiches and number of ways to cut the large sandwich into minimum number of sandwiches modulo M.

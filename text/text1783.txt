@@ -1,0 +1,11 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a sequence A1​,A2​,…,AN​. Calculate the number of ways to remove a non-empty contiguous subsequence from it such that the resulting sequence is non-empty and strictly increasing.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer ― the number of ways.

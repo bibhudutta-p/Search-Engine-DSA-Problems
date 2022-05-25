@@ -1,0 +1,22 @@
+Problem
+Coach Chef has selected all the players and now he has to separate them into 2 teams, A and B.
+Each player must be included in exactly one of the 2 teams and each player x, has a skill level Sx​. It is not necessary for both teams to have equal number of players, but they have to be non-empty.
+Since the number of players is way too high, Chef doesn't have an actual list of every player individually. Instead, he keeps a list of N pairs {Xi​,Yi​}, which tells him that there are Yi​ players with skill level Xi​.
+
+Chef thinks that a division into 2 teams is Good, if the skill value of every player in A divides the skill value of every player in B. More formally, Sb​modSa​=0, ∀ a ∈ A, b ∈ B.
+
+Since he is busy, can you help him find total number of Good divisions? Since the answer can be very large, print it modulo 998244353.
+
+NOTE : 2 divisions are considered different if there exists any player x belonging to different teams in the 2 divisions. (See example for more clarity).
+
+ Input 
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of
+        T test cases follows.
+    The first line for each testcase has a single integer N, denoting the number of pairs in Chef's list. 
+    N lines follow. Each contains 2 space separated integers Xi​ and Yi​, denoting Chef has Yi​ players with skill level Xi​.
+
+
+ Output 
+Output one integer for every testcase. The number of total Good divisions, modulo 998244353.
+

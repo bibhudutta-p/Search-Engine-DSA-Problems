@@ -1,0 +1,18 @@
+Problem
+You are given a string S, consisting of lowercase English letters. You can do the following operation at most once :
+
+Choose a subsequence of the string S, then remove it from S and concatenate the subsequence at the end of the remaining string.
+
+Find the lexicographically minimum string that can be obtained by performing this operation at most once on S.
+Note that:
+
+A string A is a subsequence of a string B if A can be obtained by deleting several (possibly, zero or all) characters from B.
+Given two strings of the same length A and B, we say that A is lexicographically smaller than B if there exists an index i such that A1​=B1​,A2​=B2​,…,Ai−1​=Bi−1​ and  Ai​<Bi​.
+
+Input Format
+
+The first line of input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a string S.
+
+Output Format
+For each test case, print a single line containing the lexicographically minimum string which can be obtained from S by performing the given operation at most once.

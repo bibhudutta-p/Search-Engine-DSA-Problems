@@ -1,0 +1,13 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Lumpy is a bus driver. Today, the conductor is absent so Lumpy has to do the conductor's job as well. There are N creatures in the bus. Sometimes the creatures don't carry change and can't pay the exact amount of the fare. Each creature in the bus today has paid an amount
+greater than his/her fare. You are given information about the extra amount paid by each creature, by an array A of size N, where Ai denotes the extra amount paid by the i-th creature, in rupees.
+After the end of the trip, Lumpy noticed that he had P one rupee coins and Q two rupee coins. He wants to pay back the creatures using this money. Being a kind hearted moose, Lumpy wants to pay back as many creatures as he can. Note that Lumpy will 
+not pay back the i-th creature if he can't pay the exact amount that the i-th creature requires with the coins that he possesses. 
+Lumpy is busy driving the bus and doesn't want to calculate the maximum number of creatures he can satisfy - He will surely cause an accident if he tries to do so. Can you help him out with this task? 
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+For each test case, first line consists of three space separated integers N, P and Q.
+Second line consists of N space separated integers A containing N space integers, where i-th integer denotes Ai.
+Output
+For each test case, output a single line containing an integer corresponding to maximum number of creatures that Lumpy can pay back.

@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+You are given an undirected graph with N nodes (numbered 1 through N). For each valid i, the i-th node has a weight Wi​. Also, for each pair of nodes i and j, there is an edge connecting these nodes if j−i=Wj​−Wi​.
+Find the number of connected components in this graph.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers W1​,W2​,…,WN​.
+
+Output Format
+For each test case, print a single line containing one integer --- the number of connected components in the graph.

@@ -1,0 +1,36 @@
+Problem
+
+The Little Elephant from the Zoo of Lviv likes lucky digits. Everybody knows that the lucky digits are digits 4 and 7.
+
+
+This time he has an array A that consists of N integers: A[1], A[2], ..., A[N]. Let F4(x) be the number of digits 4 in the decimal representation of x, and F7(x) be the number of digits 7 in the decimal representation of x. For example, F4(5) = 0, F4(4467) = 2 and F7(457747) = 3.
+
+
+Consider some pair of integers L and R such that 1 ≤ L ≤ R ≤ N. Let C4 be the total number of digits 4 in decimal representation of integers A[L], A[L + 1] ..., A[R], i. e.,
+
+
+C4 = F4(A[L]) + F4(A[L + 1]) + ... + F4(A[R]).
+
+
+Similarly, let C7 be the the total number of digits 7 in decimal representation of integers A[L], A[L + 1] ..., A[R], i. e.,
+
+
+C7 = F7(A[L]) + F7(A[L + 1]) + ... + F7(A[R]).
+
+
+The Little Elephant wants to know the number of such pairs (L; R) for which C4C7 ≤ R − L + 1. But he believes that the number 2 is unlucky. Hence he discards all pairs where C4 = 2 or C7 = 2.
+
+
+Help the Little Elephant to find the answer for the problem.
+
+
+Remark. 00 = 1. It is a standard mathematical definition.
+
+Input
+
+The first line of the input contains a single integer T, the number of test cases. Then T test cases follow. The first line of each test case contains a single integer N, the size of the array A for the corresponding test case. The second line contains N space separated integers A[1], A[2], ..., A[N].
+
+Output
+
+For each test case output a single line containing the answer for the corresponding test case.
+

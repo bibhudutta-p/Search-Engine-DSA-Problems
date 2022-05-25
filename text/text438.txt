@@ -1,0 +1,16 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You are given a string S with length N. Determine if it is possible to find two non-empty strings A and B which satisfy the following conditions:
+
+A+B=S, where + denotes string concatenation
+B is a substring of A
+
+Note: B is a substring of A if B can be obtained from A by deleting several (possibly zero) characters from the beginning and several (possibly zero) characters from the end. For example, "ab" is a substring of "cabd", but "ad" is not.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains a single string S.
+
+Output
+For each test case, print a single line containing the string "YES" if it is possible to find strings A and B satisfying the given conditions or "NO" otherwise (without quotes).

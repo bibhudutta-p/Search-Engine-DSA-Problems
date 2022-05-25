@@ -1,0 +1,9 @@
+Problem
+Andrew likes meatballs very much as you know.
+He has N plates of meatballs, here the ith plate contains exactly i meatballs. Andrew wants to take exactly K plates to his trip to Las Vegas.
+On this occasion, he wants to choose the K plates by a strange way: if both ith and jth plates are chosen, then i and j must not be relative prime, for all 1 ≤ i < j ≤ N.
+Please help him to choose K plates. Output one of the possible choices.
+Input
+The first line of the input contains an integer T, denoting the number of test cases. The description of T test cases follows. The first line and only line of each test case contains two space-separated integers N and K.
+Output
+For each test case, output K distinct integers, denoting the number of selected plates, where the plates are numbered from 1 to N. If there are multiple solutions, any one will do. If it is impossible to choose K plates, print only one integer -1.

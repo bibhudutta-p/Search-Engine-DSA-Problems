@@ -1,0 +1,29 @@
+Problem
+
+Tomya is a girl. She loves Chef Ciel very much.
+
+
+Today, too, Tomya is going to Ciel's restaurant.
+Of course, Tomya would like to go to Ciel's restaurant as soon as possible.
+Therefore Tomya uses one of the shortest paths from Tomya's house to Ciel's restaurant.
+On the other hand, Tomya is boring now to use the same path many times.
+So Tomya wants to know the number of shortest paths from Tomya's house to Ciel's restaurant.
+Your task is to calculate the number under the following assumptions.
+
+
+This town has N intersections and M two way roads.
+The i-th road connects from the Ai-th intersection to the Bi-th intersection, and its length is 
+Ci.
+Tomya's house is in the 1st intersection, and Ciel's restaurant is in the N-th intersection.
+
+Input
+
+The first line contains an integer T, the number of test cases.
+Then T test cases follow.
+The first line of each test case contains 2 integers N, M.
+Then next M lines contains 3 integers denoting Ai, Bi and Ci.
+
+Output
+
+For each test case, print the number of shortest paths from Tomya's house to Ciel's restaurant.
+

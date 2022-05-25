@@ -1,0 +1,17 @@
+Problem
+Chef has two integers X and S. He is interested in sequences of non-negative integers such that the sum of their elements is S and the bitwise OR of their elements is X. Chef would like to know the shortest possible length such a sequence can have.
+Formally, find the smallest positive integer N such that there exists a sequence A=[A1​,A2​,…,AN​] satisfying the following conditions:
+
+Each Ai​ is a non-negative integer
+A1​+A2​+…+AN​=S
+A1​∨A2​∨…∨AN​=X
+
+where ∨ denotes the bitwise OR operation.
+If there does not exist any sequence which satisfies the above conditions, output −1. Otherwise, output the minimum possible length of such a sequence.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of a single line of input, containing two space-separated integers X and S — the required bitwise OR and sum, respectively.
+
+Output Format
+For each test case, output a single line containing one integer — the shortest possible length of such a sequence, or −1 if no such sequence exists.

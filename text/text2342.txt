@@ -1,0 +1,16 @@
+Problem
+Read problems statements in Mandarin Chinese  and Russian.
+Chef has an array A of N numbers. He also has N functions. The ith function will return the sum of all Aj​ where (Li​≤j≤Ri​).  You have to answer Q queries of two types:
+1 x y - Change the xth element of the array to y.
+2 l r - Print the sum of all functions from l to r.
+Can you solve this problem?
+Input
+
+First line contains a single integer - N, the length of the array and the number of functions
+Next line contains N space separated integers, the ith of which is Ai​
+The next N lines each contain two space separated integers, the ith line contains Li​ and Ri​.
+The next line contains a single integer Q
+The next Q lines contain queries in the format described aboce.
+
+Output
+For each query of type 2, output the answer on a separate line.

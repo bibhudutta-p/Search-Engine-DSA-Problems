@@ -1,0 +1,17 @@
+Problem
+You have an array P of length N. Also in front of you, there are N bags of gems lined up in a row where the i-th bag from the left has 2Pi​ gems in it.
+You can take any bags of gems from them following the given rules:
+
+You are not allowed to take two adjacent bags.
+You are allowed to take at most k bags.
+
+For each value of k from 1 to ⌈2N​⌉, find the maximum number of gems you can obtain.
+Since the answers may be too large, print them modulo 109+7.
+Input Format
+
+The first line contains T - the number of test cases. Then the test cases follow.
+The first line of each test case contains an integer N - the number of bags of gems.
+The second line contains N space-separated integers P1​,P2​,…,PN​.
+
+Output Format
+For each test case, print a single line containing ⌈2N​⌉ integers. The k-th of them is the maximum number of gems you can obtain if you take no more than k bags, modulo 109+7.

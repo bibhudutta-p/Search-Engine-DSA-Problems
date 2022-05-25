@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+You are given a sequence A1​,A2​,…,AN​. An ordered pair of indices (i,j) in this sequence is called a beautiful pair if i=j and Ai​Ai​−Aj​​<Aj​Ai​−Aj​​. (Here, division represents real division, e.g. 25​ is equal to 2.50.)
+Help Chef find the number of beautiful pairs present in the given sequence.
+Note: Since the input is large, prefer using fast input methods.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, print a single line containing one integer — the number of beautiful pairs present in the given sequence.

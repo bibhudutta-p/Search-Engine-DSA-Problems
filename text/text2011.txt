@@ -1,0 +1,12 @@
+Problem
+Let f be a permutation of length N, where N is even. The riffle of f is defined to be the permutation
+g=(f(1),f(3),…,f(N−1),f(2),f(4),…,f(N))
+You are given two integers N and K. Output the resultant permutation when you riffle the identity permutation of length N, K times.
+The identity permutation of length N is σN​=(1,2,…,N)
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of a single line of input, containing two space-separated integers N and K.
+
+Output Format
+For each test case, output the answer permutation as N space-separated integers in a new line.

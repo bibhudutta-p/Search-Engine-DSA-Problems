@@ -1,0 +1,22 @@
+Problem
+Read problem statements in Mandarin Chinese, Russian, and Vietnamese as well.
+Chef is playing a noob version of the game Flappy Bird with the following rules:
+
+The bird starts at a height H at x=0.
+There are N obstacles (numbered 1 through N). For each valid i, the i-th obstacle is at a position xi​ and it has a height hi​.
+For each integer i (0≤i<xN​), Chef has the option to click once when the bird is at x=i. Let's denote the bird's height (y-coordinate) at that point by j. If he clicks, the bird moves to x=i+1 and y=j+1. Otherwise, the bird moves to x=i+1 and y=j−1.
+There is no ceiling and all the obstacles extend upwards from the bottom and not the other way around.
+For each valid i, the bird crosses the i-th obstacle successfully if the bird's height at x=xi​ is strictly greater than hi​.
+At any point before x=xN​, the bird's height should remain non-negative, otherwise it will drown.
+If the bird crosses the N-th obstacle successfully, Chef wins the game.
+
+Can you tell Chef if he can win the game (get the bird to cross all the obstacles) and the minimum number of clicks required to win in such a case?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and H.
+The second line contains N space-separated integers x1​,x2​,…,xN​.
+The third line contains N space-separated integers h1​,h2​,…,hN​.
+
+Output
+For each test case, print a single line containing one integer — the minimum number of clicks required to cross all the obstacles successfully, or −1 if it is impossible to cross all the obstacles.

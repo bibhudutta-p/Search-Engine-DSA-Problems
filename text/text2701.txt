@@ -1,0 +1,22 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef has to cook many dishes today. In between cooking two of them, he decided to relax and play a card game with his friend.
+The game is played with cards that have integer ranks written on them. There may be multiple cards with the same rank. At the beginning of the game, Chef gets N cards with ranks a1​,a2​,…,aN​ and his friend gets N cards with ranks b1​,b2​,…,bN​.
+The game is played in turns. The players alternate turns and in each turn, one player is the attacker and the other is the defender. In the first turn, Chef is the attacker. The roles in each subsequent turn depend on the result of the previous turn.
+In each turn, the attacker chooses one of his cards and puts it on the table. The defender must either give up this turn or beat this card by choosing one of his cards with a strictly higher rank and putting it on the table. Then, the attacker must give up the turn or choose another of his cards such that its rank is equal to the rank of any card on the table, then the defender must give up or beat this card, and so on until one player gives up the turn. If both players still have cards afterwards, the game proceeds to the next turn with the following rules:
+
+If the attacker gave up, all cards on the table are discarded. In the next turn, the roles of the players are swapped: the attacker becomes the defender and vice versa.
+If the defender gave up, he takes all cards on the table, which he can use in the subsequent turns just like the remaining cards which he did not put on the table. In the next turn, the roles are left unchanged.
+
+The game ends when at least one player does not have any cards at the start of some turn. If the attacker gave up the last turn and both players do not have any cards, a draw is announced. Otherwise, the player that ran out of cards wins.
+Chef and his friend want to end the game with a draw. Determine if they can do that.
+Note that there are two subtasks and your goals in them are different: in the first subtask, Chef does not have much time, so the goal is to get a draw in one turn, while in the second subtask, it is sufficient to get a draw in any number of turns.
+Input
+
+The first line of the input contains two space-separated integers T and S denoting the number of test cases and the subtask. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers a1​,a2​,…,aN​.
+The third line contains N space-separated integers b1​,b2​,…,bN​.
+
+Output
+For each test case, print a single line containing the string "YES" if it is possible to reach the given goal or "NO" otherwise (without quotes).

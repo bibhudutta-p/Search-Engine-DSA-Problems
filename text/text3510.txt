@@ -1,0 +1,19 @@
+Problem
+Read problems statements in Hindi,
+Mandarin chinese
+and Vietnamese as well.
+Chef arrived to a mysterious land. This land consists of N worlds (numbered 1 through N), called ages. Chef can travel from an age to another one by the process of linking; this process is facilitated by linking books. Each linking book allows Chef to travel to a specific age from any age. There may be multiple linking books that link to the same age; all such books are indistinguishable from each other. Each linking book contains a linking panel. Whenever Chef touches the linking panel, he and everything he is carrying is instantly teleported to the age this book links to. Note that the linking book you use to teleport is not carried along with him — it remains in the current age. However, Chef can carry at most one other linking book with him when teleporting.
+During his journey across the ages, Chef encountered a helpful man named Atrus. This man gave Chef a map of the current locations of all linking books. In exchange for this information, Atrus wants Chef to complete a task: for each age, the books on the map which link to this age have a list of ideal ages where they should be located; Chef should move some linking books to other ages in such a way that they are all located in ideal ages. Chef starts in age 1; help him complete Atrus' task by linking as few times as possible.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+N lines follow. For each valid i, the i-th of these lines contains an integer B denoting the number of linking books that link to age i, followed by a space and 2B space-separated integers.
+
+The first B of these integers denote the ages where books linking to age i are currently located. These integers are not necessarily different; if the number of some age appears among them x times, there are x books in that age linking to age i.
+The next B integers denote the ages which Atrus considers ideal for these linking books. These integers are not necessarily different either; if the number of some age appears among them x times, there should be x books in that age linking to age i at the end.
+
+
+
+Output
+For each test case, print a line containing one integer L — the number of times Chef has to link to other ages in your solution. Then, print L lines describing Chef's linking strategy. Each of these lines should contain two space-separated integers — the age Chef should link to from his current age and the linking age of the book Chef should carry (or 0 if Chef should not carry any book during this link).

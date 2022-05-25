@@ -1,0 +1,13 @@
+Problem
+The integers 0 to M−1 have been arranged in a circular fashion. That is, 0,1,2,…,M−1, are in that order and
+also, 0 and M−1 are next to each other. The distance between any two adjacent numbers on this circle is 1. You are given N intervals on this, such that no two intervals touch or intersect with each other. The i-th interval will be of the form [Li​,Ri​]. This means that the i-th interval contains all the integers between Li​ and Ri​, both end points inclusive. You are supposed to mark exactly one number inside each interval, in such a way that the minimum distance between any two marked numbers is maximized.
+More formally, we have 0 \leq L_1 \leq R_1 &lt; L_2 \leq R_2 &lt; L_3 \ldots \lt L_N \leq R_N \leq M - 1. You are supposed to mark exactly N numbers: A1​,A2​,…,AN​, such that Li​≤Ai​≤Ri​ for all 1≤i≤N. And you want to do it in such a manner mini=j​ (shortest distance between Ai​ and Aj​ ), is maximized.
+Input:
+
+First line of the input contains a pair of integers M and N.
+The i-th of the next N lines contains two numbers Li​ and Ri​ which denote the end points of the i-th interval.
+
+Output:
+
+A single integer denoting the maximized minimum distance between any two marked numbers.
+

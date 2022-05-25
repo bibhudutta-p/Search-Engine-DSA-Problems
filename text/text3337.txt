@@ -1,0 +1,9 @@
+Problem
+You are given a prime number P and two integers A,B. Your task is to find the minimum value of (AT⋅B)modP over all nonnegative integers T.
+Input Format
+
+The only line of input contains three space-separated integers P,A,B.
+It's guaranteed that P is prime.
+
+Output Format
+Output the minimum value of (AT⋅B)modP over all nonnegative integers T.

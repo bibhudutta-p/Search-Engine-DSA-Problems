@@ -1,0 +1,18 @@
+Problem
+Read problems statements in Mandarin Chinese and Russian as well.
+Bob is currently at origin. Bob walks on X-axis and towards the right. In one move, Bob can either jump 1 unit to the right or 2 units to the right. Some of these coordinates are dirty. Bob wants to know the number of ways going to (Y,0) from (0,0). Two ways are considered to be different if there exists an integer j such that the location of Bob after j steps is different.
+Sounds like a well known problem? Bob quickly came up with a perfect solution.
+A valid path should contain '.' which represents a clean coordinate or '#' which represents a dirty coordinate.
+If the length of the path is LEN, then Bob's program calculates and prints number of ways to reach (LEN−1,0) from (0,0).
+An integer X is considered to be a good integer if Bob's program prints X for some valid path.
+You have to write a program to output Y, where Y is Nth good number in the range L to R. You should also print the valid path that would make Bob's program output Y.
+If there are multiple valid paths, you can output any of them. Please see the output section for more details.
+Input
+
+The first line of the input contains an integer T, denoting the number of test cases.
+Each test case contains 3 space separated integers L, R, and N.
+
+Output
+For each test case, output the Nth good number, followed by space, followed by a valid path. If no such number exists, just output −1.
+A valid path should contain '.' which represent a clean coordinate or '#' which represents a dirty coordinate.
+For example, "..##.." represents 6 coordinates, (0,0) (1,0) … (5.0) out of which (2,0) and (3,0) are dirty.

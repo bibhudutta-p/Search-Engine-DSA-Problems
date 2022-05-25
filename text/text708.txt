@@ -1,0 +1,11 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef likes problems related to numbers a lot. He is generally quite good at solving these kinds of problems, but today he got stuck at one number theory problem, and so he asks your help to solve it.
+
+Given a positive integer N, find out how many positive integers X satisfy the equation X + S(X) + S(S(X)) = N, where S(X) denoting sum of digits of X in decimal (base 10) representation.
+
+Input
+
+The only line of the input contains one integer number - N.
+Output
+Output single integer in a line denoting the count of number of positive integers X satisfying the above given equation.

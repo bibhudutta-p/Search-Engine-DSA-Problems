@@ -1,0 +1,15 @@
+Problem
+Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
+Chef's planet is called Javad. A year on Javad has N months numbered 1 through N. For each valid i, the i-th month has ai​ days numbered 1 through ai​.
+On Javad, years that are divisible by 4 are leap years - the last month of each leap year is one day longer (it has aN​+1 days).
+You are given Chef's birth date and the current date. Find the age of Chef in days, i.e. the number of days between Chef's birth date and the current date inclusive.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers a1​,a2​,…,aN​.
+The third line contains three space-separated positive integers yb​, mb​ and db​ denoting the year, month and day of Chef's birth respectively.
+The fourth line contains three space-separated positive integers yc​, mc​ and dc​ denoting the current year, month and day respectively.
+
+Output
+For each test case, print a single line containing one integer — Chef's age in days.

@@ -1,0 +1,12 @@
+Problem
+Read problems statements Bengali , Mandarin chinese , Russian and Vietnamese as well.
+ShareChat is a country where Chef lives. The country may be represented by a N×M grid; let's denote the cell in row i and column j (1≤i≤N, 1≤j≤M) by (i,j). Each cell of this grid is a city; let's denote the population (number of residents) of the city in cell (i,j) by Ai,j​. Two cities are neighbouring if their cells have a common side.
+Chef wants to divide this country into K districts. Each district should be connected, that is, within each district, it should be possible to reach any city from any other city by only moving between neighbouring cities within this district.
+Since there could be many ways to create the districts, Chef wants to minimise the absolute difference between the maximum and minimum of total populations of the resulting districts. Help him solve this difficult problem!
+Input
+
+The first line of the input contains three space-separated integers N, M and K.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains M space-separated integers Ai,1​,Ai,2​,…,Ai,M​.
+
+Output
+Print N lines. For each valid i, the i-th of these lines should contain M space-separated integers Bi,1​,Bi,2​,…,Bi,M​, where Bi,j​ denotes the district which the city in cell (i,j) belongs to. Each district must be connected and 1≤Bi,j​≤K must hold for each valid i,j.

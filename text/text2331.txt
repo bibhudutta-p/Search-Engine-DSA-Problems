@@ -1,0 +1,22 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Ayush has two rooted trees. Each of them contains N vertices (numbered 1 through N); let's denote a vertex v in tree 1 by v1​ and a corresponding vertex v in tree 2 by v2​.
+For each tree t, any vertex on the path from the root to a vertex vt​ (including vt​) is an ancestor of vt​ and the depth of vt​ is the distance of vt​ from the root of tree t.
+For any integer w (1≤w≤N) and vertices u1​ and v2​, w is said to be a common ancestor of u1​ and v2​ if:
+
+in tree 1, w1​ is an ancestor of u1​
+in tree 2, w2​ is an ancestor of v2​
+the depths of vertices w1​ and w2​ (from their respective roots) are the same
+
+
+For example, in the figure above, the pair (u1​,v2​)=(6,1) has two common ancestors — 4 and 6. Although vertex 2 is an ancestor for each of them, the depths of 21​ and 22​ are not the same.
+Help Ayush find the maximum number of common ancestors for a pair of vertices, i.e. the largest integer c such that there is a pair of vertices (u1​,v2​) (possibly u=v) with c common ancestors.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers p1​,p2​,…,pN​. For each valid i, pi​ is the parent of the vertex i1​ or −1 if the vertex i1​ is the root of tree 1.
+The third line contains N space-separated integers q1​,q2​,…,qN​. Similarly, for each valid i, qi​ is the parent of the vertex i2​ or −1 if the vertex i2​ is the root of tree 2.
+
+Output
+For each test case, print a single line containing one integer — the maximum number of common ancestors for a pair (u1​,v2​).

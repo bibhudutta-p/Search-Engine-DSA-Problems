@@ -1,0 +1,14 @@
+Problem
+Chef has a sequence of N integers A1​,A2​,…,AN​. He defines a function f(i,j) as follows:
+f(i,j)=Ai​+max(Ai​,Ai+1​)+max(Ai​,Ai+1​,Ai+2​)+⋯+max(Ai​,Ai+1​,…,Aj​)
+Chef tries to find the sum of f(i,j) over all (i,j) such that 1≤i≤j≤N (i.ei=1∑n​j=i∑n​f(i,j)), but fails. Can you help him find the sum?
+Since the sum can be very large, find it modulo (109+7).
+Note: Since the size of the input and output is large, please use fast input-output methods.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains an integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, print a single line containing one integer - the required sum i.e i=1∑n​j=i∑n​f(i,j) modulo (109+7).

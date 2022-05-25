@@ -1,0 +1,20 @@
+Problem
+An array B of length N (N≥2) is said to be good if the following conditions hold:
+
+For all 1≤i≤N, 2≤Bi​≤106
+gcd(Bi−1​,Bi​)=1 for all i (2≤i≤N).
+
+You have an array A of length N (2≤Ai​≤105). You want to make the array A good.
+To do so, you can change atmost ⌈32⋅N​⌉ elements of A.
+Print the final array after changing A to a good array. If there are multiple possible final arrays, print any of them.
+It is guaranteed that A can be made good  after changing atmost ⌈32⋅N​⌉ elements of A.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follow.
+The first line of each test case contains an integer N - the length of the array.
+The second line of each test case contains N space-separated integers A1​,A2​,...,AN​ representing the initial array A.
+
+Output Format
+For each test case, output a single line containing N space-separated integers, denoting the elements of the final array after converting A to a good array. The i-th of these N integers is i-th element in the final array.
+If multiple arrays exist which satisfy the conditions, print any of them.
+Note: Final array should differ from original array at atmost ⌈32⋅N​⌉indices.

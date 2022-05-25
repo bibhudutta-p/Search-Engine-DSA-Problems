@@ -1,0 +1,15 @@
+Problem
+Chef has N decimal strings S1​,S2​,…,SN​ with him (that is, each of these strings contains only characters '0' through '9'). The characters in all strings are indexed starting from 1. Chef wants to form a single long string W by interleaving all these strings.
+A string W is said to be formed by interleaving S1​,S2​,…,SN​ if the characters of W can be partitioned into N subsequences T1​,T2​,…,TN​ such that for each valid i, Ti​ is identical to the string Si​. Formally, for each valid i, the subsequence Ti​ must have length ∣Si​∣; let's denote Ti​=(Ti,1​,Ti,2​,…,Ti,∣Si​∣​), where 1≤Ti,j​≤N and Ti,j​<Ti,j+1​ for each valid j. Each integer between 1 and ∣W∣=∣S1​∣+∣S2​∣+…+∣SN​∣ inclusive must occur in exactly one of these subsequences, and for each valid i and j, the Ti,j​-th character of W must be identical to the j-th character of Si​. For example, if S1​ is "123", S2​ is "456" and S3​ is "789", then the strings "124758963" and "123456789" are formed by interleaving these strings, but "123456798" is not.
+The cost of the interleaved string W is defined as ∑i=2∣W∣​∣Wi​−Wi−1​∣2, where Wi​ denotes the integer represented by the i-th character of W. For example, if W is "124", then its cost is ∣2−1∣2+∣4−2∣2=1+4=5.
+Chef wants you to find an interleaved string W. The cost of this string should be as low as possible.
+Input
+
+The first line of the input contains a single integer N.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains a single string Si​.
+
+Output
+
+Print a single line containing ∣W∣=∣S1​∣+∣S2​∣+…+∣SN​∣ space-separated integers. For each valid i, the i-th of these integers (let's denote it by x) should denote that the i-th character of your interleaved string comes from the string Sx​.
+Your output will be considered valid if for each i (1≤i≤N), your output contains the integer i exactly ∣Si​∣ times.
+

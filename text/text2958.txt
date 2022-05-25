@@ -1,0 +1,35 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+You are given an N×M matrix where each element of the matrix consists of an integer color. Let A[i][j] be the color on the matrix in the i-th row from the top and j-th column from the left. You need to make the matrix beautiful.
+By definition, a matrix is beautiful if all the elements of the i-th row have color i.
+That is, all the elements of the first row have color 1, all elements of the second row have color 2, so on.
+In an operation, you can do the following:
+
+Choose four integers x1​,y1​,x2​,y2​ (1≤x1​,x2​≤N, 1≤y1​,y2​≤M, x1​=x2​,y1​=y2​)
+Swap the values A[x1​][y1​] and A[x2​][y1​].
+Swap the values A[x1​][y2​] and A[x2​][y2​].
+
+If you can make the matrix beautiful, then give a sequence of at most (N+3)⋅(M+3) operations to do so. Otherwise, print −1.
+We have a proof that if it is possible to make the matrix beautiful in a finite number of operations, then it can be done in at most (N+3)⋅(M+3) operations.
+Input Format
+
+The first line contains a single integer T - the number of test cases. Then the test cases follow.
+The first line of each test case contains two integers N and M.
+The next N lines have M integers each. The j-th integer in the i-th line denotes A[i][j]
+
+Output Format
+For each test case:
+
+If it is possible to make the matrix beautiful:
+
+Print the number of operations you perform in a new line. This number has to be less than or equal to (N+3)⋅(M+3).
+For each operation print four integers: x1​, y1​, x2​, y2​ in a new line.
+
+
+If it is not possible to make the matrix beautiful:
+
+Print −1 in a new line.
+
+
+
+If there are multiple ways to make the matrix beautiful with at most (N+3)⋅(M+3) operations, you may print any of them.

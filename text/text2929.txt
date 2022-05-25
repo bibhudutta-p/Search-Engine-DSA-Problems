@@ -1,0 +1,19 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Ada is playing pawn chess with Suzumo.
+Pawn chess is played on a long board with N squares in one row. Initially, some of the squares contain pawns.
+Note that the colours of the squares and pawns do not matter in this game, but otherwise, the standard chess rules apply:
+
+no two pawns can occupy the same square at the same time
+a pawn cannot jump over another pawn (they are no knights!), i.e. if there is a pawn at square i, then it can only be moved to square i−2 if squares i−1 and i−2 are empty
+pawns cannot move outside of the board (outs are forbidden)
+
+The players alternate turns; as usual, Ada plays first. In each turn, the current player must choose a pawn and move it either one or two squares to the left of its current position. The player that cannot make a move loses.
+Can Ada always beat Suzumo? Remember that Ada is a chess grandmaster, so she always plays optimally.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single string S with length N describing the initial board from left to right. An empty square and a square containing a pawn are denoted by the characters '.' and 'P' respectively.
+
+Output
+For each test case, print a single line containing the string "Yes" if Ada wins the game or "No" otherwise (without quotes).

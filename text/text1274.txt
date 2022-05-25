@@ -1,0 +1,20 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given an empty grid with N rows (numbered 1 through N) and M columns (numbered 1 through M). You should fill this grid with integers in a way that satisfies the following rules:
+
+For any three cells c1​, c2​ and c3​ such that c1​ shares a side with c2​ and another side with c3​, the integers written in cells c2​ and c3​ are distinct.
+Let's denote the number of different integers in the grid by K; then, each of these integers should lie between 1 and K inclusive.
+K should be minimum possible.
+
+Find the minimum value of K and a resulting (filled) grid. If there are multiple solutions, you may find any one.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and M.
+
+Output
+
+For each test case, print N+1 lines.
+The first line should contain a single integer — the minimum K.
+Each of the following N lines should contain M space-separated integers between 1 and K inclusive. For each valid i,j, the j-th integer on the i-th line should denote the number in the i-th row and j-th column of the grid.
+

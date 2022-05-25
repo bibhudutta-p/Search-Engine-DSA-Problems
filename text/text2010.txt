@@ -1,0 +1,19 @@
+Problem
+Read problems statements in Mandarin Chinese  and Russian.
+Chef has an array A of N elements denoted by A0​,A1​,…,AN−1​.
+He thinks about M questions of following kind: "What is the maximum element among Ai​ where i lies between min(x,y) and max(x,y) both inclusive?"
+You have to help Chef to find out sum of answers of all the M questions.
+Method of generation of values x and y for all M questions:
+You are given two integersx1​ and y1​ denoting values of x and y for the first question.
+For the next questions, values of xi​ and yi​ are generated in the following way:
+xi​=(xi−1​+7)%(N−1)
+yi​=(yi−1​+11)%N
+Where % represents the modulo operation.
+Input
+
+The first line contains a single integer N, denoting the number of elements in the array.
+The second line contains N space-separated integers, denoting A0​,A1​,…,AN−1​.
+The third line contains three space-separated integers M, x1​, and y1​.
+
+Output
+Output a single integer denoting the sum of the answers to the questions.

@@ -1,0 +1,16 @@
+Problem
+Read problem statements in Vietnamese,
+Bengali, Mandarin Chinese, and Russian as well.
+Akash has just learned the maximum subarray sum problem. And while thinking about the solution, he came up with a new problem, the maximum frequent subarray sum problem.
+In this problem, you will be given an array A of N integers. You have to choose a non-empty subarray with the maximum possible score. The score of a subarray is calculated as
+score(l,r)=(Al​+⋯+Ar​)⋅(occurrences)
+Here, occurrences is the number of occurrences of that subarray in A.
+Now Akash can't solve this problem, so please help him solve it.
+Input
+
+The first line contains an integer T, the number of test cases. Then the test cases follow.
+The first line of each test case contains an integer n, the size of the array.
+The second line contains n integers A1​,…,AN​.
+
+Output
+For each test case, output the maximum possible score in a new line.

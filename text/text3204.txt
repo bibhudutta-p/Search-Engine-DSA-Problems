@@ -1,0 +1,20 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef has a tree with N nodes (numbered 1 through N). Each node has a value; let's denote the value of node i by vi​. Chef likes to travel in this tree. For each pair of nodes (u,v), he defines the score of the path from u to v in the following way:
+
+Suppose that the simple path from node u to node v is a sequence of nodes u=a0​,a1​,…,aL​=v, where L is the length of this path.
+Let's denote the values of the nodes on this path by a sequence A0​,A1​,…,AL​, where for each valid i, Ai​=vai​​.
+Next, let's denote the suffix sums of the sequence A by S0​,S1​,…,SL​, i.e. for each valid i, Si​=∑j=iL​Aj​.
+The score f(u,v) of the path from node u to node v is the sum of all these suffix sums, i.e. f(u,v)=∑i=0L​Si​.
+
+Chef wants to choose some nodes u and v (u=v) and travel along the simple path from u to v. However, he can treat it as several consecutive paths, which affects the score of the resulting trip. Specifically, if the simple path from node u to node v is a sequence of nodes u=a0​,a1​,…,aL​=v, then Chef may choose any non-negative integer m and any sequence k1​,k2​,…,km​ such that 1≤k1​<k2​<…km​<L; then, the score of the trip from u to v is f(u,ak1​​)+f(ak1​​,ak2​​)+…+f(akm​​,v). Specifically, if m=0, the score of the trip is simply f(u,v).
+Find the maximum possible score of Chef's trip if the nodes u and v (such that u=v) and the sequence k are chosen optimally.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers v1​,v2​,…,vN​.
+N−1 lines follow. Each of these lines contains two space-separated integers a and b denoting that nodes a and b are connected by an edge.
+
+Output
+For each test case, print a single line containing one integer ― the maximum possible score.

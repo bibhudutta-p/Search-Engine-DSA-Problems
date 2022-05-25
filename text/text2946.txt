@@ -1,0 +1,19 @@
+Problem
+There are N people standing in a line from left to right. The i-th person from the left has a height Hi​. H is a permutation of 1 to N.
+First, you must assign each of them a shirt with the letter L or R on it. Then you may perform the following operation any number of times (possibly zero):
+
+Choose a person with L on their shirt and move them to the left end of the line.
+Choose a person with R on their shirt and move them to the right end of the line.
+
+For example, if H=[4,1,2,3] and we assign the shirts to the people as [(4,R),(1,L),(2,L),(3,R)], then if we move person 1 to the right end of the line the arrangement of people becomes [(1,L),(2,L),(3,R),(4,R)]
+An assignment of shirts is called good if it is possible to sort the people in the line in non-decreasing order of height from left to right by using this operation zero or more times.
+How many good assignments of shirts exist? Since this number may be large, print it modulo 109+7.
+One assignment of shirts is different from another assignment if there exists at least one person who is assigned a shirt with a different letter on it.
+Input Format
+
+The first line of the input contains a single integer T - the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N - the number of people.
+The second line contains N space-separated integers H1​,H2​,…,HN​ - the heights of the N people.
+
+Output Format
+For each test case, print a single line containing one integer ― the number of good assignments of shirts modulo 109+7.

@@ -1,0 +1,11 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+For a positive integer m, let's define a function f(m) as the sum of all perfect powers which divide m. We call a positive integer k a perfect power if there are integers x and y such that k=xy and y>1.
+You need to calculate the sum f(1)+f(2)+…+f(N). Since the answer might be quite big, compute it modulo 1,000,000,007 (109+7).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer N.
+
+Output
+For each test case, print a single line containing one integer ― the sum modulo 1,000,000,007 (109+7).

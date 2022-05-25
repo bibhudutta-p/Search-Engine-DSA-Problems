@@ -1,0 +1,26 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef loves Tetris. He keeps on playing Tetris all the time. Today Chef's mother wanted to him play something else and brought an array for her son. That is why Chef now decided to play Tetris with arrays. Here are the rules of the game:
+
+Chef has an array A consisting of N positive integers. This is a base array. 
+Chef has an array B consisting of N positive integers. He placed this array directly above the array A. Imagine that array B is falling on array A, such that number Bi is directly above the number Ai initially.
+If element Bi falls on Ai, Ai gets increased by Bi. 
+Each element Bi can be dropped by Chef on either Ai-1, Ai or Ai+1.
+Chef can't drop element out of array (for example he can't drop B0 on A-1). 
+Chef wants all the elements of array A to become equal, and looking for the biggest possible value he can get. 
+
+
+
+Please help Chef in enjoying the game!!
+
+Input
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N denoting the number of elements in both arrays. 
+The second line contains N space-separated integers B1, B2, ..., BN denoting the elements of the falling array. 
+The third line contains N space-separated integers A1, A2, ..., AN denoting the elements of the base array. 
+
+Output
+
+For each test case, output a single line containing a biggest integer Chef can get for all elements of array A or -1 if it is impossible. 
+

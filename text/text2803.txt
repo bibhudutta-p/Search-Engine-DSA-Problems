@@ -1,0 +1,23 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+
+	Fehc is Chef's best friend. They grew up with each other, and often help each other with competitive programming.
+
+	Chef is participating in a programming contest prepared by Fehc and finds the following problem in Fehc's problem set: given a string s[1..N], count the number of pairs of indices 1 ≤ i ≤ j ≤ N such that s[i..j] is palindrome and j-i is even. The characters that may appear in s are 0, 1, 2, ..., 109.
+
+	Chef doesn't know the solution, but he knows Fehc's habits of creating test data. When preparing data for a string problem, Fehc always generates a string of N 0's, and replaces some of the 0's by other characters. Thus, Chef assumes that there are only K nonzero characters in s, and K is usually much smaller than N.
+
+	Given this useful information, can you help Chef solve this problem?
+
+	Input
+
+The first line of input contains one integer T denoting the number of test cases.
+For each test case, the first line contains two space-separated integers N and K.
+K lines follow; the i-th of these lines contains two space-separated integers pi and qi, meaning that the i-th nonzero character is s[pi] = qi.
+
+
+	Output
+
+	For each test case, output one integer denoting the answer to the problem.
+
+	

@@ -1,0 +1,28 @@
+Problem
+You are given a tree consisting of N nodes. The nodes are numbered from 1 to N. The tree is rooted at the node 1.
+A tree is a connected undirected graph with N−1 edges.
+Find the sum of the distance between nodes x and y over all tuples (u,v,x,y) satisfying the following conditions:
+1) u<v
+2) u is the ancestor of node x and v is the ancestor of node y.
+3) Neither of u or v is the ancestor of the other.
+Since the sum can be enormous, print it modulo (109+7).
+Note:
+
+
+The distance between two nodes of a tree is the number of edges in the shortest path between these two nodes.
+
+
+Node x is considered to be the ancestor of y if x lies on the path from 1 to y.
+
+
+Usually, there is no bound on the stack memory and is equal to the total memory limit of 1.5 GB. But due to a system configuration issue, the stack limit for C++ is temporarily set to 8 MB. So, if you believe that your code requires a larger stack limit, please include this in your code.
+
+
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test contains an integer N, denoting the number of nodes in the tree.
+N−1 lines follow. The ith of these lines contains two space-separated integers ui​ and vi​, denoting an edge between the nodes ui​ and vi​.
+
+Output Format
+For each test case, output in a single line the sum obtained modulo (109+7).

@@ -1,0 +1,29 @@
+Problem
+Dazzler has an interesting task for you.
+You will be given an array A of N positive integers such that:
+
+N is always even.
+Exactly 2N​ elements in the array are even and 2N​ elements are odd.
+
+In one operation, you should do the following steps:
+
+Choose two different indices i and j (1≤i,j≤N).
+Set Ai​:=Ai​+1.
+Set Aj​:=Aj​−1.
+
+You need to apply some finite (possibly zero) number of operations on the array such that:
+
+The parity of the final element at each index is same as the parity of the initial element at that index. For example, if the ith element in the initial array is even, then, the ith element in the final array must be even as well.
+All the 2N​ odd elements in the final array are equal.
+All the 2N​ even elements in the final array are equal.
+
+Print YES if it is possible to meet all the above conditions after doing some finite (possibly zero) number of operations. Otherwise, print NO.
+Input Format
+
+First line will contain T, number of test cases. Then the test cases follow.
+First line of each test case contains N, number of elements in the array A. Note that, N is even.
+Second line of each test case contains N space-separated positive integers, the elements of the array.
+
+Output Format
+For each test case, output in a single line, YES if it is possible to meet all the given conditions after doing some finite (possibly zero) number of operations. Otherwise, print NO.
+You may print each character of the string in uppercase or lowercase (for example, the strings YeS, yEs, yes and YES will all be treated as identical).

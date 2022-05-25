@@ -1,0 +1,33 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+
+Bear Limak has just gotten his hair cut.
+Looking in a mirror, he realized that his fur looks so-so just after a haircut.
+After some thinking, he stated that he looks good when his most recent haircut was between A and B days ago (inclusive).
+It's guaranteed that A ≥ 1, so Limak doesn't look good on a day of a haircut in particular (you can assume that he gets a haircut in the morning).
+
+
+After his new realization, Limak decided to plan his haircuts.
+Today is the day 0, and he has just gotten a haircut.
+For each of the following days, starting from the day 1, he can decide whether to get a haircut or not.
+It's allowed to get a haircut many days in a row.
+
+
+There will be N days that are important for Limak (because he's going to meet a girl he likes).
+The i-th of them is the day ti.
+Limak wants to look good on as many of those days as possible.
+
+
+Please, find the maximum possible number of important days when Limak will look good.
+
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+
+The first line of each test case contains three integers N, A and B, denoting the number of important days and values describing when Limak looks good respectively.
+
+
+The second line contains N distinct integers t1, t2, ..., tN, denoting important days.
+These values are sorted increasingly.
+
+Output
+For each test case, output a single line containing one integer — the maximum possible number of important days when Limak will look good.

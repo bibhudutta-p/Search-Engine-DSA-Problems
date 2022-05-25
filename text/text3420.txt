@@ -1,0 +1,18 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef likes tournament graphs, which are directed graphs where each unordered pair of vertices is directly connected by exactly one edge. A directed graph is strongly connected if for each pair of vertices (a,b), there is a path from the vertex a to the vertex b.
+Consider a tournament graph G with N vertices (numbered 1 through N). Chef takes a sequence of pairs of vertices (a1​,b1​),(a2​,b2​),…,(aM​,bM​) and does the following for each i from 1 to M in this order:
+
+Flip the direction of the edge between vertices ai​ and bi​.
+If the graph is strongly connected either before or after flipping this edge, declare G a bad tournament.
+
+If G is never declared a bad tournament, Chef calls it a good tournament. Given the sequence of M edge flips, find a good tournament.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+M lines follow. For each valid i, the i-th of these lines contains two space-separated integers ai​ and bi​.
+
+Output
+For each test case, print N−1 lines. For each valid i, the i-th of these lines should contain N−i space-separated integers; for each valid j, the j-th of these integers should be 1 if there is an edge from the vertex i to the vertex i+j or 0 if there is an edge from the vertex i+j to the vertex i.
+It can be proved that a good tournament always exists under the given constraints. If there are multiple solutions, you may print any one of them.

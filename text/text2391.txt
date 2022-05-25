@@ -1,0 +1,29 @@
+Problem
+The White Walkers are coming.
+The Winterfell is the first place to be attacked by the Night King and his army of the dead.
+Jon Snow with Khaleesi has to take some important decisions to minimize the damage from the White Walkers.
+Winterfell can be denoted as a graph with N nodes.
+There are M roads each connecting 2 nodes - Ai​ and Bi​.
+The road is directed from node Ai​ to Bi​, and not vice-versa.
+The power required to travel on this road is Ci​ initially.
+Also, Winterfell is built in such a way that it is not possible to visit the same node twice using these roads. That is, you cannot start at a node, follow some of the roads and return back to the same node.
+Jon has to stop the army of the dead.
+All white walkers are standing at node 1 right now.
+For this, he decided to carry out Q steps of two different types -
+
+1 K
+Add value K to the power required to travel each road in Winterfell. i.e after this operation Ci​=Ci​+K ∀ i ϵ[1,M] . Value K can be negative as well.
+2 Y
+Find the minimum power required for the white walkers to reach node Y in Winterfell from node 1.
+
+Help Jon is finding out the answer for each query of type 2.
+Input:
+
+First line will contain 2 space separated integers - N and M, number of nodes , and the number of roads in Winterfell.
+M lines follow. Each of the lines comprises 3 space separated integers  - Ai​, Bi​ and Ci​, denoting that ith road is directed from node Ai​ to Bi​ with initial power required to travel this road being Ci​.
+Next line comprises Q - the number of queries.
+Q lines follow. Each query is of the type as described above, and will comprise 2 space separated integers. For type 1, the second integer will be K - the amount of power added to each road. For type 2, the second integer will be Y - the node to reach from node 1.
+
+Output:
+For each query of type 2, output in a single line answer to the minimum power required for white walkers at node 1 to reach node Y.
+If there is no way to reach node Y, output "No Path Exists" (without quotes) .

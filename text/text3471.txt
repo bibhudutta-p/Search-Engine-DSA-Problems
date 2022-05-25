@@ -1,0 +1,36 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a grid with N rows (numbered 1 through N from top to bottom) and N columns (numbered 1 through N from left to right). Let's denote a cell in the i-th row and the j-th column by (i,j).
+There are K checkpoints (numbered 1 through K) in the grid. For each valid i, the i-th checkpoint is in the cell (Xi​,Yi​) and it has two parameters Li​ and Ri​.
+A path with length l is a sequence of pairwise distinct cells (r1​,c1​)→(r2​,c2​)→…→(rl​,cl​) such that for each valid i, the cell (ri​,ci​) shares a side with the cell (ri+1​,ci+1​). Let's call the cells (r1​,c1​) and (rl​,cl​) the endpoints of the path.
+We are interested in sets of paths which satisfy the following conditions:
+
+Each path must start in a checkpoint and end in a different checkpoint. It must not contain any other cells with checkpoints.
+The paths are disjoint, i.e. no cell may be in two or more paths.
+For each path: let's denote its length by C and the checkpoints it connects by p and q; then, max(Lp​,Lq​)≤C≤min(Rp​,Rq​) must hold.
+
+Your goal is to find a valid set of paths whose size is as large as possible.
+Input
+
+The first line of the input contains two space-separated integers N and K.
+K lines follow. For each valid i, the i-th of each lines contains four space-separated integers Xi​, Yi​, Li​ and Ri​.
+
+Output
+
+First, print a line containing a single integer M ― the number of paths in your set.
+Then, print M lines. For each valid i, the i-th of these lines should contain two space-separated integers Si​ and Ti​, followed by a space and a string Fi​, describing the i-th of your paths in the following way:
+
+The path starts in the cell containing the Si​-th checkpoint and ends in the cell containing the Ti​-th checkpoint.
+Fi​ describes the sequence of moves used to reach the ending cell from the starting cell.
+Let's denote the current cell by (x,y); initially, this is (XSi​​,YSi​​). Then, for each character c of Fi​ from the beginning to the end:
+
+If c is 'L', we move to the cell (x,y−1).
+If c is 'R', we move to the cell (x,y+1).
+If c is 'U', we move to the cell (x−1,y).
+If c is 'D', we move to the cell (x+1,y).
+
+
+At the end of this process, (x,y) should be (XTi​​,YTi​​).
+
+
+

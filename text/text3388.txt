@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, and Bengali as well.
+Chef has an array a1​,…,an​ of n elements. He wants you to answer queries of the following type:
+Compute f(L,R), where f(L,R)=∑i=LR​∑j=iR​gcd(ai​,ai+1​,…aj​). In other words, we want to compute the sum of the greatest common divisors over all subarrays of some range [L,R].
+Help Chef answer q queries of the described type.
+Input:
+The first line contains two integers n and q - the size of the array and the number of queries.
+The second line contains n integers a1​,…,an​.
+Each of the following q lines contains two integers l, r.
+The queries are encrypted. Let the answer to the previous query be x (or 0 if there is none). The query is decrypted as follows: L=((l+x)modn)+1 and R=((r+x)modn)+1.
+Output:
+Print q integers - the answer to each query modulo 109+7.

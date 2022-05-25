@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given an unweighted directed graph with N vertices (numbered 1 through N). You are also given 2M ranges [A1​,B1​],[A2​,B2​],…,[AM​,BM​] and [C1​,D1​],[C2​,D2​],…,[CM​,DM​] describing the edges of the graph in the following way: For each i (1≤i≤M) and for each pair of vertices u∈[Ai​,Bi​], v∈[Ci​,Di​], there is an edge from u to v.
+Finally, you are given two vertices X and Y. Find the shortest distance from X to Y or determine that there is no path from X to Y.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains four space-separated integers N, M, X and Y.
+M lines follow. For each valid i, the i-th of these lines contains four space-separated integers Ai​, Bi​, Ci​ and Di​.
+
+Output
+For each test case, print a single line containing one integer ― the shortest distance from vertex X to vertex Y, or −1 if there is no path from X to Y.

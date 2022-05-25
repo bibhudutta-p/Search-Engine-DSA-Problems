@@ -1,0 +1,19 @@
+Problem
+There is a tree with N nodes numbered from 1 to  N outside Harshikaa's house. The tree is rooted at node 1. Initially the tree was dry, there were no raindrops on any node of the tree. Suddenly it started raining, and every second a drop falls on all the leaf nodes of the tree. Also, every second any drop which wasn't already on the root node moves one node closer to the root.
+Sometimes, strong winds shake the tree and all drops which were not on the root fall off. It is known that the wind will shake the tree M times at A1​,A2​,…AM​ seconds after it started raining.
+If multiple events happen at the same second, they are in this order:
+
+Raindrops move one node closer to the root.
+New raindrops fall on the leaves.
+Wind shakes the tree.
+
+How many drops are there at the root right after the M-th shake?
+Input Format
+
+The first line of each input contains T - the number of test cases. The test cases then follow.
+The first line of each test case contains two space-separated integers N and M - the number of nodes on the tree and the number of shake events.
+N−1 lines follow, each line containing two space-separated integers U and V denoting an edge between node U and V on the tree.
+The next line contains M space-separated integers A1​,A2​,…,AM​ - the timestamp of the shakes.
+
+Output Format
+For each test case, output in a single line the number of raindrops on the root right after the M-th shake.

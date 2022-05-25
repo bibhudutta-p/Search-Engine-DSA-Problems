@@ -1,0 +1,30 @@
+Problem
+ Read problems statements in Mandarin Chinese and Russian as well.
+Chef likes to play computer games very much. Recently he played a new game, Dota 2.
+Chef is thinking to start a new game called Cota (Chef of the ancient).
+There will be two teams in Cota, Radiant and Dire. 
+
+There are 2*N players in Cota and the players are numbered by integers from 0 to 2*N – 1.
+Each team will have N players. One team will have all the players with even numbers (0, 2, …, 2*N - 2)
+and other team will have all the odd numbered players (1, 3, …, 2*N – 1). 
+
+Some of the players are friends and the power of their friendship can be expressed by an integer number.
+If player u and player v are friends, their power of friendship is Pu,v (or Pv,u).
+
+Chef wants to select some players(at least one) as elite players.
+An elite player can be a member of Radiant or Dire.
+But each Radiant member (maybe non-elite) should have odd number of elite friends and each Dire member (maybe non-elite) should have even number of elite friends (possibly zero).
+So Chef has to break some friendships( possible zero) to make that happen.
+Chef can break up friendships between any two players but cannot build any new friendship.
+As Chef can break up any pair of friendships and he is quite rude, so he breaks up all friendships that are between a elite and a non-elite player ie. there cannot be a friendship between a elite and a non-elite player at all.
+He will break the other friendships in such a way that the total power of remaining friendships between elite players
+is minimized and also the restriction above is maintained.
+
+Chef has not yet decided which team will be Radiant and which one will be Dire. It is your task to assign teams such that the total power of remaining friendships between elite players is minimized.
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows. 
+First line contains two space separated integers N and M. Each of the next M lines contain three space separated integers u, v and Pu,v, means u and v are friends and the power of their friendship is Pu,v. No friendship will be mentioned twice in a test case
+Output
+For each test case print the minimum total power of friendship between elite players after assigning the teams
+and breaking up the friendships.
+There will always be a valid answer.

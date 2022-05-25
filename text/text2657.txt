@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian and Vietnamese as well.
+Chef loves graphs. To express his love, he defines a function f(G,x,y) for an undirected connected graph G with weighted edges and two of its vertices x, y. f(G,x,y) is defined as the minimum of weights of all paths in G between the vertices x and y, where the weight of a path is the maximum of weights of edges in this path.
+Chef has two connected graphs G1​ and G2​. Each of these graphs has N vertices (labelled 1 through N) and M edges. Calculate S=∑i=1N−1​∑j=i+1N​f(G1​,i,j)⋅f(G2​,i,j) modulo 998,244,353.
+Input
+
+The first line of the input contains two space-separated integers N and M.
+M lines follow. Each of these lines contains three space-separated integers u, v and w denoting that vertices u and v in G1​ are connected by an edge with weight w.
+M more lines follow. Each of these lines contains three space-separated integers u, v and w denoting that vertices u and v in G2​ are connected by an edge with weight w.
+
+Output
+Print a single line containing one integer — the sum S modulo 998,244,353.

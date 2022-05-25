@@ -1,0 +1,14 @@
+Problem
+Read problems statements Hindi , Vietnamese , Mandarin Chinese , Russian and Bengali as well.
+You are given a sequence of positive integers A0​,A1​,…,AN−1​ and a sequence of non-negative integers C0​,C1​,…,CN−1​. Let's denote M=998244353. You know that for
+Ci​=∑j=0N−1​Bj​Aji​modM
+holds for each valid i, with some coefficients B0​,B1​,…,BN−1​ (such that 0≤Bi​<M for each i). Your task is to find these coefficients.
+It is possible to prove that under the given constraints, the solution is unique.
+Input
+
+The first line of the input contains a single integer N.
+The second line contains N space-separated integers A0​,A1​,…,AN−1​.
+The third line contains N space-separated integers C0​,C1​,…,CN−1​.
+
+Output
+Print a single line containing N space-separated integers B0​,B1​,…,BN−1​.

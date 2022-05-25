@@ -1,0 +1,10 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+Chef had a hard day and want to play little bit. The game is called "Chain". Chef has the sequence of symbols. Each symbol is either '-' or '+'. The sequence is called Chain if each two neighboring symbols of sequence are either '-+' or '+-'. 
+ For example sequence '-+-+-+' is a Chain but sequence '-+-+--+' is not. 
+ Help Chef to calculate the minimum number of symbols he need to replace (ex. '-' to '+' or '+' to '-') to receive a Chain sequence. 
+Input
+First line contains single integer T denoting the number of test cases. 
+Line of each test case contains the string S consisting of symbols '-' and '+'. 
+Output
+For each test case, in a single line print single interger - the minimal number of symbols Chef needs to replace to receive a Chain. 

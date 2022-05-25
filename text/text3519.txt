@@ -1,0 +1,18 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef has n × n array A of non-negative integers. He wants to divide this array by p-1 horizontal dividers and p-1 vertical dividers into p2 blocks such that maximum sum of elements of each block will be the smallest. 
+More formally, Chef want to choose p-1 horizontal dividers 0 = h0 < h1 < ... < hp = n and  p-1 vertical dividers 0 = v0 < v1 < ... < vp = n to minimize the next value: 
+
+
+Input
+
+The first line of each test file contains two space-separated integers n and p denoting the size of array A and the number of horizontal and vertical dividers.
+Each of next n lines contains n space-separated integers Ai, 1, Ai, 2, ..., Ai, n denoting the ith row of the array A. 
+
+Output
+The first line of output should contain p-1 space-separated integers h1, h2, ... hp-1 denoting the horizontal dividers.
+The second line of output should contain p-1 space-separated integers v1, v2, ... vp-1 denoting the vertical dividers.
+Scoring
+Your score for each test case will be calculated by formula described above. Your goal is to minimize this score.
+Your total score for the problem will be the sum of scores on all the test cases.
+Your solution will be tested only on 20% of the test files during the contest and will be rejudged against 100% after the end of competition.

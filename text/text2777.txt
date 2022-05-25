@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef has a string S with length N and integer K. Let's consider all strings that can be obtained by erasing K consecutive characters from the original string ― specifically, for each i (1≤i≤N−K+1), let f(i) be the string that is obtained by erasing the characters at positions i,i+1,…,i+K−1.
+Consider a permutation P of the integers 1 through N−K+1. You need to find the lexicographically smallest permutation P such that f(Pi​)≤f(Pi+1​) for each i (1≤i≤N−K).
+Since the length of this permutation can be too large, you should only compute its hash: ∑i=1N−K+1​Pi​⋅i modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The second line contains a single string S with length N.
+
+Output
+For each test case, print a single line containing one integer ― the hash of the lexicographically smallest valid permutation.

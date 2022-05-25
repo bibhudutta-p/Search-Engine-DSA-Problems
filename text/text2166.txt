@@ -1,0 +1,15 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Archi is a small boy from Uzhlyandia. For Chef's birthday, he prepared a tree with N vertices (numbered 1 through N). Each edge in this tree has a certain length.
+There are M speedsters on the tree, numbered 1 through M. For each valid i, speedster number i starts at time ti​ from vertex number ui​ and runs straight to vertex number vi​ with constant velocity si​. Before time ti​, the speedster is not considered to be present in the tree.
+Chef is interested in the following question: for each vertex, what is the smallest time when a speedster is present at this vertex?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+Each of the next N−1 lines contains three space-separated integers u, v and w denoting an edge between vertices u and v with length w.
+The next line contains a single integer M.
+For each valid i, the i-th of the next M lines contains four space-separated integers ui​, vi​, ti​ and si​ describing the i-th speedster.
+
+Output
+For each test case, print N lines. For each valid i, the i-th of these lines should contain a single real number — the minimum time when the i-th vertex is visited by a speedster, or −1 if it is never visited. Your answer will be considered correct if its absolute or relative error does not exceed 10−6.

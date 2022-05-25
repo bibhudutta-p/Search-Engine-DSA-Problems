@@ -1,0 +1,21 @@
+Problem
+You have been given a string S of size N which consists of uppercase characters only. A  K-Magical String is a string in which the longest non - decreasing subsequence is of size exactly K.
+You have been given Q queries where each query is in the form L,R, and K.
+For each query, check whether substring from index L to index R can be converted into a K-Magical String or not by rearranging its characters and print the final rearranged string too.
+If there exist multiple answers, print the lexicographically largest string possible.
+Note:
+
+Each query will be treated independently i.e. after each query the string will remain the same as it was initially.
+The input files are large. The use of Fast I/O is recommended.
+
+Input Format
+
+The first line contains T denoting the number of test cases.
+The first line of each test case contains an integer N denoting the length of the string.
+The second line of each test case contains the string S given in question.
+The third line of the test case contains an integer Q denoting the number of queries.
+Next, Q lines contain three space-separated integers L,R, and K.
+
+Output Format
+For each query in each test case, print "Yes" if it is possible to rearrange the characters of that substring such that it can be converted into K-Magical string and print the rearranged string else print "No" without quotes.
+You may print each character of the string in uppercase or lowercase (for example, the strings "yEs", "yes", "Yes" and "YES" will all be treated as identical).

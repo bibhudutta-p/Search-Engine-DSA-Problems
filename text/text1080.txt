@@ -1,0 +1,15 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Limak has a string S, that consists of N lowercase English letters.
+Limak then created a new string by repeating S exactly K times.
+For example, for S = "abcb" and K = 2, he would get "abcbabcb".
+Your task is to count the number of subsequences "ab" (not necessarily consecutive) in the new string.
+In other words, find the number pairs of indices i < j, such that the i-th and j-th characters in the new string are 'a' and 'b' respectively.
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two integers N and K, denoting the length of the initial string S and the number of repetitions respectively.
+The second line contains a string S.
+Its length is exactly N, and each of its characters is a lowercase English letter.
+Output
+For each test case, output a single line containing one integer — the number of subsequences "ab" in the new string.
+For the given constraints, it can be proved that the answer fits in the 64-bit signed type.

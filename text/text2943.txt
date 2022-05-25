@@ -1,0 +1,16 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+A perfect tree is a rooted tree such that all its leaves are at the same distance from the root. The value of a perfect tree with n vertices at a time x is
+W(x)=maxp​(∑i=1n​dist(pi​)⋅xi−1),
+where the vertices of the tree are (arbitrarily) numbered 1 through n, the maximum is taken over all permutations p of integers 1 through n, and dist(u) denotes the distance of vertex u from the root.
+Our Chef has a perfect tree with N vertices (numbered 1 through N), which is rooted at vertex 1. For any vertex v of this tree, the value of the subtree rooted at v (note that it is also a perfect tree) is defined in the same way as above, where the sum and permutations are only taken over vertices of this subtree and dist() denotes the distance from vertex v.
+You should answer Q queries. In each query, Chef has two parametres v and y and he wants to know the value of the subtree rooted at vertex v, at time y. The queries are encoded in such a way that they have to be answered online. Since the values may be large, compute them modulo 1000000007 (109+7).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+Each of the following N−1 lines contains two space-separated integers u and v denoting an edge between vertices u and v.
+The following Q lines describe queries. Each of these lines contains two space-separated integers a and b. The parametres v and y are computed in the following way: let's denote the answer to the previous query by ans (ans=0 for the first query); then, v=a⊕ans and y=b⊕ans.
+
+Output
+For each query, print a single line containing one integer - the value of the given subtree modulo 109+7.

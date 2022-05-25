@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Masha has N minions. Each minion has two characteristics: power a and endurance b. Masha thinks that a non-empty set of minions {m1​,m2​,…,mk​} with characteristics (am1​​,bm1​​),(am2​​,bm2​​),…,(amk​​,bmk​​) is good if the mean endurance of this set doesn't exceed the minimum power in it, i.e. if min(am1​​,am2​​,…,amk​​)≥(bm1​​+bm2​​+⋯+bmk​​)/k.
+Masha would like to choose a good subset of her minions and give these minions to Mark. Your task is to calculate the maximum number of minions Masha can give to Mark.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The following N lines describe minions. Each of these lines contains two space-separated integers a and b denoting the power and endurance of one minion.
+
+Output
+For each test case, print a single line containing one number — the size of the largest good set of minions, or 0 if no such set exists.

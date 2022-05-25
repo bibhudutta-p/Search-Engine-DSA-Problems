@@ -1,0 +1,18 @@
+Problem
+Alice and Bob are playing a game. At the start of the game, there are N piles of stones, the i-th of which has Ai​ stones.
+Alice and Bob alternate moves. On their move, a player does the following:
+
+Choose one pile of stones, and discard the remaining N−1 piles.
+Partition the stones in the chosen pile into exactly N new piles of stones, each containing at least 1 stone. Note that this means that the number of piles is always N.
+
+The player who cannot make a move loses. Determine the winner of the game if Alice moves first.
+Input Format
+
+The first line of input contains an integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case contains two lines of input.
+The first line of each test case contains N, the number of piles.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For every test case print exactly one line containing the answer — either "Alice" or "Bob" (without the quotes).
+You can output Alice and Bob in any case (for example, the strings BOb, BOB, bob and boB will be recognized as a positive response)

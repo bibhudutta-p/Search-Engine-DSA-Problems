@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+You are given a sequence A1​,A2​,…,AN​. Find the number of ways to split it into one or more non-empty contiguous subsequences B1​,B2​,…,Bk​ such that the following condition is satisfied: for each i (1≤i≤k), the XOR of all elements in Bi​ is divisible by 2i−1.
+Since this number can be enormous, compute it modulo 1,000,000,007 (109+7).
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, print a single line containing one integer — the number of ways to split A modulo 1,000,000,007 (109+7).

@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef received a permutation P1​,P2​,…,PN​ and also an integer D from his good friend Grux, because Grux was afraid he would forget them somewhere. However, since Grux was just playing with the permutation, it was all shuffled, and Chef only likes sorted permutations, so he decided to sort it by performing some swaps.
+Chef wants to use the integer D he just received, so he is only willing to swap two elements of the permutation whenever their absolute difference is exactly D. He has limited time, so you should determine the minimum number of swaps he needs to perform to sort the permutation, or tell him that it is impossible to sort it his way.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and D.
+The second line contains N space-separated integers P1​,P2​,…,PN​.
+
+Output
+For each test case, print a single line containing one integer ― the minimum number of swaps, or −1 if it is impossible to sort the permutation.

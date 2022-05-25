@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+You are given a tree with N vertices (numbered 1 through N).
+A simple path between two different vertices a and b (a<b) is called a clamp path if it does not contain any vertices with numbers smaller then a or greater than b.
+Calculate the number of clamp paths in the given tree.
+Input
+
+The first line of the input contains a single integer N.
+The second line contains N space-separated integers p1​,p2​,…,pN​. For each valid i, if pi​=0, then there is an edge between vertices i and pi​.
+
+Output
+Print a single line containing one integer - the number of clamp paths.

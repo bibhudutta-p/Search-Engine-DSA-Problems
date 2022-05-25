@@ -1,0 +1,16 @@
+Problem
+Given is a tree with N weighted vertices and N−1 weighted edges. The i-th vertex has a weight of Ai​. The i-th edge has a weight of Wi​ and connects vertices ui​ and vi​.
+Let dist(x,y) be the sum of weights of the edges in the unique simple path connecting vertices x and y.
+Let V(x,y) be the set of vertices appearing in the unique simple path connecting vertices x and y (including x and y).
+You are asked Q queries. In the i-th query, you are given two integers xi​ and yi​ and you need to compute:
+k∈V(xi​,yi​)∑​(dist(xi​,k)−dist(k,yi​))⋅Ak​
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line contains two integers N and Q.
+The second line contains N integers A1​,A2​,…,AN​.
+Each of the next N−1 lines contains three integers ui​, vi​ and Wi​.
+Each of the next Q lines contains two integers xi​ and yi​.
+
+Output Format
+For each query, print the answer to it on a new line.

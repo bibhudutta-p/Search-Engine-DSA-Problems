@@ -1,0 +1,15 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Chef is studying computer science. Tomorrow, he has an exam on algorithms and data structures. One of the algorithms he is required to study is the Hungarian algorithm (you do not have to know this algorithm to solve this problem).
+In the Hungarian algorithm, you start with a matrix of positive integers with N rows (numbered 1 through N) and N columns (numbered 1 through N). The algorithm proceeds in steps.
+In the first step, for each row of the matrix, you should find the smallest element in this row (let's denote it by A) and subtract A from each element of the matrix in this row.
+In the second step, for each column of the matrix, you should find the smallest element in this column (let's denote it by A) and subtract A from each element in this column. The remaining steps of the algorithm are not relevant in this problem.
+Currently, Chef is practicing implementation of the first two steps of the algorithm. He wants you to check if he is doing these two steps correctly or not. You are given a matrix with N rows and N columns; let's denote the element of this matrix in the i-th row and j-th column by ai,j​. Determine if this matrix can be the result of applying the first two steps of the Hungarian algorithm on some matrix.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+N lines follow. For each i (1≤i≤N), the i-th of the following N lines contains N space-separated integers ai,1​,ai,2​,…,ai,N​.
+
+Output
+For each test case, print a single line containing the string "YES" (without quotes) if the given matrix can be a result of the first two steps or "NO" (without quotes) if it cannot.

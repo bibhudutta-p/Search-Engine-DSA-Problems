@@ -1,0 +1,33 @@
+Problem
+ The country of BitLand is divided into N districts, and these districts are arranged in a circle: 1, 2, 3, ..., N, where i and i+1 are adjacent for all 1 ≤ i ≤ N-1, and also 1 and N are adjacent. It is given that N = o1 * o2, where o1 and o2 are odd integers.
+
+
+There are only 2 political parties in BitLand: the Zeros and the Ones. There was an election, in which each district chose it's representative who is either a Zero or a One. We know this data. i.e. for each of the N districts, we know whether their representative is a Zero or a One.
+
+
+The N districts should be partitioned into o1 states, where each state consists of o2 consecutive districts.
+
+For example, if o1 = 5 and o2=3, then N=15, and {1,2,3} would be a valid state. {2,3,4}, {13,14,15}, {14,15,1}, {15,1,2} are other examples of valid states. But {3,5,6} is not a valid state, because the districts are not consecutive.
+
+
+A state gets a One Governor if, among all the o2 district representatives belonging to it, there are more One district representatives than Zero representatives. And it gets a Governor who is from the Zero party, if the majority of its district representatives are from the Zero party. And because o2 is odd, there will be no ties.
+
+
+The President of BitLand will be a One if the majority of the o1 state Governors are Ones. Otherwise, the President will be from the Zero party.
+
+
+But the state boundaries have not been fixed yet. Given just the district-wise data (i.e. whether each district's representative is a Zero or a One), you need to find if there is a way to partition them into states such that the President is a One.
+
+Input
+
+The first line contains one integer, T, which is the number of testcases.
+The first line of each testcase contains two space separated integers, o1 and o2, which are the number of states, and number of districts in each state, respectively.
+
+The next line of each testcase contains N = o1 * o2 space separated integers: d1, d2, .., dN. If di is 1, then it signifies that District i has chosen a One representative. If di is 0, then they have a Zero representative.
+
+ 
+Output
+
+Each testcase should be in a new line, and should contain 1, if the President can be a One, and 0 otherwise.
+
+ 

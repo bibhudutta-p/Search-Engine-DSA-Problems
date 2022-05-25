@@ -1,0 +1,11 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef invited N of his friends in his birthday party. All the friends are numbered from 1 to N. Some of the friends might know each other. You are given this information by M pairs each of form (ai, bi), denoting that the persons ai and bi know each other.
+Chef wants all of his guests to seat at the two tables set up for dinner. He wants that all the people  sitting at a table must know each other, otherwise they will feel awkward with mutual eating habits. Chef is okay if a table is not occupied by any person. Chef is worried whether all the guests can seat at the dinner tables in the desired way.
+Please help Chef fast to identify whether his worry is real or not!! The delicacies at the table are getting cold.
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M, denoting the number of Chef's friends and the number of pairs representing information whether two person know each other or not.
+The next M lines contain two space-separated integers ai and bi, denoting that persons ai and bi know each other.
+Output
+For each test case, output a single line containing word "YES" (without quotes) if Chef can divide all of his friends into two groups that in each group all the people know each other and "NO" (without quotes) otherwise.

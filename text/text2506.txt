@@ -1,0 +1,16 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Given a tree T consisting of N  nodes and Q queries on it. Each node v have some value Cv assigned to it. The queries can be of two types: 
+
+1 u v - find number of distinct numbers on path between u and v 
+2 v y - assign the value y to the node with index v. 
+
+
+All the indices in the queries are 1-based.
+Input
+The first line of input contains two integers N and Q denoting the number of elements in T, and the number of queries to be executed.
+The second line of input contains N integers denoting the assigned values C to T. 
+Each of the next N - 1 lines contains two integersu and v nodes which connected by edge.
+Each of the next Q lines contains one query. All the numbers in input are integers. 
+Output
+For each query of type 1, output the answer to the query in a single line.

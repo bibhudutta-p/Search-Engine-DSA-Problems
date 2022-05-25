@@ -1,0 +1,21 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+Two players, Askar and Bob, play a game with a token on an undirected graph G. The game goes as follows:
+
+Askar chooses a starting vertex and places the token on this vertex.
+The players now alternate turns; Bob moves first.
+In his turn, each player has to move the token along exactly one edge to another vertex.
+It's not allowed to move the token to some vertex if it was on that vertex earlier during the game (including the starting vertex).
+The player who can't make a move loses.
+
+ 
+A vertex v is called a winning vertex if Askar is able to win after choosing this v as the starting vertex. Assume that both players play optimally.
+Given the graph G, determine how many winning vertices exist.
+Input
+
+The first line of the input contains an integer T - the number of test cases.
+The first line of each test case contains two integers N and M, denoting the number of vertices and the number of edges of G.
+The following M lines describe the edges of G. Each of these lines contains two integers x and y, denoting an edge between vertices x and y.
+
+Output
+For each test case, output a single line containing the number of winning vertices.

@@ -1,0 +1,13 @@
+Problem
+ Read problems statements in Russian here
+Chef has a special affection for sets of binary strings of equal length which have same numbers of 1's. Given three integers n, k and m, your task is to find the the lexicographically  mth smallest string among strings  which have length n and have k 1's. If no such string exists output -1. 
+Tips: 
+ To see what lexicographic order means . See http://en.wikipedia.org/wiki/Lexicographical_order
+Input
+Input description.
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows:
+The first and only line of each test case contains three space separated integers N ,  K  and  M 
+
+Output
+For each test case output the answer on a separate line .

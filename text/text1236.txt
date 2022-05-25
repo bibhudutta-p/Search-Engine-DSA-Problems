@@ -1,0 +1,11 @@
+Problem
+Chef is solving mathematics problems. He is preparing for Engineering Entrance exam. He's stuck in a problem.
+f(n)=1n∗2n−1∗3n−2∗…∗n1
+Help Chef to find the value of f(n).Since this number could be very large, compute it modulo 1000000007.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains of a single line of input,  N.
+
+Output:
+For each testcase, output in a single line the value of f(n) mod 1000000007.

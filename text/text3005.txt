@@ -1,0 +1,17 @@
+Problem
+Read problem statements in Mandarin, Russian, and Vietnamese as well.
+There are N stones numbered 1 through N. Each stone has a value written on it; for each valid i, the value on stone i is Vi​.
+You are initially on the first stone and your goal is to jump to stone N by perfoming a valid sequence of jumps. Formally, let's denote a sequence of visited stones during these jumps by S1​,S2​,…,SM​, where M−1 is the number of jumps. Then, the following conditions must be satisfied:
+
+1=S1​<S2​<…<SM​=N
+for each i (1≤i<M), min(VS1​​,VS2​​,…,VSi​​)+max(VSi+1​​,…,VSM​​)=Si+1​−Si​, which is the length of the i-th jump
+
+Find the minimum number of jumps needed to reach stone N, or report that it is impossible to reach stone N using valid jumps.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers V1​,V2​,…,VN​.
+
+Output Format
+For each test case, print a single line containing one integer --- the minimum number of jumps, or −1 if it is impossible to reach stone N.

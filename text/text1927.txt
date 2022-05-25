@@ -1,0 +1,13 @@
+Problem
+Maui had an undirected connected graph G=(V,E), where V = {v1​,v2​,…,vN​} and E is the edge set. He also had a list of positive non-zero integers a1​,a2​,…,aN​. He was bored of his usual adventures and decided to build a new directed graph G′=(U,F). U = {u1​,u2​,…,uN​} and (ui​,uj​)∈F if and only if there is a walk of length exactly ai​ from vi​ to vj​ in G. Note that this walk could repeat edges. He then noticed that the new directed graph G′ had two vertices ui​ and uj​ , such that there was no path from ui​ to uj​ in G′. Note that there could be more such pairs of vertices.
+But now, Maui has lost his list of integers, and has only the graph G. Help him by constructing any list which would satisfy the property mentioned, or state that it cannot be done.
+Input:
+
+The first line of the input contains two integers: N,M, which represent the number of nodes and edges in G respectively.
+The i-th of the next M lines contains two numbers i and j, which signify that the undirected edge (vi​,vj​) exists in G.
+
+Output:
+
+If a list of integers which satisfies the property exists, print "YES" in the first line and the N integers in order in the second line. Each of the integers must satisfy 1≤ai​≤109.
+If it does not exist, print "NO".
+

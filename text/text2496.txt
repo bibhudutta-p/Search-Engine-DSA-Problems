@@ -1,0 +1,25 @@
+Problem
+
+Consider an infinitely large chess table.
+From the cell (0, 0), our knight has to move to the cell (X, Y) by the rule:
+our knight could only move from a cell (u, v) to the cell (u+AX, v+AY) or (u+BX, v+BY) in one move.
+Note that it may be different from ordinary knight's move of chess.
+
+In addition, there is K blocked cell(s) on the table where the knight could not move on.
+
+Your task is to count how many distinct ways the knight could complete his mission.
+Two ways are called "distinct" if and only if they have different numbers of steps or there exists i such that they are in different cells after i-th step.
+Note that our knight may continue to move after he reaches the cell (X, Y).
+
+Input
+The first line contains an integer T, denoting the number of test cases. Each test case is described as follows:
+
+The first line contains 3 integer X, Y, K.
+The second line contains 4 integers AX, AY, BX, BY.
+The third line contains K pair(s) of integers, each represents co-ordinate of a blocked cell. This line does not exist if K = 0.
+
+Output
+
+For each test case, output on a line the number of ways found modulo 1000000007 (109+7).
+If there are infinitely many ways, then output -1 instead.
+

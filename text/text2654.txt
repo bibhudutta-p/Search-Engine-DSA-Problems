@@ -1,0 +1,11 @@
+Problem
+Let f([x1​,x2​,⋯,xk​]) be the minimum number of subarrays such that each xi​ belongs to exactly one subarray, and it's possible to arrange the subarrays in a way that makes x increasing. For example, f([5,4,1,2,3])=3 since we can divide x into three subarrays: [5],[4],[1,2,3] then rearrange them to [1,2,3],[4],[5].
+You are given a permutation P of length N. You are also given Q queries of the form L,R. For each query, find the value of f([PL​,PL+1​,⋯,PR​]).
+Input Format
+
+The first line contains two space-separated integers, N and Q.
+The second line contains a permutation P of length N, represented by N space-separated integers P1​,P2​,…,PN​.
+The i-th line of the next Q lines contains two integers, L and R.
+
+Output Format
+For each query, print the answer to the subarray on a new line.

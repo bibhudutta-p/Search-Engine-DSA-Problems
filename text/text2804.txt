@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+You are given N strings S1​,S2​,…,SN​. Consider a complete undirected graph with N vertices (numbered 1 through N), in which the weight of an edge between vertices u and v is equal to the length of the longest common substring of Su​ and Sv​.
+Find the maximum possible weight of a spanning tree of this graph.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+N lines follow. For each valid i, the i-th of these lines contains a single string Si​.
+
+Output Format
+For each test case, print a single line containing one integer --- the maximum weight of a spanning tree.

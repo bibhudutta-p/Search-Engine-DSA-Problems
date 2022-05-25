@@ -1,0 +1,16 @@
+Problem
+You are given a positive integer K and a tree with N vertices, rooted at vertex 1.
+For all integer i (2≤i≤N), Pi​ is a parent of vertex i.
+Let's call an array A consisting of N positive integers brilliant if the following constraints are met
+
+APi​​modAi​=0, for all integer i (2≤i≤N).
+∏i=1N​Ai​≤K.
+
+Compute remainder modulo 998244353 of the number of possible brilliant arrays.
+Input Format
+
+The first line contains two integers N and K.
+The second line contains N−1 integers P2​,P3​,...,PN​.
+
+Output Format
+Print the number of brilliant arrays. As it can be large, print it modulo 998244353.

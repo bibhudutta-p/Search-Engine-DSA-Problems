@@ -1,0 +1,20 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a tree with N nodes (numbered 1 through N), rooted at node 1. For each valid i, node i has a value ai​ written on it.
+An undirected simple path between any two nodes u and v is said to be vertical if u=v or u is an ancestor of v or v is an ancestor of u. Let's define a vertical partition of the tree as a set of vertical paths such that each node belongs to exactly one of these paths.
+You are also given a sequence of N integers b1​,b2​,…,bN​. A vertical partition is good if, for each of its paths, we can permute the values written on the nodes in this path, and this can be done in such a way that we reach a state where for each valid i, the value written on node i is bi​.
+The difficulty of your task is described by a parameter S. If S=1, your task is only to determine whether at least one good vertical partition exists. If S=2, you are required to find the number of good vertical partitions modulo 1,000,000,007 (109+7).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and S.
+Each of the next N−1 lines contains two space-separated integers u and v denoting that nodes u and v are connected by an edge.
+The next line contains N space-separated integers a1​,a2​,…,aN​.
+The line after that contains N space-separated integers b1​,b2​,…,bN​.
+
+Output
+For each test case, print a single line containing one integer:
+
+If S=1, this integer should be 1 if a good vertical partition exists or 0 if it does not exist.
+If S=2, this integer should be the number of good vertical partitions modulo 1,000,000,007 (109+7).
+

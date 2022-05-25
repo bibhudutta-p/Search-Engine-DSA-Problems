@@ -1,0 +1,7 @@
+Problem
+Read problems statements in Mandarin Chinese  and Russian.
+One day Chef had an exam on probability theory. Nothing interesting, but the exam was going fishily easy. And finally Chef got to the last question: "Suppose you have a dice with K faces with  numbers from 1 to K written on it, and integers L and F(0 < L <= K). You roll it N times. Let ai be the number of times (out of the N rolls) that a face with number i written on it came up as the top face of the dice. Find the mathematical expectation of the value a1F * a2F * ... * aLF."  "I'll drop out of university and won't be allowed to cook" - Chef is frightened! Help him now or he will never be able to please you with tasty dishes again.
+Input
+The first line of the input contains an integer T denoting the number of test cases. Each of the following T lines describe one test case and contain 4 space-separated integers N, K, L and F.
+Output
+Let the answer for a test case be an fraction P / Q, where P and Q are integers. Let integer X be P * Q-1 modulo 2003, where Q-1 modulo 2003 is the modular multiplicative inverse of Q modulo 2003 or 0 if Q-1 modulo 2003 doesn't exist. For each test case, output a single line containing the integer X for this test case.

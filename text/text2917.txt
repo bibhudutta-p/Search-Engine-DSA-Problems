@@ -1,0 +1,22 @@
+Problem
+Chef has a string S. Initially, this string is empty. Also, Chef has a sequence of operations. Each operation is of one of the following two types:
+
+add character to the end of the string S, so the length of S increases by 1.
+delete the first character of S, so the length of S decreases by 1.
+
+
+After each operation Chef asks you the number of distinct substrings of the current string S. Please answer his questions!
+
+Input
+The first line of input contains Q - the number of operations. Then Q lines follow, each of these lines describes the operation.
+
+Add operation is of the form "+ C", where C is a lowercase English letter.
+Delete operation is of the from "-".
+
+
+It is guaranteed that after each operation, the length of S is a positive integer.
+
+Output
+Just to make the size of your output smaller, Chef asks you the sum of answers of all Q operations modulo 1000000007. 
+So, print a single integer - the sum of answers for all operations (the sum of Q numbers) modulo 1000000007.
+

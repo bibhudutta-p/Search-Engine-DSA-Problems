@@ -1,0 +1,20 @@
+Problem
+ Read problems statements in Mandarin Chinese and Russian as well.
+
+Given a string S. You need to find a substring which satisfies the following conditions and output its start and end positions in the string S.
+
+Has exactly x different characters in it.
+Length of substring is atleast minLength and atmost maxLength.
+substring's start position is greater than or equal to L.
+substring's end position is less than or equal to R.
+
+
+If there are multiple substrings that satisfy above conditions, choose the one that has least start position. If there are still multiple substrings, choose the one that has least end position. See output section for more details
+
+Input
+
+First line of input contains the string S
+The second line of the input contains an integer Q denoting the number of queries.
+Only line of each query contains 5 space separated integers, x, minLength, maxLength, L, R
+Output
+For each query, output one line with 2 space separated integers, start and end positions of substring in S. If there is no valid solution output "-1 -1" instead

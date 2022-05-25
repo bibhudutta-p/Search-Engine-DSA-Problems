@@ -1,0 +1,20 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese.
+In Chefland, there are N cities (numbered 1 through N) connected by N−1 bidirectional roads. Each city has exactly one garden. For each valid i, let's denote the population of the i-th city by Ai​ and the initial number of fruits in its garden by Bi​; also, at any time, let's denote the current number of fruits in its garden by Fi​ (Fi​=Bi​ initially).
+You are given a permutation P of the integers 1 through N. For each i (1≤i≤N), during the i-th of the next N days, the people of the city Pi​ do the following:
+
+For each city j which is reachable from the city Pi​ (including the city Pi​ itself), visit the city j and consume min(APi​​,Fj​) fruits from the garden of the city j; afterwards, Fj​ decreases by min(APi​​,Fj​).
+Return to the city Pi​ and cut off all the roads that are connecting it to other cities, so that nobody can visit the city Pi​ or visit any other city from their city if it requires passing through the city Pi​.
+
+For each valid i, let Di​ be the first day when the number of fruits in the i-th city's garden becomes zero, or −1 if the fruits in its garden never end up all eaten. Find D1​,D2​,…,DN​.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+Each of the next N−1 lines contains two space-separated integers u and v denoting that vertices u and v are connected by an edge.
+The next line contains N space-separated integers P1​,P2​,…,PN​.
+The next line contains N space-separated integers A1​,A2​,…,AN​.
+The last line contains N space-separated integers B1​,B2​,…,BN​.
+
+Output
+For each test case, print a single line containing N space-separated integers D1​,D2​,…,DN​.

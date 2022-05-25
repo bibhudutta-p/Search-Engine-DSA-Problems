@@ -1,0 +1,19 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Killjee is trying to unlock a treasure. The key to the treasure is encrypted using a string S and Q queries. In each query, you need to find the K-th letter of a hidden string which is formed from the string S.
+To form the hidden string, you should sort all substrings of S in lexicographical order and concatenate them. For example, if S = "abc", the hidden string would be "aababcbbcc". (See the sample explanation for details.)
+In each query, the value of K is encoded in the following way:
+
+You're given two integers P and M.
+Let's define G as the sum of ASCII values of answers to all previous queries (therefore, G = 0 for the first query).
+The value of K for the current query is ( P ·  G ) % M + 1, where % denotes the modulo operator.
+
+
+Input
+
+The first line of the input contains a single string S.
+The second line contains a single integer Q.
+Q lines follow. Each of these lines contains two space-separated integers P and M.
+
+Output
+For each query, print a single line containing one character — the K-th letter of the hidden string.

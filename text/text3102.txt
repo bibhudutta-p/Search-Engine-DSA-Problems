@@ -1,0 +1,9 @@
+Problem
+Once in the magic city of Lulympus, students were preparing for the final stage of Lulympiad, the national team selection for the IOI. After solving 3SAT in polynomial time complexity, learning the 4D convex hull trick and many other trivial techniques, Chef Lulus AKed the "Baraj Seniori" and decided to take a break and solve the following trivial problem:
+You are given a positive integer N. Let P be the set of all permutations of length N. Find the value of the following expression: ∑p∈P​∑i=1N​gcd(p1​,p2​,…,pi​).
+Here gcd(p1​,p2​,…,pi​) denotes their greatest common divisor.
+Since the answer can be large, print it modulo MOD.
+Input Format
+The first and only line of input contains two integers N, MOD - the parameters defined in the statement.
+Output Format
+Print one integer, the value of ∑p∈P​∑i=1N​gcd(p1​,p2​,…,pi​) modulo MOD.

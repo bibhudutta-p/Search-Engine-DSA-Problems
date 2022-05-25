@@ -1,0 +1,20 @@
+Problem
+ Read problems statements in  Mandarin Chinese  and  Russian.
+Treeland is a kingdom consisting of N cities labelled 0, 1, 2, ... N-1. There are N-1 roads connecting these cities such that each pair of cities is connected by a unique path(forming a tree structure). Needless to say, city 0 is the capital of Treeland. Initially, each city is controlled by a different gangster. The citizens are allowed to move from any city to any of its adjacent city. However, if the two cities are controlled by different gangsters, they need to pay unit cost in order to move. The distance between any pair u, v of cities denoted by dist(u,v)  is defined as the minimum cost a person has to pay to go from u to v(or v to u).
+
+Every year, a new gangster emerges in the capital. As always, the gangster will wish to expand his territory. To do so, he will choose a city u, and march with his gangster army from the capital to u(along the tree path). All the cities they encounter(including capital and u) will be forciby occupied by this gangster. Because of this, distance between many cities can potentially change, which makes the people mad. Therefore, they will come to you for help.
+
+Given a city u, they will ask you evaluate 
+ f(u) = avgx in subtree rooted at u(including u)  dist(capital, x) 
+
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+
+The first line of each test case contains a single integer N denoting the number of cities in Treeland. The next N-1 lines contain two space-separated integers Ai, Bi denoting the ith road is between cities Ai and .Bi.
+
+The next line contains Q, the number of queries. The next Q lines each contain a character t and an integer  u .
+If t='O', it means a new gangster has marched from capital to u, Occupying all cities along the path.
+If t='q', it means you have to report f(u)
+
+Output
+For each test case, for each query of type 'q', output a single line containing the value of  f(u) . Answers correct upto 6 places after decimal are acceptable.

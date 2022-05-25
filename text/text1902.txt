@@ -1,0 +1,17 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Anas is playing an amazing game on a grid with N rows and M columns. The rows are numbered 1 through N from top to bottom and the columns are numbered 1 through M from left to right.
+Anas wants to destroy this grid. To do that, he wants to send two heroes from the top left cell to the bottom right cell:
+
+The first hero visits cells in row-major order: (1,1)→(1,2)→…→(1,M)→(2,1)→(2,2)→…→(2,M)→…→(N,M).
+The second hero visits cells in column-major order: (1,1)→(2,1)→…→(N,1)→(1,2)→(2,2)→…→(N,2)→…→(N,M).
+
+We know that each hero destroys the first cell he visits, rests in the next K cells he visits without destroying them, then destroys the next cell he visits, rests in the next K cells, destroys the next cell, and so on until he reaches (and rests in or destroys) the last cell he visits.
+Anas does not know the value of K. Therefore, for each value of K between 0 and N⋅M−1 inclusive, he wants to calculate the number of cells that will be destroyed by at least one hero. Can you help him?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and M.
+
+Output
+For each test case, print a single line containing N⋅M space-separated integers as described above.

@@ -1,0 +1,17 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Consider a 1D-grid with N points, numbered 1, 2, ..., N from left to right. The segment is denoted by a pair [L, R] and contains all the points with the indices between L and R inclusively.
+Some of the points can be marked. Initially all the points are unmarked.
+Sergey wants to develop a data structure that would help him to answer the following two types of queries efficiently on the segments:
+
+0 L R : Add a segment, which starts at L and ends at R to the data structure if it has at least one un-marked point. During the operations, there can be multiple segments with the same end points.  
+1 P : Mark the point P and output the number of the segments that have just become activated. The segment is activated when all it's points are marked. In other words, you have to tell the number of segments added in the data structure that were earlier deactivated, but now have become activated due to the marking of point P.
+
+
+Please help Sergey to construct a suitable data structure. This is an on-line problem. That means that you won't see the next query until you answer the previous one; in other words that means that you will see only one query at a time. For seeing next query, you must answer the current query.
+
+Input
+The first line of the input contains a pair of integers N and Q denoting the number of points and the number of queries.
+Then you will get a query in one of two forms described above. Please flush the standard output after answering a query to be able to read the following one. The details about flushing the standard output can be seen in the Note section at the end of the statement.
+Output
+After each query of the type 1, output the number of just activated segments.

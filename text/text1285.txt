@@ -1,0 +1,9 @@
+Problem
+Read problems statements in Mandarin Chinese  and Russian.
+Chef loves games! But he likes to invent his own. Now he plays game "Digit Jump". Chef has a sequence of digits S1​,S2​,…,SN​. He is staying in the first digit S1​ and wants to reach the last digit SN​ in the minimal number of jumps.
+While staying in some index i Chef can jump into i−1 and i+1, but he can't jump out from sequence. Or he can jump into any digit with the same value Si​.
+Help Chef to find the minimal number of jumps he need to reach digit SN​ from digit S1​. 
+Input
+Input contains a single line consist of string S of length N - the sequence of digits.
+Output
+In a single line print single integer - the minimal number of jumps he needs.

@@ -1,0 +1,31 @@
+Problem
+Read problem statements in Mandarin, Bengali, and Russian as well.
+Alice and Bob have a permutation of size N, so they started playing a game on it. They both have their own copies of an initial permutation on which they perform moves in turns. Note that although Bob's and Alice's permutations are initially similar in values, they are the not the same permutation; any move Alice makes only changes her permutation and not Bob's, and vice versa.
+Alice goes first. In one move, they can do the following on their respective permutations:
+
+Choose two indices i and j and swap Pi​ and Pj​.
+
+The player who sorts their permutation first, wins the game.
+Both players play optimally. But unfortunately, on playing a lot of games, Alice won all of those. Bob realized that something is unfair and told Alice to play with some handicap.
+So they mutually agreed that, Alice is given an extra potential array V of size N. Now Alice can do the following move only:
+
+Choose two indices i and j such that, 0<Vi​ AND 0<Vj​.
+If no such indices exist, skip her turn.
+Else swap Pi​ and Pj​ and then decrement Vi​ and Vj​ by 1.
+
+Bob plays as usual without any potential array. Alice goes first.
+Report who wins if both play optimally, and find the strategy for the winner. You also need to determine the shortest sequence of moves to victory.
+Input Format
+
+The first line contains T - the number of test cases. Then the test cases follow.
+The first line of each test case contains a single integer N - the size of the permutation.
+The next line contains N space separated integers P1​,P2​,…,PN​.
+The next line contains N space separated integers V1​,V2​,…,VN​.
+
+Output Format
+For each test case:
+
+Output on the first line the winner of the match, i.e. Alice or Bob. You may print each character of the string in uppercase or lowercase (for example, the strings Alice, ALICE, alIcE and aLiCe will all be treated as identical).
+Output on the next line an integer M - the minimum number of moves taken by the winner.
+Then output M lines, where the i-th line contains two integers denoting the i-th move by the winner.
+

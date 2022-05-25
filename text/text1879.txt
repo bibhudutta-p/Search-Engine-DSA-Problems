@@ -1,0 +1,11 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+
+Bear Limak has a sequence of N non-negative integers A1, A2, ..., AN. He defines the score of a segment (consecutive subsequence) as its sum of elements modulo P (not necessarily prime). Find the maximum score of a non-empty segment, and also find the number of segments with this maximum score.
+
+Input
+First line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+For each test case, the first line of the input contains two space separated integers, N and P.
+The second line contains N space separated integers denoting the sequence.
+Output
+For each test case, output two space separated integers denoting the maximum score of a segment and the number of segments with the score, respectively.

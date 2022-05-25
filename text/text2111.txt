@@ -1,0 +1,17 @@
+Problem
+In Chefland, there are N cities numbered from 1 to N. The cities are connected using N−1 roads such that there exists a path between all pairs of cities. In other words, the cities and roads forma a tree-structure
+The roads of Chefland are not in good condition. Therefore, all the roads need to be destroyed. The cost of destroying a road between cities x and y is dx​⋅dy​, where dx​ and dy​ are the degrees of the cities x and y respectively.
+Note that, the degree of a city is the number of roads connected to it before each destroy operation.
+Chef wants to find the minimum cost to destroy all the roads. On calculating this cost once, he finds the process very interesting. Therefore, he does this for Q more independent queries.
+In each query, a road is removed and another road is added. Find the minimum cost to destroy all roads initially, and after each query. It is guaranteed that after each query, all the cities are still connected and form a tree-structure.
+Note: Since the queries are independent, the initial tree is retained after each query.
+Input Format
+
+The first line contains a single integer T , the number of test cases. Then the test cases follow.
+The first line of each test case contains two integers N and Q.
+The next N−1 lines contain two integers each, ui​ and vi​ , denoting a road between cities ui​ and vi​ .
+The next Q lines contain four space separated integers, ai​, bi​, ci​, and di​ denoting that the road between the cities ai​ and bi​ is removed and the road between the cities ci​ and di​ is added.
+
+Output Format
+For each test case, output Q+1 lines. Each line should contain a single integer.
+The first line contains the answer to the initial tree. The next Q lines contain the answer for the updated tree in each query.

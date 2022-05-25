@@ -1,0 +1,20 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+The Petrozavodsk camp takes place in about one month. Jafar wants to participate in the camp, but guess what? His coach is Yalalovichik.
+Yalalovichik is a legendary coach, famous in the history of competitive programming. However, he is only willing to send to the camp students who solve really hard problems on Timus. The deadline that Yalalovichik set before has passed and he refuses to send Jafar to the camp.
+Jafar decided to make Yalalovichik happy in hopes of changing his decision, so he invented a new sequence of numbers and named them Yalalovichik numbers. Jafar is writing a research paper about their properties and wants to publish it in the Science Eagle yearly journal.
+A Yalalovichik number is created in the following way:
+
+Consider an integer N in decimal notation; let's call it the base of the Yalalovichik number YN​. N may not contain the digit 0.
+Treat N as a decimal string. Compute all left shifts of this string N0​,N1​,…,N∣N∣−1​ (∣N∣ denotes the number of digits of N); specifically, Nk​ denotes the string formed by moving the first k digits of N to the end in the same order.
+Concatenate the strings N0​,N1​,…,N∣N∣−1​. The resulting string is the decimal notation of YN​.
+
+For example, if N=123, the left shifts are 123,231,312 and thus YN​=123231312.
+You are given the base N. Calculate the value of YN​ modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single decimal integer N.
+
+Output
+For each test case, print a single line containing one integer — the value of the Yalalovichik number YN​ modulo 109+7.

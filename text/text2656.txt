@@ -1,0 +1,20 @@
+Problem
+MoEngage has given you two trees T1​ and T2​. Both trees have N nodes and are rooted at node 1.
+Definitions:
+
+LCA1​(u,v)= Lowest common ancestor of node u and node v in tree T1​.
+LCA2​(u,v)= Lowest common ancestor of node u and node v in tree T2​.
+H1​(v)= Number of nodes in the shortest path from node 1 to node v in tree T1​. Note that, H1​(1)=1.
+H2​(v)= Number of nodes in the shortest path from node 1 to node v in tree T2​. Note that, H2​(1)=1.
+
+Find the maximum value of H1​(LCA1​(u,v))+H2​(LCA2​(u,v)) over all pairs (u,v) such that u=v.
+More formally, find 1≤u<v≤Nmax​[H1​(LCA1​(u,v))+H2​(LCA2​(u,v))].
+Input Format
+
+First line will contain T, the number of test cases. Then the test cases follow.
+First line of each test case contains a single integer N, the number of nodes.
+Each of the next (N−1) lines contain two integers u and v denoting an edge between nodes u and v in tree T1​.
+Each of the next (N−1) lines contain two integers u and v denoting an edge between nodes u and v in tree T2​.
+
+Output Format
+For each test case, output in a single line 1≤u<v≤Nmax​[H1​(LCA1​(u,v))+H2​(LCA2​(u,v))].

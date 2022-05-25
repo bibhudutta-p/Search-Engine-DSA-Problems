@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Guddu was participating in a programming contest. He only had one problem left when his mother called him for dinner. Guddu is well aware how angry his mother could get if he was late for dinner and he did not want to sleep on an empty stomach, so he had to leave that last problem to you. Can you solve it on his behalf?
+For a given sequence of positive integers A1​,A2​,…,AN​, you are supposed to find the number of triples (i,j,k) such that 1≤i<j≤k≤N and
+Ai​⊕Ai+1​⊕…⊕Aj−1​=Aj​⊕Aj+1​⊕…⊕Ak​,
+where ⊕ denotes bitwise XOR.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer ― the number of triples.

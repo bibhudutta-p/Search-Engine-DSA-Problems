@@ -1,0 +1,19 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef had three sequences of real numbers k1​,k2​,…,kN​, c1​,c2​,…,cN​ and x1​,x2​,…,xN​. Unfortunately, he lost the sequence x; the only thing he remembers about it is that
+x1​⋅k1​+x2​⋅k2​+…+xN​⋅kN​=0.
+Chef's favourite expression is
+x1​+c1​​+x2​+c2​​+…+xN​+cN​​.
+Its value is defined only if xi​+ci​≥0 for each valid i. Let's denote the maximum value of this expression (over all sequences x such that it is defined) by F.
+Help Chef find F and a sequence x1​,x2​,…,xN​ such that the value of Chef's expression is F, or determine that there is no solution (the value of Chef's expression is always undefined).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N real numbers k1​,k2​,…,kN​.
+The third line contains N real numbers c1​,c2​,…,cN​.
+
+All real numbers are given with exactly two digits after the decimal point.
+Output
+For each test case, if there is no solution, print a single line containing one integer −1. Otherwise, print a single line containing N+1 space-separated real numbers F,x1​,x2​,…,xN​.
+It can be proved that if a solution exists, then it is unique. Your answer will be considered correct if the absolute or relative error of each number on the output does not exceed 10−2.

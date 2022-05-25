@@ -1,0 +1,18 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+There is a hidden undirected connected graph G with n nodes and m edges numbered 0,1,…m−1, and a hidden permutation p0​,p1​,…,pm−1​ of edges. The graph doesn't contain any self loops or multiple edges.
+You only know the value of n and m. You can ask queries. In one query, you give the judge a vector w=[w0​,w1​,…,wm−1​] of size m consisting of integers in the range [1,m]. The judge returns n−1 integers e0​,e1​,…,en−2​, such that the edges numbered e0​,e1​,…,en−2​ form a minimum spanning tree of the graph, if the edge numbered pi​ had a weight wi​ for each i=0,1,…m−1. Note that the judge can print the edges in any order, and if there are multiple minimum spanning trees, the judge may print any one of them.
+You need to find the hidden permutation in at most m queries, or claim that it can't be found uniquely no matter how many queries you're allowed to make.
+We have a proof that if it's possible to find the permutation in finitely many queries, then it is possible in at most m queries.
+Interaction
+
+First, you should read a line containing the subtask number (1, 2, or 3).
+Then, read the number of test cases.
+For each test case, first read the values of n and m.
+To make a query, you should output a question mark, followed by m space-separated integers denoting the weights:  ?w0​w1​…wm−1​.
+If the query format is incorrect, or if some weight exceeds m, or the number of queries (including this query) has exceeded m, the judge prints a single integer −1 and quits with a wrong answer verdict. In this case, you must also terminate your program.
+Otherwise, the judge prints n−1 space-separated integers : e0​e1​…en−2​.
+If you have found the permutation p, you should output an exclamation mark followed by m space-separated integers :  !p0​p1​…pm−1​. Else, if you have reached the conclusion that the hidden permutation p can not be found, print exclamation mark followed by −1 : !−1.
+If your answer is incorrect, the judge prints**−1** and exits. In this case, you must terminate your program as well. Else, the judge prints 1, and you should move to the next testcase(if any).
+
+Note that whenever the judge prints −1, you should immediately terminate your program to receive a Wrong Answer verdict; otherwise, you may receive any verdict. Don't forget to flush the output after printing each line!

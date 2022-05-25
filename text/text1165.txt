@@ -1,0 +1,15 @@
+Problem
+JJ challenges his friend GG to construct an array A containing N distinct elements such that the following conditions hold:
+
+For all 1≤i≤N, 1≤Ai​≤105
+For every subarray of length ≥2, the sum of all the elements of the subarray is not divisible by the length of the subarray
+
+Please help perplexed GG to complete JJ's challenge.
+Input Format
+
+The first line contains T - the number of test cases. Then the test cases follow.
+The first and only line of each test case contains an integer N - the size of the array A to be constructed.
+
+Output Format
+For each test case, output an array A containing N distinct elements which satisfy the given conditions.
+If there are multiple arrays that satisfy the conditions, print any.

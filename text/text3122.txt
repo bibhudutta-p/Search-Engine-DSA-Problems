@@ -1,0 +1,19 @@
+Problem
+Chef has an array A of N integers. He asks you Q queries. For each query, you are given the following:
+
+An integer X (0≤X<220).
+An array B of size M such that 1≤Bj​≤N.
+
+You need to erase minimum number of elements from A such that the bitwise-OR of the remaining elements is at most X and no element having index Bj​ is erased.
+For each query, find the maximum number of remaining elements such that the bitwise OR of the remaining elements is at most X and no element with index Bj​ is erased. If it is impossible to get an OR of at most X, print −1.
+Note: The bitwise OR of an empty array is considered 0.
+Input Format
+
+The first line of the input consists of integers N and Q, the number of elements in the array and the number of queries.
+The next line contains N space separated integers, the elements of the array A. The descriptions of the Q queries follow.
+The first line of each query consists of integers X and M, the integer X and the number of indices that cannot be erased.
+The last line of each query consists of M space separated integers Bj​ denoting that the elements ABj​​ cannot be erased. Note that, this line is omitted if M=0.
+
+Output Format
+Print Q lines, the answers to each of the queries.
+For each query, print -1 if it is impossible to get an OR of at most X. Otherwise, print the maximum number of remaining elements.

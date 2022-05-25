@@ -1,0 +1,12 @@
+Problem
+JJ loves playing with medians. He has an array A of length N (N is odd). He wants to partition the array A into two non-empty subsets P and Q such that the value of ∣median(P)−median(Q)∣ is as small as possible. (Note that each Ai​ must belong to either subset P or subset Q).
+Help him find this minimum value of ∣median(P)−median(Q)∣.
+As a reminder, the median of a subset X of size N is the element which occupies the ⌊2N+1​⌋th position after we sort the elements in non-decreasing order. For example, median([3,1,4])=3, median([3,1,4,2])=2. (Here ⌊x⌋ denotes the largest integer which does not exceed x).
+Input Format
+
+The first line contains T - the number of test cases. Then the test cases follow.
+The first line of each test case contains an integer N - the size of the array A.
+The second line of each test case contains N space separated integers A1​,A2​,…,AN​ denoting the array A.
+
+Output Format
+Output the minimum value of ∣median(P)−median(Q)∣.

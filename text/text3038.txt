@@ -1,0 +1,12 @@
+Problem
+Given an integer N, find the number of tuples (w,x,y,z) such that 1≤w,x,y,z≤N and xw​+zy​ is an integer.
+For example, if N=2, the tuple (1,2,1,2) satisfies both conditions, i.e. 21​+21​=1 is an integer, however (1,1,1,2) does not since 11​+21​=1.5 is not an integer.
+Input Format
+
+The first line of input contains an integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of a single line of input containing one integer, N.
+
+Output Format
+
+For each test case, print a new line containing a single integer, the answer to that test case.
+

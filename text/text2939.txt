@@ -1,0 +1,15 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef gave you a sequence of integers a1​,a2​,…,aN​ and 3 integers K, m and x. Let's define the following functions:
+G(i1​,…,iK​)=gcd(ai1​​,…,aiK​​)
+Sx​(i1​,…,iK​)=ai1​x​+ai2​x​+…+aiK​x​
+Pm​(i1​,…,iK​)=(ai1​​⋅ai2​​⋅…⋅aiK​​)m
+W(T)=smallestprimedivisorofP1​(T)
+Chef wants you to compute the sum of G(T)⋅W(T)⋅Sx​(T)⋅Pm​(T) over all K-tuples of indices T=(i1​,i2​,…,iK​) such that ij​∈{1,2,…,N} for each valid j (there are NK of these K-tuples). Since this sum could be enormous, compute it modulo 109+7.
+Input
+
+The first line of the input contains four space-separated integers N, K, m and x.
+The second line contains N space-separated integers a1​,a2​,…,aN​.
+
+Output
+Print a single line containing one integer ∑T​G(T)⋅W(T)⋅Sx​(T)⋅Pm​(T) modulo 109+7.

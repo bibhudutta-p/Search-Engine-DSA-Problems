@@ -1,0 +1,16 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef cooks nice receipes in the cafeteria of his company. The cafe contains N boxes with food enumerated from 1 to N and are placed in a circle in clocwise order (boxes 1 and N are adjacent). Each box has unlimited amount of food with a tastyness level of Ai. Chef invented a definition of a magic box!
+Chef picks a box i and stays in front of it. 
+Now Chef eats food from box i and skips next Ai boxes.
+Now Chef is staying at some other (probably even the same!) box and repeats. 
+Box i is a magic box if at some point of such game started from box i, Chef will find himself staying in front of it again. 
+
+When Chef came home, Chef's dog Tommy asked him about how many magic boxes were in the cafe? Help Chef to in finding that!
+
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N denoting the number of boxes.
+The second line contains N space-separated integers A1, A2, ..., AN denoting the tastyness levels of each box.
+Output
+For each test case, output a single line containing number of magical boxes.

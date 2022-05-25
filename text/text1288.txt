@@ -1,0 +1,16 @@
+Problem
+Lav has an array A of size N. He noticed that Chef is initially standing at the first index of the array.
+While standing at the ith index (1≤i<N) of the array, Chef can perform the following types of jumps:
+
+Jump 1: Jump to the immediate next index j such that Ai​ and Aj​ have the same parity.
+Jump 2: Jump to the immediate next index j such that Ai​ and Aj​ have different parity.
+
+Given that Chef can perform Jump 2 at most once, Lav wants to find the minimum number of jumps required by the Chef to reach the last index of the array.
+Input Format
+
+First line will contain T, the number of test cases. Then the test cases follow.
+The first line of each test case contains a single integer N - the size of the array A.
+The second line of each test case contains N integers A1​,A2​,…,AN​ - the elements of the array A.
+
+Output Format
+For each test case, output the minimum number of jumps required by the Chef to reach the last index of the array.

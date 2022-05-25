@@ -1,0 +1,22 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Sebi's father gives him a maths question every night after dinner which he has to solve before sleeping. Today's question is as follows.
+There are four integers A, B, C, N. Consider the following equation in two non-negative integer variables x and y
+
+x * y = (x | y) * (x & y) + A * x + B * y + C
+
+
+where | denotes bitwise OR and & denotes bitwise AND operation.
+
+
+Sebi's father asks him to consider solutions such that x, y don't exceed N. Let X be the sum of x's for all solutions (x, y) and Y be the sum of y's for all solutions (x, y).
+
+
+Its already very late in night. He is very sleepy, he thinks that if you can help him in telling the answer of the problem, he will just tell the answer to his father and sleep. Can you please help him?
+
+Input
+The first line of the input contains an integer T denoting the number of test cases.
+
+Each of the next T lines contains four space separated integers, denoting A, B, C, N as defined in the statement.
+Output
+Output a T line containing two space separated integers X and Y.

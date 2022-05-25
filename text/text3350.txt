@@ -1,0 +1,31 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+You are given a tree with N nodes (numbered 1 through N).
+The distance d(p,q) between two nodes p and q of the tree is the number of edges on the unique path between them.
+There will be Q events each of which can be of the following three types:
+
+
+'1 u': A certain node u becomes a special node. It is guaranteed that u was not special before this event.
+
+
+'2 u': A certain node u becomes no longer special. It is guaranteed that u was special before this event.
+
+
+'3 K': You are given a non-negative integer K. For a node x, define f(x)=max{d(x,y):y is special}. You must answer if there exists a node x such that f(x)=K. In other words, you are asked whether there exists a node x whose distance to the farthest special node is K. Note that x doesn't have to be special. It is guaranteed that there is at least one special node in the tree at the time of this event.
+
+
+In the beginning, there are no special nodes.
+Input Format
+
+The first line of the input contains a single integer T - the number of test cases. The description of T test cases follow.
+The first line of each test case contains a single integer N.
+N−1 lines follow. The i-th of these lines contains two integers ui​ and vi​ denoting an edge of the tree.
+The next line contains a single integer Q - the number of events.
+Q lines follow. The i-th of these lines contains two integers ti​ (the type of the i-th query) and qi​. If ti​=1 or ti​=2, qi​ is the vertex whose status is being changed. If ti​=3, qi​ is the parameter describing a query of the third type.
+
+Output Format
+
+For each test case, print a single line.
+In that line, print l characters with no spaces between them, where l is the number of queries of third type in this test case.
+For each valid i, the i-th character in the line should be 1 if there exists a node satisfying the conditions of the i-th query of third type in that test case and 0 otherwise.
+

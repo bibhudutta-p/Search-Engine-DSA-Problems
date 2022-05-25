@@ -1,0 +1,26 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+In the nation of Chefland there are villages at co-ordinates (x,y) whenever x and y are non-zero odd co-prime integers. x can be either positive or negative, but y is always positive.
+In each village (x,y) there is a crossroads, with the roads marked North, South, East, West.
+Road East leads to (x+2y,y).
+Road West leads to (x−2y,y).
+Road North leads to either (x,y+2x) or (−x,−(y+2x)),  chosen so that the new y co-ordinate is positive.
+Road South leads to either (x,y−2x) or (−x,−(y−2x)), chosen so that the new y co-ordinate is positive.
+Some citizens of Chefland prefer these equivalent definitions for the North and South roads:
+Road North leads to {(x,y+2x)(−x,−(y+2x))​amp;when y+2x>0amp;when y+2x<0​
+Road South leads to {(x,y−2x)(−x,−(y−2x))​amp;when y−2x>0amp;when y−2x<0​
+The cost to travel a road between two adjacent villages is 1 pound.
+Determine the minimum cost to travel between villages at (x1​,y1​) and (x2​,y2​).
+Notes:
+
+The road network is defined so that the villages form an undirected graph.
+There are two roads joining (−1,1) and (1,1), but otherwise there is a single road between any adjacent pair of villages.
+The road network does not form a simple grid - that would be too easy!
+
+Input:
+
+First line will contain T, the number of testcases. Then the testcases follow.
+Each testcase contains a single line of input, which has four integers x1​,y1​,x2​,y2​.
+
+Output:
+For each testcase, output in a single line, the answer. That is, the minimum cost in pounds to travel from (x1​,y1​) to (x2​,y2​).

@@ -1,0 +1,13 @@
+Problem
+Chef found an array A of N elements. He defines a subarray as bad if the maximum element of the subarray is equal to the minimum element of the subarray.
+More formally, a subarray [L,R] (1≤L≤R≤N) is bad if max(AL​,AL+1​,…,AR​)=min(AL​,AL+1​,...,AR​).
+Chef is allowed to change at most K elements of the array.
+Find the minimum number of bad subarrays Chef can obtain after changing at most K elements of the array.
+Input Format
+
+First line will contain T, the number of test cases. Then the test cases follow.
+Each test case contains two lines of input, the first line contains two space-separated integers N and K - the number of elements in the array and the maximum number of elements Chef can change respectively.
+The second line contains N space-separated integers A1​,A2​,…,AN​ - the initial array.
+
+Output Format
+For each test case, output the minimum number of bad subarrays Chef can obtain after changing at most K elements of the array.

@@ -1,0 +1,19 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chefland is a country with N cities (numbered 1 through N) connected by N−1 bidirectional roads. It is possible to travel from each city to any other city using the roads. Moreover, each city is specialised in either black or white chocolate.
+Chef wants to construct three new restaurants. However, he is still not sure where to build them. You should answer Q queries; in each query, Chef gives you two cities L and R and you should find the number of ways to choose a set of three distinct cities that satisfies the following conditions:
+
+The chosen cities belong to the shortest path between the cities L and R (both inclusive).
+For any two chosen cities (let's denote them by u and v; u=v), there is at least one city specialised in black chocolate on the shortest path between the cities u and v (both inclusive).
+
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​. For each valid i, Ai​=1 if the i-th city is specialised in black chocolate or 0 if it is specialised in white chocolate.
+Each of the following N−1 lines contains two space-separated integers x and y denoting that cities x and y are connected by a road.
+The next line contains a single integer Q.
+Each of the following Q lines contains two space-separated integers L and R describing a query.
+
+Output
+For each query, print a single line containing one integer — the number of ways to choose three cities.

@@ -1,0 +1,20 @@
+Problem
+Chef has a circular sequence A of N non-negative integers A1​,A2​,…,AN​ where Ai​ and Ai+1​ are considered adjacent, and elements A1​ and AN​ are considered adjacent.
+An operation on position p in array A is defined as replacing Ap​ by the bitwise OR of elements adjacent to Ap​. Formally, an operation is defined as:
+
+If p=1, replace A1​ with AN​∣A2​
+If 1 &lt; p \lt N, replace Ap​ with Ap−1​∣Ap+1​
+If p=N, replace AN​ with AN−1​∣A1​
+
+Here, '|' denotes the bitwise OR operation.
+Now, Chef must apply operations at each position exactly once, but he may apply the operations in any order.
+Being a friend of Chef, you are required to find a sequence of operations, such that after applying all the N operations, the bitwise OR of the resulting array is K, or determine that no such sequence of operations exist.
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K denoting the number of elements, and the required bitwise OR after operations.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output:
+For each test case, if no valid sequence of operations exist, print -1.
+Otherwise, print N space-separated integers in which i-th integer denote the position chosen in the i-th operation. If there are multiple valid sequences of operations, you may print any valid sequence.

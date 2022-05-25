@@ -1,0 +1,11 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Serega is an avid traveller. He has already visited numerous exotic places, and now wants to embark on a journey to Treeland. There are N cities in Treeland that Serega wants to visit. Also, roads have been laid between some N-1 pairs of cities in Treeland. Roads are bidirectional, and there exists a unique path between any two Treeland cities.
+
+Each of Treeland's roads has its own class, wich is specified using a single digit. Serega's journey is a path between some cities, i.e. he never visits one city more than once. But Serega wants to select a path such that the sequence of classes on the path is a palindrome. Of course, Serega wants to visit as many cities as possible. Please help Him.
+
+Input
+The first line of input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each case contains a single integer N. The next N-1 lines contain the roads. Each line contains three integers v, u and c, meaning that there is a road of class c between the vth and uth (assuming 1-indexing) cities of Treeland.
+Output
+For each test case, you should output the maximum number of cities that Serega can visit.

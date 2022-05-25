@@ -1,0 +1,15 @@
+Problem
+You are given an integer N. Construct a permutation A of length N which is attractive.
+A permutation is called attractive if the bitwise XOR of all absolute differences of adjacent pairs of elements is equal to 0.
+Formally, a permutation A=[A1​,A2​,…,AN​] of length N is said to be attractive if:
+∣A1​−A2​∣⊕∣A2​−A3​∣⊕…⊕∣AN−1​−AN​∣=0
+where ⊕ denotes the bitwise XOR operation.
+Output any attractive permutation of length N. If no attractive permutation exists, print −1 instead.
+Note: A permutation of length N is an array A=[A1​,A2​,…,AN​] such that every integer from 1 to N occurs exactly once in A. For example, [1,2,3] and [2,3,1] are permutations of length 3, but [1,2,1], [4,1,2], and [2,3,1,4] are not.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of a single line of input, containing one integer N.
+
+Output Format
+For each test case, output on a single line an attractive permutation of N integers, or −1 if no attractive permutation exists.

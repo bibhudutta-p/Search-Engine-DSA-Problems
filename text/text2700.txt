@@ -1,0 +1,17 @@
+Problem
+Given a sequence A of length N and an integer M, such that the elements of A are pairwise distinct.
+For each k (1≤k≤M), find the number of subsequences Ai1​​,Ai2​​,…,Aip​​ of A satisfying the following conditions:
+
+Condition 1: ∑j=1p​Aij​​=k.
+Condition 2: Let f(l,r)=maxi=lr​Ai​. Then, for each j (1≤j≤p−1), f(ij​,ij+1​)>max(Aij​​,Aij+1​​) holds.
+If p=1 (subsequence is of length 1), this condition is considered to be true.
+
+Find the number of subsequences satisfying both the conditions for each k (1≤k≤M). Since the answer can be huge, print it modulo 998244353.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line contains two integers N and M.
+The second line contains N integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, print M numbers in a new line. The ith number is the answer when k=i, modulo 998244353.

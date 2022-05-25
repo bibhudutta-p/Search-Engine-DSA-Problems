@@ -1,0 +1,16 @@
+Problem
+After solving some Number Theory related problems KBG challenged VD to solve following problem.
+You are given an array A consisting of N positive integers and Q queries. Each query is of the form:
+
+L R: Given two integers L and R (1≤L<R≤N), let B denote the subarray A[L,R]. Find the maximum possible GCD of any subsequence of B which has length greater than 1.
+
+For each query, find the maximum possible GCD of any subsequence in the given range having length greater than 1.
+Input Format
+
+First line contains T, number of test cases. Description of the test cases follows.
+The first line of each test case contains a two space-separated integer N and Q - length of the array and number of queries respectively.
+The second line of each test case contains N space-separated integers A1​,A2​,...,AN​.
+Next Q lines of each test case contains two space-separated integers L and R.
+
+Output Format
+For each test case, print Q lines. The ith line contains one integer - the answer for the ith query.

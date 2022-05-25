@@ -1,0 +1,16 @@
+Problem
+Read problems statements in Russian.
+You are given an array A of N positive integers. You are allowed to perform any of the following operations any number of times:
+
+Pick an index i (1≤i≤n), and a prime number p. Assign Ai​×p to Ai​.
+Pick an index i (1≤i≤n), and a prime number p such that Ai​ is divisible by p. Assign Ai​÷p to ai​.
+
+The goal is to make all the numbers in array equal using the minimum number of operations. Among all sequences of operations using the minimum number of operations, denote S to be the smallest final value of all elements in A. You are given Q queries of the form (Li​,Ri​). For each query, you need to calculate the S value of the contiguous subarray ALi​…Ri​​.
+Input Format
+
+The first line contains N and Q denoting the number of elements in the array and number of queries.
+The second line contains N space-separated integers A1​,A2​,…,AN​ denoting the given array.
+Q lines follow. The i-th line contains two space-separated integers Li​ and Ri​ denoting the i-th query.
+
+Output Format
+For each query, output the value S for the subarray on a single line.

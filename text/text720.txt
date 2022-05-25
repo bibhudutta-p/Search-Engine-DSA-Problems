@@ -1,0 +1,18 @@
+Problem
+JJ challenges the Chef to construct an array A of length N such that the following conditions hold:
+
+Ai​ divides Ai+1​ when i is odd and 1≤i≤N−1
+Ai​ does not divide Ai+1​ when i is even and 1≤i≤N−1
+1≤Ai​≤2⋅N
+All Ai​ are pairwise distinct
+
+Can you help Chef complete JJ's challenge?
+If multiple arrays satisfying the above conditions exist print any one of them.
+It is guaranteed that under the given constraints, at least one array satisfying the above conditions exists.
+Input Format
+
+The first line will contain T - the number of test cases. Then the test cases follow.
+The first and only line of each test case contains an integer N - the length of the array A to be constructed.
+
+Output Format
+For each test case, output a single line containing N space-separated integers, denoting the elements of the array A you constructed.

@@ -1,0 +1,26 @@
+Problem
+Consider the string of infinite length obtained by repeating abcdefghijklmnopqrstuvwxyz infinitely many times. That is, it looks like abc...xyzabc...xyzabc...
+Let string B be the prefix of this string of length M. For example,
+
+if M=6, B= abcdef
+if M=29, B= abcdefghijklmnopqrstuvwxyzabc
+
+Vedansh calls a string X special if it contains B as a substring. Formally, X is special if for some 1≤L≤R≤∣X∣, XL…R​=B.
+Vedansh has string S of length N (consisting of lowercase Latin letters only). He wants to convert S into a special string. To do so he can perform the following operation:
+
+Pick an i such that 1≤i≤N and delete Si​. The remaining parts of S are concatenated.
+
+Since Vedansh is lazy, he wants to do this in the minimum number of operations or determine if S cannot be converted to a special string. Help Vedansh in doing so.
+Input Format
+
+The first line of input contains a single integer T — the number of test cases. The description of T test cases follows.
+Each test case consists of three lines of input
+
+The first line of each test case contains an integer N — the length of the string S.
+The second line of each test case contains the string S which consists of lowercase Latin letters only.
+The third line of each test case contains an integer M — the length of the string B whose form is described in the statement.
+
+
+
+Output Format
+For each test case, if A can be converted to a special string, output the minimum number of operations to do so. Otherwise output −1.

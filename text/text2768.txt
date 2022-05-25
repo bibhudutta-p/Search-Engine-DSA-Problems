@@ -1,0 +1,21 @@
+Problem
+Chef is bored cooking his regular dishes, so he decided to cook permutations instead. Since this is his first time cooking permutations, he takes some help.
+Chef has two permutations A and B, each of size N. Chef cooks a permutation C of size N2 by doing the following:
+for i = 1 to N:
+    for j = 1 to N:
+        C[i + (j-1) * N] = A[i] + (B[j] - 1) * N
+
+Chef is allowed to make some (maybe 0) moves on permutation C. In one move, Chef can:
+
+Pick two indices 1≤i<j≤N2 and swap the elements Ci​ and Cj​.
+
+Find the minimum number of moves required to sort permutation C in ascending order.
+Input Format
+
+The first line of the input contains a single integer T - the number of test cases. The description of test cases follows.
+The first line of each test case contains an integer N - the length of permutations A and B.
+The second line of each test case contains N integers A1​,A2​,…,AN​, denoting permutation A.
+The third line of each test case contains N integers B1​,B2​,…,BN​, denoting permutation B.
+
+Output Format
+For each test case, print a single integer representing the number of moves required to sort permutation C.

@@ -1,0 +1,9 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Compute:
+ floor[1*e] + floor[2*e] + floor[3*e] + ... + floor[n*e],
+where floor[x] is the largest integer that is not greater than x, and e is Euler's number: 2.7182818284...
+Input
+A single line which contains a single integer: n.
+Output
+A single line which contains a single integer which should be the answer.

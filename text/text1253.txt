@@ -1,0 +1,22 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef decided to exercise by running somewhere from ShareChat. He chose three sets of points in a plane:
+
+A set of N points (numbered 1 through N): for each valid i, the i-th of them has coordinates (ai​,bi​).
+A set of M points (numbered 1 through M): for each valid i, the i-th of them has coordinates (ci​,di​).
+A set of K points (numbered 1 through K): for each valid i, the i-th of them has coordinates (ei​,fi​).
+
+ShareChat has coordinates (x,y). Chef must choose one point (aj​,bj​), one point (ck​,dk​), and one point (el​,fl​). Then, he starts running from ShareChat, visits the chosen points (aj​,bj​) and (ck​,dk​) in any order, and then runs to the point (el​,fl​), where he finishes his run.
+Help Chef find the minimum distance he has to run.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers x and y.
+The second line contains three space-separated integers N, M and K.
+The third line contains 2N space-separated integers a1​,b1​,a2​,b2​,…,aN​,bN​.
+The fourth line contains 2M space-separated integers c1​,d1​,c2​,d2​,…,cM​,dM​.
+The fifth line contains 2K space-separated integers e1​,f1​,e2​,f2​,…,eK​,fK​.
+
+Output
+For each test case, print a single line containing one real number ― the minimum distance.
+Your answer will be considered correct if its absolute or relative error does not exceed 10−6.

@@ -1,0 +1,17 @@
+Problem
+Given two arrays A and B of length N each.
+You can do the following operation on the array B exactly once:
+
+Chose two integers R (1≤R≤N) and K(K≥0) and apply K right-rotations to the subarray [1,R].
+Applying a right-rotation to the array C=[C1​,C2​,C3​,…,CM​] changes it to [CM​,C1​,C2​,…,C(M−1)​]
+
+Find whether you can transform the array B into the array A by applying the mentioned operation exactly once. If it is possible, find the minimum value of K for which it is possible.
+Input Format
+
+The first line of input contains an integer T denoting the number of test cases. T test cases follow.
+The first line of each test case contains the integer N - the size of arrays A and B.
+The second line contains N integers A1​,A2​,…,AN​ - the elements of the array A.
+The third line contains N integers B1​,B2​,…,BN​ - the elements of the array B.
+
+Output Format
+For each test case, output in a single line, the minimum possible value of K. If it is not possible to convert B to A, print -1.

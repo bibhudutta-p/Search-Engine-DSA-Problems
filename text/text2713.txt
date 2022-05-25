@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, and Bengali as well.
+Chef gives you an array A of length N, consisting of integers. He asks you to choose a subarray with at least 2 elements of the given array. Following, out of your chosen subarray, Chef will pick out any two elements.
+Your net score would be the sum of the remaining elements of the subarray. Obviously, Chef adopts a strategy to minimize your score. Find the maximum score you can have.
+Input Format
+
+The first line of input contains T denoting the number of test cases.
+Each test case is as follows:
+The first line contains N denoting the size of the array.
+The second line contains N space-separated integers denoting the contents of the array A.
+
+Output Format
+For each test case, output a single integer denoting your maximum score.

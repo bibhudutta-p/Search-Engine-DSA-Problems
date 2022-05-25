@@ -1,0 +1,20 @@
+Problem
+Read problem statements in Russian, Mandarin Chinese, Bengali, and Vietnamese as well.
+Let's define a function F(X) as follows:
+F(X)=YX​
+where Y is the largest perfect square that divides X.
+For example,
+
+The largest perfect square that divides 12 is 4. Hence F(12)=412​=3.
+The largest perfect square that divides 36 is 36. Hence F(36)=3636​=1.
+The largest perfect square that divides 7 is 1. Hence F(7)=17​=7.
+
+You are given an array A consisting of N integers. A pair of integer (i, j) is called Good if 1≤i<j≤N and  F(Ai​∗Aj​)>1. Find the number of Good pairs.
+Input Format
+
+The first line of input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains an integer N.
+The second line of each testcase contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, print a single line containing one integer - the number of Good pairs.

@@ -1,0 +1,21 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a strictly increasing sequence of positive integers A1​,A2​,…,AN​. It is also guaranteed that for each valid i, Ai​+A1​≥Ai+1​.
+Alice and Bob want to play Q independent games using this sequence. Before they play these games, Alice should choose a positive integer G between 1 and M (inclusive). The rules of each game are as follows:
+
+There is a set S of positive integers representing allowed moves in this game. For each valid i, in the i-th game, this set is S={ALi​​,ALi​+1​,…,ARi​​} (in other words, given by a contiguous subsequence of A).
+The game is played with a single pile. Let's denote the number of objects in this pile by P. At the beginning of the game, P=G. In other words, Alice and Bob play all the games with the same initial number of objects that Alice chooses.
+The players alternate turns; Alice plays first.
+In each turn, the current player must choose a positive integer b from the set S such that b≤P and remove b objects from the pile, i.e. change P to P−b.
+When the current player cannot choose any such integer b, this player loses this game.
+
+Both players play optimally. You need to find the maximum number of games Alice can win if she chooses G optimally.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, Q and M.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+Q lines follow. For each valid i, the i-th of these lines contains two space-separated integers Li​ and Ri​.
+
+Output
+For each test case, print a single line containing one integer ― the maximum number of games Alice can win.

@@ -1,0 +1,19 @@
+Problem
+Nayra doesn't like stories of people receiving random trees as birthday presents, but this time she received a tree as a present for her own birthday! After struggling for a day trying to figure out what to do with this tree, she asked Aryan for help. He gave her this problem.
+You are given a tree with N vertices and weighted edges. It is rooted at vertex 1.
+Define g(u,v) to be the maximum weight of an edge on the shortest path between vertex u and vertex v in this tree.
+Just calculating g(u,v) is too easy, so you have to process Q queries.
+In each query, you are given K distinct vertices v1​,v2​,…,vK​. You have to compute the sum of the g-values of each pair of vertices among these K, i.e, the value
+∑i=1K−1​∑j=i+1K​g(vi​,vj​)
+Note: The input and output are large, so use fast input-output methods.
+Input Format
+
+The first line of input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q, denoting the number of vertices in the tree and the number of queries respectively.
+The second line contains N−1 space-separated integers P2​,P3​,…,PN​, where Pi​ is the parent of vertex i.
+The third line contains N−1 space-separated integers W2​,W3​,…,WN​, where Wi​ is the weight of the edge between vertices i and Pi​.
+The next Q lines contain queries you will have to answer. The description of Q queries follows.
+The i-th line contains an integer Ki​ followed by Ki​ distinct space-separated integers v1​,v2​,…,vKi​​, where Ki​ is the number of vertices in this query and v1​,v2​,…vKi​​ denote the vertices themselves.
+
+Output Format
+For each test, print one line containing Q space-separated integers. The i-th of these integers should be the answer to the i-th query.

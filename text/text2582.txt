@@ -1,0 +1,12 @@
+Problem
+Suppose that you have several powers of two, specifically, you have Ai​ numbers equal to 2i for each 1≤i≤N. You want to divide all of these numbers into two groups with equal sum. However, it's not always possible.
+To make it possible, in one operation you are allowed to choose any 1≤i≤N and receive an extra number 2i (in other words, you can increase any Ai​ by 1). Let's define f(A1​,A2​,…,AN​) as the smallest number of operations that you need to make to be able to split the numbers into two groups with equal sums.
+You are given N integers B1​,B2​,…,BN​. Find the sum of f(A1​,A2​,…,AN​) over all tuples (A1​,A2​,…,AN​) with 0≤Ai​≤Bi​ (there are (B1​+1)(B2​+1)…(BN​+1) of them). As this number may be very large, output it modulo 998244353.
+Input Format
+
+The first line of the input contains a single integer T, the number of test cases. The description of the test cases follows.
+The first line of each test case contains a single integer N − the number of integers.
+The second line of each test case contains N space-separated integers B1​,B2​,…,BN​.
+
+Output Format
+For each test case, output the answer modulo 998244353 on a new line.

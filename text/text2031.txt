@@ -1,0 +1,18 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+
+Sereja asks you to find out number of arrays A of size N, i.e. A1, A2, ..., AN (1 ≤ Ai ≤ M), such that for each pair i, j (1 ≤ i < j ≤ N) gcd(Ai, Aj) = 1.
+
+
+As the answer could be large, print it modulo 109 + 7 (1000000007).
+
+Input
+
+First line of the input contain an integer T - number of test cases. 
+
+T tests follow. First line of each test case contain two space separated integers N, M. 
+
+Output
+
+For each test case output required answer modulo 10^9 + 7.
+

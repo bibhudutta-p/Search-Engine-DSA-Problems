@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You are given a sequence of integers A1​,A2​,…,AN​. You have to answer Q queries.
+In each query, you are given two integers L and R, and you have to find the number of ordered pairs (X,Y) such that L≤X,Y≤R and AX​≤AX​⊕AY​≤AY​. Here, ⊕ is the bitwise XOR operator.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+Each of the next Q lines contains two space-separated integers L and R describing a query.
+
+Output
+For each query, print a single line containing one integer ― the number of valid pairs.

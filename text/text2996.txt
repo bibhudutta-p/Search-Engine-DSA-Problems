@@ -1,0 +1,15 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given an undirected graph G with N vertices (numbered 1 through N) and M edges (numbered 1 through M). G does not contain any self-loops, but it may contain parallel edges. For each valid i, the i-th vertex has a non-negative integer weight Ai​. Also, for each valid i, the i-th edge has a non-negative integer weight Bi​.
+Let E={1,2,…,M} denote the set of edges and for any subset S⊆E, let V(S) denote the set of vertices which are endpoints of at least one edge from S. You should find
+S⊆E,∣S∣≤Kmax​(v∈V(S)∑​Av​−e∈S∑​Be​).
+In other words, among all subsets of at most K (but possibly zero) edges, you should find the largest value of the expression "sum of weights of their endpoints, where each endpoint is counted only once, minus the sum of weights of these edges". Note that S may contain multiple parallel edges with the same weights ― they are still considered distinct.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, M and K.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+M lines follow. For each valid i, the i-th of these lines contains three space-separated integers ui​, vi​ and Bi​, describing an edge between vertices ui​ and vi​ with weight Bi​.
+
+Output
+For each test case, print a single line containing one integer ― the largest value of the given expression.

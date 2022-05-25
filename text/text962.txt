@@ -1,0 +1,14 @@
+Problem
+Read problems statements in Mandarin Chinese and Russian.
+Nobody knows, but N frogs live in Chef's garden.
+Now they are siting on the X-axis and want to speak to each other. One frog can send a message to another one if the distance between them is less or equal to K.
+Chef knows all P pairs of frogs, which want to send messages. Help him to define can they or not!
+Note : More than 1 frog can be on the same point on the X-axis.
+Input
+
+The first line contains three integers N, K and P.
+The second line contains N space-separated integers A1​, A2​, ..., AN​ denoting the x-coordinates of frogs".
+Each of the next P lines contains two integers A and B denoting the numbers of frogs according to the input.
+
+Output
+For each pair print "Yes" without a brackets if frogs can speak and "No" if they cannot.

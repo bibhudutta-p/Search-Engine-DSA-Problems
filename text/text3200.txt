@@ -1,0 +1,21 @@
+Problem
+It's Valentine's Month, and so Chef wants to gift a string to Chefina. He knows that Chefina likes palindromic strings. Chef has a string S consisting of digits from 0 to 9. He wants to convert this to a palindrome by performing zero or more operations, where an operation is defined as follows:
+
+Pick any digit and replace all of its occurrences with any other digit.
+
+For example, if S=12123, in one move it can be turned into 14143 or 12128, but not 32123.
+You are also given N integers cost1​,cost2​,…,costN​, where the cost of performing an operation that replaces X characters is costX​.
+Your task is to help Chef minimize the cost of converting his string to a palindrome.
+Input Format
+
+The first line of the input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of 3 lines of input.
+
+The first line of each test case contains a single integer N, denoting the length of the string.
+The second line of each test case contains a string of length N, consisting of only the digits 0 to 9.
+The third line of each test case contains N space-separated integers, denoting the cost array.
+
+
+
+Output Format
+For each test case, output on a new line the answer — the minimum cost to convert the string to a palindrome.

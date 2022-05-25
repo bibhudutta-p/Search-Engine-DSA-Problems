@@ -1,0 +1,16 @@
+Problem
+You are in a grid of dimensions N×M.
+You are allowed to perform two types of operations:
+
+Go down, left, up, or right each for a cost of X. Formally, if you are at the cell (i,j) of the grid, you can go to either of the cells (i+1,j), (i,j−1), (i−1,j) or (i,j+1) at a cost of X.
+Go diagonally down-left, down-right, up-left, up-right, for a cost of Y. Formally, if you are at the cell (i,j) of the grid, you can go to either of the cells (i+1,j−1), (i+1,j+1), (i−1,j−1) or (i−1,j+1) at a cost of Y.
+
+You cannot exit the grid at any point. Find the minimum cost of going to the bottom-right corner (N,M) from the top-left corner (1,1).
+Note: Since input-output is large, prefer using fast input-output methods.
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains of a single line of input, four space separated integers integers: N,M,X,Y.
+
+Output Format
+For each testcase, output the answer in a new line.

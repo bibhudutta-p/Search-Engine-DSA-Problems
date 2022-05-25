@@ -1,0 +1,17 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+Chef passed all the exams. This month was really tiring. So, he decided to relax for a little bit. Well, there is no better way to relax than to play with sets of numbers.
+Chef loves to solve problems about sets. That does not mean that he is any good at it. Anyway, he opened his favorite problemset archive, and there he found a task that he thinks is best suited to him. 
+Problem description
+You are given N sets and Q queries. Initially, each set consists only of a single element. The sets are indexed from 1 to N, and the ith set contains the number i. Each query may be one of the following two types.
+
+
+UNION a b - merge the ath and the bth. The new set will hold the index N + number of union operations before this one + 1. Also, after this operation, the ath set and the bth set will no longer exist.
+GET a k - find the kth smallest element in the set indexed a
+
+
+Please help our dear Chef! :)
+Input
+The first line of the input contains two integers N and Q denoting the number of sets in the very beginning and the number of queries. Each of the next Q lines contains one query per line - either UNION a b" or GET a k.
+Output
+For each query of second type (i.e. GET) output the number that you've found.

@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given N points in D-dimensional space. The ith point has D coordinates - xi,1​,xi,2​,…,xi,D​.
+Consider a weighted undirected complete graph with these N points as its vertices. Weight of the edge between points i and j is ∣xi,1​−xj,1​∣+∣xi,2​−xj,2​∣+…+∣xi,D​−xj,D​∣.
+Find the weight of the maximum spanning tree of this graph.
+Input:
+
+The first line contains two integers N,D.
+The i-th of the next N lines contains a description of the i-th point. It has D integers: xi,1​,xi,2​,…,xi,D​.
+
+Output:
+Output a single line which contains a single integer - the Maximum Spanning Tree Weight

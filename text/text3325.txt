@@ -1,0 +1,20 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Problem description.
+You are given a convex polygon of n vertices P1, P2, ..., Pn (in counter-clock or clock order). Each vertex is assigned with a weight wi.
+Find a subset of vertices that includes vertex 1.
+1 = i1 < i2 < ... < ik ≤
+ n that maximizes ratio:
+(dist(i1, i2) + dist(i2, i3) + ... + dist(ik, i1)) / (wi1 + wi2 + ... + wik).
+Where dist(i, j) refers to Euclidean distance between two points Pi, Pj.
+ 
+Input
+The first line contains an integer T denotes the number of test cases. Each test case is describes as follow: 
+An integer n on a single line.
+n next lines, each line contains two integers, that is coordinates of i-th vertex
+The last line contains n space-seperated integer, denotes weight of vertex.
+ 
+Output
+Each testcase output the maximum ratio can reach on a single line.
+Your answer will be considered correct if it has an absolute error less then 10-6.
+ 

@@ -1,0 +1,25 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, and Bengali as well.
+Two arrays A and B of size N are equivalent if for every (i,j) (1≤i<j≤N), Bi​=Bj​ if and only if Ai​=Aj​. For example, [1,2,2], [10,11,11], [5,1,1] are equivalent, while [1,2,3,1], [10,20,10,10] are not.
+There is a hidden array of N integers, where the elements are numbered from A1​,A2​,…,AN​. Your task is to guess any array which is equivalent to the hidden array by asking the following query at most Q times. The elements of the guessed array must be within the range [1,109].
+In each query, you give a subset of indices {i1​,i2​,…,ik​} in the array i.e some subset of {1,2,…,N} and the judge returns the frequency of most frequent element among {Ai1​​,Ai2​​,…,Aik​​}. Note that the indices must be distinct and the order doesn't matter.
+For example, consider the array [10,3,1,10,1,1,3].
+
+The ouput of query {2,3,4,7} is 2. (3 occurs maximum number of times i.e 2 times)
+Ouput of query {2,3,1,4,5} is 2. (Both 1 and 10 occur 2 times)
+
+Interaction
+First, you should read the number of test cases T.
+For each test case, you should read two integers N and Q.
+Then you may ask questions:
+
+Output ? followed by an integer denoting the number of elements in subset followed by the indices ?ki1​i2​…ik​.
+Read an integer x denoting the answer to your query.
+If the query was invalid or you have exceeded the query limit, judge prints '-1' and exits with wrong answer verdict. In this case, you must also terminate your program.
+
+When you have determined the answer, print the character ! followed by N space-separated integers denoting the array !A1​A2​…AN​. Note that this does not count towards a query.
+Now you must read an integer denoting that your answer is correct or not.
+
+If your answer is correct, judge prints '1'. In this case, you should continue solving the remaining test cases.
+If your answer is incorrect, judge prints '-1' and exits with wrong answer verdict. You must also terminate your program in this case otherwise, you may receive any verdict.
+

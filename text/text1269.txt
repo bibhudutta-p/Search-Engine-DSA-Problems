@@ -1,0 +1,8 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+You have an array of integers A1, A2, ..., AN. The function F(P), where P is a subset of A, is defined as the XOR (represented by the symbol ⊕) of all the integers present in the subset. If P is empty, then F(P)=0.
+Given an integer K, what is the maximum value of K ⊕ F(P), over all possible subsets P of A?
+Input
+The first line contains T, the number of test cases. Each test case consists of N and K in one line, followed by the array A in the next line.
+Output
+For each test case, print the required answer in one line.

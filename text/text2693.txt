@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a permutation p1​,p2​,…,pN​. Let's denote a contiguous subsequence pl​,pl+1​,…,pr​ in it by [l,r] and call it interesting if max(pl​,pl+1​,…,pr​)−min(pl​,pl+1​,…,pr​)=r−l.
+Next, let's say that two interesting subsequences [a,b] and [c,d] are nested if a≤c≤d≤b or c≤a≤b≤d, and they are interleaved if max(a,c)≤min(b,d), but they are not nested. The intersection of two such interleaved subsequences is the subsequence [max(a,c),min(b,d)].
+You need to find the number of ordered pairs of interesting contiguous subsequences such that they are interleaved and their intersection contains at least X elements. Since this number may be very large, compute it modulo 998,244,353.
+Input
+
+The first line of the input contains two space-separated integers N and X.
+The second line contains N space-separated integers p1​,p2​,…,pN​.
+
+Output
+Print a single line containing one integer ― the number of valid pairs of interesting subsequences modulo 998,244,353.

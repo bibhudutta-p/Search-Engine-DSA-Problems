@@ -1,0 +1,11 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+You are given an undirected graph G = (V, E). We define a function f(s) for s ⊆ V to be the number of edges in the induced subgraph of s.
+The problem asks you to calculate the sum of f(s)k over all s in 2|V| subsets of V.
+As the answer could be very large, output it modulo (109+7).
+Input
+The first line of input contains an integer T denoting the number of test cases.
+For each test case, the first line contains three space-separated integers n = |V|, m = |E| and k.
+Then m lines follow, each line contains two space-separated integers u, v denoting an edge (u, v) is in E.
+Output
+For each test case, output one line containing one integer, the answer modulo (109+7).

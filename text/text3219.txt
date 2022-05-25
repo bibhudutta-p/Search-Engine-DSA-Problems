@@ -1,0 +1,17 @@
+Problem
+ Read problems statements in Mandarin Chinese and Russian as well.
+There are N cards placed in a row, where every card has two numbers written on it, one on the top and 
+one on the bottom. The numbers are between 1 and N (both inclusive). Every number is written on the top of exactly one card, and on the bottom of exactly one card as well.
+
+Chef wants to rearrange the cards, such that the length of the longest common contiguous subsequence between the sequence formed by number written on top of the cards, and that formed by those written on the bottom is maximum. He can't modify the numbers written on any card and can't flip the cards, that is, for any card the number written on top remains at the top and the number written on bottom stays at the bottom. Find out the maximum possible length of the common contiguous subsequence.
+
+Input
+The first line of input contains an integer T denoting the number of test cases. 
+
+The first line of each test
+case contains an integer N.
+The next line contains N space separated  integers A1,  A2, ... , AN, where Ai(1 ≤ i ≤ N) is the number written on the top of the i-th card.
+The next line contains N space separated  integers B1,  B2, ... , BN, where Bi(1 ≤ i ≤ N) is the number written at the bottom of the  i-th card. 
+
+Output
+For each test case, output a single line containing the integer L: the maximum length of the longest common contiguous subsequence.

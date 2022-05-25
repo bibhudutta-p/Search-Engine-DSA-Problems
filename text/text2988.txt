@@ -1,0 +1,13 @@
+Problem
+You are given 2 string A and B and an integer K. You have to find a substring of length K such that it is common in both the strings i.e. present in both String A and B.
+A substring of a string is a contiguous subsequence of that string. For Example, string "bite" is substring of string "biteration", but string "bion" is not.
+If there are multiple such K length substrings which are present in both A and B, then you have to find the one which occurs maximum no of times in both strings combined i.e. the sum of occurrences in both the strings is maximum.
+If still, there are multiple such K length substrings with max Occurrence and common in both, then u have to find the one which is lexicographically smallest among them.
+Input:
+
+First line contains number of Test Cases T.
+First line of each Test Case contains 3 integers N, M and K, denoting Length of string A, length of string B and Length of Common Substring respectively.
+Next 2 lines contains the strings A and B respectively consisting only of lowercase Latin characters.
+
+Output:
+For each testcase, in a single line, you have to output the required common substring, or if no such substring exists, output "-1"(without quotes).

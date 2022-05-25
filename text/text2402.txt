@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Shortly after joining the Parliament, our Chef has been elected as the new Prime Minister. Now, being the PM, he can do one good or bad deed per day. Initially, Chef has a reputation with his cabinet equal to 0; when he does a good deed, his reputation increases by 1 and when he does a bad deed, his reputation decreases by 1.
+Chef plans to do exactly p good deeds and exactly q bad deeds. However, to do a bad deed, his reputation must be strictly greater than c (before doing this deed) — otherwise, he would lose the confidence of his cabinet and be forced to resign.
+DGP Vaibhav has been dealing with corrupt ministers for a long time. In the past, he has arrested M corrupt ministers. For each 1≤i≤M, when the i-th minister was arrested, that minister had done gi​ good deeds and bi​ bad deeds. Over time, Vaibhav has become an expert at detecting and arresting corrupt ministers — Chef is certain that immediately after he performs exactly gi​ good deeds and exactly bi​ bad deeds (for some i between 1 and M inclusive), he will end up arrested by Vaibhav. Since Chef plans to be a good PM, we may assume he won't be arrested by Vaibhav for any other reason.
+Compute the number of sequences of good and bad deeds Chef can perform in order to execute his plan without getting arrested by Vaibhav or losing the confidence of his cabinet, modulo 109+7.
+Input
+
+The first line of the input contains four space-separated integers p, q, c and M denoting the total number of good deeds, total number of bad deeds, the reputation threshold and the number of previously arrested ministers.
+Each of the following M lines contains two space-separated integers g and b denoting the number of good deeds and the number of bad deeds of an arrested minister.
+
+Output
+Print a single line containing one integer — the number of possible sequences modulo 109+7.

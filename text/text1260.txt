@@ -1,0 +1,22 @@
+Problem
+You are given an integer N and a (0-indexed) binary string A having length N+1.
+Find any permutation P of 0,1,2,...,N−1 (or determine that it does not exist) that satisfies the following conditions for all i (0≤i≤N):
+
+if Ai​=0: No contiguous segment of P has mex equal to i
+if Ai​=1: There exists at least one contiguous segment of P that has mex equal to i
+
+If multiple permutations exist that satisfy the given conditions, print any.
+Note: mex of a segment is the smallest non-negative number that does not occur in that segment.
+Input Format
+
+The first line contains the number of test cases T. Description of the test cases follows.
+The first line of each test case contains a single integer N.
+The second line of each test case contains the binary string A of length N+1.
+
+Output Format
+For each test case print :
+
+Yes if there exists a permutation P that satisfies the conditions described in the statement, followed by the permutation P in the next line (If multiple permutations exist that satisfy the given conditions, print any).
+No otherwise.
+
+You may print each character of Yes and No in uppercase or lowercase (for example, yes, yEs, YES will be considered identical).

@@ -1,0 +1,17 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+Chef's dog Snuffles has so many things to play with! This time around, Snuffles has an array A containing N integers: A1, A2, ..., AN.
+Bad news: Snuffles only loves to play with an array in which all the elements are equal.
+Good news: We have a mover of size D. ! 
+A mover of size D is a tool which helps to change arrays. Chef can pick two existing elements Ai and Aj from the array, such that i + D = j and subtract 1 from one of these elements (the element should have its value at least 1), and add 1 to the other element. In effect, a single operation of the mover, moves a value of 1 from one of the elements to the other.
+Chef wants to find the minimum number of times she needs to use the mover of size D to make all the elements of the array A equal. Help her find this out.
+Input
+
+The first line of the input contains an integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two integers N and D, denoting the number of elements in the array and the size of the mover. 
+The second line of each testcase contains N space-separated integers: A1, A2, ..., AN, denoting the initial elements of the array. 
+
+Output
+
+For each test case, output a single line containing the minimum number of uses or -1 if it is impossible to do what Snuffles wants.
+

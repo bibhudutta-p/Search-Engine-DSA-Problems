@@ -1,0 +1,18 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef is very happy today because he got an offer from Gordon Ramsay himself to work for him in London. Chef wants to prepare a delicious cake for Gordon to impress him, but he does not know that Gordon Ramsay is not easy to impress.
+Gordon cut Chef's cake into N small slices (numbered 1 through N), placed in a row in such a way that for each valid i, slices i and i+1 are adjacent. Note that slices N and 1 are not adjacent. For each valid i, the i-th slice has taste Ai​. Gordon wants to put special toppings on some slices and then ask Chef to group all slices into K clusters in such a way that the slices in each cluster form a contiguous sequence and the sweetness of the cake is maximum possible.
+For each valid i, let's denote the topping on the i-th slice by ti​ (ti​=0 if there is no topping on this slice); the sweetness of this slice is ti​⋅Ai​, so the sweetness of a slice without any special topping is 0.
+The sweetness of a cluster is the total (summed up) sweetness of all slices in this cluster. Let's denote the sweetnesses of all clusters by S1​,S2​,…,SK​. The sweetness of the whole cake is computed as S1​∗S2​∗…∗SK​, where the operation ∗ is defined in the following way: for any non-negative integers x and y such that x≥y,
+x∗y=y∗x=∑n=0⌊log2​(x)⌋​2n(⌊2nx​⌋mod2)(⌊2ny​⌋mod2).
+It can be proven that this operation is associative, i.e. (x∗y)∗z=x∗(y∗z).
+You should answer Q queries. In each query, you are given the toppings on all slices and the number of clusters K. Tell Chef the maximum possible sweetness of the cake!
+Input
+
+The first line of the input contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+The next line contains a single integer Q.
+For each query, two lines follow. The first of these lines contains a single integer K. The second line contains N space-separated integers t1​,t2​,…,tN​.
+
+Output
+Print a single line containing one integer — the maximum sweetness.

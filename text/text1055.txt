@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Hindi,
+Mandarin chinese
+, Russian and Vietnamese as well.
+At ShareChat, there are are plenty of interesting problems to solve. Here is one of them.
+Given integers A, B and N, you should calculate the GCD of AN+BN and ∣A−B∣. (Assume that GCD(0,a)=a for any positive integer a). Since this number could be very large, compute it modulo 1000000007 (109+7).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains three space-separated integers A, B and N.
+
+Output
+For each test case, print a single line containing one integer — the required GCD modulo 109+7.

@@ -1,0 +1,14 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+The map of Ancient ChefLand can be represented as a graph with N nodes, denoting the cities and N-1 edges, denoting the roads connecting these cities. It was possible to get from any city of Ancient ChefLand to any other one using only these roads, possibly, via some intermediate cities in a unique simple path. So, in other words, the city-road structure of this country could be represented as a tree.
+There were M counties in the ChefLand, numbered 1 through M. Each county had a country, consisting of at least one city. Because of the constant wars between the counties, it was not guaranteed that it is possible to get from one city of the county to any other city of this county only via the cities, belonging to the county.
+Sometimes, the counties were in battles against each other. The battle could be defined by a pair of integers (Vi and Ci), denoting that the counties Ci attacked a city Vi. Sometimes, the counties could attack their own cities, by a mistake.
+Sergey studies the history of Ancient ChefLand. Now he read about the attacks of the cities and now he wonders to know the distance to the closest city to the attacked one, which belongs to the attacker county. In other words, for each query he wants to find minimal distance to any city of the county Ci from the city Vi. Please help him to find these values.
+Input
+The first line of the input contains two space-separated integer numbers N and M, denoting the number of the cities and the number of counties.
+The second line contains N space separated integer numbers Oi, denoting the county owning the ith city.
+Each of the following N-1 lines contains two space-separated numbers Xj Yj, denoting a road connecting the cities Xj and Yj.
+The following line contains an integer number Q, denoting the number of attacks.
+Each of Q following lines contains two space-separated integers Vi Ci, denoting an attack. For this pair of integers you will need to find the minimal distance from any city belonging to the county Ci to the city Vi.
+Output
+For each of Q queries, output the sought minimal distance on a separate line.

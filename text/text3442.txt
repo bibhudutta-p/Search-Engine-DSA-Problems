@@ -1,0 +1,24 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Technology has advanced so much that it is now common for everyone to have robots do their work. Codechef is still the popular choice of competitive programming platform, the reason being great quality of problems.
+One fine day, Taran decided to gain access to all problems by beating Master Chef of Codechef in a robot war.
+There are N types of robots numbered 1 through N with an infinite supply for each type. If two robots of different types fight, one of them wins and the other loses; you are given a matrix M with size N×N, where for each valid i,j, a robot of type i wins against a robot of type j if Mij​=1. If two robots of the same type fight, the result is a draw.
+Chef will buy N robots in total and Taran will also buy N robots in total. Both Taran and Chef can buy any number of robots of each type, including zero. Taran cleverly decided to buy his robots only after knowing the N robots bought by Chef, so that his chances of winning are maximized.
+After buying the robots, the war begins. It happens in N turns; two robots fight in each turn, one of them is Chef's and the other is Taran's. For the first A turns, Chef chooses his robot as well as Taran's robot which will fight in the current turn. For the next B turns, Taran chooses his robot as well as Chef’s robot that will fight against each other. At the end of a turn, both robots are completely destroyed and can't be used again.
+Since Master Chef trusts his talented programmers, you were asked to fight against Taran to save their problems for future contests. Your goal is to maximize the number of turns when your robot won a fight.
+P.S.: After seeing this problem, Taran decided to befriend Master Chef instead. The problems are safe now.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, A and B.
+For each i (1≤i≤N), the i-th of the following N lines contains N space-separated integers Mi1​,Mi2​,…,MiN​.
+
+Interaction
+
+After reading the input, you should print a line containing N integers. For each valid i, the i-th of these integers denotes the number of robots of type i you bought.
+Afterwards, you should read a line containing N integers describing Taran's robots in the same format.
+Then the war begins. For each of the first A turns, you should print a line containing two space-separated integers x and y, where x is the type of the robot fighting for Chef and y is the type of robot fighting for Taran.
+For each of the next B turns, the judge will print a line containing two space-separated integers x and y, describing the robots fighting in this turn in the same format.
+
+You are not allowed to buy less or more robots than N or to choose (neither for Chef nor for Taran) a robot of a type such that there are no robots of this type remaining. If you do that, the verdict of your submission will be Wrong answer and interaction will terminate immediately. Also, remember to flush the output after printing each line, or the judge will wait for your response forever and the verdict of your submission will be Time Limit Exceeded.
+It is to be noted that first, you have to read input for first test case, followed by interaction for the first test case, then input for second test case and its interaction and so on.

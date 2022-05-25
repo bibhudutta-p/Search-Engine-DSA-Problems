@@ -1,0 +1,18 @@
+Problem
+ Read problems statements in Mandarin Chinese , Russian and Vietnamese as well.
+In Ancient Berland, there were N towns, along with M bidirectional roads connecting them. With time, some roads became unusable, and nobody repaired them.
+As a person who is fond of Ancient Berland history, you now want to undertake a small research study. For this purpose, you want to write a program capable of processing the following kinds of queries:
+
+D K : meaning that the road numbered K in the input became unusable. The road numbers are 1-indexed.
+P A x : meaning that the population of the Ath town became x.
+
+
+Let's call a subset of towns a region if it is possible to get from each town in the subset to every other town in the subset by the usable (those, which haven't already been destroyed) roads, possibly, via some intermediary cities of this subset. The population of the region is, then, the sum of populations of all the towns in the region.
+You are given the initial road system, the initial population in each town and Q queries, each being one of two types above. Your task is to maintain the size of the most populated region after each query.
+Input
+The first line of each test case contains three space-separated integers — N, M, and Q — denoting the number of cities, the number of roads, and the number of queries, respectively.
+The following line contains N space-separated integers, the ith of which denotes the initial population of the ith city.
+The jth of the following M lines contains a pair of space-separated integers — Xj, Yj — denoting that there is a bidirectional road connecting the cities numbered Xj and Yj.
+Each of the following Q lines describes a query in one of the forms described earlier.
+Output
+Output Q lines. On the ith line, output the size of the most populated region after performing i queries.

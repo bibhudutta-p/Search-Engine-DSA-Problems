@@ -1,0 +1,31 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+There are B blocks (numbered 1 through B) distributed in N containers (numbered 1 through N). For each valid i, the weight of the i-th block is Wi​ kilograms.
+For each container i, you should decide if it will be used like a stack or a queue. At any time, a container may contain any sequence of blocks (possibly the empty sequence); let's denote the number of the j-th block (indexed from 1) in the i-th container by Ai,j​.
+A stack is a data structure that stores a sequence of integers (X1​,X2​,…,XM​) and supports two types of instructions:
+
+pop: Remove the last element of the sequence. After this instruction, the sequence becomes (X1​,…,XM−1​); it must be non-empty before this instruction. The return value of this instruction is XM​.
+push a: Add an element a at the end of the sequence. After this instruction, the sequence becomes (X1​,…,XM​,a).
+
+Similarly, a queue is a data structure that stores a sequence of integers (X1​,X2​,…,XM​) and supports two types of instructions:
+
+pop: Remove the first element of the sequence. After this instruction, the sequence becomes (X2​,…,XM​); it must be non-empty before this instruction. The return value of this instruction is X1​.
+push a: Add an element a at the end of the sequence. After this instruction, the sequence becomes (X1​,…,XM​,a).
+
+For each valid i, it takes Ci​⋅w nanoseconds to pop a block with weight w from the container i and Di​⋅w nanoseconds to push a block with weight w to the container i.
+Using the given data structures, you may perform the following operation at most B2/2 times: choose two containers c1​ and c2​ (c1​=c2​), pop a block from the c1​-th container and then push this block to the c2​-th container.
+Your task is to sort all the blocks in a single container, i.e. after performing all operations, the sequence of blocks in some container must be (1,2,…,B). The time spent performing operations should be as small as possible.
+Input
+
+The first line of the input contains two space-separated integers N and B.
+The second line contains N space-separated integers C1​,C2​,…,CN​.
+The third line contains N space-separated integers D1​,D2​,…,DN​.
+The fourth line contains B space-separated integers W1​,W2​,…,WB​.
+The next N lines describe the initial distribution of blocks in containers. For each valid i, the i-th of these lines contains an integer M denoting the number of blocks which are initially in the i-th container, followed by a space and M space-separated integers Ai,1​,Ai,2​,…,Ai,M​ denoting the sequence of blocks which are initially in this container.
+
+Output
+
+First, print a line containing a string with length N. For each valid i, the i-th character of this string should be either 'S' if the i-th sequence is used as a stack or 'Q' if it is used as a queue.
+Then, print a line containing a single integer Q ― the number of operations to perform.
+Finally, print Q lines. Each of these lines should contain two space-separated integers c1​ and c2​ describing an operation that pops an element from the c1​-th container and pushes it into the c2​-th container.
+

@@ -1,0 +1,17 @@
+Problem
+Chef and two of his friends are going on a biking trip this new year. They decided to rent three bikes from a shop.
+The shop has N bikes, the i-th of which has a mileage of Mi​.
+Chef and friends decided that they would rent three distinct bikes i,j,k satisfying the following property:
+(Mi​⊕Mj​)&Mk​=Mi​⊕(Mj​&Mk​)
+where ⊕ denotes bitwise XOR and & denotes bitwise AND.
+Please help them find out the number of different ways in which they can select the bikes.
+Note that two ways are considered to be different if the ordered triples of indices (i,j,k) are distinct, so for example (1,2,3), (1,2,4) and (1,3,2) are all distinct even if the bikes are such that M1​=M2​=M3​=M4​=1.
+Input Format
+
+The first line contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of two lines:
+The first line contains an integer N, denoting the number of bikes available.
+The next line contains N space-separated integers M1​,M2​,…,MN​ denoting the mileage of each bike.
+
+Output Format
+For each test case, output a single line containing one integer - the number of ways to choose a triple of bikes.

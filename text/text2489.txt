@@ -1,0 +1,18 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef and Chefina are playing a game.
+Chef has N monsters (numbered 1 through N). For each valid i, the i-th monster has a value V1,i​ and it is either in attack mode or defense mode. The initial states of the monsters are described by a string D1​: for each valid i, the i-th monster is in attack mode if the i-th character of D1​ is 'A' or in defense mode if the i-th character is 'D'.
+Chefina has M monsters (numbered 1 through M). Their values are V2,1​,V2,2​,…,V2,M​ and their initial states are described by a string D2​ in the same way.
+In the game, the players alternate turns; Chef plays first. During each turn, the current player may either end the game immediately or do the following: choose one of their own living monsters in attack mode, choose a monster of the other player in defense mode, attack and kill this defending monster and change the attacking monster to defense mode. Note that once a monster is in defense mode, it never changes to attack mode.
+Each player is trying to maximise the difference X−Y, where X is the sum of values of this player's living monsters (in both modes, but only if they are alive) and Y is the sum of values of the opponent's living monsters. Assuming that both players are playing optimally, calculate the sum of values of Chef's living monsters minus the sum of values of Chefina's living monsters after the game ends.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+The second line contains N space-separated integers V1,1​,V1,2​,…,V1,N​.
+The third line contains a single string D1​ with length N.
+The fourth line contains M space-separated integers V2,1​,V2,2​,…,V2,M​.
+The fifth line contains a single string D2​ with length M.
+
+Output
+For each test case, print a single line containing one integer ― the sum of values of Chef's living monsters minus the sum of values of Chefina's living monsters after the game ends.

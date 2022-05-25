@@ -1,0 +1,13 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef and his brother Chefu are playing a game with a sequence of N integers.
+They take alternate turns to play. In each turn, the player should choose two adjacent integers from the sequence, remove them, and put in their place either their sum or their product. So if the sequence is (5,17,2,4,102), then one valid move would be to select 2 and 4, and replace them with their product, which is 8. So the sequence now becomes (5,17,8,102). They could also have been replaced by their sum, and in that case, the new sequence would become (5,17,6,102).
+The game continues until there's only one integer left in the sequence. If this integer is even, then Chef is the winner, otherwise Chefu is the winner.
+Given the initial sequence and the player who will play the first turn, you should tell who is going to win the game assuming that both of them play optimally.
+Input
+The first line of the input contains an integer T denoting the number of test cases.
+First line of each test-case contains N, the length of the initial sequence. and a string which is either "Chef" or "Chefu" denoting who will play first.
+The second line contains N space-separated integers A1, A2, ..., AN denoting the initial sequence.
+ 
+Output
+For each test case, output a single line containing who will win the game: "Chef" or "Chefu".

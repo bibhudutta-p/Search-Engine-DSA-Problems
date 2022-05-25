@@ -1,0 +1,14 @@
+Problem
+Read problems statements in Hindi, Spanish, Mandarin chinese, Russian, Vietnamese and Bengali as well.
+In ChefLand, there is a mountain range consisting of N hills (numbered 1 through N) in a straight line. Let's denote the height of the i-th hill from the left by hi​.
+Ada is working on the water supply system of ChefLand. On some of the hills, she wants to place water reservoirs; then, for each reservoir, she will decide in which direction the water should flow from it — either to the left or to the right (water may not flow in both directions from the same reservoir). From a reservoir on a hill with height h, water flows in the chosen direction until it reaches the first hill that is strictly higher than h; all hills before this hill (including the hill containing the reservoir) are therefore supplied with water.
+For example, suppose we have hills with heights [7,2,3,5,8]. If we place a reservoir on the hill with height 5, and pump water from it to the left, then the hills with heights 2, 3 and 5 are supplied with water.
+Help Ada find the minimum numer of reservoirs needed to provide water to all the hills if she chooses the directions optimally.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers h1​,h2​,…,hN​.
+
+Output
+For each test case, print a single line containing one integer — the minimum required number of reservoirs.

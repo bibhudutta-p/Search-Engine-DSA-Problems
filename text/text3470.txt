@@ -1,0 +1,25 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+
+Sereja has a cube A of N x N x N cells. The
+the cell at position (X, Y, Z) contains a number A[X][Y][Z]. You have to to find a sequence of cells (X[1], Y[1], Z[1]), (X[2], Y[2], Z[2]), ..., (X[K], Y[K], Z[K]) (triples of integers between 1 and N) satisfying the following properties:
+
+ The first cell lies on the front side, i.e. X[1] = 1. 
+ Each pair of consecutive cells in the sequence are adjacent. Here, we say two cells (X, Y, Z), (X', Y', Z') are adjacent if |X-X'| + |Y-Y'| + |Z-Z'| = 1.
+ Two non-consecutive cells in the sequence are not adjacent. That is, if i and j are two indices into the sequence with i+2 ≤ j then |X[i]-X[j]| + |Y[i]-Y[j]| + |Z[i]-Z[j]| ≠ 1. 
+ No two cells in the sequence are the same. 
+
+
+
+Help Sereja, find such a sequence that maximize the sum of the numbers stored at the cells in the sequence.
+
+Input
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+
+The first line of each test case contains integer N. Then N blocks of input follow where each block consists of N lines, each containing N integers. The X-th number in the Y-th line of Z-th block is the value A[X][Y][Z].
+
+Output
+
+The first line of output for each test case should contain number K - the number of cells in the sequence. The next K lines should contain three space-separated integers: the X,Y,Z indices of the cell.
+

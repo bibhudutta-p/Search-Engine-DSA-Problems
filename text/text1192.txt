@@ -1,0 +1,17 @@
+Problem
+Read problems statements in Mandarin chinese, Russian  and Vietnamese as well.
+You have a sequence a with length N created by removing some elements (possibly zero) from a permutation of numbers (1,2,…,N). When an element is removed, the length of the sequence doesn't change, but there is an empty spot left where the removed element was. You also have an integer K.
+Let's call a permutation p1​,p2​,…,pN​ good if:
+
+it is possible replace empty spots in a by numbers in such a way that we obtain the permutation p
+the number of positions i (1<i≤N) such that pi​>pi−1​ is equal to K
+
+Your task is to find the number of good permutations.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The second line contains N space-separated integers a1​,a2​,…,aN​. Each element of this sequence is either 0 (indicating an empty spot previously occupied by a removed element) or an integer between 1 and N inclusive.
+
+Output
+For each test case, print a single line containing one integer — the number of good permutations.

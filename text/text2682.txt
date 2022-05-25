@@ -1,0 +1,16 @@
+Problem
+
+A string consisting only of parentheses ('(' and ')') is called a bracket sequence. Some bracket sequence are called correct bracket sequences(CBS). More formally:
+
+Empty string is a CBS.
+If S is a CBS, then (S) is also a CBS.
+If S and T are CBS, then ST (concatenation of S and T) is also a CBS.
+
+A 'good' CBS is a sequence where the first (N/2) characters are '(' and the next (N/2) characters are ')',where N is the length of sequence.
+You are given two numbers N and K. Find the probability that a N length CBS can be converted into a 'good' CBS by at most K 'good' swaps. A swap is 'good' if the sequence after the swap is a CBS.
+If the answer is of the form P/Q where P and Q are coprime, print (P*Q-1) modulo 1000000007.
+Input Format: 
+The first line contains an integer T, the number of test cases.
+Next T lines contains two space separated integers N, K.
+Output Format:
+For each test case, output the corresponding answer in a separate line.

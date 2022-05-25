@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a rooted tree with N nodes numbered 1,2,…,N. Node 1 is the root node. Some of the nodes have a token in them. In one move, you can choose a non-root node that has a token, but its parent doesn't, and move the token from this node to its parent. What is the maximum number of moves you can make?
+Note: When a token is moved out of a node, the node becomes empty, and other tokens will be able to move there.
+Input
+
+The first line contains an integer T, the number of test cases. Each test case contains three lines.
+The first line of each test case contains an integer N, the number of nodes in the tree.
+The second line contains a string s of length N. The character si​ is 1 if node has a token, and 0 otherwise.
+The third line contains N−1 space separated integers, p2​,p3​,…pN​, where pi​ is the parent of node i.
+
+Output
+For each test case, print the maximum number of moves that can be made on a new line.

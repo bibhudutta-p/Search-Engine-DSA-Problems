@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Istiak is learning about arithmetic progressions. Today, he wrote an arithmetic sequence on a piece of paper. Istiak was very happy that he managed to write an arithmetic sequence and went out for lunch.
+Istiak's friend Rafsan likes to irritate him by playing silly pranks on him. This time, he could have chosen one element of Istiak's sequence and changed it. When Istiak came back, he was devastated to see his sequence ruined — it became a sequence a1​,a2​,…,aN​ (possibly identical to the original sequence, if Rafsan did not change anything, in which case Istiak is just overreacting). Help him recover the original sequence.
+Formally, you have to find an arithmetic sequence b1​,b2​,…,bN​ which differs from a in at most one position. b is said to be an arithmetic sequence if there is a real number d such that bi​−bi−1​=d for each i (2≤i≤N). If there are multiple valid solutions, you may find any one.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers a1​,a2​,…,aN​.
+
+Output
+For each test case, print a single line containing N space-separated integers b1​,b2​,…,bN​. It is guaranteed that a valid solution exists.

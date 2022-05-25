@@ -1,0 +1,19 @@
+Problem
+Read problem statements in Russian, Mandarin and Vietnamese as well.
+To prove that writing graduate work is important, you decided to invent some interesting problem connected to it:
+You are given a weighted complete undirected graph on N nodes. For every pair of vertices (i,j) with 1≤i<j≤N there is an edge with weight D⋅∣i−j∣+cij​ between them, with 0≤cij​<D (remember, that graph is undirected, so there will be edge with such weight in both sides).
+You need to solve the travelling salesman problem on this graph. In other words, you need to find the length of the shortest possible route that visits each node exactly once and returns to the origin node.
+Input Format
+
+
+The first line contains one integer T − the number of test cases. The description of test cases follows.
+
+
+The first line of each test case contains two integers N,D.
+
+
+The i-th of the next N−1 lines contains N−i integers ci,i+1​,…,ci,N​.
+
+
+Output Format
+For each test case print a single integer − the length of the shortest possible route that visits each city exactly once and returns to the origin city.

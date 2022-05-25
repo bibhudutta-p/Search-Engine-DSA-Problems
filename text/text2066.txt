@@ -1,0 +1,27 @@
+Problem
+
+Chef Ciel defined a sequence S as follows:
+S[1] = A
+S[2] = B
+S[i] = (X*S[i-1] + Y*S[i-2] + Z) mod P, for i >= 3
+
+
+Ciel considers C is a lucky number, and the i-th day is a lucky day if and only if S[i] = C.
+Ciel's restaurant may have special events in a lucky day.
+
+
+By the way, your work is calculating the numbers of lucky days in intervals.
+That is, for each Q intervals [L[i], R[i]], 
+you should calculate the number of the integers k which satisfy L[i] <= k <= R[i] and S[k] = C.
+
+Input
+
+The first line contains an integer T, the number of test cases.
+Then T test cases follow.
+The first line for each test case has 8 integers A, B, X, Y, Z, P, C and Q.
+The next Q lines have 2 integers L[i] and R[i].
+
+Output
+
+For each interval, print the number of lucky days in the interval.
+

@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Chef has an integer K and a randomly generated sequence A1​,A2​,…,AN​. He asks you to choose N non-negative integers D1​,D2​,…,DN​ such that Di​≤K for each valid i and add Di​ to Ai​ for each valid i.
+Also, Chef has M primes P1​,P2​,…,PM​. It is guaranteed that for each valid i, Pi​ is the smallest prime greater than Pi−1​. After all addition operations are performed on the sequence A, he finds the product of all elements of A and computes its remainders modulo each prime. Let's denote these remainders by B1​,B2​,…,BM​. Please help Chef maximise M1​∑i=1M​Bi​.
+Input
+
+The first line of the input contains three space-separated integers N, M and K.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+The third line contains M space-separated integers P1​,P2​,…,PM​.
+
+Output
+Print a single line containing N space-separated integers — the sequence A1​,A2​,…,AN​ obtained after performing all additions.

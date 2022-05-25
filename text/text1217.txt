@@ -1,0 +1,17 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+You are given N non-negative integers A1​,A2​,…,AN​. You are allowed to perform following operation any number of times:
+
+Choose any valid index i (1≤i≤N) and a positive integer M>0 and replace Ai​ with Ai​modM. That is, replace Ai​ with its remainder when divided by M, which is a value between 0 and M−1, inclusive.
+M does not need to be same between different operations.
+
+Find the minimum number of operations to make all the array elements equal.
+Note: Since the input and output are large, prefer using fast input-output methods.
+Input Format
+
+The first line contains an integer T - the number of test cases. Then T test cases follow.
+The first line of each test case contains an integer N - the size of array.
+The second line contains N integers A1​,A2​,…,AN​ - the elements of the array.
+
+Output Format
+For each test, print one line containing an integer which denotes minimum number of operations performed to make all the elements equal.

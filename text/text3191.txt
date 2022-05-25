@@ -1,0 +1,24 @@
+Problem
+You are given an array A=[A1​,A2​,…,AN​] containing N elements. You are also given Q ordered pairs of integers, where the i-th pair is denoted (xi​,yi​).
+A subsequence of A, say [Ai1​​,Ai2​​,…,Aik​​], is said to be magical if the following condition is satisfied:
+
+For each 1≤j<k, (Aij​​,Aij+1​​) must be among the given Q pairs. That is, each consecutive pair of elements in this subsequence must be among the given Q pairs.
+
+Find the length of the longest magical subsequence of A, and print the indices of one such longest subsequence.
+If there are multiple longest magical subsequences, you may print the indices of any of them.
+Note: Array contains at least one valid subsequence of length greater than or equal to 2.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases.
+The first line of each test case contains an integer N, denoting the length of the array.
+The second line of each test case contains N space-separated integers representing the elements of the array.
+The third line of each test case contains an integer Q, denoting the number of pairs.
+The i-th of the next Q lines contains two space-separated integers xi​ and yi​ — the i-th ordered pair.
+
+Output Format
+For each test case, print two lines.
+
+The first line should contain a single integer K — the length of the longest magical subsequence of A.
+The second line should contain K space-separated integers in ascending order, denoting the indices of the magical subsequence you found.
+
+In case there are multiple answers, print any of them.

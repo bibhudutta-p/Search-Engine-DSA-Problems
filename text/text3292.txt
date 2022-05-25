@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+You are given an array a of length N and Q queries. Each query is described by a pair of integers, l and r. Answer each query with the following: if we take every subsequence of the elements with indices between l and r (inclusive) and write down their products, what will be the smallest missing positive integer?
+A subsequence of an array is a sequence you obtain by deleting some (possibly zero or all) elements of the array. The product of the empty subsequence is defined to be 1.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+The second line contains N space-separated integers a1​,a2​,…,aN​.
+Each of the next Q lines contains two space-separated integers, l and r, denoting the query's range.
+
+Output
+For each query, output the smallest missing subsequence product on a new line.

@@ -1,0 +1,32 @@
+Problem
+
+There are the big enemies for all chefs, that is, Gs (the plural form of G).
+Chef Ciel find N Gs in her restaurant.
+Ciel is very scared, and she is going to kill the Gs by using insecticides.
+Here M insecticides are available,
+and the price of the j-th insecticide is Cj, and she can use the j-th insecticide for all N Gs if she buys it.
+Unfortunately Gs may have resistance to insecticides, so Gs may be still alive after using some insecticides.
+But we know that if Ciel use the j-th insecticide, the i-th G will be dead with the probability Pi,j%, and these are statistically independent.
+
+
+Chef Ciel would like to buy some insecticides, and then, Ciel may use the insecticides one by one.
+Ciel hopes that the i-th G will be dead with a probability at least 90%, for all i, after using all insecticides which she buys.
+
+
+Your work is selecting a cheaper (cheapest is not necessary) set of distinct insecticides which she buys.
+Don't forget that the set must kill the i-th G with a probability at least 90% for all i.
+
+Input
+
+The first line contains an integer T, the number of test cases.
+Then T test cases follow.
+The first line for each test case has 2 integers N and M.
+The next line has M integers C1, C2, ..., CM.
+Then next N lines have M integers Pi,j, that is the j-th integer of the i-th line.
+
+Output
+
+For each test case, you should print two lines.
+The first line should have an integer K, the number of insecticides which Ciel buys.
+The second line should have K integers, the numbers of insecticides which Ciel buys, in ascending order.
+

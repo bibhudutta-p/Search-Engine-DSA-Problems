@@ -1,0 +1,15 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef has a tree with N vertices (numbered 1 through N). The tree is rooted at the vertex 1. For each valid i, the weight of the i-th vertex is wi​.
+For a vertex u with depth d (the root has depth 1), let's denote the sequence of vertices on the path from u to the root by (v1​,v2​,…,vd​), where v1​=u and vd​=1. Then, let Fu​ be the vector (i.e. sequence) (wv1​​,wv2​​,…,wvd​​), where the i-th element is Fu,i​=wvi​​ for each valid i.
+For any two vertices u and v with the same depth d, let's define the dot product Fu​⋅Fv​=∑i=1d​Fu,i​⋅Fv,i​.
+Your task is to answer Q queries. In each query, you are given two vertices u and v with the same depth, and you should find Fu​⋅Fv​. Since the dot product can be large, compute it modulo 232.
+Input
+
+The first line of the input contains two space-separated integers N and Q.
+The second line contains N space-separated integers w1​,w2​,…,wN​.
+Each of the next N−1 lines contains two space-separated integers u and v denoting that vertices u and v are connected by an edge.
+Q lines follow. Each of these lines contains two space-separated integers u and v describing a query.
+
+Output
+For each query, print a single line containing one integer Fu​⋅Fv​ modulo 232.

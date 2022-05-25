@@ -1,0 +1,15 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Recently, Chef has moved to an evil land. In this land, there is only one bank, which offers N savings plans (numbered 1 through N).
+Initially, Chef has 1 coin in his account. He may choose bank plans for as long as he wishes, in any order; each plan may be chosen any number of times. For each valid i, whenever Chef chooses the i-th savings plan, the number of coins in his bank account gets multiplied by the interest factor Pi​ of this plan (whenever he chooses this plan again, the number of coins is multiplied by Pi​ again).
+Since the bank in the evil land is evil, it always stores the number of coins in each account modulo M. Strangely, M is a prime number.
+Chef knows that he will win the lottery if the number of coins in his bank account becomes exactly F. The bank does not want Chef to win, so it decided to remove some of the N savings plans.
+You are the head of the evil bank. Therefore, you need to remove some (possibly none or all) plans in such a way that Chef cannot win the lottery. Find the minimum number of plans you must remove.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, M and F.
+The second line contains N space-separated integers P1​,P2​,…,PN​.
+
+Output
+For each test case, print a single line containing one integer — the minimum number of plans to remove.

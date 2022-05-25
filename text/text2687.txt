@@ -1,0 +1,13 @@
+Problem
+Given K arrays of length N where the elements are bounded in the range [L,R].
+The Function value of an array is defined as the sum of all elements present in it.
+In one move you can change at most 1 element from all the arrays and the changed value must lie within the range [L,R].
+What is the minimum number of operations required to make the function value of all arrays equal?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains four space-separated integers K, N, L, R.
+Next K lines contains an array of length N.
+
+Output
+For each test case, print the minimum number of operations needed to make the function value of all arrays equal in a new line.

@@ -1,0 +1,18 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+ You have a perfect binary tree of height N. That is, it contains 2N+1 - 1 nodes.
+A path from the root to a leaf can be represented by an integer X which lies between 0 and 2N - 1 (both inclusive) as follows:
+Consider the N length binary representation of X. Start reading from the left, and at each bit, 0 denotes going to the left child, and 1 denotes going to the right child. For eg. if N = 2, and X = 0 = (00)2, it would correspond to the path which goes to the leftmost leaf. X = 3 = (11)2 would correspond to the path from root to the rightmost leaf.
+At the beginning, X = 0, and you have visited only the root till now. Then, you get Q queries. A query can be of two types:
+
+Type 1: "! C": This means that X has to be changed to X = ( X + 2C ) mod 2N, and then you start from the root, and walk down the route represented by the new X.
+Type 2: "?": This means that you should print the number of nodes that you have visited at least once.
+
+Input
+
+The first line contains a single integer T, which denotes the number of testcases. The description of each testcase follows.
+The first line of each testcase contains two integers: N and Q, which denote the height of the tree and the number of the queries respectively.
+Q lines follow, which are the descriptions of the queries. Each line will either be a "! C" or a "?" (without quotes).
+
+Output
+For each query of Type 2, you have to print one integer in a new line

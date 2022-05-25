@@ -1,0 +1,10 @@
+Problem
+ Read problems statements in Mandarin Chinese and Russian as well.
+
+Statement
+Given a string S and several frequencies Fi. For each Fi output the number of substrings of S (the characters of substring should be contiguous) that occur at least Fi times in S. Note, that we consider two substrings distinct if they have distinct length, or they have distinct starting indices.
+Input
+The first line of input contains integer T, the number of test cases.
+The first line of each test case contains string S (it contains only lowercase Latin letters). The second line of each test case contains an integer Q, that is the number of queries to be answered. Then Q lines follows containing Fi each.
+Output
+For each query, output the required answer.

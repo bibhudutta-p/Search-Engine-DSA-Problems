@@ -1,0 +1,38 @@
+Problem
+
+In the magic land, there is an annual parade hold on each spring.
+
+
+There are N cities in magic land, and M directed roads between cities.
+
+On the parade, there will be some(may be 0) heroes travel in this land, for each hero:
+He start at city begin[i], traveling to some cities, and finish at city end[i]. Note that: begin[i] may be equals to end[i], but he must at least moved to another city during this travel. He can go on one road many times, but it will have a cost for each time.
+
+
+The cost of this parade is the sum of these items:
+
+1. The sum of costs by traveling on roads. (If a road is passed by k heroes, then it must be count k times.)
+
+2. If for a hero, he ended at a city that not equals to his start city, i.e. begin[i] != end[i], then it will cost C dollars to move him back to his home.
+
+3. If for a city, there is no heroes visited, then we must pay for the citizen C dollars as compensate.
+
+
+The value of C may change every year, and we can predict this value in the following K years. 
+Your task is: calculate the minimal cost of each year.
+
+Input
+
+In the first line, there are 3 integers: N, M and K.
+
+In the following M lines:
+
+there will be 3 integers: S[i], T[i], and V[i], describing a directed road from S[i] to T[i], cost V[i] dollars.
+
+In the next K lines:
+There will be an integer: C[i], describing the value of C in that year.
+
+Output
+
+Output K lines:
+each line contain an integer, corresponding to the minimal cost of each year.

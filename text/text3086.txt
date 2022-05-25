@@ -1,0 +1,17 @@
+Problem
+You are trying to create an array A containing N integers. However, your array-creating-machine has some restrictions. More formally, you are given a constant D, and two arrays B and C, each with M elements, then:
+
+Ai​≤D for all 1≤i≤N
+Ai​≥Ai−1​ for all 1<i≤N
+ACj​​⋅Bj​≤D for all 1≤j≤M
+
+Find how many different arrays can you create. Since answer can be big, print it modulo
+998244353.
+Input Format
+
+The first line of the input contains a single integer T - the number of test cases. The test cases then follow.
+The first line of each test case contains 3 integers N, M, and D - the length of the array A you need to create, the length of B and C, the constant from the statement.
+The i-th line of the next M lines of each test case contains two integers Ci​ and Bi​.
+
+Output Format
+For each test case output a single integer - the number of different arrays you can create modulo 998244353.

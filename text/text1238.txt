@@ -1,0 +1,11 @@
+Problem
+In the land of Chefton there is a trio of killers known as Team Rocket (TR). Chefton is basically a set of tiles, only a single person can stand on a tile at a given instance. Each tile can be described by X and Y co-ordinates describing the position of the tile. For the purpose of this problem, you may assume that a tile does not have any length of breadth. It is only a point.
+TR kill in a very unique way. Lets say the three members of the trio stand on the tiles T1, T2, T3 respectively. If a unique circle, say C, can be formed using T1, T2, T3 then all the people standing on the tiles lying within or on the circle C will be killed.
+Chefton Intelligence Agency (CIA) send their top agent Ash to Chefton. Let us assume that TR and Ash are standing on random tiles, satisfying the following constraints
+All four individuals, the three members of TR and Ash are on different tiles.
+There may be several ways in which the four individuals are placed. You may assume that the three members of TR are indistinguishable, while considering how many ways can everyone be placed. Any one of these ways now, is equiprobable. For clarity, refer to the explanation section.
+What is the probability that Ash can be killed by Team Rocket.
+Input
+The first line of the input contains an integer T, the number of test cases. The description of T test cases follows. The first line of each test case contains a single integer N, the number of tiles in Chefton. The next N lines consist of 2 space separated integers each, where the i'th line specifies the X and Y co-ordinates of the i'th tile.
+Output
+For each test case, output a single line containing the probability that Team Rocket kills Ash. Your answer is considered correct if it has an absolute error less than 10-6.

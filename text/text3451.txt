@@ -1,0 +1,32 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+After solving the 64×64×64 Rubik's cube, Chef Ada moved to arts.
+For her next masterpiece, Ada drew an abstract painting as follows:
+
+N points (numbered 1 through N) are painted on a 2D canvas. Some of these points are red ('R'), some are blue ('B') and the rest are green ('G'). No three points are collinear.
+A triangulation, i.e. a maximum set of non-intersecting triangles such that the vertices of each triangle are three of the points painted in the previous step, is drawn on the canvas. The edges of the triangles are black and the colours of the points are unaffected by this. Triangles may share edges or vertices, only intersections with positive area are not allowed.
+
+Ada is not satisfied with her painting, so she wants to modify it a bit using the following operations:
+
+Change the colour of a point. The cost of this operation is X.
+Flip one edge: if there is a convex quadrilateral which contains this edge as a diagonal, erase this edge and draw a new edge corresponding to the other diagonal of this quadrilateral. (Note that some edges cannot be flipped. It can be proved that if such a quadrilateral exists, it is unique and the resulting drawing also corresponds to a triangulation.) The cost of this operation is Y.
+
+The operations may be performed multiple times in any order. Let's denote the number of operations of the first type by C and the number of operations of the second type by F. Performing many operations could ruin the painting, though, so Ada wants to perform at most P operations of the first type (C≤P) and at most Q operations of the second type (F≤Q).
+Ada thinks that a triangle is ugly if at least two of its vertices have the the same colour. Let U be the number of ugly triangles after performing the operations. Help Ada choose the operations to perform in a way that minimises G=X⋅C+Y⋅F+U2, where X and Y are given coefficients.
+Input
+
+The first line of the input contains two space-separated integers N and M, where M denotes the number of triangles in the original triangulation.
+The second line contains four space-separated integers X, Y, P and Q.
+The third line contains a string S with length N. For each valid i, the i-th character of S denotes the colour of the i-th point.
+For each valid i, the i-th of the next N lines contains two space-separated integers xi​ and yi​ denoting the coordinates of the i-th point.
+For each valid i, the i-th of the last M lines contains three space-separated integers ai​, bi​ and ci​ denoting the points that are vertices of the i-th triangle.
+
+Output
+
+First, print a line containing two space-separated integers C and F.
+Then, print a line containing a string with length N. For each valid i, the i-th character of this string should denote the final colour of the i-th point ('R', 'G' or 'B').
+Finally, print F lines describing the sequence of performed edge flips. Each of these lines should contain two space-separated integers u and v denoting that the edge between points u and v should be flipped.
+
+Explanation
+
+After performing the operations, the ugly triangles are △ABD, △ACG and △ACF. Note that the edge AC cannot be flipped to FG because the quadrilateral AGCF is not convex.

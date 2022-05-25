@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Mandarin chinese, Russian  and Vietnamese as well.
+Sonya has N segments on the x-axis. For each valid i, the i-th segment contains all points between li​ and ri​ inclusive.
+Maks gave Sonya a magic number K. Sonya wants to choose exactly K of her segments in such a way that the intersection of the chosen segments is empty, i.e. there is no point which is contained in each of the chosen segments. Find the number of ways in which Sonya can choose K segments. Since this number can be large, Sonya only needs to know its remainder modulo 1000000007 (109+7).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+N lines follow. For each valid i, the i-th of these lines contains two space-separated integers li​ and ri​.
+
+Output
+For each test case, print a single line containing one integer — the number of ways to choose the segments, modulo 1000000007 (109+7).

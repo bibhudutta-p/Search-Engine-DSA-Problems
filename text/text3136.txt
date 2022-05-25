@@ -1,0 +1,18 @@
+Problem
+Read problem statements in Russian
+You are given a full binary tree of height n. Node 1 is the root, and for i≤2n−1−1, node i is the parent of node 2i and node 2i+1. For each node i, there is a positive integer ai​ written on it.
+A primeful cycle is a group of k>2 nodes x1​,x2​,…,xk​ such that:
+
+k is a prime number,
+gcd(ax1​​,ax2​​) mod k= gcd(ax2​​,ax3​​) mod k=…= gcd(axk−1​​,axk​​) mod k= gcd(axk​​,ax1​​) mod k .
+
+Let the height of each node be 1 plus the distance from that node to node 1. Note that by this definition, the height of node 1 is 1. Let the beauty value of a primeful cycle of nodes be the sum of the height of each node.
+There are q queries. In each query, you are given a node x. Considering all the nodes in the subtree of node x (including node x), find the smallest possible beauty value of a primeful cycle of nodes taken from these nodes only. If there is no such group, print −1 instead.
+Input:
+
+The first line contains two integers, n and q.
+The second line contains 2n−1 integers, a1​,a2​,…,a2n−1​.
+The third line contains q integers, the i-th of which is the integer x for the i-th query.
+
+Output:
+For each test case, print a single line containing the answer to the test case. Print the answer to the test cases on separate lines.

@@ -1,0 +1,18 @@
+Problem
+Recently, Chef has noticed that he is becoming fatter than ever. It is not surprising, as Chef is eating a lot of the food he is cooking. Therefore, he has been doing exercises for the last N days (numbered 1 through N). For some of these days, Chef remembers for how many minutes he exercised. You are given a sequence A1​,A2​,…,AN​. For each valid i, if Ai​≥0, then Chef exercised for Ai​ minutes on the i-th day; otherwise, Chef forgot how long he exercised on the i-th day and Ai​=−1. Note that Chef could only have exercised for an integer non-negative number of minutes on each day, including the days he does not remember.
+Chef can also compare how long he exercised on each two consecutive days. You are given a string S with length N−1. For each valid i, the i-th character of S is one of the following:
+
+'>' if Chef exercised for strictly more minutes on the i-th day than on the (i+1)-th day
+'=' if Chef exercised for an equally long time on the i-th day and on the (i+1)-th day
+'<' if Chef exercised for strictly more minutes on the (i+1)-th day than on the i-th day
+
+Chef is doubting his memory, so he wants you to check if the information is consistent, i.e. if there is a way to determine for how many minutes Chef exercised on each day he does not remember such that the string S describes the correct comparison operators.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+The third line contains a single string S.
+
+Output
+For each test case, if the information on the input is inconsistent, print a single line containing the string "NO", otherwise output  "YES"

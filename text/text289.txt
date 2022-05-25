@@ -1,0 +1,14 @@
+Problem
+You are given an array A of N positive and pairwise distinct integers.
+You can permute the elements in any way you want.
+The cost of an ordering (A1​,A2​,…,AN​) is defined as (((A1​modA2​)modA3​)......)modAN​ where XmodY means the remainder when X is divided by Y.
+You need to find the maximum cost which can be attained through any possible ordering of the elements.
+Input:
+
+The first line contains T denoting the number of test cases.
+The first line of each testcase contains a single integer N.
+The second line of each testcase contains N space-separated integers, the elements of A.
+
+Output:
+
+For each testcase, output the maximum possible cost in a new line.

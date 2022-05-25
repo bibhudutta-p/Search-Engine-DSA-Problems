@@ -1,0 +1,14 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef has N points (numbered 1 through N) in a 2D Cartesian coordinate system. For each valid i, the i-th point is (xi​,yi​). He also has a fixed integer c and he may perform operations of the following type: choose a point (xi​,yi​) and move it to (xi​+c,yi​+c) or (xi​−c,yi​−c).
+Now, Chef wants to set up one or more checkpoints (points in the same coordinate system) and perform zero or more operations in such a way that after they are performed, each of his (moved) N points is located at one of the checkpoints.
+Chef's primary objective is to minimise the number of checkpoints. Among all options with this minimum number of checkpoints, he wants to choose one which minimises the number of operations he needs to perform.
+Can you help Chef find the minimum number of required checkpoints and the minimum number of operations he needs to perform to move all N points to these checkpoints?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and c.
+N lines follow. For each valid i, the i-th of these lines contains two space-separated integers xi​ and yi​.
+
+Output
+For each test case, print a single line containing two integers ― the minimum number of checkpoints and the minimum number of moves.

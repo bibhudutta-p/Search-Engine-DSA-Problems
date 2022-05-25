@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You are given two binary strings A and B with the same length.
+You may perform the following operation any number of times (including zero): pick a substring of A with odd length and invert all the bits (change '0' to '1' or vice versa) at odd positions in this substring. For example, if we choose a substring "01011", we can convert it to "11110" (bits at odd positions are bold).
+Determine the minimum number of operations required to change the string A to the string B.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single string A.
+The second line contains a single string B.
+
+Output
+For each test case, print a single line containing one integer — the minimum number of operations required.

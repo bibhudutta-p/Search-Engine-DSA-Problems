@@ -1,0 +1,10 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+During the Indian Programming Camp (IPC), there are N trainers. The camp runs for D days. Each day, there can be at most one lecture. The i-th trainer arrives on day Di and then stays till the end of the camp. He also wants to teach exactly Ti lectures. For each lecture that a trainer was not able to teach, he will feel sad and his sadness level will be increased by Si.
+You are the main organizer of the contest. You want to find minimum total sadness of the trainers.
+Input
+The first line of the input contains an integer T, denoting the number of testcases.
+For each test case, the first line contains two space separated integers, N, D.
+The i-th of the next N lines will contain three space separated integers: Di, Ti, Si respectively.
+Output
+For each test case, output a single integer corresponding to the minimum total sadness of the trainers achievable.

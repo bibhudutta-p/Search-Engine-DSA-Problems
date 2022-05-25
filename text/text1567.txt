@@ -1,0 +1,17 @@
+Problem
+Nathan is preparing for the Dash marathon. He has N training plans. The i-th plan has an effectiveness of Ai​, but requires that at least Bi​ other training plans must be performed before it. A training plan cannot be repeated.
+If he performs some K>0 distinct trainings - P1​,P2​,…,PK​ (1≤Pi​≤N,Pi​=Pj​) then his training score is K∑j=1K​APj​​​. If Nathan does not perform any training plan (K=0), then his score is 0.
+What is the highest score that Nathan can get by performing zero or more training plans, if he can perform them in any order?
+Input Format
+
+The first line of the input contains a single integer T - the number of test cases. The description of T test cases follows.
+The first line of each test case contains N - the number of training plans.
+The second line contains N integers A1​,A2​,…,AN​ where Ai​ is the effectiveness of the i-th training plan.
+The third line contains N integers B1​,B2​,…,BN​ where Bi​ is the number of pre-requisite training plans for the i-th training plan.
+
+Output Format
+
+For each test case, output a single real number - the highest score that Nathan can get by performing zero or more training plans.
+Your answer is considered correct if its absolute or relative error does not exceed 10−6.
+Formally, let your answer be X, and the jury's answer be Y. Your answer is accepted if and only if max(1,∣Y∣)∣X−Y∣​≤10−6.
+

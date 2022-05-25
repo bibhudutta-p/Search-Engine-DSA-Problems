@@ -1,0 +1,14 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+You are given an undirected graph with N nodes (numbered 1 through N) and M edges. Each node has a value; let's denote the value of node i by Ai​. Note that the graph is not necessarily simple.
+A doubly increasing path is a directed path such that both the values of nodes and differences of values of nodes on this path are strictly increasing. Formally, it is a sequence of nodes p1​,p2​,p3​,…,pk​ for some integer (the length of this path) k≥1 such that 0<Ap2​​−Ap1​​<Ap3​​−Ap2​​<…<Apk​​−Apk−1​​ and for each valid i, nodes pi​ and pi−1​ are connected by an edge.
+You need to find the length of the longest doubly increasing path in the graph.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+Each of the following M lines contains two space-separated integers u and v denoting that nodes u and v are connected by an edge.
+
+Output
+For each test case, print a single line containing one integer — the maximum length of a doubly increasing path.

@@ -1,0 +1,11 @@
+Problem
+Given an array A having N elements, Chef wonders how many pairs (i,j) exists such that 1≤i<j≤N, and Ai​⋅Aj​ is divisible by i⋅j.
+Can you help Chef in finding the number of such pairs?
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of the T testcases follows.
+The first line of each test case contains a single integer N denoting the number of elements in A.
+The second line of each test case contains N space separated integers A1​,A2​,...,AN​.
+
+Output Format
+For each test case, print a single line containing one integer denoting the number of pairs that satisfies the above condition.

@@ -1,0 +1,14 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Sereja has an array A consisting of N integers. Sereja has M queries (Li, Ri), and for each query Sereja wants to find the length of the longest increasing subsequence in the array A[Li], A[Li + 1], ..., A[Ri]. 
+
+
+Help Sereja find the answer for each query.
+
+Input
+The first line of the input contains an integer T denoting the number of test cases.
+The description of T test cases follows. 
+Each test case starts with two integers N, M. 
+The next line contains the numbers A[1], A[2], ..., A[N]. The next M lines contains the pairs Li, Ri, which are the queries.
+Output
+For each test case, output M lines - the answer for each query.

@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given N points (x1​,y1​),(x2​,y2​),…,(xN​,yN​).
+You should answer Q queries. In each query, you are given a range [f,t]. Consider the points (xf​,yf​),(xf+1​,yf+1​),…,(xt​,yt​); the answer to a query is the square of the maximum Euclidean distance between any two of these points.
+Input
+
+The first line of the input contains a single integer N.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains two space-separated integers xi​ and yi​.
+The next line contains a single integer Q.
+Each of the next Q lines contains two space-separated integers f and t describing a query.
+
+Output
+For each query, print a single line containing one integer — the squared maximum distance.

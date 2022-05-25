@@ -1,0 +1,17 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+You are given a table with N rows and M columns. Let's denote the cell in row r and column c by (r,c). You are also given Q rectangles in this table.
+Consider a directed acyclic graph such that each vertex corresponds to a cell of the table (so there are N⋅M vertices) and there is an edge from cell (r1​,c1​) to cell (r2​,c2​) if and only if:
+
+r_1 &lt; r_2, c_1 \lt c_2
+there is a rectangle containing cells (r1​,c1​) and (r2​,c2​)
+
+Let's define the length of a path as the number of vertices it contains. Find the length of the longest path and the number of different paths with maximum length in this graph. Two paths are different if their lengths are different or there is a cell which is visited in one path, but not in the other. Since the number of paths can be large, compute it modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, M and Q.
+Each of the following Q lines contains four space-separated integers r1​, c1​, r2​ and c2​ describing a rectangle which contains all cells (r,c) such that r1​≤r≤r2​ and c1​≤c≤c2​.
+
+Output
+For each test case, print a single line containing two space-separated integers — the length of the longest path in the graph and the number of paths with this length modulo 109+7.

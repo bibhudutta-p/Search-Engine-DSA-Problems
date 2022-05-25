@@ -1,0 +1,18 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+ 
+ Yesterday Chef had a great party and doesn't remember the way he celebreated it. But he found a strange paper in his kitchen containing n digits (lets give them indices from 1 to n and name them a1, a2 ... aN). 
+ Chef remembers that he played such game:
+ On each step he choose an index x from 1 to n.
+ For all indices y (y < x) he calculated the difference by = ax - ay. 
+ Then he calculated B1 - sum of all by which are greater than 0 and B2 - sum of all by which are less than 0. 
+ The answer for this step is B1 - B2. 
+
+Chef remembers the game, but forgot the answer. Please, help him!
+Input
+The first line contains two integers n, m denoting the number of digits and number of steps. The second line contains n digits (without spaces) a1, a2, ..., an. 
+ Each of next m lines contains single integer x denoting the index for current step. 
+ 
+Output
+For each of m steps print single number in a line - answer of the step.
+ 

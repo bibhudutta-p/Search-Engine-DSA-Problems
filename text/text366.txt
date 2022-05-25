@@ -1,0 +1,27 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+
+	Chef wants to prepare a Cook-Off contest with 5 problems chosen from a set of N problems. He has marked the difficulty of each problem within a range identified by one of the following strings: "cakewalk", "simple", "easy", "easy-medium", "medium", "medium-hard", "hard". According to this page, a Cook-Off contest must have problems of the following difficulties:
+
+exactly one "cakewalk";
+exactly one "simple";
+exactly one "easy";
+one "easy-medium" or one "medium";
+one "medium-hard" or one "hard".
+
+
+	Given the information about the N problems, can you advise Chef if it's possible to pick 5 problems and form a valid Cook-Off contest?
+
+	Input
+
+The first line of input contains one integer T denoting the number of test cases.
+T test cases follow.
+The first line of each test case contains a single integer N.
+Then N lines follow; the i-th line contains a single string si, denoting the difficulty of the i-th problem.
+
+
+	Output
+
+	For each test case, output "Yes" if it's possible to pick 5 problems and form a valid Cook-Off contest; otherwise, output "No".
+
+	

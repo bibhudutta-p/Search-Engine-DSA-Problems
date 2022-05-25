@@ -1,0 +1,14 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You have a grid with N rows (numbered 1 through N) and M columns (numbered 1 through M). Initially, the grid is empty. You also have N⋅M tiles with three colours: R tiles are red, G tiles are green and B tiles are blue.
+Find a way to place these tiles in the grid such that for each tile, there are at most two distinct colours among the tiles that share a side with it.
+For example, a valid placement for N=M=R=G=B=3 is:
+
+
+
+### Input
+- The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+- The first and only line of each test case contains five space-separated integers N, M, R, G and B.
+### Output
+For each test case, print N lines describing the placement of the tiles in the grid. For each valid i, the i-th of these lines should contain a string with length M describing the tiles in the i-th row, with red, green and blue tiles denoted by the characters 'R', 'G' and 'B' respectively.
+If there are multiple solutions, you may find any one of them. It can be proved that a solution always exists.

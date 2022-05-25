@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Consider a sequence with an even length 2L. A left rotation consists of moving the first element of the sequence to the end. The sequence is good if it is possible to perform some number of left rotations (possibly zero) and divide the resulting sequence into two halves (containing the first L and last L elements respectively) such that the smallest value in one half is greater then the largest value in the other half.
+You are given a sequence A1​,A2​,…,AN​. Find the number of its non-empty contiguous subsequences with even length which is good.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer ― the number of good contiguous subsequences.

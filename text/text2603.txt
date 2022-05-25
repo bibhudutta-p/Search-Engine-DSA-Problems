@@ -1,0 +1,17 @@
+Problem
+You are given an array A=[A1​,A2​,…,AN​] containing distinct positive integers.
+Let B be a permutation of A. Define the value of B to be
+∑i=1N​(Bi​modBi+1​)
+where BN+1​ is treated to be B1​.
+Find the maximum value across all permutations of A.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of two lines of input.
+The first line of each test case contains an integer N — the size of A.
+The second line of each test case contains N space-separated integers — the elements of A.
+
+Output Format
+
+For each test case, output a new line containing the answer — the maximum possible value across all permutations of A.
+

@@ -1,0 +1,16 @@
+Problem
+Given an array A consisting of N non-negative integers.
+You need to perform the following operation (N−1) times:
+
+Sort the array A in ascending order.
+Let M be the current size of the array A. Replace the array A by [(A2​−A1​),(A3​−A2​),…,(AM​−AM−1​)]. Note that each time the operation is performed, the size of the array reduces by one.
+
+Find the remaining element after (N−1) operations.
+Input Format
+
+The first line contains an integer T denoting number of test cases. The T test cases then follow.
+The first line of each test case contains an integer N - the size of the array.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, output single line: the remaining element after (N−1) operations.

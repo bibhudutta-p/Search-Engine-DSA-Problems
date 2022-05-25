@@ -1,0 +1,31 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+The String street is known as the busiest street in Codeland.
+Tourists from all over the world want to visit the street once they are in Codeland.
+The Chef owns N souvenir stores across the street (numbered from 1 to N). 
+At the beginning there is no souvenir in any store, the Chef has some plans to add some new items.
+Each the Chef's plan is represented by 4 numbers: u v a b which mean an items with price b 
+is added to the store u, an items with price a + b is added to the store u + 1 and so on. 
+More formally, an item with price a * i + b is added to the store u + i for all (0 ≤ i ≤ v - u).
+In additional to the cost of the item itself, the tourist must pay some conservation fees as well.
+The Codeland regularly defines the new conservation fee. Each fee is represented by 4 numbers: u v a b which means
+the tourist buying any item in the store u + i will be charged a fee of i * a + b for all (0 ≤ i ≤ v - u).
+In the case that several conservation fees have effect on the same store, the customer needs to pay all of those fees.
+At some point of time, a tourist at store i asks you what is the largest amount of money they have to spend for 
+a souvenir at that store (the amount of money includes the price of one of the souvenirs and all the conservation fees for that store).
+ 
+Input
+
+The first line of the input contains two integers N and M represent the number of stores and the number of events
+Each of the next M lines represents an event of three types below in the chronological order.
+	
+The new plan of the Chef: "1 u v a b".
+The new conservation fee: "2 u v a b".
+The query from tourist: "3 i".
+
+
+
+ 
+Output
+For each query from tourist, print in one line the corresponding answer.
+If there is no item at the ith store, print out "NA" (without quotes) as the answer.

@@ -1,0 +1,15 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+Rin is attending a university.
+She has M semesters to finish her program, and that program has N required courses. Each course must be taken in exactly one of the semesters.
+Some courses have prerequisites: for each i from 1 to K, she must take course A[i] before course B[i].
+The same course may be taught by different professors in different semesters, and how well she does will depend on which professor teaches her. Additionally, some courses may not be taught every semester.
+We are given an array X representing this information. For each course i and each semester j, X[i][j] = -1 if course i is not taught in semester j. Otherwise, X[i][j] will be an integer between 0 and 100: the expected score Rin will get if she takes course i in semester j.
+Rin may take any number of courses per semester, including none, as long as they are taught that semester and she has already taken any required prerequisite courses.
+Help Rin to find the maximal average score she can get over her whole program.
+Input
+The first line contain 3 integers: N, M and K.
+This is followed by N lines, each containing M integers. The jth integer on the ith line represents the value of X[i][j].
+This is followed by K lines, each containing two integers: A[i] and B[i].
+Output
+Output one real number: the maximal average score, rounded to 2 digits after the decimal point.

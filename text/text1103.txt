@@ -1,0 +1,3 @@
+Problem
+Given a binary number S containing only of 1's and 0's, find two binary numbers A and B such that the sum of the number of 1's in A and B is minimum and A−B=S. If there are many such numbers, you can print any.
+The binary number S has some properties. See the 

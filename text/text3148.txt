@@ -1,0 +1,18 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+In computer science, a treap is a binary search tree according to the keys and meanwhile a heap according to the weights. Follow the link for more details: http://en.wikipedia.org/wiki/Treap
+Your task is to maintain a max-treap supporting the following operations:
+
+0 k w: Insert a new node, whose key and weight are k and w.
+1 k: Delete a node in the treap with key k.
+2 ku kv: Return the distance between node u whose key is ku and node v whose key is kv.
+
+
+No two nodes share the same key or the same weight in the tree, and we guarantee the node is indeed in the treap before a delete operation takes place.
+
+Input
+The first line contains an integer N, the number of operations. 
+Each of the next N lines contains two or three integers "0 k w" "1 k" or "2 ku kv” . These integers describe the current operation.
+
+Output
+For each distance query, print the distance between u and v.

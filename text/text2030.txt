@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef likes sequences of integers and in particular, he likes arithmetic progressions.
+There are two integers N and K. Chef wants to choose a starting positive integer A, create the sequence (A,A+K,A+2⋅K,…,A+(N−1)⋅K) and compute the product of all elements of this sequence; let's denote this product by X. For example, if N=3 and K=2, then Chef can create the sequence (4,6,8), for which X=192.
+Find the largest integer that divides X regardless of the value of A that Chef chooses. Since the answer can be large, compute it modulo 1,000,000,007 (109+7).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and K.
+
+Output
+For each test case, print a single line containing one integer — the largest number that always divides X, modulo 1,000,000,007.

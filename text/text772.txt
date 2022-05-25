@@ -1,0 +1,15 @@
+Problem
+JJ loves playing with averages. He has an array A of length N. He wants to divide the array A into two non-empty subsets P and Q such that the value of mean(P)+mean(Q) is as large as possible. (Note that each Ai​ must belong to either subset P or subset Q).
+Help him find this maximum value of mean(P)+mean(Q).
+As a reminder, the mean of a subset X of size M is defined as: mean(X)=M∑i=1M​Xi​​.
+For example, mean([3,1,4,5])=43+1+4+5​=3.25.
+Input Format
+
+The first line contains T - the number of test cases. Then the test cases follow.
+The first line of each test case contains an integer N - the size of the array A.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​ denoting the array A.
+
+Output Format
+Output the largest value of mean(P)+mean(Q).
+Your answer is considered correct if its absolute or relative error does not exceed 10−6.
+Formally, let your answer be a, and the jury's answer be b. Your answer is accepted if and only if max(1,∣b∣)∣a−b∣​≤10−6.

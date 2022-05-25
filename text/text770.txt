@@ -1,0 +1,11 @@
+Problem
+Read problem statements in Mandarin, Russian, and Vietnamese as well.
+You are given a sequence of integers A1​,A2​,…,AN​ and an integer K. Find the number of contiguous subsequences AL​,AL+1​,…,AR​ such that R−L+1≥K and the K-th element of the subsequence (AL+K−1​) is equal to the maximum of all elements of the entire sequence.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, print a single line containing one integer --- the number of contiguous subsequences satisfying the given conditions.

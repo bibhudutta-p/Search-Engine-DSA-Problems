@@ -1,0 +1,23 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Consider the following function, where + denotes string concatenation.
+function BinaryConcatenation(integer X, integer Y):
+        string binX = binary representation of X without leading zeroes
+        string binY = binary representation of Y without leading zeroes
+
+        string binXplusY = binX + binY
+        string binYplusX = binY + binX
+
+        integer XplusY = Convert binary representation binXplusY to integer
+        integer YplusX = Convert binary representation binYplusX to integer
+        return XplusY - YplusX
+
+You are given a sequence A1​,A2​,…,AN​, Find the maximum value of BinaryConcatenation(Ai​, Aj​) over all valid i and j.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer — the maximum of BinaryConcatenation.

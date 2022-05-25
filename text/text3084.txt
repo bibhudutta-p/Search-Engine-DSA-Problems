@@ -1,0 +1,18 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, and Russian, and Vietnamese as well.
+Chef recently accepted a teaching fellowship at a prestigious culinary institution. The fellowship does not begin for a while yet, so Chef wants to use the remaining free time for a nice vacation. There are N cities (numbered 1 through N) connected by M roads. For each valid i, there are Li​ tourist attractions in city i. Chef is initially in city 1 and he will teach in city N. On each day of his vacation, Chef wants to perform one of the following actions:
+
+Travel to a city with a higher number than his current city which is directly connected to his current city by a road. At the end of his vacation, Chef must be in city N.
+Visit a tourist attraction in his current city. Chef may visit each tourist attraction repeatedly (on different days).
+
+Chef has not yet decided for how many days the vacation should last. He has Q queries described by a sequence D1​,D2​,…,DQ​. For each query, i.e. for each i (1≤i≤Q), he would like to know the number of different vacation plans if he wants his vacation to last exactly Di​ days. Since these numbers may be large, compute them modulo 1,000,000,007.
+Two vacation plans (for a fixed duration of the vacation) are considered different if there is at least one day such that Chef performs different actions in the two plans on that day. Visiting different tourist attractions also counts as different actions.
+Input
+
+The first line of the input contains three space-separated integers N, M and Q.
+The second line contains N space-separated integers L1​,L2​,…,LN​.
+Each of the next M lines contains two space-separated integers u and v denoting that cities u and v are connected by a road.
+The last line contains Q space-separated integers D1​,D2​,…,DQ​.
+
+Output
+For each query, print a single line containing one integer ― the number of possible vacations modulo 1,000,000,007.

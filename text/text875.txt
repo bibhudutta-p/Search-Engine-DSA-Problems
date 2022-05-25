@@ -1,0 +1,16 @@
+Problem
+JJ gives Chef a number X and challenges Chef to come up with three distinct numbers A, B, and C such that:
+
+0≤A,B,C<230;
+(A⊕B)+(B⊕C)+(C⊕A)=X.
+
+Help Chef come up with three such numbers or determine that no such tuple exists.
+Here, ⊕ denotes the bitwise XOR operation.
+Input Format
+
+The first line contains a single integer T - the number of test cases. Then the test cases follow.
+The first and only line of each test case contains an integer X - the number mentioned in the problem statement.
+
+Output Format
+For each test case, output three distinct numbers A, B and C (0≤A,B,C<230) such that (A⊕B)+(B⊕C)+(C⊕A)=X.
+If multiple such tuples exist, print any. If no such tuple exists, print −1.

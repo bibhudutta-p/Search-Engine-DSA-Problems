@@ -1,0 +1,25 @@
+Problem
+Chef is preparing a banquet of N dishes for Sir Anton and Sir Trygub. Unfortuantely, Sir Anton and Sir Trygub only told the Chef three days before the banquet that they do not like food that is too spicy or too numb.
+For the i-th dish, Chef has assigned 4 scores:
+
+SAi​ --- the spiciness felt by Sir Anton
+NAi​ --- the numbness felt by Sir Anton
+STi​ --- the spiciness felt by Sir Trygub
+NTi​ --- the numbness felt by Sir Trygub
+
+Chef will serve some dishes to Sir Anton and Sir Trygub. A serve is said to be good, if both of the following conditions are satisfied:
+
+All dishes are served to at least one of the Sirs.
+Both Sirs are served at least one dish.
+
+The total disgust of a good serve is defined as the sum of the maximum spiciness felt by Sir Anton, the maximum numbness felt by Sir Anton, the maximum spiciness felt by Sir Trygub and the maximum numbness felt by Sir Trygub.
+Find the minimum disgust possible amongst all the good serves.
+More formally, find the minimum value of i∈Amax​(SAi​)+i∈Amax​(NAi​)+i∈Tmax​(STi​)+i∈Tmax​(NTi​) over all (A,T), such that, A⊆[1,N],T⊆[1,N], 1≤∣A∣,∣T∣ and A∪T=[1,N].
+Input Format
+
+The first line of input contains one integer T - the number of test cases.
+The first line of each test case contains one integer N - the number of dishes.
+The next N lines of each test case contain 4 integers each denoting the values SAi​,NAi​,STi​ and NTi​.
+
+Output Format
+For each test case, print in a single line, the minimum disgust possible amongst all the good serves.

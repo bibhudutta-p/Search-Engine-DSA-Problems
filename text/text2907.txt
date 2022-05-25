@@ -1,0 +1,25 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+There are N cells (numbered 1 through N). Initially, each cell contains a single Chef.
+You are given Q pairs of cell ranges [L1​,R1​],[L2​,R2​],…,[LQ​,RQ​]. Consider a sequence of integers a1​,a2​,…,aN​, where 1≤ai​≤N for each valid i. For each k from 1 to Q, the following process is performed:
+
+For each i (Lk​≤i≤Rk​), the Chef from cell i moves to cell ai​. All Chefs move at the same time.
+We check if each cell contains exactly one Chef afterwards. If there is a cell which does not contain exactly one Chef, the sequence a is invalid and we stop.
+
+You should find a sequence a which is not invalid. (Note that for such a sequence, each cell contains exactly one Chef at any point.) In addition, you are given an integer p with the following meaning:
+
+If p=0, you should find the lexicographically smallest sequence a.
+If p=1, you should find the lexicographically largest sequence a.
+
+Input
+
+The first line of the input contains two space-separated integers T and p, where T denotes the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+Q lines follow. For each valid i, the i-th of these lines contains two space-separated integers Li​ and Ri​.
+
+Output
+For each test case, print a single line containing N space-separated integers a1​,a2​,…,aN​.
+
+If p=0, the sequence a1​,a2​,…,aN​ should be the lexicographically smallest valid sequence.
+If p=1, the sequence a1​,a2​,…,aN​ should be the lexicographically largest valid sequence.
+

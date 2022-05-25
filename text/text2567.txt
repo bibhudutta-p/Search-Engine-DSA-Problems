@@ -1,0 +1,14 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+ Chef simulating the next process, imagine that we have an array A = {1, 2, ..., M}. Split it into two arrays with equal size with odd and even indexes from it. After that let's erase in each array numbers on the place [S*X/Y], where S denoting the size of array and merge these arrays(the first element of the second array will be after the last element of the first array), after the first operation A will contain exactly M-2 elements after that, after the second operations M-4 and so on. Chef making this procedure until A has more than 2 elements. In the end he wants to know the value of bitwise XOR elements that remain. He needs your help!
+Input
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three non-negative integers M, X and Y.
+
+ 
+Output
+
+Output in a single line the value of bitwise XOR of two elements that remain in the array A after M/2-1 operations split/merge as described above.
+
+ 

@@ -1,0 +1,11 @@
+Problem
+Given a string S of length N containing only numeric characters, find the number of Nice Pairs.
+A Nice Pair is a pair of indices - (i,j) such that 1≤i<j≤N and j−i=∣Sj​−Si​∣.
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+The first line of each testcase contains a single integer, N, the length of the string
+The second line of each testcase contains a string S of length N. The string contains only numeric characters [0−9]
+
+Output Format
+For each testcase, output a single integer - the number of nice pairs in the given string.

@@ -1,0 +1,39 @@
+Problem
+Read problem statements in Hindi and Bengali
+This is an interactive problem.
+Sonya is a very creative and dreamy person, so she decided to open her own bakery one day. Since Sonya lives in a country where the traditional dish is apple pie, the business quickly became successful, and after a while, Sonya already had a chain of N bakeries — one in each of the N cities of the country. The cities are numbered 1 through N and the bakeries are numbered in the same way as the cities. At each moment, each bakery has a certain number of pies in stock; let's denote the number of pies in stock in city i by Ai​.
+All the bakeries bake unique pies, so the country has built N−1 roads in such a way that it is possible to reach any city from all other cities using these roads (and possibly visiting other cities on the way). The roads are numbered 1 through N−1. Unfortunately, in the country where Sonya lives, earthquakes happen frequently, so roads can collapse. It is impossible to use a collapsed road until it is repaired.
+For each bakery, let's define its connected component as the set of all bakeries (including itself) which can be reached from it without using any collapsed roads.
+You should process M events. There are seven types of events, each of them corresponds to something changing in the country or Sonya asking for information related to her business:
+
+type 1: The state of the E-th road changes — if it was not collapsed, it collapses, and if it was collapsed, it is repaired (and becomes not collapsed).
+type 2: The X-th bakery bakes and delivers Y pies to each bakery in its connected component (including itself). In other words, for each bakery i in the connected component of bakery X, Ai​ increases by Y.
+type 3: Each bakery from the connected component of the X-th bakery sends all the pies it has in stock to the X-th bakery, which adds them to its stock.
+type 4: Sonya wants to know the number of pies in stock in the X-th bakery.
+type 5: Sonya wants to know the total number of pies in stock in the connected component of the X-th bakery.
+type 6: Each bakery from the connected component of the X-th bakery (including itself) sells all the pies it had in stock. In other words, for each bakery i in the connected component of bakery X, Ai​ becomes 0.
+type 7: Sonya wants to know the minimum number of roads which need to be repaired so that for each pair of bakeries i and j such that Ai​>0 and Aj​>0, it is possible to reach bakery i from bakery j without using any collapsed roads.
+
+You need to answer all of Sonya's queries (for events of types 4, 5 and 7). The queries need to be answered online, i.e. you must answer each query in order to receive information about the subsequent events from the grader.
+Interaction
+
+First, you must read a line containing a single integer G — the number of the current subtask.
+Then, you must read a line containing two space-separated integers N and M.
+Then, you must read N−1 lines. For each i (1≤i≤N−1), the i-th of these lines contains two space-separated integers u and v denoting the cities connected by the i-th road.
+Then, you must read a line containing a single string with length N−1. For each valid i, the i-th character of this string is '1' if the i-th road is initially collapsed or '0' if it is not collapsed.
+Then, you must read a line containing N space-separated integers A1​,A2​,…,AN​ — the number of pies in stock initially.
+Finally, you must repeat the following process M times:
+
+Read a line describing an event. This line begins with an integer denoting the type of the event.
+
+For queries of type 1, this integer is followed by a space and a single integer E.
+For queries of type 2, it is followed by a space and two space-separated integers X and Y.
+For queries of types 3 through 6, it is followed by a space and a single integer X.
+For queries of type 7, it is not followed by anything else.
+
+
+If the type of the event was 4, 5 or 7, print a single line containing one integer — the answer to this query.
+
+
+
+Don't forget to flush the output after printing each line!

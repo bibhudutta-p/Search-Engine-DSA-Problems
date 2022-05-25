@@ -1,0 +1,16 @@
+Problem
+You love array, don't you?
+You are given two integer N and M, along with an array B of length N containing pairwise distinct integers. You have to find the number of array A of length N satisfying the follow conditions:
+
+1≤Ai​≤M.
+Ai​=Aj​ for all 1≤i<j≤N.
+Ai​=Bi​ for all 1≤i≤N.
+
+Since the answer can be very large, output it under modulo 109+7.
+Input Format
+
+The first line of the input contains two space-separated integers N and M.
+The second line of the input contains N separated integers B1​,B2​,…,BN​ - the array B.
+
+Output Format
+Output on a single line the number of satisfactory array modulo 109+7.

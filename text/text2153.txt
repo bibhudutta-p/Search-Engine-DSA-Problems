@@ -1,0 +1,14 @@
+Problem
+You are given a string S, each character of which is either N or P. In one move, you can perform the following operation:
+
+Pick an index 1≤i≤∣S∣ and flip Si​, i.e, if Si​=N set it to P and vice versa.
+
+Find the minimum number of moves required to obtain a string such that there exists a way to split it into several continuous substrings, each of which is either P or NP, and the number of P substrings in this splitting equals the number of NP substrings.
+For example, NPP and PNPPNP can be split this way (into NP + P and P + NP + P + NP respectively) but NNPP cannot.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first and only line of input of each test case contains the string S.
+
+Output Format
+For each test case, output a single line containing one integer — the minimum number of moves required to transform the string into the desired form.

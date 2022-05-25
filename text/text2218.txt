@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+The Golomb sequence G1​,G2​,… is a non-decreasing integer sequence such that for each positive integer n, Gn​ is the number of occurrences of n in this sequence. The first few elements of G are [1,2,2,3,3,4,4,4,5,…]. Do you know the recurrence relation for the Golomb sequence? It is G1​=1 and Gn+1​=1+Gn+1−GGn​​​ for each n≥1. A self-describing sequence, isn't it?
+Mr. Strange wants to learn CP, so he asked Chef, who is one of the best competitive programmers in the world, to teach him. Chef decided to test his ability by giving him the following task.
+Find the sum of squares of the L-th through R-th term of the Golomb sequence, i.e. S=∑i=LR​Gi2​. Since the sum can be quite large, compute it modulo 109+7.
+Can you help Mr. Strange carry out this task given to him by his teacher?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers L and R.
+
+Output
+For each test case, print a single line containing one integer S modulo 109+7.

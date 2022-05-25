@@ -1,0 +1,15 @@
+Problem
+Read problems statements Bengali , Mandarin chinese , Russian and Vietnamese as well.
+There are two sequences A1​,A2​,…,AN​ and B1​,B2​,…,BN​. Answer Q queries on these sequences.
+In each query, you should calculate the dot product of subsequences Ax​,Ax+1​,…,Ax+l−1​ and By​,By+1​,…,By+l−1​, i.e. the value of the expression
+∑k=0l−1​Ax+k​By+k​.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+The third line contains N space-separated integers B1​,B2​,…,BN​.
+Each of the following Q lines contains three space-separated integers x, y and l describing one query.
+
+Output
+For each query, print a single line containing one integer — the answer to the query (the dot product).

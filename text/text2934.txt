@@ -1,0 +1,16 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a tree (connected, undirected, acyclic graph) consisting of N nodes. Based on this tree, you have to answer Q queries.
+Each query is of the form:
+
+K D V1​ V2​ ⋯ VK​ - output the number of pairs (i,j), 1≤i<j≤K, such that the shortest path between nodes Vi​ and Vj​ in the tree has D edges.
+
+Input
+
+The first line contains an integer T, the number of test cases. Then the test cases follow.
+The first line of each test case contains two integers, N and Q.
+N−1 lines follow. Each line consists of two integers u and v, indicating that there is an edge between nodes u and v in the tree.
+Q lines follow. Each line describes a query in the format given above.
+
+Output
+For each query, output the answer on a new line.

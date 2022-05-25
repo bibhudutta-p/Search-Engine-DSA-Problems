@@ -1,0 +1,16 @@
+Problem
+ Read problems statements in Mandarin Chinese and Russian as well.
+You are given a tree.
+You have to execute numerous queries on this tree. In a query, you will be given K nodes and you need to find if there is a path in the tree which contains all these K nodes.
+If there is a path containing these K nodes, then output Yes. Otherwise, output No.
+Input
+First line contains T, number of test cases to follow.
+First line of each test case contains an integer N which represents the number of nodes in the tree.
+Next N-1 lines contain the description of the tree. Each line contains 2 space separated integers implying that there is an edge between these two nodes.
+Next line contains Q, number of path queries to follow.
+First line of each query contains an integer K.
+Second line contains K space separated nodes.
+Output
+
+For each query, output Yes if there is a path containing the K query nodes. Otherwise, output No.
+

@@ -1,0 +1,15 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Pied Piper is a startup company trying to build a new Internet called Pipernet. Currently, they have A users and they gain X users everyday. There is also another company called Hooli, which has currently B users and gains Y users everyday.
+Whichever company reaches Z users first takes over Pipernet. In case both companies reach Z users on the same day, Hooli takes over.
+Hooli is a very evil company (like E-Corp in Mr. Robot or Innovative Online Industries in Ready Player One). Therefore, many people are trying to help Pied Piper gain some users.
+Pied Piper has N supporters with contribution values C1​,C2​,…,CN​. For each valid i, when the i-th supporter contributes, Pied Piper gains Ci​ users instantly. After contributing, the contribution value of the supporter is halved, i.e. Ci​ changes to ⌊Ci​/2⌋. Each supporter may contribute any number of times, including zero. Supporters may contribute at any time until one of the companies takes over Pipernet, even during the current day.
+Find the minimum number of times supporters must contribute (the minimum total number of contributions) so that Pied Piper gains control of Pipernet.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains six space-separated integers N, A, B, X, Y and Z.
+The second line contains N space-separated integers C1​,C2​,…,CN​ — the initial contribution values.
+
+Output
+For each test case, if Hooli will always gain control of Pipernet, print a single line containing the string "RIP" (without quotes). Otherwise, print a single line containing one integer — the minimum number of times supporters must contribute.

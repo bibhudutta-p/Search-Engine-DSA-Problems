@@ -1,0 +1,16 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given two integers N and K, and an array A of N integers. You have to choose K disjoint non-empty subarrays such that the score is maximized.
+The score is calculated as follows:
+Score=i=1∑K​Sum[i]⋅i,
+where Sum[i] denotes sum of elements of i-th subarray. By the i-th subarray, we mean the i-th one in the order from left to right.
+Find the maximum score that can be achieved.
+Note: The subarrays are not required to cover the whole array. It is allowed for some elements of A to belong to none of the subarrays.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer ― the maximum score.

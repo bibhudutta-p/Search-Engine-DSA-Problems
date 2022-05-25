@@ -1,0 +1,18 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a sequence of non-negative integers A1​,A2​,…,AN​. A pair (x,y), where 1≤x<y≤N, is an inversion if Ax​>Ay​.
+You should answer Q queries (numbered 1 through Q). For each valid i, in the i-th query:
+
+You are given a non-negative integer Ki​.
+Consider a sequence B1​,B2​,…,BN​, where Bj​=Aj​⊕K for each valid j.
+You should find the number of inversions in the sequence B.
+
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+each of the next Q lines describes a query with a single integer Ki​.
+
+Output
+For each test case, print Q lines. For each valid i, the i-th of these lines should contain a single integer ― the answer to the i-th query.

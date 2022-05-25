@@ -1,0 +1,13 @@
+Problem
+Read problems statements Hindi , Vietnamese , Mandarin Chinese , Russian and Bengali as well.
+Chef loves prime numbers and trees.
+One day, Chef received N nodes (numbered 1 through N) as a gift. There are no edges between them yet, but each node contains a value; let's denote the value in node i by Vi​. Since Chef likes trees, he wants to form a tree by adding N−1 edges between these nodes.
+Chef defines a subtree as any connected component obtained after deleting an edge. A tree with N nodes has 2(N−1) subtrees. A prime subtree is a subtree such that the sum of values in its nodes is a prime number.
+Since Chef likes prime numbers too, he wants to maximize the number of prime subtrees in the resulting tree. Help him solve this difficult problem!
+Input
+
+The first line of the input contains a single integer N.
+The second line contains N space-separated integers V1​,V2​,…,VN​.
+
+Output
+Print N−1 lines. Each of these lines should contain two space-separated integers u and v (1≤u,v≤N) denoting an edge between nodes u and v. The graph formed by these edges must be a tree.

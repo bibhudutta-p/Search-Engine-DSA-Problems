@@ -1,0 +1,39 @@
+Problem
+Read problems statements in Russian and Vietnamese as well.
+ Sean Devlin is trying to free France by destroying some radio towers used by Kurt Dierker's intelligence division. 
+
+
+The whole network of radio towers can be modeled using a graph where each vertex is a radio tower. Between some radio towers, there is a bi-directional cable. Being a state of the art network, any two towers are connected, either directly or indirectly by a series of cables. 
+
+
+There is an advanced mechanism implemented that detects if the network has been disconnected (i.e. there are at least two active towers that are not connected). 
+
+
+Sean's goal is to destroy some radio towers in order to cripple Kurt's communication network. There is a cost that has to be paid (soldiers to be bribed, TNT to be purchased, etc) in order to bring down a tower. Sean's plan must respect a few constraints:
+
+The remaining set of towers (possibly empty) must be connected. Kurt can easily find out if a message can't reach its destination.
+The remaining set of towers (possibly empty) must not contain a cycle. Cycles are quite easy to detect in a radio network.
+The total cost of the plan (i.e. total sum of costs to destroy the set of towers in the plan) has to be minimised because the Resistance's funds are not what they used to be.
+
+
+
+Having this very important task, Sean asks you to help him create the plan that's supposed to
+defeat Kurt Dierker's army.
+
+Input
+The first line of the input file contains two integers, N and M, separated by a single space, where N is the number of radio towers and M is the number of cables.
+
+On the next line, there are N integers, cost1, cost2 ... costN where costi = the cost of destroying the i-th tower.
+
+Each of the next M lines contains a pair of integers representing a pair of towers
+that are directly connected by a bidirectional cable.
+
+Output
+
+The first line contains an integer K representing the number of towers you
+think that Sean should destroy.
+
+The next contains must contain K different integers, t1,
+t2 ...  tK where ti = the id of
+the i-th tower to be destroyed. The order in which the ids are printed doesn't matter.
+

@@ -1,0 +1,14 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+Sigma and Fibonacci were two geeky friends. As ACM ICPC is near, they have started forming teams. Sigma loved summing series and Fibonacci loved playing with fibonacci numbers. They made Gopu as their ACM ICPC Coach. To train them up, Gopu gave them a challenge which will require both of their coordination to solve it. The challenge given by Gopu is described below:
+Gopu gave them two numbers M and N and asked them to solve :  ( ∑ ( 6 * x * y * z * Fibo[x] * Fibo[y] * Fibo[z] ) ) % M , where x + y + z = N.Here x, y, z ≥ 0 and are integers.
+Fibo is the Fibonacci number define as follows. 
+
+Fibo[0] = 0
+Fibo[1] = 1
+Fibo[i] = Fibo[i-1] + Fibo[i-2] ∀  i ≥ 2 . 
+
+ Now Gopu is wondering whether he will be able to determine whether they have calculated the solution of the problem correctly or not ! Help Gopu to find the correct answers , so that he can judge the solution for the team.
+InputFirst line of input contains an integer T denoting the number of test cases. Each test case begins in a new line, containing two space separated numbers representing M and N respectively.
+Output
+ For each test case, output answer as stated above in a new line. 

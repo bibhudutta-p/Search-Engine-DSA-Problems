@@ -1,0 +1,13 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+
+Our little chef is fond of doing additions/sums in his free time. Today, he has an array A consisting of N positive integers and he will compute prefix and suffix sums over this array.
+He first defines two functions prefixSum(i) and suffixSum(i) for the array as follows. The function prefixSum(i) denotes the sum of first i numbers of the array. Similarly, he defines suffixSum(i) as the sum of last N - i + 1 numbers of the array.
+Little Chef is interested in finding the minimum index i for which the value prefixSum(i) + suffixSum(i) is the minimum. In other words, first you should minimize the value of prefixSum(i) + suffixSum(i), and then find the least index i for which this value is attained.
+Since, he is very busy preparing the dishes for the guests, can you help him solve this problem?
+Input
+The first line of the input contains an integer T denoting the number of test cases.
+The first line of each test case contains a single integer N denoting the number of integers in the array A.
+The second line contains N space-separated integers A1, A2, ..., AN denoting the array A.
+Output
+For each test case, output a single line containing the answer.

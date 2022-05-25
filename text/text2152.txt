@@ -1,0 +1,10 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given three non-negative integers X, Y and N. Find the number of integers Z such that 0≤Z≤N and (X⊕Z)<(Y⊕Z), where ⊕ denotes the bitwise XOR operation.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains three space-separated integers X, Y and N.
+
+Output
+For each test case, print a single line containing one integer ― the number of integers Z which satisfy all conditions.

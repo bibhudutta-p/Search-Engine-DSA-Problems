@@ -1,0 +1,13 @@
+Problem
+Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
+Chef is participating in a pogo stick race. In this competition, there are N squares (numbered 1 through N) in a row. Chef must choose a starting square, enter this square and start jumping on his pogo stick. In each jump, if Chef is at a square s, then he can only jump to the square s+K. If square s+K does not exist, Chef jumps out of the row of squares and the race ends for him. It is not allowed to stop jumping any earlier.
+Each square has a value; let's denote the value of the i-th square by Ai​. Initially, Chef has 0 points. When he jumps in some square (including the initial square), he is awarded a number of points equal to the value of this square, exactly once. Note that if this value is negative, the number of Chef's points is decreased.
+Determine the maximum possible total number of points Chef can get if he selects the initial cell optimally.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer ― the maximum number of points.

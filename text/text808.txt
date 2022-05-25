@@ -1,0 +1,12 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+Some chefs go for a tour lasting N days. They take packages of bread for food. Each package has K pieces of breads. On the ith day, they eat Ai pieces of bread.
+Unfortunately, chefs are very lazy people, and they always forget to close the package of breads, so each day the last piece of bread becomes exposed to mold (a fungus), and is no longer suitable for eating. Such a bad piece is not eaten, and is instead thrown away. 
+Let us take an example. If K = 4 and N = 3, then A = {3, 1, 2}. Chefs have packages of bread each having 4 pieces of bread, and their travel lasts 3 days. In the first day, they must eat 3 pieces of bread. So they open new package of bread and eat 3 pieces. They forget to close the package, so the 4th piece becomes bad. In the next day, they want to eat one piece of bread. And in the first package we don't have any good pieces of bread left, so they open a new package of bread and eat one piece from that. On the 3rd day, they want to eat 2 pieces of bread. In the second package, we have three pieces, and one of them is bad; so we have 2 good pieces. They eat 2 pieces from this package. So they must buy 2 packages of bread.
+Please help chefs in finding out the minimum number of packages of breads they should take with them on the tour.
+Input
+The first line of input contains a single integer T denoting the number of test cases.
+The first line of each test contains two space separated integers N and K.
+The next line of each test case contains N space separated integers denoting the number of pieces of bread the chefs want to eat each day.
+Output
+For each of the T test cases, output a single line - minimum number of packages of bread the chefs should take.

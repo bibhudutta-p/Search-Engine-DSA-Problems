@@ -1,0 +1,11 @@
+Problem
+While playing in the plains, Chef found a point A with coordinates (X,Y).
+Chef is interested in finding the number of straight lines passing through the point A such that their intercepts on both axes are positive integers.
+Input Format
+
+First and only line of input contains two integers X and Y - the coordinates of the point A.
+
+Output Format
+
+For each test case, print an integer - the number of lines satisfying the given conditions.
+

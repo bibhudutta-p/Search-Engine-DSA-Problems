@@ -1,0 +1,15 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+You are given an array A of size 2 * N consisting of positive integers, where N is an odd number. You can construct an array B from A as follows, B[i] = max(A[2 * i - 1], A[2 * i]), i.e. B array contains the maximum of adjacent pairs of array A. Assume that we use 1-based indexing throughout the problem.
+You want to maximize the median of the array B. For achieving that, you are allowed to permute the entries of A. Find out the maximum median of corresponding B array that you can get. Also, find out any permutation for which this maximum is achieved.
+
+Note
+Median of an array of size n, where n is odd, is the middle element of the array when it is sorted in non-decreasing order. Note that n being odd, the middle element will be unique, i.e. at index (n+1) / 2.
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains an integer N.
+The second line of each test case contains 2 * N space separated integers denoting array A.
+Output
+For each test case, output two lines.
+The first of which should contain an integer corresponding to maximum value of the median of array B that you can get.
+In the second line, print 2 * N integers in a single line denoting any permutation of A for which the maximum value of median of array B is achieved.

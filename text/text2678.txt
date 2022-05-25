@@ -1,0 +1,41 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+Chef Smurf likes strings a lot but he likes balanced strings more. Smurf calls a string S a balanced string if and only if characters of strings S can be partitioned into two multi-sets M1 and M2 such that M1 = M2.For eg : Strings such as aabbcc, abcabc , baccba , abccba are all balanced strings as their characters can be partitioned into two multi-sets M1 and M2 such that M1 = M2 = {a,b,c}  whereas strings such as aba, abc , abcdef, blablah are not balanced strings.
+Today, Smurf found a special string P consisting of N lower case Latin letters. Smurf wants to make some queries about his string P.
+Each of Smurf's query consists of 3 integers L R type. For a given query, Smurf wants to calculate this :    
+                                        
+For all Ts,e, where Ts,e is balanced string such that starting index s and ending index e of a chosen string Ts,e satisfies L ≤ s < e ≤ R.
+Note : |Ts,e| denotes the length of string Ts,e.
+Just to make this problem little bit more interesting, given input is encoded. Instead of L and R in each query, you will be provided with two integers X and Y. Two keys A and B are used to decode the given input.
+
+void decode(){
+    A = 0 ; // initialising first key 
+    B = 0 ; // initialising second key 
+    Q = input(); // number_of_queries;
+    while( Q -- ) {
+        X = input(); 
+        Y = input();
+        type = input() ;
+        L = ( X + A ) % N + 1; // decoding L
+        R = ( Y + B ) % N + 1; // decoding R
+        // N is the length of the given string
+        if (L > R) {
+            // swap L and R
+            int T = L;
+            L = R;
+            R = T;
+        }  
+        ans = solve(L,R,type); // calculate answer for current query
+        A = B;     // updating key A 
+        B = ans;   // updating key B 
+    } 
+}
+
+
+Smurf cannot accomplish this task alone. Can you help him ?
+Input
+First line of the input contains a single integer T denoting the number of test cases. First line of each test case contains a string P denoting the chef's special string. Next line of the each test case contains a single integer Q denoting the number of chef's queries. Next Q lines of the each test case contains three space separated integers denoting X, Y and type respectively.
+Output
+For each of the chef's query, print the required answer.
+Note 
+Two substrings Ts1,e1 and Ts2,e2 are considered to be different if either s1 != s2 or e1 != e2 where s1,e1 and s2,e2 are the starting and ending indices of string T1 and string T2 respectively.

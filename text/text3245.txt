@@ -1,0 +1,22 @@
+Problem
+Our friend Shubham loved solving maths problems. Today he came accross this function which is used to calculate the strength of a number
+
+	int strength(int N) {
+		int value = 0, temp = N;
+		/*Array lp stores the lowest prime divisor 
+                  i.e. lp[x] stores lowest prime divisor of x*/
+		while(temp != 1) {
+			value += N / lp[temp];
+			temp /= lp[temp];
+		}
+		return value;
+	}
+
+
+Having learnt sieving and related algorithms, we was able to calculate the above function efficiently. But, his friend gave him a harder task to calculate. 
+
+You, being a good programmer, want to help Shubham with this difficult task. Since, this sum can be very large, you are required to output this value modulo 1000000007 (109 + 7).
+Input
+The input consists of T test cases. For each test case you are given 2 numbers N, k, as specified in problem statement.
+Output
+For each test case, print the required answer for the summation function expressed above, modulo 1000000007.

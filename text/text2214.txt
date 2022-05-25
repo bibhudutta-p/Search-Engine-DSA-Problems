@@ -1,0 +1,21 @@
+Problem
+Dragonado rarely gets stuck on a problem, unless of course, if it's a XOR Problem.
+Dragonado while coming back from the Fruit Market, finds an array A of N elements. He wants to find 4 integers, say i1​,i2​,i3​ and i4​, such that:
+
+popcount(Ai1​​⊕Ai2​​)=popcount(Ai3​​⊕Ai4​​)
+1≤i1​,i2​,i3​,i4​≤N and  i1​,i2​,i3​,i4​ are pairwise distinct.
+
+Here, popcount(x) denotes the number of set bits in the binary representation of x. Secondly, ⊕ denotes the bitwise XOR operation.
+Can you help Dragonado find four integers i1​,i2​,i3​ and i4​ which satisfy the given conditions?
+Output −1 if no answer exists.
+If multiple answers exist, output any.
+Note: The input of this problem is large, so use fast input/output methods.
+Input Format
+
+The first line contains a single integer T - the number of test cases. Then the test cases follow.
+The first line of each test case contains an integer N - the size of the array A.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​ denoting the array A.
+
+Output Format
+For each test case, output i1​,i2​,i3​,i4​ which satisfy the given conditions.
+Output −1 if no numbers satisfying the conditions exist.

@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Vietnamese,
+Bengali, Mandarin Chinese, and Russian as well.
+Chef has two numbers N and M. Help Chef to find number of integer N-tuples (A1​,A2​,…,AN​) such that 0≤A1​,A2​,…,AN​≤2M−1 and A1​&A2​&…&AN​=0, where & denotes the bitwise AND operator.
+Since the number of tuples can be large, output it modulo 109+7.
+Input
+
+The first line contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two integers N and M.
+
+Output
+For each test case, output in a single line the answer to the problem modulo 109+7.

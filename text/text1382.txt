@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Vietnamese, and Bengali as well.
+You are given a grid with N rows and M columns, where each cell contains either '0' or '1'.
+Find out whether all the cells containing '1'-s form a rectangle, I.e, is there a rectangular contiguous subgrid such that every cell within it is a '1', and all the cells containing '1'-s are within this subgrid.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+N lines follow. For each valid i, the i-th of these lines contains a single string with length M describing the i-th row of the grid.
+
+Output
+For each test case, print a single line containing the string "YES" if the connected component of '1'-s is a rectangle or "NO" if it is not.
+Note: The output is case-insensitive ― each letter may be printed in upper case or lower case.

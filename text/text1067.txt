@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef has N dishes, numbered 1 through N. For each valid i, dish i is described by a string Di​ containing only lowercase vowels, i.e. characters 'a', 'e', 'i', 'o', 'u'.
+A meal consists of exactly two dishes. Preparing a meal from dishes i and j (i=j) means concatenating the strings Di​ and Dj​ in an arbitrary order into a string M describing the meal. Chef likes this meal if the string M contains each lowercase vowel at least once.
+Now, Chef is wondering - what is the total number of (unordered) pairs of dishes such that he likes the meal prepared from these dishes?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+N lines follow. For each valid i, the i-th of these lines contains a single string Di​.
+
+Output
+For each test case, print a single line containing one integer - the number of ways to prepare a meal Chef likes.

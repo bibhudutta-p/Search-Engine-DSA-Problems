@@ -1,0 +1,32 @@
+Problem
+ Read problems statements in Mandarin Chinese and Russian as well.
+There are N junctions and M bidirectional roads, connecting these junctions. The junctions are numbered from 1 to N inclusive. For each road the time required to pass it is known.
+There's a shop in every junction. Each shop contains some of K types of goods. In i-th shop, the goods of the j-th type cost Ai,j rubles.
+
+Any item of the ith type of goods weighs for Wi grams.
+Initially, you are standing at the junction 1. You want to get to the junction N and buy exactly one unit of each of the goods so that your total budget does not exceed F rubles and the penalty is minimized (see next section for its details). Please note that buying goods take negligible time, so buying goods and switching roads can be considered instantaneous. Also, passing through junctions and roads multiple times is allowed. Also, note that you are also allowed to pass through junction N also, as long as in the end, you end up at this junction.
+The penalty is defined as the sum of Ti * Wi over all types of goods, where Ti denotes the time between the moment of the purchase of the item of the goods of the ith type and the finish moment. Intuitively, penalty is the cost you have to pay in carrying the goods.
+Input
+The first line contain four space-separated integer numbers N, M, K, F denoting the number of junctions, the number of roads, the number of types of goods and the budget respectively.
+Each of the following K lines (say, the ith) start with a pair of integer numbers Pi and Wi followed with Pi pairs of integers Bi, j, Ai, j, where Bi, j denotes a shop containing ith good, the shop is located at junction Bi, j and the cost of ith good at this junction will be Ai, j.
+
+Each of the following M lines (say, the kth) contains three space-separated integer numbers Xk, Yk, Zk, which denotes that there is a road whose two endpoint junctions are given by Xk, Yk and the time required to pass this junction is given by Zk.
+Output
+The first line of the output should contain an integer number D, denoting the number of commands.
+The following line should contain D integer numbers, denoting the commands in the following format: Let the number outputted in some command is d.
+
+ If d is positive, then it represents a move from the current junction to the adjacent junction numbered d.
+ If d is  negative, that it represents buying of the goods of  type -d in the current shop.
+
+In the beginning, the current junction is always the first junction.
+You will get a wrong answer verdict when:
+
+You try to move to the junction that is not adjacent to the current one.
+You don't finish at the junction N.
+You spend more than F rubles.
+You try to buy some goods in some shop where they're unavailable.
+You try to buy goods of same type twice or some.
+You don't buy all the goods by the time you finish.
+The number of commands exceeds 2000000.
+
+

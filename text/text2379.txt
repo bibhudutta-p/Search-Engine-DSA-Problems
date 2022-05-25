@@ -1,0 +1,12 @@
+Problem
+You are given two arrays of length N. Array A = A1, A2, ..., AN. Array L = L1, L2, ..., LN. For every k such that 1≤k≤N, you have to find the length of the longest possible subsequence in the first k elements of array A such that if Aj immediately follows Ai in the subsequence, then ∣Aj−Ai∣≤Lj
+Please note that the input is encrypted. Read Input section for information.
+It is advised to use fast I/O methods
+Input:
+
+First line contains a single integer N, the no of elements of the arrays.
+The i-th of the next N lines contains two values, A’i and L’i, the encrypted values of Ai and Li.
+Suppose that the (i-1)-th output was Ansi-1, then Ai = Ansi-1 XOR A’i, and Li = Ansi-1 XOR L’i, where XOR denotes the bitwise xor operator. Assume Ans0 = 0.
+
+Output:
+Output N integers, each in a new line, the i-th of which should be the length of the longest possible subsequence uptil Ai.

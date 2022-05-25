@@ -1,0 +1,18 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+There are N integers X1, X2, ..., XN.
+Let's define Yi,j = Xi × Xj mod 359999.
+How many integer 6-tuples (a, b, c, d, e, f) are there such that:
+
+
+1 ≤ a, b, c, d, e, f ≤ N
+gcd(Ya, b, Yc, d, Ye, f) = 1
+
+
+We define gcd(0, 0) = 0.
+Input
+The first line of input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N integers separated by single spaces: X1, X2, ..., XN.
+Output
+For each test case, output a single line containing the answer. Since the answer can be very large, only output it modulo 109 + 7.

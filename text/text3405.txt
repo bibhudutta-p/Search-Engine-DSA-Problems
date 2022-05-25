@@ -1,0 +1,11 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a string A of length N, consisting of zeroes and ones. You want to partition it into blocks consisting of consecutive indices such that each block has an odd sum and has length at most m. For each m from 1 to N, find the minimum number of blocks required, or report that it is impossible.
+Input
+
+The first line contains an integer T, the number of test cases. Each test case contains two lines:
+The first line of each test case contains an integer N.
+The second line of each test case contains a string A=a1​a2​…aN​.
+
+Output
+For each test case, print N space-separated integers. The m-th of these integers should be the minimum number of blocks of length at most m the array can be partitioned into, such that each block has an odd sum, or −1 if it is impossible to do so.

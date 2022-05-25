@@ -1,0 +1,10 @@
+Problem
+Read problems statements in Mandarin chinese, Russian  and Vietnamese as well.
+Danya gave integers a, b and n to Archi. Archi wants to compare an and bn. Help Archi with this task.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains three space-separated integers a, b and n.
+
+Output
+For each test case, print a single line containing one integer: 1 if an>bn, 2 if an<bn or 0 if an=bn.

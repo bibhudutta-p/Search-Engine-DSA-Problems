@@ -1,0 +1,17 @@
+Problem
+You are given an array A of N integers A1​,A2​,…,AN​. Determine if there are two permutations B and C of this array, for which the following condition is satisfied:
+
+There doesn't exist a pair of integers (i,j) such that 1≤i≤j≤N and (i,j)=(1,N), for which the subarray B[i:j] is a permutation of subarray C[i:j].
+
+If there exist such permutations, find any of them.
+As a reminder, B[i:j] refers to the subarray [Bi​,Bi+1​,…,Bj​]
+Input Format
+
+The first line of the input contains a single integer T, the number of test cases. The description of the test cases follows.
+The first line of each test case contains a single integer N — the number of integers.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, if there are no such permutations B and C, output NO.
+Otherwise, on the first line output YES. In the next line, output N integers B1​,B2​,…,BN​. In the next line, output N integers C1​,C2​,…,CN​.
+You may print each character of YES/NO in either uppercase or lowercase (for example, the strings YES, yeS, YeS, and yEs will all be treated as identical).

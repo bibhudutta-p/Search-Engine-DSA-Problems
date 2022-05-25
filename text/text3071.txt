@@ -1,0 +1,23 @@
+Problem
+Read problems statements in Mandarin chinese, Russian  and Vietnamese as well.
+Nazik gave Batman a tree with N vertices (numbered 1 through N). There are some robbers in the tree; of course, Batman wants to catch the robbers.
+Initially, Batman is in a vertex s and his power is equal to p. During each of the next M seconds, the following process happens:
+
+A robber with power r runs from a vertex x straight to vertex y.
+Batman either catches the robber or stays in his current vertex (and never catches this robber).
+Batman can only catch the robber if Batman's power is strictly greater than the robber's power.
+Let's denote Batman's current vertex by s (s=si​ initially). To catch the robber, Batman must choose a vertex g such that each vertex on the simple path between x and y (inclusive) lies also on the simple path between s and g (inclusive). If it is impossible to choose a vertex g so that this condition is satisfied, Batman cannot catch this robber.
+If Batman catches the robber, g becomes his current vertex.
+After Batman catches this robber, his power increases by t.
+
+Your task is to calculate the maximum power Batman can have after M seconds if he chooses the robbers to catch optimally.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, si​ and p.
+Each of the next N−1 lines contains two space-separated integers u and v denoting an edge in the tree between vertices u and v.
+The next line contains a single integer M.
+Each of the following M lines contains four integers x, y, r and t describing a robber.
+
+Output
+For each test case, print a single line containing one integer — the maximum possible value of Batman's power after M seconds.

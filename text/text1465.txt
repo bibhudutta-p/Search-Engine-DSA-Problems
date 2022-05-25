@@ -1,0 +1,11 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+
+Given an array of size n, you have to answer queries of the form :  L R k . For each query, you have to find an element which occurs consecutively in the subarray [L,R] more than or equal to k times. k will always be greater than floor((R-L+1)/2). If no such element exists, print -1.
+
+Input
+First line of the input contains 2 space separated N and M, denoting the size of the array and the number of queries. 
+The next line contains N space separated integers, where the i-th integer Ai denotes the ith element of the array.
+Each of the next M lines contains 3 integers space separated integers L, R and k.
+Output
+Output M lines where each line contains the answer to the i-th query.

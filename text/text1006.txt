@@ -1,0 +1,14 @@
+Problem
+Alice has an array A consisting of N distinct integers. Bob takes exactly N−1 elements from this array and adds a positive integer X (i.e. X>0) to each of these numbers and then shuffles them to form a new array B of length N−1.
+You are given both arrays A and B. You have to identify the value of X chosen by Bob. If there are multiple possible values of X, print the smallest of them. It is guaranteed that for the given input, there exists at least one possible value of X.
+Note: Since the input is large, prefer using fast input methods.
+Input Format
+
+The first line of input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+Each test case contains 3 lines of input.
+The first line contains an integer N - the length of array A.
+The second line contains N space-separated integers A1​,A2​,…,AN​, denoting the array A.
+The third line contains N−1 space-separated integers B1​,B2​,…,BN−1​, denoting the array B.
+
+Output Format
+For each test case, output the value of X chosen by Bob. In case there are multiple possible values of X, print the smallest of them.

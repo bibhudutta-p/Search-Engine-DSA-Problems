@@ -1,0 +1,19 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Chef has N markers. There is a cap on each marker. For each valid i, the i-th marker has colour ai​. Initially, for each valid i, the colour of the cap on the i-th marker is also ai​.
+Chef wants to rearrange the caps in such a way that no marker has the same colour as its cap. (Obviously, each marker must have exactly one cap.) Can he do that? If he can, find one such way to rearrange the caps. If there are multiple solutions, you may find any one.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers a1​,a2​,…,aN​.
+
+Output
+
+For each test case:
+
+If Chef cannot successfully rearrange the caps, print a single line containing the string "No" (without quotes).
+Otherwise, print two lines. The first line should contain the string "Yes" (without quotes). The second line should contain N space-separated integers describing a valid rearrangement of caps. For each valid i, the i-th of these integers should denote the final colour of the cap on the i-th marker.
+
+
+

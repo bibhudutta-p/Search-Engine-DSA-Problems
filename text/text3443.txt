@@ -1,0 +1,15 @@
+Problem
+Read problems statements in Russian.
+Utkarsh is forced to play another game with Ashish.
+In this game there are N piles, ith pile contains Ai​ stones. Utkarsh moves first.
+In his turn a player can choose any pile with non-zero stones and remove exactly one stone from that pile. The game ends when there is exactly one pile containing non-zero stones and the player who made the last move wins the game.
+Now you are given an array B of length N. Utkarsh wants to know for how many arrays A such that 1≤Ai​≤Bi​ for every i, he will win the game assuming that both players play optimally.
+Since the answer can be large output it modulo 998244353.
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+First line of each test case consists of an integer N.
+Second line consists of N space separated integers denoting the array B.
+
+Output Format
+For each testcase, output the number of games Utkarsh wins modulo 998244353.

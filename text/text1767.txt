@@ -1,0 +1,7 @@
+Problem
+Chef has had a recipe. He had written it as a sequence of N integer numbers A[1], A[2], ..., A[N]. To be on the safe side, he decided to write out M triples of numbers, where i-th triple is composed of three numbers Xi, Yi and Zi. It means that the sum of numbers in the recipe from Xi-th to Yi-th is equal to Zi. In other words, A[Xi] +  A[Xi + 1] + ... + A[Yi] = Zi. Unfortunately, the recipe has been recently lost. So Chef needs to restore his recipe using these M triples. Your task is to help him.
+Input
+The first line contains two space separated integer numbers N and M.
+Then M lines follow. Each line contains three space separated integer numbers Xi, Yi and Zi. It means that the sum of numbers in the recipe from Xi-th to Yi-th is equal to Zi.
+Output
+If there is a solution output N space separated integer numbers - the sequence that you have restored. If there are several solutions you can output any of them. However, any number in the output should be no more than 1014 by its absolute value. If it is impossible to restore the sequence output "-1" without quotes.

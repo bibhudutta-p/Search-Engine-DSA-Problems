@@ -1,0 +1,16 @@
+Problem
+The zombie apocalypse is here and Chef is stuck at an old construction site. The site is surrounded by walls on three sides. On the fourth side is a fence where N zombies are standing in a row. The zombies are numbered from 1 to N from left to right. Zombie i has Zi​ health points initially.
+Luckily there are M cranes Chef has access to. The ith crane carries Ki​ construction beams. Chef can drop any number ≥0 and ≤Ki​ of these beams from crane i and they will hit all zombies whose numbers lie between Li​ to Ri​ both inclusive. A single beam decreases the health of all zombies it hits by 1 point. If a zombie's health equals 0 after being hit it is considered dead.
+Can Chef kill all the zombies using the beams? If yes, what is the minimum number of beams that Chef has to drop to achieve this?
+Warning: Large I/O, it is advisable to use fast I/O methods.
+Input:
+
+The first line contains T, number of testcases.
+The first line of each test case contains two integers N and M.
+The second line of each test case contains N integers Z1​,Z2​,...,ZN​.
+M lines follow. The ith line contains 3 integers Li​, Ri​ and Ki​.
+
+Output:
+
+For each test case, if it is possible for Chef to kill all the zombies print a single line containing "YES" followed by the minimum number of beams he needs to drop. If it is impossible, print "NO" instead. (Note that the judge is case-sensitive)
+

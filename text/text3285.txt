@@ -1,0 +1,20 @@
+Problem
+Vedant has just arrived in Bengal and now he wants to taste the best rasgullas of the country, so he goes to the world famous sweet store there. The shopkeeper has kept N rasgullas on the coordinate axis, at coordinates 1,2,….N.
+Vedant cannot eat one rasgulla more than once. The initial tastiness of all the rasgullas is 0. As he is in the best sweet store, the rasgullas are very sweet and syrupy. So, when he eats a rasgulla , (suppose at coordinate i) ,it’s syrup spreads ,and the rasgullas which lie between points [i−di​,i+di​] , undergo a taste-change, wherein the tastiness of each of these  rasgullas increases by ci​. Whenever he eats a rasgulla, his happiness increases by the current tastiness of the eaten rasgulla.
+Vedant can eat the N rasgullas in any order. As Vedant wants to enjoy his visit to Bengal as much as possible, he asks you to tell the maximum possible happiness he can achieve by eating the rasgullas!
+Input Format
+
+The first line of input consists of a single integer N
+The next line contains N spaced integers:
+
+d1​,d2​,...,dN​
+
+
+The next line contains N spaced integers:
+
+c1​,c2​,...,cN​
+
+
+
+Output Format
+A single integer denoting the maximum possible happiness of Vedant.

@@ -1,0 +1,26 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef has two matrices A and B, each with size N×M. Each cell of the matrix A contains a character '0' or '1', while each cell of the matrix B contains '?', '0' or '1'.
+The matrix A can be modified using zero or more operations. In one operation, Chef can choose two cells in the matrix A which lie either in the same row or in the same column and flip the characters in each of these cells (flipping means changing '1' to '0' or '0' to '1').
+Chef wants the matrix A to match the matrix B. Formally, for each row r and column c, if the cell in row r and column c of B contains '0' or '1', then he wants the cell in row r and column c of A to contain the same character; otherwise (for cells containing '?'), it may contain either '0' or '1'.
+The difficulty of your task is described by a parameter E. If E=0, you should only find the smallest number of operations required to achieve this goal. If E=1, you should also find one sequence of operations with the smallest length which achieves it.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, M and E.
+N lines follow. For each valid i, the i-th of these lines contains a single string Ai​ with length M describing the i-th row of the matrix A.
+N more lines follow. For each valid i, the i-th of these lines contains a single string Bi​ with length M describing the i-th row of the matrix B.
+
+Output
+For each test case:
+
+If it is not possible to make A match B, print a single line containing the integer −1.
+Otherwise, first, print a line containing a single integer K ― the smallest required number of operations.
+Then, if E=1, print K lines describing the sequence of operations you want to perform. An operation should be printed in one of the following formats:
+
+R r i j to flip the characters in cells in row r and columns i and j (1≤r≤N, 1≤i,j≤M)
+C c i j to flip the characters in cells in column c and rows i and j (1≤c≤M, 1≤i,j≤N)
+
+
+
+If there are several possible answers, you may find any one of them.

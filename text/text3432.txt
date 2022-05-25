@@ -1,0 +1,31 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+### Be careful!!! You are not allowed to submit this problem more than 99 times!
+Chef has N randomly generated points with integer coordinates (x1​,y1​),(x2​,y2​),…,(xN​,yN​). He asks you to perform the following operation:
+
+choose up to K of these points, i.e. a subsequence {(xki​​,yki​​)}i=1L​, where 0≤L≤K
+for each 1≤i≤L, choose a vector (dxi​,dyi​) with integer coordinates such that dxi2​+dyi2​≤R2
+add (dxi​,dyi​) to (xki​​,yki​​), i.e. change (xki​​,yki​​) to (xki​​+dxi​,yki​​+dyi​), for each valid i
+
+The resulting N points must be pairwise distinct.
+Afterwards, you must find a hull containing all N points. The hull must be a simple polygon and no three consecutive points on it may lie on the same line, but it does not have to be convex. You should minimise the area of this hull.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, K and R.
+For each i (1≤i≤N), the i-th of the following N lines contains two space-separated integers xi​ and yi​.
+
+Output
+For each test case, print N+2 lines.
+The first line should contain a single integer M — the number of points on the hull. The second line should contain M space-separated integers b1​,b2​,…,bM​ — the indices of points on the hull in the order in which they appear on its perimeter (in either direction). The following N lines should describe the final coordinates of all points; for each valid i, the i-th of these lines should contain two space-separated integers — the coordinates of the i-th point.
+Your answer must satisfy the following conditions:
+
+3≤M≤N
+the indices b1​,b2​,…,bM​ are pairwise distinct
+1≤bi​≤N for each valid i
+no three consecutive points on the hull lie on the same line
+there are no more than K points whose positions on the output are different from their initial positions
+for each valid pair i,j (i=j), xi​=xj​ or yi​=yj​ — all points on the output are pairwise distinct
+all N points are inside or on the perimeter of the hull
+the hull is a simple polygon — no two non-consecutive edges intersect or touch
+

@@ -1,0 +1,11 @@
+Problem
+Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
+You are given an integer sequence A1​,A2​,…,AN​. Let's define the useful number of a subsequence of A as the number of distinct primes p such that p divides each member of the subsequence, multiplied by the length of the subsequence. Find the maximum of useful numbers of all subsequences of A.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-seperated integers A1​,A2​,…,AN​.
+
+Output
+Print a single line containing one integer — the maximum useful number.

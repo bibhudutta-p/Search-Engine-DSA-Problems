@@ -1,0 +1,23 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given N segments (l1​,r1​),(l2​,r2​),(lN​,rN​) and two integers A and B. Let's define playing a game with two parameters (x,y), where 0≤x≤N, as the following recursive process:
+
+If x=0, the game ends immediately.
+Otherwise, if y≤lx​ or rx​≤y, end this game and play a game with (x−1,y).
+Otherwise (if lx​<y<rx​), you must choose one of the following options:
+
+Pay A coins, end this game and play a game with (x−1,y).
+Pay B coins, end this game and play two independent games — a game with (x−1,lx​) and a game with (x−1,rx​).
+
+
+
+You should answer Q independent queries. In each query, you are given two integers x and y and you should start by playing a game with parameters (x,y). Your goal is to reach a state when you should not play any games, since you have successfully ended every game you should have played. Find the minimum number of coins required for reaching this state.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains four space-separated integers N, Q, A and B.
+For each i (1≤i≤N), the i-th of the next N lines contains two space-separated integers li​ and ri​.
+Q lines follow. Each of these lines contains two space-separated integers x and y describing a query.
+
+Output
+For each query, print a single line containing one integer — the minimum number of coins.

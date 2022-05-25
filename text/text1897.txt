@@ -1,0 +1,16 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Every time Rami comes up with an idea for a nice problem, his grandfather Saeed rejects it, claiming that it takes a lot of work to write tests for such a problem. Therefore, Rami spent days thinking about a problem with only three numbers as the input. Finally, he thought up such a problem and ran happily to his grandfather, shouting:
+You are given three integers N, M and K. Find the number of sequences A1​,A2​,…,AN​ such that:
+
+For each valid i, Ai​ is an integer in the range [0,M−1].
+Let's define N prefix sums of A as Si​=∑j=1i​Aj​, where 1≤i≤N. At least K of these prefix sums are divisible by M.
+
+Let's see if you can solve this simple problem! Rami knows that the answer could be really large, so you should compute it modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains three space-separated integers N, M and K.
+
+Output
+For each test case, print a single line containing one integer — the number of valid sequences modulo 109+7.

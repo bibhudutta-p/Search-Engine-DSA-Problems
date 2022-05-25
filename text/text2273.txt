@@ -1,0 +1,12 @@
+Problem
+Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
+Chef's brother Chefu is a competitive programmer. Every day, he practices for ICPC (International Chefs' Programming Contest) by solving problems. Today, Chef challenged his brother to solve a certain problem, promising to bake an apple pie for him if he succeeds. Chefu has successfully solved the problem, but can you solve it?
+You are given an integer sequence A1​,A2​,…,AN​. In one move, you must select two adjacent elements of this sequence (i.e. Ai​ and Ai+1​ for some valid i) and swap them. Let's call a sequence orderly if it contains a contiguous subsequence with length at least K such that all of its elements have identical values. Find the minimum number of moves required to make the given sequence orderly or determine that it is impossible.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer — the minimum required number of moves, or −1 if it is impossible to make the sequence orderly.

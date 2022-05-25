@@ -1,0 +1,14 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef has a string S. A substring of S is obtained by removing zero or more characters from the beginning and/or end of S. For each L (1≤L≤∣S∣):
+
+K times, Chef wants to choose a substring of S with length L uniformly randomly and independently.
+Find the probability that all these K substrings will be pairwise distinct. It can be proved that this probability can be expressed as a fraction QP​, where P and Q are integers and Q is coprime with 998,244,353. You should compute P⋅Q−1 modulo 998,244,353, where Q−1 denotes the multiplicative inverse of Q modulo 998,244,353.
+
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a string S followed by a space and an integer K.
+
+Output
+For each test case, print a single line containing ∣S∣ integers. For each valid i, the i-th of these integers should be P⋅Q−1 for L=i.

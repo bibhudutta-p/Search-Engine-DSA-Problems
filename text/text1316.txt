@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef's good friend Shubham has an assignment to complete, but he is too lazy to do it, so he asked Chef to help him. On the other hand, Chef was busy in the kitchen, so he in turn asked you to help Shubham.
+You are given a sequence of positive integers A1​,A2​,…,AN​ and an integer K. For any positive integer X such that exactly K bits in the binary representation of X are equal to 1, consider the sum S=∑i=1N​(X∧Ai​); here, ∧ denotes bitwise AND. You should choose X in such a way that S is maximum possible. If there is more than one such value of X, you should find the smallest one.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer ― the smallest possible value of X.

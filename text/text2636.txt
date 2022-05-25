@@ -1,0 +1,16 @@
+Problem
+Given is a sequence A of length N.
+Define f(i,j) to be the number of distinct elements in Ai​,Ai+1​,…,Aj​.
+You need to process Q queries of the following two types:
+
+1 x y — set Ax​=y.
+2 k — print i=1∑k​j=i∑k​f(i,j).
+
+Input Format
+
+The first line of input contains two integers N and Q — the size of the array and the number of queries.
+The second line of input contains N space-separated integers A1​,A2​,…,AN​.
+Then, Q lines follow, describing queries in the format given in the statement.
+
+Output Format
+For each type 2 query, print the answer to it on a new line.

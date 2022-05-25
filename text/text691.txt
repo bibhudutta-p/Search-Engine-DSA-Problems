@@ -1,0 +1,18 @@
+Problem
+Given two integers A and B.
+
+Let P denote a sequence of N prime numbers such that the sum of the sequence is A.
+Let Q denote a sequence of M prime numbers such that the sum of the sequence is B.
+
+Let X denote the maximum absolute difference between Pi​ and Qj​ among all valid pairs (i,j) such that (1≤i≤N) and (1≤j≤M).
+Find the minimum possible value of X over all possible sequences P and Q.
+More formally, for all possible sequences P and Q, find the minimum value of max(∣Pi​−Qj​∣), where (1≤i≤N) and (1≤j≤M).
+Print −1 if any one of the sequences cannot be formed.
+Note that, ∣X∣ denotes the absolute value of a number X. For example, ∣−4∣=4 and ∣7∣=7.
+Input Format
+
+First line will contain T, the number of test cases. Then the test cases follow.
+Each test case contains two integers A and B.
+
+Output Format
+For each test case, find the minimum possible value of the maximum absolute difference between Pi​ and Qj​ for (1≤i≤N) and (1≤j≤M). If any of the sequences can not be formed, print −1 instead.

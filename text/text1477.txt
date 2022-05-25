@@ -1,0 +1,18 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You are given a positive integer K and a sequence A1​,A2​,…,AN​. Initially, each element of this sequence is 0 or 1; your goal is to make all elements equal to 0.
+In order to do that, you may perform the following operation any number of times:
+
+Choose a subarray (a contiguous subsequence) with length K, i.e. choose two indices L and R such that 1≤L≤R≤N and R−L+1=K.
+Choose one element of that subarray and change it to 0, i.e. choose an index P such that L≤P≤R and change AP​ to 0.
+The cost of this operation is the sum of this subarray AL​+AL+1​+…+AR​ before AP​ is changed.
+
+Find the minimum total cost (sum of costs of individual operations) of making all elements of A equal to 0.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer ― the minimum cost of turning all elements of A into zeros.

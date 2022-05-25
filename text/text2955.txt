@@ -1,0 +1,27 @@
+Problem
+ 
+Logan: "Someone will come along"
+Charles: "Someone has come along"
+After much speculation, Logan has decided to escort Laura to a place in North Dakota called "Eden". 
+ But Laura is in playful mood right now, and wants Logan to play with her an interesting game. 
+She gives Logan a tree with N nodes and Q queries. Each query will contain 5 integers R A B X and Y.
+R denotes the root node of the tree for the particular query.
+A denotes the cost of an edge if one traverses from a node to its parent node.
+B denotes the cost of an edge if one traverses from a node to its child node.
+Consider 2 friends are standing at nodes X and Y respectively. They both need to meet and can meet at any node. Logan need to tell Laura what is the minimum cost they both need to pay to meet?
+After a person travels through an edge (his current location gets updated), he needs to pay the cost which is equal to C * cost of edge where C is a factor whose value is equal to total edges traveled by a person from his starting location and upto his current location and cost of edge will be either equal to A or B depending upon the person's movement.
+
+See sample input output for better understanding.
+
+ 
+Input
+
+First line contains an integer N denoting number of nodes in tree.
+Next N-1 lines contains two integers U and V denoting that there is an edge between node U and node V.
+Next line contains an integer Q denoting number of queries.
+Next Q lines contains five integers R, A, B, X and Y respectively.
+
+ 
+Output
+For each query print required answer in a separate line.
+ 

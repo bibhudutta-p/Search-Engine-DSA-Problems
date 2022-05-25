@@ -1,0 +1,21 @@
+Problem
+The ugliness of a sequence of size N is defined as the number of pairs of neighboring elements which are not equal to each other. Formally, the ugliness of a sequence increase by 1 if for a value of i, 2≤i≤N, the following condition holds true:
+Ai​=Ai−1​.
+Examples:
+
+[1,2,2,3], ugliness is 2.
+[2,1,2,3,4], ugliness is 4.
+
+You are given a sequence A of length N consisting of the first K natural numbers only. Each of the first K natural numbers occur at least once in the given sequence. For each value of K, you are supposed to remove all of its occurrences from the original sequence and determine the ugliness of the resulting sequence.
+Note:  An empty sequence has ugliness of 0.
+Input Format
+
+First line will contain T, the number of test cases. Then the testcases follow.
+Each testcase consist of two lines of input
+First line contains two integers N, K
+Second line contains N space-separated integers, where the ith integer denotes the ith element of the sequence A.
+
+Output Format
+
+For each testcase print K space-separated integers denoting the answer for that testcase.
+

@@ -1,0 +1,17 @@
+Problem
+Chef has a circular array A of N integers A1​,A2​…AN​ where AN​ and A1​ are considered adjacent.
+The subarray Ai,j​ defined as an array formed using elements of A from ith index element to jth index element (both inclusive). Formally, Ai,j​ is defined as:
+
+If i≤j, then the subarray of A from the index i to index j, both inclusive.
+If i>j, then it denotes the subarray of A from index i to index N, followed by subarray of A from index 1 to index j.
+
+A function f(B) is defined on an array B as the number of subarrays of B which have sum less than K.
+Let S=∑i=1N​∑j=1N​f(Ai,j​). Find the value of S modulo 1,000,000,007.
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two integers N and K.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output:
+For each test case, print a single line containing one integer ― the value of S modulo 1,000,000,007.

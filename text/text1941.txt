@@ -1,0 +1,16 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+JJ has a magical sequence A1​,A2​,…,AN​. The group of high magicians Sed wants to buy this sequence from him. They calculate its cost as follows:
+
+Choose a subarray of length atleast 2, i.e. a contiguous subsequence Al​,Al+1​,…,Ar​ such that 1≤l<r≤N.
+The cost is the difference between the largest and the second largest element in this subarray (note that if there is more than one element with the maximum value, the cost is 0).
+
+Clearly, the cost is not uniquely determined, but depends on the choice of the subarray in the first step. JJ is careful, so he wants to find the number of different possible amounts of money he can obtain, i.e. the size of the set of all possible costs for all valid choices of this subarray.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-seperated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer — the number of possible costs.

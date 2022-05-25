@@ -1,0 +1,21 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+
+Sereja conducted a voting about N of his opinions. Ai percent of people voted for opinion number i. 
+This statistics is called valid if sum of all Ai is equal to 100. 
+
+
+Now let us define rounding up of a statistics A. 
+ If Ai is not an integer, it will be rounded up to next integer. 
+ Otherwise it will be left as it is. 
+
+e.g. 4.1 became 5, 4.9 became 5 but 6 will still be 6.
+
+Now let us consider a statistics B of size N in which each of Bi is an integer. Now he wants to know whether there exists some valid statistic A of size N  (may contain real numbers) such that after rounding it up, it becomes same as B?
+
+Input
+First line of input contain integer T - number of test cases. 
+For each test, case first line contains integer N - number of opinions. 
+Next line contains N integers B1, B2, ..., BN as defined in the problem.
+Output
+For each test case, output YES or NO denoting the answer of the problem, i.e. if there exists some statistics A which could be rounded to make it B, print YES otherwise NO. 

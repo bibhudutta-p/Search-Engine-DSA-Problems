@@ -1,0 +1,15 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Chef is playing a game with his brother Chefu. Before the game begins, C cards are placed on a table. Each card has a number written on it; since C can be very large, these numbers are described by two sequences A and D. Each of these sequences has length N; for each i (1 ≤ i ≤ N), Di cards, each with number Ai written on it, are placed on the table. Therefore, C is equal to the sum of elements of D. Note that the elements of A don't have to be unique.
+You are also given a sequence B with length K. The game will last for exactly K rounds numbered 1 through K. The players alternate turns — Chef plays on odd-numbered turns and his brother on even-numbered turns. In the i-th round, the current player must select Bi cards currently lying on the table, keep these cards on the table and discard all other cards.
+Chef's goal is to maximize the sum of numbers written on cards that remain on the table after the last round, while Chefu's goal is minimize this sum. What will be the sum of numbers written on cards remaining on the table if both players play optimally?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The second line contains N space-separated integers A1, A2, ..., AN.
+The third line contains N space-separated integers D1, D2, ..., DN.
+The fourth line contains K space-separated integers B1, B2, ..., BK.
+
+Output
+For each test case, print a single line containing one integer — the sum of numbers on cards that remain on the table at the end of the game.

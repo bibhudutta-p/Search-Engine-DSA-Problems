@@ -1,0 +1,53 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+
+You are given a one dimensional integer array A of length N. You need to maintain the array under Q queries of the following four types. Assume 1-based indexing and M = 109 + 7.
+
+
+Query 1 : 1 x y v 
+This implies adding v to array A to all the indices from x to y, i.e.,
+
+
+for (i = x; i <= y; i++)	
+	Ai += v;
+	Ai %= M; 
+
+
+
+Query 2 : 2 x y v  
+This implies multiplying the scalar v with the array A for all the indices from x to y, i.e.,
+
+
+for (i = x; i <= y; i++)	
+        Ai *= v
+        Ai %= M
+
+
+
+Query 3 : 3 x y v 
+This implies initializing the array A at all the indices from x to y with the value v, i.e.,
+
+
+for (i = x; i <= y; i++)	
+	Ai = v 
+
+
+
+Query 4 : 4 x y
+This is a report query which needs to find the sum of the values in A from x to y, i.e.,
+
+
+sum = 0;
+for (i = x; i <= y; i++)
+	sum += Ai
+	sum %= M
+Output sum.
+
+
+Note: a%b represents the remainder of a when divided by b.
+Input
+First line contains two space separated integers N, Q.
+Next line contains N space separated integers denoting the array A.
+Next Q lines contain queries which can be of any of the above four types.
+Output
+For each query of type 4, output a single integer corresponding to the answer in a single line.

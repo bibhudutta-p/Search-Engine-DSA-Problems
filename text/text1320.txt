@@ -1,0 +1,9 @@
+Problem
+Chef has an array of N numbers and a magic function which can swap two array values if their distance is strictly greater than K units. Since his friend Pishty is obsessed with sorted array, Chef wants to make the lexicographically minimum array possible by using this magic function. He can use this magic function any number of times. Help him find the solution.Distance: absolute difference of indicesLexicographically minimum: Given two arrays P1,P2….Pr and Q1,Q2….Qr of same length the first one is smaller than the second one for the lexicographical order, if Pi  < Qi for the first i where Pi and Qi differ. 
+
+Input
+First line of input contains two space separated integers N and K
+Next line contains N space separated integers A1, A2, ..., AN denoting chef's array.
+Output
+The only line of output contains N space separated integers denoting the lexicographically minimum array possible after all such possible swap operations.
+

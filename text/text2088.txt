@@ -1,0 +1,15 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+
+Chef has always dreamed of becoming an employee of the "Hack and Manipulate Group". Their work is simple ― attacking networks. They gave Chef the following task to assess his programming skills, but Chef is too busy cooking "Vegetable Gourmet". Can you solve the task for him?
+A network consists of N nodes (numbered 1 through N) and M bidirectional connections between pairs of these nodes. A robust network is a network that contains a cycle. Shutting down a node means removing that node (and all direct connections it is part of) from the network.
+You may shut down at most one node. If the network was robust before it was shut down and is not robust afterwards, this node is called the point of failure.
+Is the initial network robust? If it is robust, does it have a point of failure? If it does, find the point of failure with the smallest number.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+Each of the following M lines contains two space-separated integers u and v denoting that nodes u and v are directly connected.
+
+Output
+For each test case, print a single line containing one integer ― the smallest number of a point of failure, or −1 if the network does not have a point of failure.

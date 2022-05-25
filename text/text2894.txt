@@ -1,0 +1,10 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Leha likes traveling a lot. In particular he likes discovering new routes in his world which he calls a tree-world. 
+Leha's world is a connected tree of N vertices, so there is a unique path between any pair of vertices a and b. Every day Leha chooses some new pair of vertices and walks along this route. Sometimes he notices that he has already been in some vertices during his previous walks. So now for each new route that he takes, he is interested in knowing how many previous routes does it intersect? Two routes are considered to be intersecting with each other, if they have at least one common vertex.
+Input
+The first line contains one integer N denoting the number of vertices in the tree. Vertices are enumerated from 1 to N.
+The following N-1 describe the edges of the tree. Each of these lines contains two space separated integers u, v denoting that there is an edge between vertex u and v.
+The next line contains an integer Q denoting the number of days Leha is traveling. Each of next Q lines contains two space separated integers u, v denoting the start and finish vertices of the corresponding route.
+Output
+For each day output one integer on a separate line - the number of previous routes it intersects with.

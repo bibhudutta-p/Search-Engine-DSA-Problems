@@ -1,0 +1,17 @@
+Problem
+Hey, you've got a new mission! This time your client ask you to write a editor and it should run fast! However the client's request is somehow strange, but they give a lot of money so your boss ask you to finish it as fast as possible.
+This editor deal with a string S. And the length |S| of the string S would never be smaller than 10. This editor must support the following 7 operations quickly. Here the string would be indexed starting at 0.
+
+INSERT_LEFT c : insert character c at the beginning of S
+INSERT_RIGHT c : insert character c at the end of S
+INSERT_MIDDLE c : insert character c at the middle of S (before the (|S| div 2)-th character)
+DELETE_LEFT : delete the first character of S
+DELETE_RIGHT : delete the last character of S
+DELETE_MIDDLE : delete the middle character of S (the (|S| div 2)-th character)
+QUERY q : print how many times the string q occur in S. (overlap is allowed)
+
+Here div means integer division, that is, |S| div 2 = floor(|S| / 2).
+Input
+The first line of input contains the initial string SInit. The second line contains one integer Q, denoting the number of operations. Then each of the next Q lines contains an operation with the format mentioned above.
+Output
+For each QUERY operation, print the answer in a line.

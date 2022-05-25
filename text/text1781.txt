@@ -1,0 +1,20 @@
+Problem
+Suppose we have a 2D grid A of infinite width and height of N units. Each row of the grid can be represented in the form of 111…100…∞ where the 1s are repeated x times, x>0. Implying that the row starts with x consecutive 1-s followed by all 0-s.
+Initially all cells are unmarked. Cell (i,j) refers to the i-th row, and j-th column. (1,1) refers to the bottom-left cell.
+Now you do the following in each step.
+Choose an unmarked cell having 1. Let it be (i, j).
+while((i,j) lies in the grid boundaries && A[i][j] == 1){
+	mark[i][j] = true; i--; j--;
+}
+
+How many minimum number of steps are required to mark all the cells containing 1?
+Note: The number of consecutive 1-s at each height is given by the array W where Wi​ represents the same at ith row.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contain 2 lines of input.
+First line will contain N, height of the grid (number of rows).
+Second line contains N space separated integers where ith index represents number of consecutive 1-s at the beginning of row i.
+
+Output:
+For each testcase, output in a single line answer to the problem.

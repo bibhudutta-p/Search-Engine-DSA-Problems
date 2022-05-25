@@ -1,0 +1,23 @@
+Problem
+MoEngage has given you an array A of N integers and a positive integer C.
+You can apply the following operation on the array any number of times. In one operation:
+
+Choose a strictly increasing array B of length M such that:
+
+B1​=1,BM​=N, and 1 &lt; B_i &lt; N for all (1 &lt; i \lt M);
+ABi​​>0 for all (1≤i≤M).
+
+
+Subtract 1 from ABi​​ for all (1≤i≤M).
+The cost of this operation is ∑i=1(M−1)​(Bi+1​−Bi​)2.
+
+Note that, M can be different for different operations.
+Let K be the total cost after performing X number of operations on the array. Your goal is to maximize the value of (C⋅X−K).
+Input Format
+
+First line contains a single integer T, denoting the number of test cases.
+For each of the T test cases, the first line contains two integers N and C.
+The next line contains N space-separated integers denoting A1​,A2​,…,AN​.
+
+Output Format
+For each test case, output a single integer - the maximum value of (C⋅X−K).

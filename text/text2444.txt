@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef is preparing a brand new dish. He found N new ingredients (numbered 1 through N) for the dish. For each valid i, the i-th ingredient costs Ci​ dollars and it has value Vi​.
+Chef has a budget: S dollars. He can buy each ingredient at most once. A non-empty subset of these N ingredients (possibly containing all ingredients) is called affordable if the sum of costs of all the ingredients in the subset does not exceed Chef's budget. The tastiness of a dish prepared using a set of ingredients is equal to vK, where v is the sum of values of all the ingredients in the set and K is a fixed integer.
+To make a dish, Chef should use an affordable subset of ingredients. He wants to try out all the dishes he can make. Find the total (summed up) tastiness of all these dishes. Since this number could be very large, compute it modulo 998,244,353.
+Input
+
+The first line of the input contains three space-separated integers N, S and K.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains two space-separated integers Ci​ and Vi​.
+
+Output
+Print a single line containing one integer ― the total tastiness modulo 998,244,353.

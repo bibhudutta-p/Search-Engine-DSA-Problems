@@ -1,0 +1,17 @@
+Problem
+Cherry has a matrix A consisting of N rows and M columns, filled with lowercase English letters.
+You are asked Q queries. Each query is provided by four integers x1​, y1​, x2​, y2​ which define the rectangle, where (x1​, y1​) stands for the coordinates of the top left cell of the rectangle, while (x2​, y2​) stands for the coordinates of the bottom right cell. The answer to the query is the size of the maximum square, that is located fully inside the query rectangle such that :
+
+The characters of each row should be in non-decreasing order.
+The characters of each column should be in non-decreasing order.
+
+Note: x1​ represents the row number while y1​ represents the column number.
+Input:
+
+The first line of the input contains two integers N and M — the number of rows and the number of columns in the matrix.
+Each of the next N lines contains a string of M lowercase English letters denoting one row of the matrix.
+Next line contains an integer Q — the number of queries.
+Then follow Q lines with queries descriptions. Each of them contains four integers x1​, y1​, x2​, y2​ — coordinates of the up left and bottom right cells of the query rectangle.
+
+Output:
+Print Q  lines. The i-th of them should contain the maximum size of the square for the i-th query.

@@ -1,0 +1,19 @@
+Problem
+Read problems statements Bengali and Vietnamese as well.
+Ghayeeth is a math teacher. He likes playing games, so he invented a new game which he wants to play against his student Siroj. The rules of the game are as follows:
+
+Initially, Ghayeeth writes the numbers  A1​,A2​,…,AN​ on a whiteboard and a number Z=0 on a piece of paper.
+Ghayeeth and Siroj alternate turns; Ghayeeth goes first.
+In each turn, the current player must pick a number that is currently written on the whiteboard, add it to Z and erase it from the whiteboard.
+After each turn, if there is no pair of positive integers (a,b) such that Z=a2−b2, then the last player who made a move loses the game.
+Otherwise, if there are no more numbers on the whiteboard, the last player who made a move wins the game.
+
+Help Ghayeeth determine the winner of this game.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing the string "Ghayeeth" or "Siroj" (without quotes) — the name of the winner.

@@ -1,0 +1,13 @@
+Problem
+You have a Greenhouse of height x units (i.e plants with height \gt x cannot be kept inside it) and n plants whose initial heights are
+h1​,h2​…,hn​. These plants are of a special kind: they grow by 1 unit if watered. You have to keep these plants in the greenhouse for at most d days. On the  i’th day, you have to water exactly ai​ different plants. You need to output the maximum number of days you can keep all the plants together inside the greenhouse (output d if answer \gt d). Of course, you shouldn't water a plant if it has reached the height of x.
+Input:
+
+The first line contains the number of test cases T.
+For each test case:
+The first line contains x, n and d.
+The next line contains n integers denoting h1​,h2​..hn​.
+The next line contains d integers denoting a1​,a2​..ad​.
+
+Output:
+For each test case, output a single integer denoting the maximum number of days for which you can keep the plants in the greenhouse.

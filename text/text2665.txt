@@ -1,0 +1,18 @@
+Problem
+Read problems statements in Mandarin chinese
+, Russian and Vietnamese as well.
+Tumut, the best programmer in his village Applidz, invented a problem and decided to share it with you:
+You are given two integer sequences S1​,S2​,…,SN​ and T1​,T2​,…,TM​ and an integer x. You are allowed to perform the following operation any number of times:
+
+choose an element of S and an element of T (let's denote them by Si​ and Tj​ respectively)
+decrease both Si​ and Tj​ by x, i.e. replace Si​ by Si​−x and Tj​ by Tj​−x
+
+Let's denote the minimum and maximum value in the sequence S after performing the chosen operations (possibly none) by minS and maxS respectively. Similarly, let's denote the minimum and maximum value in T after performing the chosen operations by minT and maxT respectively. The goal is minimizing the expression (maxS+maxT)−(minS+minT). Compute the minimum value of this expression.
+Input
+
+The first line of the input contains three space-separated integers N, M and x.
+The second line contains N space-separated integers S1​,S2​…SN​.
+The third line contains M space-separated integers T1​,T2​…TM​.
+
+Output
+Print a single line containing one integer — the minimum possible value of the expression (maxS+maxT)−(minS+minT).

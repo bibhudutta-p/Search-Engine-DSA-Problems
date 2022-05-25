@@ -1,0 +1,10 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Chef has an array A of size N. His friend Chuwi playing with this array in a next way: he chooses a continuous subarray A[L..R] and finds the maximum of (A[M] - A[L]) * (A[R] - A[M]) over all values of M where L ≤ M ≤ R. Chef wants to hopple Chuwi and changes elements of his array sometimes. Please help Chuwi to solve this easy problem.
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two positive integers N denoting the number of elements in Chef's array and Q denoting the number of operations performed by Chef and Chuwi. The second line contains N space-separated integers A1, A2, ..., AN denoting the Chef's array. Next Q contains three integers - type = 1 L R denoting that Chuwi takes subarray A[L..R] and finds the maximum of his function. type = 2 X Y denoting that Chef changes element A[X] by Y.
+ 
+Output
+For every Chuwi's performed operation output the maximal value in a single line.
+ 

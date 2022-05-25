@@ -1,0 +1,15 @@
+Problem
+You are given a convex polygon P with N vertices. The vertices (in clockwise order) are v1​,v2​,…vN​. The coordinates of vi​ are (xi​,yi​). All vertices have integer coordinates.
+A diagonal of P is a line segment l joining two distinct vertices vi​ and vj​ of P, such that l is not already an edge of P. Every diagonal of P splits it into two smaller convex polygons, both having positive areas.
+The evenness of a diagonal of P is the minimum of the areas of the two parts obtained when the polygon P is cut along this diagonal.
+Let S be the sum of the evenness of all diagonals of P.
+Find the value of 2S(mod998244353).
+It can be shown that for all polygons P with integer coordinates, the value 2S is an integer.
+Input Format
+
+The first line of input contains an integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains an integer N, the number of vertices of the convex polygon P. This is followed by N lines describing the points of the convex polygon, in clockwise order.
+The ith subsequent line contains two space-separated integers, xi​,yi​ — the coordinates of vi​.
+
+Output Format
+For each test case, print a new line with a single integer, the answer as per the problem statement.

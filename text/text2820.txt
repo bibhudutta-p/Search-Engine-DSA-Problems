@@ -1,0 +1,19 @@
+Problem
+Read problem statements in Bengali, Russian, Mandarin and Vietnamese as well.
+The functional array of an array A=[A1​,A2​,…,AN​] is the array fA of size N−1, where fAi​=Ai+1​−Ai​ for 1≤i<N. For example, if A=[2,3,9,11] then fA=[1,6,2].
+You are given two arrays B=[B1​,B2​,…,BN​] and Z=[Z1​,Z2​,…,ZM​] of length N and M respectively. Find out whether there exists an array A such that:
+
+B is a subsequence of A, and
+fA is a subsequence of Z
+
+Print "YES" (without quotes) if such an array A exists, and "NO" otherwise.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case contains three lines of input.
+The first line contains two integers N and M - the lengths of B and Z respectively.
+The second line contains N space-separated integers B1​,B2​,…,BN​; the elements of B.
+The third line contains M space-separated integers Z1​,Z2​,…,ZM​; the elements of Z.
+
+Output Format
+For each test case, output a single line containing one word - either "YES" or "NO". You may print each character of the string in uppercase or lowercase (for example, the strings "yEs", "yes", "Yes" and "YES" will all be treated as identical).

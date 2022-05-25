@@ -1,0 +1,14 @@
+Problem
+Shamili has an array A=[A0​,A1​,…,AN−1​] of length N. She painted each element of this array in either Black or White.
+She allows you to right rotate the values in array A by any value k. In other words, let B be the resulting array after right rotating A by k, then Bi​=A(i−k+n)(modN)​ where B0​ and A0​ are the first elements in the arrays A and B respectively). Note that when you rotate the array A, their colors won't get rotated and only the values in it get rotated. For example, let the array A be [3,2,7,6] and their colors be [Black, Black, White, White]. Right rotating A by 2 will give you the array [7,6,3,2] with colors [Black, Black, White, White].
+Let maxb be the maximum value among all the elements that are painted in Black and minw be the minimum value among all the elements that are painted in White. Shamili asked you to find the maximum value of maxb−minw after right rotating the array a at most once.
+It is guaranteed that at least one element in the array is colored in Black and at least one element is colored in White.
+Input Format
+
+The first line of input contains an integer T denoting the number of test cases. T test cases follow.
+The first line of each test case contains the integer N.
+The second line contains N integers A0​,A1​,A2​,...,AN−1​. Note that A is 0-indexed.
+The third line of each test case contains a string C of size N representing the color of each element. (Ci​=‘B‘ if the ith element in array A is painted in Black color and Ci​=‘W‘ if the ith element is painted in White color). Note that C is also 0-indexed, i.e. the first character of C is C0​ and the last character is CN−1​.
+
+Output Format
+For each test case, output the maximum possible value of maxb−minw.

@@ -1,0 +1,14 @@
+Problem
+ Read problems statements in Mandarin Chinese  , Russian and Vietnamese
+There are N sets numbered 1 to N, all initially empty.
+Your task is to perform two kinds of queries:
+
+0 l r x : add the number x to all the sets numbered from l to r. (Note that a set, by definition, can never contain duplicate elements. So a number is only added to a set if it was not already present.)
+1 q : output the size of the set numbered q.
+
+
+Input
+The first line contains two space separated integers N and M denoting the number of lists and the number of the queries respectively.
+The following M lines describe the queries. Each of these lines describes exactly one query in the format specified above.
+Output
+For each query of type 1, output the size of the specified set.

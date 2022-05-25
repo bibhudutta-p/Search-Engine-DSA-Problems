@@ -1,0 +1,25 @@
+Problem
+Chef is collecting special ingredients in a cave. The cave has N chambers and N−1 passageways forming a tree. In other words, it is possible to move from one chamber to any other chamber using the passageways. Each passageway is of equal length and can be traversed in both directions.
+At 0-th second, Chef is at chamber Aj​. At the start of each second, he can choose to either stay in the current chamber or move along a passageway to another chamber in 1 second. To collect more ingredients, he wants to visit as many distinct chambers as possible before leaving the cave at chamber Bj​.
+There is a ghost that copies Chef's movement with a delay of Kj​ seconds. This means that:
+
+Before Kj​-th second, the ghost is not in the cave yet.
+At Kj​-th second, the ghost appears in chamber Aj​.
+At t-th second (t≥Kj​), the ghost will be in the same place that Chef was at (t−Kj​)-th second.
+
+The ghost will capture the Chef if, at some moment of time, both of them are in the same chamber or using the same passageway, including the moment when Chef is about to leave at chamber Bj​.
+For a given start chamber Aj​, end chamber Bj​ and ghost movement delay Kj​, help Chef determine the maximum number of distinct chambers he can visit. You have to answer Q such queries for the same cave.
+Input Format
+
+
+The first line contains two space-separated integers N and Q, representing the number of chambers and queries respectively.
+
+
+Each of the next N−1 lines contains two space-separated integers Ui​ and Vi​, representing the two endpoints of a passageway.
+
+
+Each of the next q lines contains three space-separated integers Aj​, Bj​ and Kj​, representing the start chamber, end chamber and ghost's movement delay for a query respectively.
+
+
+Output Format
+For each query, output on a single line the maximum number of distinct chambers that Chef can visit.

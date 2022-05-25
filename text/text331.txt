@@ -1,0 +1,11 @@
+Problem
+Priya loves bitwise AND, but she hates programming. Help her solve this problem.
+Given an array A of size N, let Bij​  denote the bitwise AND of A[i] and A[j]. You have to find the number of pairs (i,j), such that i<j and Bij​=A[i].
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases.
+The first line of each test case consists of a single integer N, denoting the Size of Array A.
+The second line of each test case contains N space-separated integers A1​,A2​,A3​...AN​.
+
+Output:
+For each test case, output a single line, count of such pairs.

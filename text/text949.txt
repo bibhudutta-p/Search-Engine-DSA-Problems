@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You are given an integer sequence A1​,A2​,…,AN​. For any pair of integers (l,r) such that 1≤l≤r≤N, let's define OR(l,r) as Al​∨Al+1​∨…∨Ar​. Here, ∨ is the bitwise OR operator.
+In total, there are 2N(N+1)​ possible pairs (l,r), i.e. 2N(N+1)​ possible values of OR(l,r). Determine if all these values are pairwise distinct.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing the string "YES" if all values of OR(l,r) are pairwise distinct or "NO" otherwise (without quotes).

@@ -1,0 +1,16 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+A food fair is being organised in Chef's town. N booths were set up in a straight line and numbered 1 through N. For each i (1≤i≤N), the probability with which the food served at booth i will cause food poisoning at the beginning of the day is Pi​.
+Over the course of the day, the Chef observes that certain booths might decide to offer less unhealthy food based on feedback from customers. You should process Q queries of the following two types:
+
+0LR — Compute the probability that eating at each booth between booths L and R (inclusive) does not cause food poisoning.
+1LRT — Each booth between booths L and R (inclusive) starts offering food that is T times more likely to cause food poisoning.
+
+Input
+
+The first line of the input contains two space-separated integers N and Q.
+The second line contains N space-separated decimal numbers P1​,P2​,P3​,…,PN​.
+Each of the following Q lines describes one query in the format 0LR or 1LRT. Here, L and R are integers and T is a decimal number.
+
+Output
+For each query of type 0, print a single line containing one real number — the probability of not getting food poisoning. Your answer will be considered correct if its absolute error doesn't exceed 10−6.

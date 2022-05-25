@@ -1,0 +1,15 @@
+Problem
+Read problem statements in Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a sequence A1​,A2​,…,AN​. Chef wants you to handle Q queries. There are two types of queries:
+
+1 L R X: for each i (L≤i≤R), add (X+i−L)2 to Ai​
+2 Y: find the current value of AY​
+
+Input
+
+The first line of the input contains two space-separated integers N and Q.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+Q lines follow. Each of these lines describes a query in the format described above.
+
+Output
+For each query of the second type, print a single line containing one integer AY​.

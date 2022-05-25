@@ -1,0 +1,36 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+This is an interactive problem.
+SnackDown 2099 will take part in the ChefLand International Office (CIO). Ada is in charge of preparation of the coding environment.
+Ada prepared N computer terminals (numbered 1 through N) interconnected by M bidirectional networking cables (numbered 1 through M). Each of the cables connects two different terminals and no two different cables connect the same pair of terminals. Let's denote a cable between terminals u and v by (u,v). At the contest site, there should be some guards that make sure everything runs smoothly. During the competition, each terminal is assigned either to a contestant or to a guard; note that the number of contestants is not fixed yet.
+Ada assigns a stability to each terminal. Let's denote the stability of terminal i by Si​. Also, let's denote the cost of removing cable i by Wi​.
+Since there are many cables, the room is messy, so Ada decided to remove some of the cables (possibly none or all of them) one by one. However, after removing any cable, the stability of some terminal or the cost of removing some cable might change.
+Ada thinks that it is dangerous to have cables directly connect terminals assigned to contestants (they could try to team up and share solutions!). To measure the danger of such a situation, she defined DC​ as the sum of Su​⋅Sv​ over all remaining cables (u,v) such that the terminals u and v are both assigned to contestants.
+Similarly, Ada thinks that it is dangerous to have cables directly connect terminals assigned to guards (they could start chatting and get distracted!). To measure the danger of this situation, she defined DG​ similarly to DC​, as the sum of Su​⋅Sv​ over all remaining cables (u,v) such that the terminals u and v are both assigned to guards.
+Let's denote the total cost of removing cables (sum of costs for all removed cables when they were removed) by X. Ada wants to minimise X+DC​+DG​. Help her prepare the coding environment! Specifically, choose some cables to remove and then assign the terminals to contestants or guards in such a way that X+DC​+DG​ is as small as possible.
+Interaction
+
+First, you should read 3+M lines describing the original network configuration.
+
+The first of these lines contains two space-separated integers N and M.
+The second line contains N space-separated integers S1​,S2​,…,SN​ denoting the initial stabilities of the terminals.
+The third line contains M space-separated integers W1​,W2​,…,WM​ denoting the initial costs of removing cables.
+Each of the next M lines contains two space-separated integers u and v denoting that terminals u and v are connected by a networking cable.
+
+
+Then, you should remove cables.
+
+To remove a cable, you should print a line containing a single integer w (1≤w≤M) denoting the number of the cable you want to remove. You must not attempt to remove the same cable twice.
+Then, you should read a line describing any changes in the stabilities or costs after this cable is removed, in one of the following formats:
+
+0 i x (1≤i≤N) denoting that the new value of Si​ is x
+1 i y (1≤i≤M) denoting that the new value of Wi​ is y
+2 denoting that the stabilities and costs did not change
+
+
+
+
+When you do not want to remove any more cables, you must print a line containing the integer −1.
+Finally, you must print a line containing a single string with length N. For each valid i, the i-th character of this string should be 'C' if the i-th terminal is assigned to a contestant or 'G' if it is assigned to a guard.
+
+If your output is invalid or you attempt to remove a cable multiple times, you will receive the Wrong Answer verdict. Don't forget to flush the output after printing each line!

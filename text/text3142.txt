@@ -1,0 +1,17 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef is playing a game with two sequences of non-negative integers A1​,A2​,…,AN​ and B1​,B2​,…,BM​. He has an integer V, which is initially equal to 0. Chef will play for a number of turns he chooses (possibly zero); he stops playing when he gets bored. In each turn of the game, Chef must perform one of the following operations:
+
+Choose an integer X from A and change V to V∨X, i.e. the bitwise OR of V and X.
+Choose an integer X from B and change V to V∧X, i.e. the bitwise AND of V and X.
+
+Find the number of possible distinct values which V can have after the game ends.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+The third line contains M space-separated integers B1​,B2​,…,BM​.
+
+Output
+For each test case, print a single line containing one integer ― the number of possible values of V after the game ends.

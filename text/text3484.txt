@@ -1,0 +1,29 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Sergey has an uppercase Latin letter string S, which he wants to make equal to another uppercase Latin letter string T.
+However, he is only allowed to do the following kinds of operations on the string S:
+
+To insert a symbol everywhere in the string S at any position. The operation costs I rubles.
+To delete a symbol from everywhere of the string S. The operation costs for D rubles.
+To replace one symbol in S with another one. This operation costs Ra, b rubles, where x is the old symbol and y is the new one.
+To swap any pair of symbols in the string S. This operation costs W rubles.
+
+
+Sergey is a poor student, so he is looking for the cheapest way to obtain his target string T. Please help him! Note that in this problem, your solution doesn't have to be completely precise, but better approach will bring you more points.
+Input
+The first line of input contains a single integer Tn, denoting the number of test cases. Then, Tn description of test cases follow.
+The first line of every description contains a single uppercase Latin letter string S, denoting the string Sergey initially has.
+The next line contains a single uppercase Latin letter string T, denoting the string Sergey wants to obtain.
+The next line contains three space-separated integers I, D, W, denoting the cost of insertion, deletion and swap respectively.
+Each of the following 26 lines contains 26 integer numbers, denoting the matrix Ra, b. The jth number in the ith line denotes the cost of the replacement of the ith Latin alphabet letter with the jth Latin alphabet letter.
+Output
+For each test case, output the sequence of operations in the following form.
+On the first line output an integer Q, denoting the number of operations you're going to make. It shouldn't exceed |S|+|T|.
+On the following Q lines output the operations in the following format:
+
+I p c: insert the character c right after the pth character (1-indexed). Use p=0, when you want to insert the character before all existing characters.
+D p: delete the character on the pth position (1-indexed) in the string.
+R p c: replace the character on the pth position with a character c.
+S i j: swap the characters at the ith and the jth positions.
+
+

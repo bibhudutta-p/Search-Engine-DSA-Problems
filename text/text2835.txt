@@ -1,0 +1,8 @@
+Problem
+The Little Elephant from the Zoo of Lviv very likes coins. But most of all he likes colored coins.
+He has N types of coins, numbered from 1 to N, inclusive. The coin of the i-th type has the value Vi dollars and the color Ci. Note that he has infinite supply of each type of coins.
+The Little Elephant wants to make exactly S dollars using the coins. What is the maximal number of different colors he can use to make exactly S dollars using some of the coins he has? If it's impossible, output -1. Also note that the Little Elephant wants to know this for many values of S.
+Input
+The first line of the input contains a single integer N, denoting the number of types of coins. Each of the following N lines contains two space-separated integers Vi and Ci, denoting the value and the color of the coin of the i-th type. The next line contains a single integer Q, denoting the number of values of S to process. Each of the following Q lines contains a single integer S, denoting the coinage you should represent via given coins using maximum number of colors.
+Output
+For each value of S in the input, output the maximum number of different colors in the representation of S or -1 if it is impossible to represent S via given coins.

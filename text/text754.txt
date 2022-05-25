@@ -1,0 +1,10 @@
+Problem
+Chef Avi likes the number K. Given a list of N integers, help him find the sum of all distinct numbers repeating exactly K times. Each of those numbers should be considered only once in the sum, not K times.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains two lines:
+The first line contains two space-separated integers N,K.
+The second line contains N space-separated integers.### Output:
+For each testcase, print the sum of all numbers occurring exactly K times. If there is no such number, print -1 instead.
+

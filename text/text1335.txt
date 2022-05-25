@@ -1,0 +1,22 @@
+Problem
+Even before they leave the apartment, Joey drives Chandler crazy by forgetting everything useful, even his passport, but crying every five seconds "London, baby!", and photographing absolutely everything all the time, as if 6 hours on an airplane with Monica weren't bad enough. On reaching, Joey uses a map to visit the famous places nearby.
+Joey is currently at the coordinates (0,0) and he wants to reach the coordinates (P,Q). Chandler has a set of instructions for Joey to move. He provides Joey a binary string S of length N. Joey chooses one of the axes : either x-axis or y-axis. Joey then follows the instructions. To follow the ith instruction:
+
+
+If Si​ = 0, Joey has to change his axis immediately and move in any direction (positive or negative) of the resulting axis by 1 unit.
+
+
+If Si​ = 1, Joey can move in any direction (positive or negative) along the current axis by 1 unit.
+
+
+For x-axis, moving in positive direction implies moving from (x,y) to (x+1,y) and moving in negative direction implies moving from (x,y) to (x−1,y). Similarly, for y-axis, moving in positive direction implies moving from (x,y) to (x,y+1) and moving in negative direction implies moving from (x,y) to (x,y−1).
+Determine if Joey can reach (P,Q) at the end.
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+First line of each testcase contains of three integers N,P,Q.
+Second line of each test case contains a binary string S.
+
+Output Format
+For each test case print "YES" if he can reach coordinates (P,Q) at the end, else print "NO".
+You may print each character of each string in uppercase or lowercase (for example, the strings "yEs", "yes", "Yes" and "YES" will all be treated as identical).

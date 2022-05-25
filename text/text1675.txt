@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Firdavs is living on planet F. There are N cities (numbered 1 through N) on this planet; let's denote the value of city i by vi​. Firdavs can travel directly from each city to any other city. When he travels directly from city x to city y, he needs to pay f(x,y)=∣vy​−vx​∣+y−x coins (this number can be negative, in which case he receives −f(x,y) coins).
+Let's define a simple path from city x to city y with length k≥1 as a sequence of cities a1​,a2​,…,ak​ such that all cities in this sequence are different, a1​=x and ak​=y. The cost of such a path is ∑i=1k−1​f(ai​,ai+1​).
+You need to answer some queries for Firdavs. In each query, you are given two cities x and y, and you need to find the minimum cost of a simple path from city x to city y. Then, you need to find the length of the longest simple path from x to y with this cost.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+The second line contains N space-separated integers v1​,v2​,…,vN​.
+The following Q lines describe queries. Each of these lines contains two space-separated integers x and y.
+
+Output
+For each query, print a single line containing two space-separated integers ― the minimum cost and the maximum length.

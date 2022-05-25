@@ -1,0 +1,13 @@
+Problem
+You are given N nonnegative integers A1​,A2​,…,AN​. Determine if there exist nonnegative integers B,C such that the following condition holds:
+(A1​+B)⊕C<(A2​+B)⊕C<…<(AN​+B)⊕C
+Here ⊕ denotes the XOR operation (bitwise exclusive OR).
+Input Format
+
+The first line of the input contains a single integer T, denoting the number of test cases. The description of the test cases follows.
+The first line of each test case contains a single integer N — the number of integers.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, if such integers exist, output YES. Otherwise, output NO.
+You may print each character of the string in either uppercase or lowercase (for example, the strings YES, yeS, YeS, and yEs will all be treated as identical).

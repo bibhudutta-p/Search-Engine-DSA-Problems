@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Chef has a clock, but it got broken today — the minute hand on Chef's clock doesn't rotate by the angle 2π/3600 each second, but by a different fixed angle x. The coordinates of the center of the clock are (0, 0). The length of the minute hand is l.
+One endpoint of the minute hand is always located at the clock center; the other endpoint is initially located at the point (0, l). One second later, Chef observes that this endpoint is at distance d above the x-axis, i.e. the y-coordinate of this endpoint is equal to d.
+Chef is curious about where the minute hand will be (specifically, its y-coordinate) after t seconds. Because t can be very large, Chef can't wait for that moment. Please help him!
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains three space-separated integers l, d and t.
+
+Output
+We can prove that for the given constraints, the y-coordinate of the end of the minute hand can always be written as a rational number p / q, where gcd(p, q) = gcd(q, 109 + 7) = 1. Let's denote the modular inverse of q (it's guaranteed that the modular inverse exists and is unique) by r.
+For each test case, print a single line containing one number (p · r) modulo 109 + 7.

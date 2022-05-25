@@ -1,0 +1,17 @@
+Problem
+There are N people waiting in a queue at ATM. The ith person in the queue has a power level equal to Ai​ (1≤Ai​≤N). The following process happens every second till the queue is not empty.
+
+The person in front of the queue uses the ATM and then leaves the queue.
+After the first step, if the queue is empty, the process stops. Otherwise, for each person from left to right (except for the first person in the queue), if the person has a strictly greater power level than the person in front of him, he will overtake the person in front, i.e. their positions get swapped. Note that the overtaking happens one after the other from left to right, i.e. state of the queue changes after every overtake.
+
+For each person, find the time at which they will use the ATM.
+Note: Please refer to the explanation section for a simulation of one such scenario.
+Input Format
+
+First line of input contains T, the number of test cases. Then T test cases follow.
+Each test case consists of two lines of input.
+First line of each test case contains N, the number of people in the queue.
+Second line of each test case contains N positive integers Ai​, the power level of ith person.
+
+Output Format
+For each test case, print a line containing N numbers where ith number is equal to the time at which ith person uses the ATM.

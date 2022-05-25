@@ -1,0 +1,18 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef received a new sequence A1​,A2​,…,AN​. He does not like arbitrarily ordered sequences, so he wants to permute the elements of A in such a way that it would satisfy the following condition: there is an integer p (1≤p≤N) such that the first p elements of the new (permuted) sequence are strictly increasing and the last N−p+1 elements are strictly decreasing.
+Help Chef and find a permutation of the given sequence which satisfies this condition or determine that no such permutation exists. If there are multiple solutions, you may find any one.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case:
+
+If there is no permutation of A that satisfies the given condition, print a single line containing the string "NO" (without quotes).
+Otherwise, print two lines.
+The first of these lines should contain the string "YES" (without quotes).
+The second line should contain N space-separated integers ― the elements of your permuted sequence.
+

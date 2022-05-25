@@ -1,0 +1,14 @@
+Problem
+Utkarsh is forced to play yet another game with Ashish.
+In this game there are N piles, ith pile contains Ai​ stones. Utkarsh moves first.
+In Utkarsh's turn, Ashish chooses a pile (which contains at least 1 stone), then Utkarsh removes any non-zero number of stones from that pile. Similarly, in Ashish's turn, Utkarsh chooses a pile with at least 1 stone, then Ashish removes any non-zero number of stones from that pile. The player who makes the last move wins.
+Determine the winner of the game if both players play optimally.
+Input Format
+
+The first line contains T - the number of test cases. Then the test cases follow.
+The first line of each test case contains an integer N - the number of piles.
+The second line of each test case contains N space separated integers A1​,A2​,…,AN​, where Ai​ denotes the number of stones in the ith pile.
+
+Output Format
+For each test case, output on one line Utkarsh if Utkarsh wins the game, else output Ashish.
+You may print each character of the string in uppercase or lowercase (for example, the strings Utkarsh, utkarsh, UTKARSH and uTkArSh will all be treated as identical).

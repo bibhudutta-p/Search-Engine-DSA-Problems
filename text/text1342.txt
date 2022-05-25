@@ -1,0 +1,13 @@
+Problem
+Chef has an integer N. He repeats the following operation until N becomes 1.
+
+Chef chooses an integer X such that X>1 and X is a divisor of N and then divides N by X (the new value of N becomes N/X). If X is even, Chef gets A points otherwise he gets B points
+
+Can you find the maximum points Chef can get if he performs the operations optimally?
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains of a single line of input containing three integers N,A,B.
+
+Output Format
+For each testcase, output in a single line the maximum points Chef can get.

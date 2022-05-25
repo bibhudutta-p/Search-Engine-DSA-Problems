@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef and his friend Magda have 2N mutual friends: N of these friends are chefs and the other N are chefettes. The chefs are numbered 1 through N and the chefettes are (independently) also numbered 1 through N. Since Magda wants their friends to be as happy as possible and to preserve traditional family values, she wants to pair them up in such a way that each chef is paired with exactly one chefette and each chefette with exactly one chef.
+The chefs have heights A1​,A2​,…,AN​ and the chefettes have heights B1​,B2​,…,BN​. For each valid i,j, if the i-th chef and the j-th chefette are paired, they will have exactly one child with height ⌊2Ai​+Bj​​⌋. Magda wants to pair up the chefs and chefettes in such a way that the sum of heights of all their children (N children in total) is maximum possible. Please help her do that.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+The third line contains N space-separated integers B1​,B2​,…,BN​.
+
+Output
+Print a single line containing one integer ― the maximum sum of heights of the children.

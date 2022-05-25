@@ -1,0 +1,9 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef has array A consisting of N integers. He calls a sub-array of the array good if the bitwise OR of all the elements in it is greater or equal than number K. Please help him to find out how many sub-arrays of array A are good!
+Input
+The first line of input contains T - number of test cases. T test cases follow.
+For each test case, first line contains an integer N - number of elements in array, and integer K.
+Second line contains N space separated non-negative integers denoting array A. 
+Output
+For each test case, output an integer corresponding to the number of good sub-arrays of A in separate line. 

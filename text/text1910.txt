@@ -1,0 +1,15 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef recently took a course in linear algebra and learned about linear combinations of vectors. Therefore, in order to test his intelligence, Raj gave him a "fuzzy" problem to solve.
+A sequence of integers B1​,B2​,…,BM​ generates an integer K if it is possible to find a sequence of integers C1​,C2​,…,CM​ such that C1​⋅B1​+C2​⋅B2​+…+CM​⋅BM​=K.
+In this problem, Chef has a sequence A1​,A2​,…,AN​ and he should answer Q queries. In each query, he is given an integer K; the answer to this query is the number of pairs (l,r) such that 1≤l≤r≤N and the subsequence (Al​,Al+1​,…,Ar​) generates K.
+Chef has no idea how to solve this problem ― can you help him find the answers to all queries?
+Input
+
+The first line of the input contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+The third line contains a single integer Q.
+The following Q lines describe queries. Each of these lines contains a single integer K.
+
+Output
+For each query, print a single line containing one integer ― the number of contiguous subsequences that generate K.

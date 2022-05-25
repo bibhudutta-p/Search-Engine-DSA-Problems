@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Let f(n,B) be the sum of digits of the integer n when written in base B.
+More formally, if n=i=0∑∞​ai​Bi where ai​ is an integer in the range [0,B−1], then f(n,B)=i=0∑∞​ai​.
+Given Q queries, each consisting of three integers n,l and r. Find the value of B corresponding to which f(n,B) is minimum for all l≤B≤r. If there are multiple such values, you can print any of them.
+Input Format
+
+The first line contains in single integer Q, the number of queries
+Each of the next Q lines contain three space separated integers n,l and r respectively.
+
+Output Format
+
+For each query (n l r), print the value of base B which lies within [l,r] such that f(n,B) is minimum.
+

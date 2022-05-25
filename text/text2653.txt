@@ -1,0 +1,16 @@
+Problem
+There are N enemies standing from left to right with strengths S1​,S2​,…,SN​.
+M bullets are to be fired from the left side such that only one bullet is fired at a time. The ith bullet (1≤i≤M) has power Pi​ and capacity Ci​.
+This means that the ith bullet affects the first Ci​ alive enemies from the left side and decreases the strength of each of those Ci​ enemies by Pi​.
+Once an enemy’s strength becomes less than or equal to 0, the enemy dies and its strength becomes 0.
+Find the strength of all the enemies after all M bullets are fired.
+Input Format
+
+First line will contain T, the number of test cases. Then the test cases follow.
+The first line of each test case contains two space-separated integers N and M.
+The second line contains N space-separated integers S1​,S2​,…,SN​, denoting strength of the enemies.
+The third line contains M space-separated integers P1​,P2​,…,PM​, denoting the power of the ith bullet.
+The fourth line contains M space-separated integers C1​,C2​,…,CM​, denoting the capacity of the ith bullet.
+
+Output Format
+For each test case, output N space-separated integers denoting the final strength of the enemies.

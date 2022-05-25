@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+You are given N integer sequences A1, A2, ..., AN. Each of these sequences contains N elements. You should pick N elements, one from each sequence; let's denote the element picked from sequence Ai by Ei. For each i (2 ≤ i ≤ N), Ei should be strictly greater than Ei-1.
+Compute the maximum possible value of E1 + E2 + ... + EN. If it's impossible to pick the elements E1, E2, ..., EN, print -1 instead.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+N lines follow. For each valid i, the i-th of these lines contains N space-separated integers Ai1, Ai2, ..., AiN denoting the elements of the sequence Ai.
+
+Output
+For each test case, print a single line containing one integer — the maximum sum of picked elements.

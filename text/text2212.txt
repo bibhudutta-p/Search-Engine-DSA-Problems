@@ -1,0 +1,15 @@
+Problem
+Given an empty array A of infinite length and a positive integer K you have to process
+Q queries of type:
+
+! l r x: Fill the value x in all the empty places in the array from index l to r  (both inclusive).
+? l r: Print the number of prime factors of K which is also a prime factor of at least one number in A[l], A[l + 1], A[l + 2], … A[r].
+
+Input
+
+The first line contains two space separated integers K and Q respectively.
+Then Q lines follow:
+Each of the ith line contains one of the above two types of queries.
+
+Output
+For each query of the second type, print in a new line the answer to that query. i.e. number of prime factors of K which is also a prime factor of at least one number in A[l], A[l + 1], A[l + 2], … A[r].

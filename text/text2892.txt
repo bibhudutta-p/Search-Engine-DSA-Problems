@@ -1,0 +1,19 @@
+Problem
+Dr. Hasan is one of the most famous inventors in the world. One day, he invented a wonderful machine in order to examine the possibility of generating new palindrome strings by merging other strings.
+Hasan's machine takes a sequence of strings (A1​,A2​,…,AK​) as the input; K may be any positive integer. The length of each of these strings must be exactly N; for each valid j, let's denote the j-th character of the i-th string by Ai,j​. The machine magically generates a string B by merging these strings and it determines if B is a palindrome. The string B is generated as follows:
+
+B1​=A1,1​,B2​=A2,1​,…,BK​=AK,1​
+BK+1​=A1,2​,BK+2​=A2,2​,…,B2⋅K​=AK,2​
+...
+B(N−1)⋅K+1​=A1,N​,B(N−1)⋅K+2​=A2,N​,…,BN⋅K​=AK,N​
+
+Hasan wants to test his new machine, so he prepared N strings S1​,S2​,…,SN​. Each of these strings has length N. Now, he wants to choose a sequence of K pairwise distinct indices i1​,i2​,…,iK​, where 1≤K≤M, and run the machine with strings (Si1​​,Si2​​,…,SiK​​). His goal is to make the machine report that the string it generated is a palindrome.
+Can you help Hasan with testing his machine and tell him the number of sequences of indices he can choose? Since the answer could be very large, compute it modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and  M.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains a single string Si​.
+
+Output
+For each test case, print a single line containing one integer — the number of sequences Hasan can choose, modulo 109+7.

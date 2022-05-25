@@ -1,0 +1,11 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+You are given an integer n and a string s consisting only of characters 'a' and 'b'. Consider a string t=n timess+s+⋯+s​​, i.e. the string obtained by concatenating n copies of s.
+Find the number of non-empty prefixes of t in which the number of occurrences of 'a' is strictly greater than the number of occurrences of 'b'.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains the string s and the integer n, separated by a single space.
+
+Output
+For each test case, print a single line containing one integer — the number of valid prefixes.

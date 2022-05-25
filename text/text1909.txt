@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You are given positive integers L and R. You have to find the sum
+S=∑i=LR​(L∧(L+1)∧…∧i),
+where ∧ denotes the bitwise AND operation. Since the sum could be large, compute it modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers L and R.
+
+Output
+For each test case, print a single line containing one integer — the sum S modulo 109+7.

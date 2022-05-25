@@ -1,0 +1,25 @@
+Problem
+You have an N×M grid. The grid can be filled with the values 0 and 1 only. Initially, all the cells of the grid are filled with value 0.
+You start from the cell (1,1). When you are at position (i,j), you can do one of the following:
+
+Change A(i,j)​ to 1 and go to cell (i+1,j+1).
+Keep A(i,j)​ as 0 and go to cell (i+1,j) or (i,j+1).
+
+If, at some point, you are out of the grid, the process ends.
+Let S denote the set of all distinct matrices that can be created using the method explained above.
+Let f(T) be the number of ways to place any (possibly zero) number of rooks in the grid T such that both the following conditions are satisfied:
+
+No two rooks attack each other.
+No rook is placed in a cell (i,j) such that T(i,j)​=1.
+
+Find the value of ∑f(T) where T∈S. Since the answer can be huge, print it modulo 998244353.
+Note:
+
+Two matrices A and B are different if there exists some cell (i,j) such that A(i,j)​=B(i,j)​.
+Two ways of arranging rooks is different if there exists a cell (i,j) such that a rook is placed in the cell (i,j) in one way and the cell (i,j) is empty in the other way.
+Two rooks attack each other if they share the same row or the same column.
+
+Input Format
+The first and only line of input consists of two integers N and M, the dimensions of the grid.
+Output Format
+Print a single line containing one integer - the value of ∑f(T) where T∈S modulo 998244353.

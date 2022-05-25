@@ -1,0 +1,17 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Consider any way to pair the integers 1 through 2N into N pairs (A1​,B1​),(A2​,B2​),…,(AN​,BN​) in such a way that each of these integers is present in exactly one pair, Ai​<Bi​ for each valid i and A1​<A2​<…<AN​. Let's call such a sequence of pairs a pairing.
+For a pairing (A1​,B1​),(A2​,B2​),…,(AN​,BN​), we can create an undirected graph with 2N nodes (numbered 1 through 2N) and the following edges:
+
+first type: for each valid i, an edge between nodes i and i+1
+second type: for each valid i, an edge between nodes Ai​ and Bi​
+
+This pairing is valid if for each edge (i,i+1) of the first type, there is an edge of the second type (Aj​,Bj​) which "surrounds" it, i.e. satisfies Aj​≤i and Bj​>i. The cost of a valid pairing is defined as the number of pairs of edges of the second type such that one of these edges is "nested" in the other, i.e. pairs (Ai​,Bi​) and (Aj​,Bj​) such that Ai​<Aj​<Bj​<Bi​.
+Find the sum of costs of all valid pairings. Since this number may be very large, compute it modulo a given prime P.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and P.
+
+Output
+For each test case, print a single line containing one integer — the sum of costs of all valid pairings modulo P.

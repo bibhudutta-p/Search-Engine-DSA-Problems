@@ -1,0 +1,22 @@
+Problem
+This is an interactive task
+You are given a positive integer N. There is a tree with N nodes numbered from 1 to N which is hidden from you.
+You can ask queries of the following format:
+? k a1​ a2​ a3​ …ak​
+where:
+
+3≤k≤N
+1≤ai​≤N
+ai​=aj​ for all 1≤i<j≤k
+
+The judge will return 1 if {a1​,a2​,a3​,…,ak​}  is a subsequence of P where P is some simple path of the tree, else it will return 0. Refer to the Sample Interaction section below for a better understanding.
+You need to print all the edges of the tree (in any order). You are allowed to ask at most N2 queries.
+Interaction
+
+Begin the interaction by reading a single integer T denoting the number of test cases. The test cases follow.
+For each test case, first read a single integer N denoting the number of nodes in the tree. After this, you can start making queries.
+To ask a query, output ? k a1​ a2​ a3​ …ak​ then read a single integer 0 or 1.
+To output the answer, output !, and then in the next N−1 lines describe the edges of the tree. You can print the edges in any order.
+If at any time you make an invalid query or exceed the query limit, the interaction is terminated and you will receive a Wrong Answer verdict.
+Don't forget to flush the output after printing each line!
+

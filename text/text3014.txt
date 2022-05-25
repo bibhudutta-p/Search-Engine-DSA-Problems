@@ -1,0 +1,19 @@
+Problem
+Read problem statements in Bengali, Russian, Mandarin and Vietnamese as well.
+Hulk has a set of distinct points P in the 2D plane. His signature move is Hulk Smash. He performed Hulk Smash on the set P which caused the points to change, and so he obtained a new set of points P′.
+More formally, Hulk Smash makes the new set P′ in the following way:
+
+Initially, let P′ be empty.
+For every Pi​ and Pj​ such that 1≤i<j≤N , add the mid point of Pi​ and Pj​ to the set P′ (only if it didn't exist in it already).
+
+So, P′ is the set of midpoints of line segments connecting pairs of distinct points of P.
+Note that points from P do not necessarily have to be in P′. See the samples below for a graphical example.
+Find the number of points of P′ which lie on the convex hull of P′. A point is said to lie on the convex hull if the shape of the convex hull is changed when this point is removed.
+Input Format
+
+The first line contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N, denoting the size of P.
+The next N lines contain two space-separated integers each, where the i-th line contains Pi​.x,Pi​.y denoting the x-coordinate and y-coordinate of the i-th point.
+
+Output Format
+For each test case, print a single line containing one integer - the number of points of P′ which lie on its convex hull.

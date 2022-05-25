@@ -1,0 +1,31 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Sereja likes to play billiards. Here is simplified version of it.
+ 
+Initially there is a table of size N*N. The table is divided by N+1 horizontal and N+1 vertical lines. The lines are numbered from 0  to N from left to the right and in the same way from 0 in the top to N in the bottom. The intersection of the horizontal Line i and the vertical Line j is a point which will be denoted by (i,j). The points (0,0), (0, N), (N, 0), (N, N) are the corners of the table. Initially, there are M balls on the table, at the points (Xi, Yi) (0 ≤ Xi, Yi ≤ N). Each ball has its cost Zi. 
+
+In one move, Sereja can hit any one ball by giving it a velocity (Vx, Vy), (Vx and Vy should belong to the set {-1, 0, 1}) and a starting energy E (1 ≤ E ≤ 4 * N). After this there will be E actions:
+
+At the beginning of each action, the ball will be moving from the old point (X, Y) to a new point (X', Y'). We initially set X' = X+Vx and Y' = Y+Vy.
+But if the new point becomes equal to (-1, -1) or (-1, N + 1) or (N + 1, -1) or (N + 1, N + 1) then it is counted as the ball being pocketed, and hence the cost of the ball is added to the total score. The ball is then removed from the table, and no more actions are produced. This move ends.
+If X' becomes equal to -1, we replace X' by 1 and Vx by 1.
+If X' becomes equal to N + 1, we replace X' by N-1 and Vx by -1.
+If Y' becomes equal to -1, we replace Y' by 1 and Vy by 1.
+If Y' becomes equal to N + 1, we replace Y' by N-1 and Vy by -1.
+If the new point already contains another ball we remove the old ball and the new ball will have a new cost which is the sum of both the balls. The process will be continued with the new ball, with whatever velocity it already had.
+
+Sereja wants to make at most 4*M moves. Each move also decreases the total score by 1. Your task is to play the game so as to maximize the total score.
+ 
+Input
+
+The first line of the input contains an integer T denoting the number of test cases.
+The first line of each test case contains two integers N,M.
+The next M lines of the test case contains three numbers Xi, Yi, Zi each.
+
+ 
+Output
+
+For each test case, the first line should be an integer K - the number of moves you want to make.
+The next K lines should contain five numbers X, Y, Vx, Vy, E. You should ensure that the point (X, Y) contains some ball at that moment. Otherwise, your solution will be marked as WA.
+
+ 

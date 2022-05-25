@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+There is a game played on a one-dimensional axis. N stones will appear on this axis. Each of these stones is described by three numbers xi​, ti​, ci​, meaning the stone will appear at a point xi​, at time ti​, and has a value ci​.
+There are p players initially (at time 0) all at the point 0. If a player is at a point x at time t, then at time t+1, he/she can be either at x or at x+1. A player is able to pick up a stone with value ci​ if he/she is at the point xi​ at the time ti​. Picking up a stone does not take any time. Each stone can be picked up at most once.
+The score of a player is defined as the sum of values of stones he/she has picked up. The score of a number of players is simply the sum of their individual scores. Devise a strategy for the players to gain the maximum total score.
+You should find the maximum possible total score for each number of players p between 1 and K inclusive.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+N lines follow. For each valid i, the i-th of these lines contains three space-separated integers xi​, ti​ and ci​.
+
+Output Format
+For each test case, print K lines. For each valid i, the i-th of these lines should contain a single integer - the maximum total score for i players.

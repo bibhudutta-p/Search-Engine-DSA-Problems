@@ -1,0 +1,19 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+Spring is interesting season of year. Chef is thinking about different things, but last time he thinks about interesting game - "Strange Matrix". 
+Chef has a matrix that consists of n rows, each contains m elements. Initially, the element aij of matrix equals j. (1 ≤ i ≤ n, 1 ≤ j ≤ m). 
+Then p times some element aij is increased by 1. 
+Then Chef needs to calculate the following: 
+For each row he tries to move from the last element (with number m) to the first one (with the number 1). 
+While staying in aij Chef can only move to aij - 1 only if aij - 1 ≤ aij. 
+The cost of such a movement is aij - aij - 1.
+Otherwise Chef can't move and lose (in this row).
+If Chef can move from the last element of the row to the first one, then the answer is the total cost of all the movements. 
+If Chef can't move from the last element of the row to the first one, then the answer is -1. 
+ Help Chef to find answers for all the rows after P commands of increasing. 
+Input
+The first line contains three integers n, m and p denoting the number of rows, the number of elements a single row and the number of increasing commands. 
+Each of next p lines contains two integers i and j denoting that the element aij  is increased by one. 
+Output
+For each row in a single line print the answer after the P increasing commands.
+ 

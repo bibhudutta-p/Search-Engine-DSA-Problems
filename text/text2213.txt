@@ -1,0 +1,17 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+There are N heaps of candies (numbered 1 through N); for each valid i, the i-th of them contains exactly iK candies. You aim to partition these heaps between you and your friend in such a way that each heap is given to exactly one of you without being split among you.
+The distribution should be as fair as possible. Formally, let's denote the total number of candies you get by A and the total number of candies your friend gets by B; your goal is to minimise ∣A−B∣.
+Find the smallest possible value of ∣A−B∣ and assign the heaps to you and your friend in some way that minimises ∣A−B∣. If there are multiple solutions, you may find any one of them.
+Input
+
+The first line of the input contains a single integer K, which is common for all test cases.
+The second line contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer N.
+
+Output
+For each test case, print two lines.
+
+The first of these lines should contain a single integer ― the smallest value of ∣A−B∣ we can obtain.
+The second line should contain N characters describing your assignment of heaps. For each valid i, the i-th of them should be '1' if you want to give the i-th heap to you or '0' if you want to give it to your friend.
+

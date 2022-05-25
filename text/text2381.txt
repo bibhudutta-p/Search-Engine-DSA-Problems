@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a small graph Gs​ with N nodes (numbered 1 through N) and M edges.
+Let's create a big graph Gb​ with NK nodes (numbered 1 through NK) and MK edges. Gb​ consists of K copies of Gs​ ― formally, for each k (0≤k≤K−1) and each edge between nodes u and v in Gs​, there is an edge between nodes u+kN and v+kN in Gb​.
+Afterwards, let's take the complement of Gb​ and call it H ― formally, H is a graph with NK nodes (numbered 1 through NK) such that for each pair of nodes, there is an edge between these two nodes in H if and only if there is no edge between these two nodes in Gb​.
+Count the number of spanning trees in H. Since this number could be very large, compute it modulo 998,244,353.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, M and K.
+Each of the next M lines contains two space-separated integers a and b denoting that the nodes a and b in Gs​ are connected by an edge.
+
+Output
+For each test case, print a single line containing one integer ― the number of spanning trees in H modulo 998,244,353.

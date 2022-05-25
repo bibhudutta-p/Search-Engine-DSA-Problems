@@ -1,0 +1,8 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+In this problem Sereja is interested in the number of arrays of integers, A1, A2, ..., AN, with 1 ≤ Ai ≤ M, such that the greatest common divisor of all of its elements is equal to a given integer D.
+Find the sum of answers to this problem with D = L, D = L+1, ..., D = R, modulo 109+7.
+Input
+The first line of the input contains an integer T - the number of test cases. T tests follow, each containing a single line with the values of N, M, L, R.
+Output
+For each test case output the required sum, modulo 109+7.

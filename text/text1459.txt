@@ -1,0 +1,9 @@
+Problem
+For a permutation P of integers from 1 to N, let's define its value as (1⊕P1​)+(2⊕P2​)+…+(N⊕PN​).
+Given N, find the maximum possible value of the permutation of integers from 1 to N.
+As a reminder, ⊕ denotes the bitwise XOR operation
+Input Format
+The first line of the input contains a single integer T − the number of test cases. The description of test cases follows.
+The only line of each test case contains a single integer N.
+Output Format
+For each test case, output the maximum possible value of the permutation of integers from 1 to N.

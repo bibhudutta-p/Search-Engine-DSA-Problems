@@ -1,0 +1,14 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Sereja has two integers — A and B — in 7-ary system. He wants to calculate the number C, such that B * C = A. It is guaranteed that B is a divisor of A.
+
+Please, help Sereja calculate the number C modulo 7L.
+
+Input
+
+First line of input contains an integer T — the number of test cases. T tests follow.
+
+For each test case, the first line contains the integer A, and the second line contains the integer B, and the third line contains the integer L. A and B are given in 7-ary system.
+
+Output
+Output the answer in 7-ary system.

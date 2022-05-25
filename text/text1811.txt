@@ -1,0 +1,20 @@
+Problem
+A string consisting only of parentheses ( and ) is called a parentheses string. The balanced parentheses strings are defined recursively as follows:
+
+An empty string is a balanced parentheses string.
+If s is a balanced parentheses string, then (s) is also a balanced parentheses string.
+If s and t are balanced parentheses strings, then st (concatenation of s and t) is also a balanced parentheses string.
+
+For a parentheses string, an operation on this string is defined as follows:
+
+Choose any substring of this string which is balanced.
+Remove this substring and concatenate the remaining parts.
+
+Given a parentheses string S, find the minimum length of the string one can get by applying the above operation any number of times. Also find the minimum number of operations required to achieve this minimum length.
+Input Format
+
+The first line of the input contains T, the number of test cases. Then the test cases follow.
+Each test case contains string S in a single line, which consists only of the characters ( and ).
+
+Output Format
+For each test case, in a single line output the minimum length of the string we can get by applying the given operation any number of times and the minimum number of operations required to achieve this minimum length separated by a single space.

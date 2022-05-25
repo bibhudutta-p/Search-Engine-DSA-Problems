@@ -1,0 +1,12 @@
+Problem
+Chef Avi is stuck on a not-so-trivial problem. His teacher gave him an array A  of size N and Q queries,each query containing 3 integers X,L,R.
+For each query help him find the value of ∑i=LR​ceil(X/Ai​), where ceil(x) is the smallest integer greater than or equal to x. Note that it is a 1-indexed array.
+Input:
+
+First line will contain two integers N and Q.
+The next line contains N integers representing the array A.
+Then Q lines follow.
+Each query consists of a single line with three integers: X,L,R.
+
+Output:
+For each query, print the output in a new line.

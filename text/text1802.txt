@@ -1,0 +1,9 @@
+Problem
+Andrew likes strings very much.
+He has two strings A and B of N lower alphabet letters. We denote S[i, j] as the substring from ith to jth characters of string S.
+Andrew is interested in the number of such fours of integers (LA, RA, LB, RB), where 1 ≤ LA ≤ RA ≤ N, 1 ≤ LB ≤ RB ≤ N, and RA − LA = RB − LB, such that the Hamming distance between substrings A[LA, RA] and B[LB, RB] is not greater than K. Here the Hamming distance between two strings of the same length is the number of unequal characters on the same positions of strings.
+Help him and find this number.
+Input
+The first line of the input contains an integer T, denoting the number of test cases. The description of T test cases follows. The first line of each test case contains two space-separated integers N and K. The second line contains string A, and the third line contains string B.
+Output
+For each test case, output an integer, denoting the number of fours (LA, RA, LB, RB) satisfying the conditions described in the problem statements.

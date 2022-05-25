@@ -1,0 +1,15 @@
+Problem
+You are given an undirected tree having N nodes. The color of each node is either Black or White.
+In one step, you can choose a node u, toggle the color of the chosen node u, as well as toggle the colors of all the nodes v, such that {u,v} is an edge in the tree.
+Can you find out the minimum number of steps required to make the color of all the nodes black?
+Note: Since the input is large, prefer using fast input methods.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of the T test cases follows.
+The first line of each test case contains a single integer N.
+The second line of each test case contains N space separated integers A1​,A2​,...,AN​. Ai​ = 0 represents that the initial color of the ith node is black. Ai​ = 1 represents that the initial color of the ith node is white.
+The following N−1 lines contain two space-separated integers x and y, which denotes that there is an edge between nodes x and y.
+
+Output Format
+For each test case, output in a single line the minimum number of steps required to make the color of all the nodes black.
+Output −1 if it is impossible to make the color of all the nodes black.

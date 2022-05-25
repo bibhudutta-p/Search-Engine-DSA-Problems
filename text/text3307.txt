@@ -1,0 +1,12 @@
+Problem
+In the only movie theatre in Chefland, there is a single long row of M seats. The seats are indexed 1 to M from left to right. There is exactly one ticket for each individual seat. N people, numbered 1 to N, want to buy tickets for seats in this row.
+Person i wants exactly Si​ number of tickets. They also have a strong preference for viewing angles. Specifically, person i requires that each of their seats must be indexed between Ai​ and Bi​. It is guaranteed that Ai​≥Ai−1​ for 2≤i≤N.
+For each i (1≤i≤N), calculate the largest j (i≤j≤N) such that all people from i to j can be accommodated together and given tickets according to their requirements.
+Input Format
+
+The first line contains T - the number of test cases. Then the test cases follow.
+The first line of each test case contains two integers N and M - the number of people and seats respectively.
+N lines then follow. The i-th line contains integers Ai​, Bi​, and Si​ - the acceptable seat indices for person i and the required number of tickets.
+
+Output Format
+For each test case, output a single line with N space-separated integers. The i-th of these integers should be the largest valid j (i≤j≤N) such that all people from i to j can be accommodated together.

@@ -1,0 +1,13 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef and his brother Chefu are playing a game. The game consist of two sequences of integers A of length N and B of length M, and it will last for exactly M turns, Chef will play in odd turns whereas Chefu will play in even turns (turns and sequences are 1-based).
+In the i-th turn, the corresponding player should select an interval (continuous subsegment) of sequence A of length Bi that is strictly inside the interval selected in previous turn, i.e. if the interval in previous turn was [l,r] then if the interval in current turn is [u,v] then it should satisfy l < u ≤ v < r, except in the first turn where the player can select any interval of length B1.
+Initially the score of the game is 0. If it was Chef's turn then we add to the score of the game points equal to sum of integers of the selected interval of sequence A. If it was Chefu's turn then we subtract from the score of the game points equal to sum of integers of the selected interval of sequence A.
+Chef wants to maximize the score of the game in the end while Chefu want to minimize it. Can you find out the score of the game in the end given that both Chef and Chefu are playing optimally.
+Input
+The first line contains an integer T denoting the number of test-cases. Description of T test cases follow.
+First line of each test case contains two space separated integers N and M, denoting the length of the sequence and the number of turns for which the game will last, respectively.
+Second line of each test case contains N space separated integers denoting the sequence A
+Third line of each test case contains M space separated integers denoting the sequence B
+Output
+For each test case, output a single integer in a separate line corresponding to the score of the game at the end of the game.

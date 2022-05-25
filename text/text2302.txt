@@ -1,0 +1,19 @@
+Problem
+You have a tree of N vertices rooted at vertex 1, where N is even. The i-th vertex has a binary value Ai​ written on it (i.e, each Ai​ is either 0 or 1).
+A tree is said to be balanced if and only if the number of zeros written on its vertices equals the number of ones written on its vertices.
+You can select some disjoint subtrees and flip the values on them (i.e, make all 0's into 1's and all 1's into 0's). Formally, you can pick any subset (possibly empty) of vertices {v1​,v2​,…,vk​} such that vi​ is not an ancestor of vj​ for i=j, and flip the value of Ax​ for every vertex x that is contained in the subtree of some vi​.
+Find a way of performing this operation that makes the entire tree balanced. It can be proved that the solution always exists.
+If there are multiple possible solutions, you may print any of them. In particular, you do not need to minimize the number of subtrees that are flipped.
+Input Format
+
+The first line of input contains a single integer T, the number of test cases. The description of test cases follows.
+The first line of each test case contains an integer N — the size of the tree.
+The second line contains N space-separated integers A1​,A2​,…,AN​ — the values on the vertices.
+Then, N−1 lines follow. The i-th line contains two space-separated integers ui​ and vi​ — the vertices connected by the i-th edge.
+
+Output Format
+
+For each test case, first print a single integer m — the number of operations you performed.
+Then, on the second line, print m space-separated integers — the roots of the subtrees you decided to flip.
+If there are multiple solutions, you can print any of them.
+

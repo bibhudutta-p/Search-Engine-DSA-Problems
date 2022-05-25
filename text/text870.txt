@@ -1,0 +1,16 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef has bought N robots to transport cakes for a large community wedding. He has assigned unique indices, from 1 to N, to each of them. How it will happen?
+Chef arranges the N robots in a row, in the (increasing) order of their indices. Then, he chooses the first M robots and moves them to the end of the queue. Now, Chef goes to the robot at the first position in the row and hands it one cake. He then notes this robot's index (say k) in his notebook, and goes to the kth position in the row. If the robot at this position does not have a cake, he give him one cake, notes his index in his notebook, and continues the same process. If a robot visited by Chef already has a cake with it, then he stops moving and the cake assignment process is stopped.
+Chef will be satisfied if all robots have a cake in the end. In order to prepare the kitchen staff for Chef's wrath (or happiness :) ), you must find out if he will be satisfied or not? If not, you have to find out how much robots have a cake, so that the kitchen staff can prepare themselves accordingly.
+Input
+
+The first line of input contains a single integer T denoting the number of test cases.
+The single line of each test cases contains two space separated integers N and M.
+
+Output
+For each of the T test cases, output a single line:
+
+If all N robots have a cake, output "Yes" (without quotes).
+Otherwise, output "No" (without quotes) followed by a space and the number of robots which have a cake.
+

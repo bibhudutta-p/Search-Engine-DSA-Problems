@@ -1,0 +1,17 @@
+Problem
+CodeChef admins went on shopping at a shopping mall.
+There are N shops in the mall where the ith shop has a capacity of Ai​ people. In other words, at any point in time, there can be at most Ai​ number of people in the ith shop.
+There are X admins. Each admin wants to visit each of the N shops exactly once. It is known that an admin takes exactly one hour for shopping at any particular shop. Find the minimum time (in hours) in which all the admins can complete their shopping.
+Note:
+
+An admin can visit the shops in any order.
+It is possible that at some point in time, an admin sits idle and does not visit any shop while others are shopping.
+
+Input Format
+
+First line will contain T, the number of test cases. Then the test cases follow.
+The first line of each test case contains two integers N and X - the number of shops and the number of admins.
+The second line of each test case contains N integers A1​,A2​,…,AN​ - the capacity of the shops.
+
+Output Format
+For each test case, output in a single line the minimum time (in hours) in which all the admins can complete their shopping.

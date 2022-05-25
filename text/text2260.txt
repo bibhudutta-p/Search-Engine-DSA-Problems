@@ -1,0 +1,19 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+There is a checkered field with 105 rows (numbered 1 through 105) and 105 columns (numbered 1 through 105). N different cells in this field (numbered 1 through N) are marked; for each valid i, the coordinates of the i-th marked cell are (xi​,yi​).
+A set of cells is suitable if it meets the following conditions:
+
+All marked cells belong to this set.
+For any two cells a and b belonging to this set, there is a path between them with length ∣xa​−xb​∣+∣ya​−yb​∣ which only visits cells in this set. Each pair of consecutive cells in a path must have a common side.
+
+You need to find the smallest possible size of a suitable set of cells, as well as the number of sets with this smallest size. Since the number of sets may be very large, compute it modulo 109+7.
+Input
+
+The first line of the input contains two space-separated integers N and T.
+N lines follow. For each valid i, the i-th of these lines contains two space-separated integers xi​ and yi​.
+
+Output
+
+If T=0, print a single line containing one integer ― the smallest size of a suitable set.
+If T=1, print a single line containing two space-separated integers ― the smallest size of a suitable set and the number of sets with this size modulo 109+7.
+

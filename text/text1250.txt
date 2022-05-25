@@ -1,0 +1,13 @@
+Problem
+You are given N binary strings S1​,S2​,…,SN​, each of length M. You want to concatenate all the N strings in some order to form a single large string of length N⋅M. Find the minimum possible number of inversions the resulting string can have.
+A binary string is defined as a string consisting only of '0' and '1'.
+An inversion in a binary string S is a pair of indices (i,j) such that i<j and Si​ = '1', Sj​ = '0'. For example, the string S= "01010" contains 3 inversions : (2,3), (2,5), (4,5).
+Note that you are not allowed to change the order of characters within any of the strings Si​ - you are only allowed to concatenate the strings themselves in whatever order you choose. For example, if you have "00" and "10" you can form "0010" and "1000", but not "0001".
+Input Format
+
+The first line of input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N,M.
+N lines follow, the ith of which contains the string Si​ of length M.
+
+Output Format
+For each test case, print a single line containing one integer - the minimum possible number of inversions in the resulting string.

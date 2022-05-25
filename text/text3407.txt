@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Chef has a random permutation P1​,P2​,…,PN​ and an integer K.
+A subsequence (not necessarily contiguous) of this permutation is called good if it has at most K pairs of neighbouring elements such that the left element is larger than the right element.
+Chef wants to know the maximum length of a good subsequence of his permutation. Can you help him?
+Input
+
+The first line of the input contains two space-separated integers N and K.
+The second line contains N space-separated integers P1​,P2​,…,PN​.
+
+Output
+Print a single line containing one integer ― the maximum length of a good subsequence.

@@ -1,0 +1,16 @@
+Problem
+Chef gives you a tree, consisting of N nodes. The nodes are numbered from 1 to N, and each node has an integer, which is equal to 0 initially. Then, Chef asks you to perform M queries.
+The first type of queries is changing: here, you are given integers X, Y, A and B. Add A to the integer, associated with the node X, then add A+B to the integer, associated with the second node on the way from X to Y, then add A+2*B to the integer, associated with the third node on the way from X to Y, and so on. As you know, there is only one simple path from X to Y.
+The second type of queries is a question: here, you are given integers X and Y. Output the sum of all integers, associated with nodes on the way from X to Y.
+The third type of queries is a rollback: here, you are given an integer X. All the integers associated with the nodes return to the state after the X-th changing query. If X is 0, then all of them become equal to zero, as in the very beginning.
+Input
+The first line of an input consists of two integers - N and M.
+Then, N−1 lines follow. These N−1 lines describe the tree structure. Each line consists of two integers - X and Y, and that means that there is an edge between node X and node Y.
+Then, M lines follow. A single line denotes a single query, which has one of the following forms: (See the sample for the detailed explanation)
+
+c X1 Y1 A B - changing query,
+q X1 Y1 - question query,
+l X1 - rollback query. 
+As you can see, the numbers X and Y aren't given to you directly. For the rollback query, actual number X will be equal to (X1+lastans) modulo (total number of changing queries before this query + 1). For the changing and question queries, X will be equal to ((X1+lastans) modulo N)+1 and Y will be equal to ((Y1+lastans) modulo N)+1, where lastans denotes the last number that you have output, or zero if you haven't output any numbers yet.
+Output
+For each question query output the answer on a single line.

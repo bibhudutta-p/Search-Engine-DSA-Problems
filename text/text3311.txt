@@ -1,0 +1,23 @@
+Problem
+Read problems statements in Hindi,
+Mandarin chinese
+, Russian and Vietnamese as well.
+The summer is coming and Chef wants to fill his swimming pool with water so that he could enjoy swimming in it during these hot days.
+The swimming pool is N metres in length (long course) and a fixed width 1 metre. Its long course is split into N equal parts, with possibly different depths. For each valid i, the i-th part has depth Di​ metres.
+You should process Q queries. There are two types of queries:
+
+1xv — pour v cubic metres of water into the x-th part of the pool
+2x — find how much metres deep is the water surface from the ground in the x-th part of the pool. If there's no water on this part then the water surface depth is same as the depth of this part.
+
+Water level obeys the following rules. As long as the water level in some part of the pool is higher than the water level in at least one of the adjacent parts, the water from it will move to adjacent parts with lower water levels until water levels become equal or there is no water left in this part. If the adjacent part from both sides (left and right) have lower water level then the half of the quantity of water in the current part will move to left and the other half will move to the right. The water on the leftmost part can't move to the left, and the water on the rightmost part can't move to the right.
+When the water level reaches the surface of the pool (i.e. its depth become 0), the pool overflows and the water level does not increase anymore.
+Please refer to the samples for more clarification.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+The second line contains N space-separated integers D1​,D2​,…,DN​.
+Q lines follow. Each of these lines describes a query in the format 1xv or 2x.
+
+Output
+For each query of the second type, print a single line containing one real number — the depth of the water surface of the x-th part of the pool if it contains water, or Dx​ if it does not. Your answer will be considered correct if its relative or absolute error does not exceed 10−6.

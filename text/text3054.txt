@@ -1,0 +1,7 @@
+Problem
+ Read problems statements in Mandarin Chinese here
+ Read problems statements in Russian here
+Problem Statement
+Chef has a string S = S1S2 ... SN, consisting of N lowercase Latin letters. Also he has M pairs of integers Li, Ri (1 ≤ Li ≤ Ri ≤ N).For each pair Li, Ri, Chef writes out all distinct substrings of string S, which are started from positions Li, Li + 1, ..., Ri.Your task is to help Chef. That is, for each pair, find out how many substrings that he needs to write.InputThe first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.The first line of each test case contains non-empty string S and the second line contains positive integer M.
+Each of the next M lines contains a pair of integers Li, Ri.
+OutputFor each pair of each test case print the required number of substrings.

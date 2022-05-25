@@ -1,0 +1,14 @@
+Problem
+Read problems statements Hindi , Vietnamese , Mandarin Chinese , Russian and Bengali as well.
+Chef is making N atomic soups numbered 1 through N. Each soup is either a base atomic soup or a composition of other atomic soups. For each valid i, if soup i is not a base soup, one unit of this soup is made by mixing together one unit of soup ci,1​, one unit of soup ci,2​, and so on to one unit of soup ci,Pi​​. Note that these Pi​ soup units are not necessarily from distinct soups and that we obtain only 1 unit of soup by mixing Pi​ units.
+Due to their structure, two units of the same base atomic soup always cancel out and vanish when mixed together. Therefore, we define the base decomposition of a soup as the set of all base atomic soups that need to be used an odd number of times when making the resulting soup (i.e. a base soup b belongs to the base decomposition if we need to use an odd number of units of soup b in total). The base decomposition of a sequence of atomic soups is the base decomposition of the soup created by mixing together one unit of each of these soups.
+You should answer Q queries. In each query, you are given a sequence of Chef's soups s1​,s2​,…,sK​; you must decide whether it is possible to choose two disjoint subsequences (one of which may be empty) of this sequence which have the same base decomposition. Two subsequences are disjoint if there is no index i such that each subsequence contains soup si​.
+Input
+
+The first line of the input contains a single integer N.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains an integer Pi​; if Pi​=0, it is followed by a space and Pi​ space-separated integers ci,1​,ci,2​,…,ci,Pi​​.
+The next line contains a single integer Q.
+The following Q lines describe queries. Each of these lines contains an integer K followed by a space and K space-separated integers s1​,s2​,…,sK​.
+
+Output
+Print a single line containing a string with length Q. For each valid i, the i-th character of this string should be '1' if it is possible to choose required subsequences in the i-th query or '0' otherwise.

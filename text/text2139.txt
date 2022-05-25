@@ -1,0 +1,19 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a tree with N nodes (numbered 1 through N). For each valid i, node i has a value Ai​.
+You should answer Q queries. In each query:
+
+You are given two nodes a and b.
+Let S denote the set of all nodes on the simple path between the nodes a and b (including these nodes).
+Find the minimum value of ∣Ax​−Ay​∣ over all pairs x,y∈S such that x=y.
+
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+Each of the next N−1 lines contains two space-separated integers u and v denoting that nodes u and v are connected by an edge.
+Each of the last Q lines contains two space-separated integers a and b describing a query.
+
+Output
+For each query, print a single line containing one integer ― the answer to the query.

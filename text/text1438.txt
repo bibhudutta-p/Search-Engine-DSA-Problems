@@ -1,0 +1,11 @@
+Problem
+Chef has a sequence A1​,A2​,…,AN​. For a positive integer M, sequence B is defined as B=A∗M that is, appending A exactly M times. For example, If A=[1,2] and M=3, then B=A∗M=[1,2,1,2,1,2]
+You have to help him to find out the minimum value of M such that the length of the longest strictly increasing subsequence is maximum possible.
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output:
+For each test case, print a single line containing one integer ― the minimum value of M.

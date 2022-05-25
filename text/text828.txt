@@ -1,0 +1,14 @@
+Problem
+We all know Gru loves Agnes very much. One day Agnes asked Gru to answer some of her queries. She lined up N minions in a straight line from 1 to N.
+You are given an array A which contains the height of minions. Agnes will ask him several queries. In each query, Gru has to tell whether the bitwise AND of  A[L…R] is EVEN or ODD. Since Gru is busy planning the biggest heist on Earth, he asks for your help.
+Input:
+
+First line of the input contains an integer T denoting the number of test cases.
+For each test case:-
+First line contains an integer N denoting the number of elements.
+Second line contains N spaced integer representing array elements.
+Third line contains Q representing number of query.
+Next Q lines contains two integer L and R as defined above.
+
+Output:
+For each query, output "EVEN" or "ODD" without quotes.

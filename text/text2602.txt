@@ -1,0 +1,8 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Given n functions yi(x) =  a0
+ + a1x + a2x2 + a3x3 and q queries. For each query, you are given an integer t and you are required to find out yi (i ≤ i ≤ n) that minimizes the value of yi(t).
+Input
+The first line is an integer T denotes the number of testcases. Each testcase starts with an integer n on a single line, the number of polynomials. The next n lines, each line describes a polynomial contains four integers: a0 a1 a2 a3. Then a line contains q, the number of queries. Each of the next q lines describes a query by a single integer t.
+Output
+Each query, output the answer on a single line.

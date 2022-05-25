@@ -1,0 +1,18 @@
+Problem
+You are given two binary strings A and B, each of length N.
+Consider a non-empty substring A′ of A and a non-empty substring B′ of B, both of the same length. Let X=A′⊕B′ be the string obtained by taking the exclusive OR of A′ and B′.
+You are also given a function f(X), defined as
+f(X)=⌊2X10​∣X∣​⌋
+where ∣X∣ denotes the length of X and X10​ denotes the decimal value of the binary integer represented by X. For example, if X=0110101, then ∣X∣=7 and X10​=53, so f(X)=⌊7/253⌋=0.
+Your task is to maximize the value of the function f(X) for the given strings A and B, by choosing A′ and B′ appropriately.
+Note: The exclusive OR of two binary strings A and B such that ∣A∣=∣B∣=k is the unique binary string X of length k such that Xi​=1 if and only if Ai​=Bi​.
+Input Format
+
+The first line contains a single integer T — the number of test cases. Then the test cases follow.
+Each test case consists of three lines of input.
+The first line of each test case contains an integer N — the length of the binary strings A and B.
+The second line of each test case contains a binary string A of length N.
+The third line of each test case contains a binary string B of length N.
+
+Output Format
+For each test case, output on a new line the maximum value of the function.

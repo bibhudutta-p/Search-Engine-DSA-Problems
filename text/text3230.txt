@@ -1,0 +1,16 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given N sets of integers A1​,A2​,…,AN​. For each valid i, let's denote the elements of the set Ai​ by {ci,1​,ci,2​,…,ci,∣Ai​∣​}.
+Find the number of ways to choose a sequence (a1​,a2​,…,aN​) such that:
+
+ai​∈Ai​ for each valid i
+ai​=ai+1​ for each valid i and a1​=aN​
+
+Since this number may be large, compute it modulo 998,244,353.
+Input
+
+The first line of the input contains a single integer N.
+N lines follow. For each valid i, the i-th of these lines contains an integer ∣Ai​∣ followed by a space and ∣Ai​∣ space-separated non-negative integers ci,1​,ci,2​,…,ci,∣Ai​∣​.
+
+Output
+Print a single line containing one integer ― the number of ways to choose (a1​,a2​,…,aN​), modulo 998,244,353.

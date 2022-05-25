@@ -1,0 +1,46 @@
+Problem
+
+
+Hermione : [reading] "There were once three brothers, who were traveling along a lonely winding road at twilight".
+
+
+After taking the prize for their cleverness from the Death, the Eldest brother(X) and the Second brother(Y) realized that the best choice was made by their youngest brother and hence they decided to kill him and take his cloak of invisibility. But there was only one cloak and 2 brothers. So they decided to play Q games to decide who will take the cloak. The game is as follows: 
+
+Let M denote a Magical Pair of a number(id) and a string(str). 
+Formally, M = (id, str) 
+
+
+There is a set of Magical Pairs which they fix at the very beginning. This set is never changed, even if multiple games are played. More than one Magical Pair can have same id. Let S denote the set of Magical Pairs.
+S = {M1, M2, ......, Mn} = {(id1,str1), (id2, str2), ........, (idn, strn)} 
+
+
+Each of the Q individual games will be played on an Active Set. An Active Set A is defined as a subset of S on which current game is being played. This Active Set is constructed in a particular way, which will be explained later.
+
+
+In a single game, the two players take alternating turns, making Moves. A Move is defined as selecting a Magical Pair M and all other Magical Pairs P(including M) from the set A such that Pid is equal to Mid and Mstr is a prefix of Pstr. These are then deleted from the set A. A player who is not able to move loses. The Younger Brother moves first. Both players play optimally.
+
+
+Let us now see how the Active Set for each of the Q games is constructed. Each game is described by three integers: L, R, and K, which is known to you. At the start of each game, A is empty, and then the two players do the following to construct A:
+
+
+Second Brother(Y) : In the first step, the second brother adds all Magical Pairs M from set S to the Active set A such that L  ≤ Mid ≤ R
+Elder brother(X) : In the second step, the Elder brother removes all the Magical Pairs M from the Active set A of id Z if there are more than K Magical Pairs with id Z. That is, if there is any id which appears more than K times, he removes them all.
+Elder brother(X) : In the last step, the Elder brother chooses any one id which exists in the Active Set currently, and removes all Magic Pairs with that id.
+
+
+
+The Elder Brother wants to know, in how many different ways can he do the last step (that is, selecting some id) emerge as the winner of that game. Help him find this for each of the Q games.
+
+Input
+
+First line an integer N denoting number of Magical Pairs in set S.
+Next N lines contains a pair of id and str separated by space, denoting N Magical Pairs.
+Next line contains an integer Q denoting Number of games played. 
+Next Q lines contains three space separated integers L, R, K as described in the problem.
+
+
+Output
+
+It contains Q lines, each line containing the number of ways for Elder Brother to win as per the above mentioned conditions.
+
+

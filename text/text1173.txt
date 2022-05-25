@@ -1,0 +1,11 @@
+Problem
+The Little Elephant and his friends from the Zoo of Lviv were returning from the party. But suddenly they were stopped by the policeman Big Hippo, who wanted to make an alcohol test for elephants.
+There were N elephants ordered from the left to the right in a row and numbered from 0 to N-1. Let R[i] to be the result of breathalyzer test of i-th elephant.
+Considering current laws in the Zoo, elephants would be arrested if there exists K consecutive elephants among them for which at least M of these K elephants have the maximal test result among these K elephants.
+Using poor math notations we can alternatively define this as follows. The elephants would be arrested if there exists i from 0 to N-K, inclusive, such that for at least M different values of j from i to i+K-1, inclusive, we have R[j] = max{R[i], R[i+1], ..., R[i+K-1]}.
+The Big Hippo is very old and the Little Elephant can change some of the results. In a single operation he can add 1 to the result of any elephant. But for each of the elephants he can apply this operation at most once.
+What is the minimum number of operations that the Little Elephant needs to apply, such that the sequence of results, after all operations will be applied, let elephants to avoid the arrest? If it is impossible to avoid the arrest applying any number of operations, output -1.
+Input
+ The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows. The first line of each test case contains three space-separated integers N, K, M. The second line contains N space-separated integers  R[0], R[1], ..., R[N-1] denoting the test results of the elephants.
+Output
+For each test case, output a single line containing the minimum number of operations needed to avoid the arrest.

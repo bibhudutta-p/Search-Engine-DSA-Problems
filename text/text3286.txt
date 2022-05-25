@@ -1,0 +1,14 @@
+Problem
+Chef's professor gave him homework to find a permutation of length 2N such that each integer from 0 to 2N−1 appears exactly once in the permutation and the maximum bitwise XOR of any even length subarray is minimized.
+Chef wonders how many such permutations are there. Help Chef to find out the number of permutations modulo (109+7), satisfying the above conditions and also help him find one such permutation.
+Input Format
+
+First-line will contain T, the number of test cases. Then the test cases follow.
+The only line of each test case contains an integer N.
+
+Output Format
+
+For each test case, print two lines of output.
+In the first line, print the number of permutations modulo (109+7), for which maximum bitwise xor of any even-length subarray is minimized.
+In the next line, print 2N space-separated numbers denoting any such permutation.
+

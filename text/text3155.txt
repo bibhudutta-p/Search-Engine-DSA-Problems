@@ -1,0 +1,14 @@
+Problem
+You are given an array A of length N, which initially is a permutation of integers from 1 to N.
+We want to make the array empty by performing the following operation N times: choose any index i and remove Ai​ from A, which decrements the size of A by 1.
+We will perform exactly N such operations. Apparently, there are N! ways to do this. But now we wonder how many ways satisfy that, during the process, the array doesn't contain any consecutive monotone triples?
+A consecutive monotone triple is a tuple of consecutive elements (i,i+1,i+2)
+which satisfy
+A_i &lt; A_{i+1} \lt A_{i+2} or A_i &gt; A_{i+1} \gt A_{i+2}.
+Since the answer may be large, print it modulo 109+7.
+Input Format
+The first line contains a single integer T − the number of test cases.
+The first line of each test case contains the single integer N.
+The second line of each testcases contains n integers A1​,A2​,…,AN​ − the initial array A.
+Output Format
+For each test case print a single integer − the answer modulo 109+7.

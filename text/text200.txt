@@ -1,0 +1,10 @@
+Problem
+Janmansh is at the fruit market to buy fruits for Chingari. There is an infinite supply of three different kinds of fruits with prices A, B and C.
+He needs to buy a total of X fruits having at least 2 different kinds of fruits. What is the least amount of money he can spend to buy fruits?
+Input Format
+
+The first line of the input contains a single integer T - the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains four space separated integers X, A, B, C - the number of fruits to buy and the prices of the three different types of fruits respectively.
+
+Output Format
+For each test case, output the least amount of money he can spend to buy fruits.

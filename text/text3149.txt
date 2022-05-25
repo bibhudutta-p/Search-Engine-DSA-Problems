@@ -1,0 +1,14 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+You're given an undirected graph G with N vertices and M edges. A triangle in this graph is a cycle of length 3.
+Triangles are stupid and nobody likes them, so you should remove some (possibly zero) vertices from this graph in such a way, that the resulting graph doesn't contain any triangle. In addition, the number of removed vertices should be minimum possible. Note that if you remove a vertex from a graph, then all the edges incident on that vertex will also be removed.
+In the given graph G, each vertex belongs to at most 2 triangles. Also, G can contain at most 40 triangles.
+Compute the minimum number of vertices to remove.
+Input
+
+The first line of the input contains an integer T - the number of test cases.
+The first line of each test case contains two space-separated integers N and M.
+Each of the next M lines contains two space-separated integers a and b - two vertices connected by an edge.
+
+Output
+For each test case, output one line with a single number - the minimum number of vertices that have to be removed.

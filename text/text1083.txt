@@ -1,0 +1,14 @@
+Problem
+Mary loves binary strings.
+Given a binary string S, she defines the beauty of the string as the bitwise XOR of decimal representations of all substrings of S.
+Find the beauty of string S. Since the answer can be huge, print it modulo 998244353.
+For example, the decimal representation of binary string 1101 is 1⋅23+1⋅22+0⋅21+1⋅20=8+4+0+1=13. Kindly refer sample explanation for more such examples.
+A string A is a substring of a string B if A can be obtained from B by deleting several (possibly zero) characters from the beginning and several (possibly zero) characters from the end.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of test cases follow.
+First line of each test case contains one integer N - the length of the binary string.
+Second line of each test case contains the binary string S.
+
+Output Format
+For each test case, output in a single line, beauty of the string modulo 998244353.

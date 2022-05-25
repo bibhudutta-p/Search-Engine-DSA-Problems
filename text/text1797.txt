@@ -1,0 +1,17 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You are given two strings S and R. Each of these strings has length N. We want to make S equal to R by performing the following operation some number of times (possibly zero):
+
+Choose two integers a and b such that 1≤a≤b≤N.
+For each i such that a≤i≤b, replace the i-th character of S by the i-th character of R.
+
+Suppose that we make S equal to R by performing this operation k times, in such a way that the total number of replaced characters (i.e. the sum of all k values of b−a+1) is l. Then, the cost of this process is defined as k⋅l.
+Find the minimum cost with which we can make S equal to R.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single string S.
+The second line contains a single string R.
+
+Output
+For each test case, print a single line containing one integer ― the minimum cost.

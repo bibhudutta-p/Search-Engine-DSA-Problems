@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Chef is stuck in the wavey world of polynomials. You are given all N roots of a polynomial P(x)=∏i=1N​(x−ai​). The roots are pairwise distinct integers, but they are not given in any particular order.
+To help Chef escape, you should answer Q queries (numbered 1 through Q). For each valid i, in the i-th query, you are given an integer xi​ and you have to determine whether P(xi​) is positive, negative or 0.
+Input
+
+The first line of the input contains two space-separated integers N and Q.
+The second line contains N space-separated integers a1​,a2​,…,aN​.
+Q lines follow. For each valid i, the i-th of these lines contains a single integer xi​ describing the i-th query.
+
+Output
+For each query, print a single line containing the string "POSITIVE", "NEGATIVE" or "0" (without quotes) describing the value of the polynomial for the i-th query.

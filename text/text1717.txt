@@ -1,0 +1,16 @@
+Problem
+For a permutation P of the integers 1 to N, we define a new array AP​ of length N−2 as follows:
+
+For 1≤i≤N−2, (AP​)i​ denotes the number of inversions in the subarray P[i:i+2], i.e, the number of inversions in the array [Pi​,Pi+1​,Pi+2​].
+
+You are given an array A of length N, all of whose elements lie between 0 and 3. Does there exist a permutation P of length N+2 such that AP​=A?
+Input Format
+
+The first line of input will contain one integer T, the number of test cases. The description of T test cases follows.
+Each test case consists of two lines of input.
+The first line of each test case contains a single integer N, the size of A.
+The second line of each test case contains N space-separated integers — the values of A1​,A2​,…,AN​.
+
+Output Format
+For each test case, output in a single line the answer — YES if a permutation that satisfies the given conditions exists, and NO otherwise.
+The output is not case sensitive, so for example the strings YES, Yes, yES, etc. will all be treated as correct.

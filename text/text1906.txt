@@ -1,0 +1,19 @@
+Problem
+Chef stumbled upon B black nodes and W white nodes and now wants to construct a tree using them.
+Chef is bamboozled by the total number of trees that can be constructed using these nodes. To reduce this count, Chef considered only those trees which have at least one diameter that has alternating colors i.e. a black node is followed by a white node and a white node is followed by a black node.
+Help Chef in finding out the tree with the minimum possible diameter among all the trees that satisfies the above condition. If no tree satisfies the above conditions, print −1. If multiple trees satisfies the above condition, print any.
+Input Format
+
+The first line contains a single integer T - the number of test cases. Then the test cases follow.
+The first and only line of each test case contains two space separated integers B,W representing the number of black and white nodes respectively.
+
+Output Format
+
+If a tree can be constructed that fulfils all the requirements then
+
+In the first line, output a string of length B+W in which the ith character (1-based indexing) is either W or B denoting the colour of the ith node as black or white respectively.
+In the following B+W−1 lines, output two integers U and V denoting an edge between Uth and Vth node.
+
+
+If no tree fulfils the requirements print -1 in a single line.
+

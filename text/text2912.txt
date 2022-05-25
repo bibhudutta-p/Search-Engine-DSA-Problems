@@ -1,0 +1,16 @@
+Problem
+The city of Chefland has a metro network of n stations where there are metro tunnels between certain pairs of stations. The budget was tight during construction, so the n stations are connected using only n−1 tunnels. Every station is still reachable from every other station.
+Being initially constructed with such a tight budget, it is no surprise that they have fallen into disrepair over time. Chef, the mayor of Chefland, has secured k dollars for renovating the metro stations. Each metro station is different and the ith station requires ai​ dollars to renovate. But, if one or more stations directly connected to the ith station are also being renovated, it is possible to share certain resources between the stations and the cost of renovating the ith station drops to bi​ dollars.
+Help Chef figure out what is the maximum number of stations he can renovate using k dollars.
+Input
+
+The first line contains t, the number of test cases. t cases follow.
+The first line of each test case contains two integers n and k.
+The next line contains n integers a1​,a2​,…,an​.
+The next line contains n integers b1​,b2​,…,bn​.
+n−1 lines follow, each with a pair of integers u and v denoting that the uth and vth stations are connected by a tunnel.
+
+Output
+
+For each testcase, output a single line containing the maximum number of stations that can be renovated.
+

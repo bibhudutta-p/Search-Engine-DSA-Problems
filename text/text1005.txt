@@ -1,0 +1,18 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef and his son Chefu want to watch a match of their favourite football team playing against another team, which will take place today.
+Unfortunately, Chef is busy in the kitchen preparing lunch, so he cannot watch the match. Therefore, every now and then, Chef asks Chefu about the current scores of the teams and Chefu tells him the score. However, Chefu sometimes does not specify the teams along with the score — for example, he could say "the score is 3 to 6", and there is no way to know just from this statement if it was their favourite team or the other team that scored 6 goals; in different statements, the order of teams may also be different. Other times, Chefu specifies which team scored how many goals.
+Chef asks for the score and receives a reply N times. There are two types of replies:
+
+1 A B: their favourite team scored A goals and the other team scored B goals
+2 A B: one team scored A goals and the other scored B goals
+
+Chef is asking you to help him determine the score of his favourite team after each of Chefu's replies. After each reply, based on the current reply and all previous information (but without any following replies), tell him whether it is possible to certainly determine the number of goals scored by his favourite team.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The following N lines describe Chefu's replies in the format described above.
+
+Output
+For each of Chefu's replies, print a single line containing the string "YES" if it is possible to determine the score of Chef's favourite team after this reply or "NO" if it is impossible.

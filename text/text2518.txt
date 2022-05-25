@@ -1,0 +1,16 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef is playing a tricky game with a sequence a1​,a2​,…,aN​. Initially, his score is S=1. In the game, he performs the following process exactly K times (note that the sequence a never changes):
+
+Pick an element X from the sequence a uniformly randomly.
+Change the score S to (S⋅X)%N.
+
+Find the expected value of Chef's score S at the end of the game. It can be shown that this expected value can be expressed as a fraction QP​, where P and Q are coprime integers, P≥0, Q>0 and Q is coprime with 109+7. You should compute P⋅Q−1%(109+7), where Q−1 denotes the multiplicative inverse of Q modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The second line contains N space-separated integers a1​,a2​,…,aN​.
+
+Output
+For each test case, print a single line containing one integer P⋅Q−1 modulo 109+7.

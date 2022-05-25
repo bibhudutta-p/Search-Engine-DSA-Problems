@@ -1,0 +1,14 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Ada has two matrices A and B, each with N rows (numbered 1 through N) and N columns (numbered 1 through N).
+Ada may perform the following operation any number of times (including zero): choose an integer i (1≤i≤N), then swap row i and column i in matrix A. (Formally, for each valid j, she swaps Ai,j​ with Aj,i​.)
+Is it possible to transform matrix A into matrix B?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains N space-separated integers Ai,1​,Ai,2​,…,Ai,N​.
+N more lines follow. For each i (1≤i≤N), the i-th of these lines contains N space-separated integers Bi,1​,Bi,2​,…,Bi,N​.
+
+Output
+For each test case, print a single line containing the string "Yes" if it is possible to transform A into B or "No" if it is impossible (without quotes).

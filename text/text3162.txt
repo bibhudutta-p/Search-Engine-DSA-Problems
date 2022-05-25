@@ -1,0 +1,12 @@
+Problem
+Given an array of size N and two integers K and S, the special sum of a subarray is defined as follows:
+(Sum of all elements of the subarray) * (K - p * S)
+Where p = number of distinct prime factors of “product of all elements of the subarray”.
+Find the maximum special sum by considering all non-empty subarrays of the given array.
+Input
+
+First line contains 3 integers N, K and S.
+Second line contains N integers, the elements of the array.
+
+Output
+Output a single integer. The maximum special sum considering all non-empty subarrays of the array.

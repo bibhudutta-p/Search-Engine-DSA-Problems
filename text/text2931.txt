@@ -1,0 +1,31 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Consider N parallel wires running from left to right. The wires are numbered 1 through N from top to bottom. There are M devices called balancers, numbered 1 through M from left to right. For each valid i, balancer i connects wires xi​ and yi​ (xi​<yi​). Let's call such a structure of wires and balancers a balancing network.
+
+Each balancer can be directed either upwards or downwards. The directions of all balancers define the state of the balancing network.
+Consider a token that starts moving to the right along some wire, from a point on that wire which is to the left of all balancers. During this process, the token encounters each balancer exactly once. Whenever the token encounters a balancer i, the following happens:
+
+if the token is moving along the wire xi​ and balancer i is directed downwards, the token moves down to the wire yi​
+otherwise, if the token is moving along the wire yi​ and balancer i is directed upwards, the token moves up to the wire xi​
+in all other cases, the token does not move to a different wire
+afterwards, the token keeps moving to the right
+
+We say that a state of the balancing network:
+
+transforms a wire i into a wire j, if a token that starts moving along the wire i ends up on the wire j after passing through all M balancers
+unifies wires i and j, if it transforms both of these wires into the same wire (possibly different from each of them)
+is k-non-unifying, if there is a set of k distinct wires such that this state does not unify any pair of wires from this set
+
+For a given balancing network, please find any ⌈2N​⌉-non-unifying state or determine that there is no such state.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+M lines follow. For each i (1≤i≤M), the i-th of these lines contains two space-separated integers xi​ and yi​.
+
+Output
+For each test case:
+
+If there is no ⌈2N​⌉-non-unifying state for the given balancing network, print a single line containing the string "failure" (without quotes).
+Otherwise, print a single line containing a string with length M. This string should describe some ⌈2N​⌉-non-unifying state. For each valid i, its i-th character should be either '^' if the i-th balancer is directed upwards or 'v' if the i-th balancer is directed downwards.
+

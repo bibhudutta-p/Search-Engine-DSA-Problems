@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef is given a sequence of integers A1​,A2​,…,AN​.
+Chef considers a contiguous subsequence Al​,Al+1​,…,Ar​ (where 1≤l≤r≤N) fruitful if it satisfies the condition
+∣Al​−Ar​∣=max(Al​,Al+1​,…,Ar​)−min(Al​,Al+1​,…,Ar​).
+Please help Chef find the number of fruitful contiguous subsequences of the sequence A.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer ― the number of fruitful contiguous subsequences.

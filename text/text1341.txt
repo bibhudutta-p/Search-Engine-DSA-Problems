@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+There is a secret sequence A1​,A2​,…,AN​. We do not know the elements of this sequence, but we know another sequence B1​,B2​,…,BN−1​ such that Bi​=Ai​+Ai+1​ for each valid i.
+You should process Q queries. In each query, you are given two indices p and q; your task is to compute Ap​+Aq​ or determine that there is not enough information to uniquely determine this sum.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+The second line contains N−1 space-separated integers B1​,B2​,…,BN−1​.
+Each of the following Q lines contains two space-separated integers p and q describing a query.
+
+Output
+For each query, if it is impossible to determine the required sum, print a single line containing the string "UNKNOWN". Otherwise, print a single line containing one integer — the required sum.

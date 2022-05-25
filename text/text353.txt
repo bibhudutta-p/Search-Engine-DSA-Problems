@@ -1,0 +1,13 @@
+Problem
+Frieza wants to become immortal. In order to do that he must acquire all the seven dragon balls. In a legendary fight, he is able to defeat Kami, the Guardian of the dragon balls. Now he has come across a case that contains the dragon balls and he needs your help to open it.
+The case requires a pin number to be unlocked. And the clever Kami has left a puzzle on the case which must be cracked to unlock the case.
+On the case, is displayed a string, S of length N consisting of lowercase alphabets. To unlock, he needs to convert this string into a pin number R.
+The trick to creating that pin lies in his name [f,r,i,e,z,a]. Every character in S is either good or bad. It is good, if it is a part of the letter set [f,r,i,e,z,a]. It is bad otherwise. He'll have to traverse S one by one and count consecutive letters that are good or bad and then store these corresponding counts in the same order in R. Thus the pin number, R will be a concatenation of the counts of these letters. See Sample Input for more details.
+You have to help him find out R.
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+Each test case contains a single string S consisting of lowercase characters [a−z].
+
+Output:
+For each test case, output in a single line answer denoting the decoded string which Frieza can use to attain immortality.

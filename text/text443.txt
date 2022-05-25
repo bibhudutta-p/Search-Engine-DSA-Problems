@@ -1,0 +1,12 @@
+Problem
+You are given an array A of length N containing the elements −1 and 1 only. Determine if it is possible to rearrange the array A in such a way that Ai​ is not the geometric mean of Ai−1​ and Ai+1​, for all i such that 2≤i≤N−1.
+Y is said to be the geometric mean of X and Z if Y2=X⋅Z.
+Input Format
+
+The first line contains a single integer T - the number of test cases. Then the test cases follow.
+The first line of each test case contains an integer N - the size of the array A.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​ denoting the array A.
+
+Output Format
+For each test case, output Yes if it is possible to rearrange A in such a way that Ai​ is not the geometric mean of Ai−1​ and Ai+1​, where 2≤i≤N−1. Otherwise output No.
+You may print each character of Yes and No in uppercase or lowercase (for example, yes, yEs, YES will be considered identical).

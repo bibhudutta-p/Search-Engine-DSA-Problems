@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Russian
+In a game, you can choose when to enter and exit, but you can only do this exactly once. Choosing to enter and exit the game at time l and r respectively will cost you k⋅(r−l) coins.
+The game has n items. Item i is valued at vi​ coins. You can only collect item vi​ if you are in the game during the whole time period of [xi​,yi​]; that is, l≤xi​≤yi​≤r. Your profit after the game is the total value of the items collected minus the cost of entering and exiting the game.
+You want to enter and exit the game so that your profit is maximized. Find that maximized profit.
+Input:
+
+The first line contains two integers, n and k.
+Then, n lines follow. The i-th line of these contains three integers, xi​,yi​,vi​.
+
+Output:
+Print a single line containing the maximized profit.

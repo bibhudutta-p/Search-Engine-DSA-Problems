@@ -1,0 +1,51 @@
+Problem
+
+An addition chain for a positive integer N is a sequence of positive integers C = (A0, A1, ..., AL) such that
+
+1 = A0 < A1 < ... < AL – 1 < AL = N,
+for each i such that 1 ≤ i ≤ L there exist integers j and k such that 0 ≤ j, k < i and Ai = Aj + Ak.
+
+
+
+The integer L is called the length of the chain C.
+
+
+For example, C = (1, 2, 3, 6, 12, 15) is an addition chain of length 5 for N = 15. Indeed,
+
+
+A0 = 1,
+A1 = 2 = 1 + 1 = A0 + A0,
+A2 = 3 = 2 + 1 = A1 + A0,
+A3 = 6 = 3 + 3 = A2 + A2,
+A4 = 12 = 6 + 6 = A3 + A3,
+A5 = 15 = 3 + 12 = A2 + A4.
+
+
+It is, in fact, the shortest addition chain for N = 15.
+
+
+Your task is to find some addition chain for a given positive integer N.
+
+
+The shorter chain you will find the better score you will get.
+
+Input
+
+The only line of the input file contains an integer N, the number for which you need to find an addition chain.
+
+Output
+
+The first line of the output file should contain an integer L ≤ 500, the length of your addition chain for the value of N given in the input file. L lines should follow. ith line should contain two non-negative integers j[i] and k[i] both less than i separated by exactly one space. Their meaning is that for your addition chain, Ai is equal to Aj[i] + Ak[i]. More specifically, your output will be considered as correct if and only if all of the following conditions hold:
+
+1 ≤ L ≤ 500;
+0 ≤ j[i], k[i] < i for all i such that 1 ≤ i ≤ L;
+for the sequence  (A0, A1, ..., AL) defined by the rules A0 = 1 and Ai = Aj[i] + Ak[i] for i = 1, 2, ..., L we have 1 = A0 < A1 < ... < AL – 1 < AL = N.
+
+
+
+Your program will get Accepted if and only if it returns correct output for each test case within a given time limit.
+
+Scoring
+
+Your score for a test file is the length of your addition chain, that is, an integer L. The total score for a submission is the average score across all test files. Your goal is to minimize the total score.
+

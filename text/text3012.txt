@@ -1,0 +1,19 @@
+Problem
+Hacker-man's crew is trying to get into Swiss bank's locker, but in order to do so, hacker-man has to bypass a really tough laser lock.
+He can see a square matrix with N rows and N columns. Inside it, he sees K lasers in fixed coordinates. Each laser can be oriented vertically or horizontally, but not both. If placed horizontally, a laser will light up all cells in its row with distance at most d from the laser's cell. If placed vertically, it will light up all cells in its column with distance at most d from the laser's cell. A laser always lights up its own cell, so the number of cells it will light up is always 2d+1 (including the ones lit outside the matrix).
+Hacker-man can choose the orientation (horizontal or vertical) of each laser.
+In order to bypass the lock, the lasers should be in such a configuration that no cell in the matrix is lit up by more than one laser. You should find one such configuration, or report that it is impossible.
+Input
+
+The first line contains T, the number of test cases. Then the test cases follow.
+For every test case:
+
+The first line contains three space-separated integers, N, d, and K, where N is the length of one side of the square matrix, d is the maximum reach of a laser, and K is the number of lasers.
+Each of the next K lines contains two space-separated integers xi​ and yi​ denoting the coordinates of the i-th laser, where xi​ is the distance from the left edge and yi​ is the distance from the bottom edge.
+
+
+
+Note: No two lasers are at the same coordinates
+Output
+For each test case, print "Yes" or "No" (without quotes) depending on whether a configuration as described in the question is possible or not. If a configuration is possible, then in the next line print K space-separated integers representing the orientations of the K lasers respectively (0 for vertical and 1 for horizontal)
+Case is sensitive. For example, "yEs" and "NO" are incorrect.

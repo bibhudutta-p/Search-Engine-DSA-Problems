@@ -1,0 +1,13 @@
+Problem
+Given two arrays A and B each of length N.
+Find the value ∑i=1N​∑j=1N​max(Ai​⊕Bj​,Ai​&amp;Bj​).
+Here ⊕ and &amp; denote the bitwise XOR operation and bitwise AND operation respectively.
+Input Format
+
+The first line of input contains a single integer T - the number of test cases. The description of T test cases follows.
+The first line of each test case contains an integer N - the length of arrays A and B.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​ representing the array A.
+The third line of each test case contains N space-separated integers B1​,B2​,…,BN​ representing the array B.
+
+Output Format
+For each test case, output the value ∑i=1N​∑j=1N​max(Ai​⊕Bj​,Ai​&amp;Bj​).

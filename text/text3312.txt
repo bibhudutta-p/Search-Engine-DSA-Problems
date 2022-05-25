@@ -1,0 +1,7 @@
+Problem
+Chef recently visited a strange land with strange currency.  One day Chef needed to make change to pay for an item with coins, and wondered how many ways it could be done, assuming an infinite supply of each type of coins.  Two ways are considered different if there is some coin that appears a different number of times in each sum.  The answer may be very large, so Chef only needs to know the remainder when the answer is divided by 1000000007 (109 + 7).
+Chef noticed something curious about the currency in question: not only do all coins have different denominations, but no two denominations of coin share any common factor other than 1.
+Input
+The first line of the input contains an integer T, denoting the number of test cases. The description of T test cases follows. The first line of each test case contains two space-separated integers N and C, denoting the number of different coin types and the desired total coinage, respectively. The second line contains N space-separated integers D1, D2, ..., DN, denoting the denominations of the coins.
+Output
+For each test case, output on a separate line the number of ways to make the desired amount of change, modulo 1000000007.

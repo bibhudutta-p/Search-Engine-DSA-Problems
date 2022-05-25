@@ -1,0 +1,20 @@
+Problem
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+Bugs Bunny is very smart, but he keeps constantly worrying about the future and is always anxious. Therefore, he keeps hopping between towns without standing still.
+The place where Bugs Bunny lives has N towns (numbered 1 through N) with one-way roads connecting them in such a way that they form an arborescence (a tree with all paths directed from the root), rooted at town 1. Therefore, each town except the root has exactly one incoming road; for each i (1≤i≤N−1), there is a road from town Pi​ to town i+1. Each town has a distinct rating associated with it; for each valid i, the i-th town has rating Ai​.
+From a town i, Bugs Bunny is allowed to hop to town j (without visiting any other towns in between), if the following conditions are satisfied:
+
+there is a path between towns i and j, i.e. a path from town i to town j or from town j to town i
+town j has a lower rating than town i, i.e. Aj​<Ai​
+
+This way, Bugs Bunny can visit a sequence of towns by hopping, starting anywhere and stopping whenever he chooses. Clearly, he cannot keep hopping forever, so the number of such sequences is finite.
+Tell Bugs Bunny the number of sequences of two or more towns which can be formed by hopping, given that he can start at any town and stop at any town. Since this number can be very large, calculate it modulo 109+7.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N−1 space-separated integers P1​,P2​,…,PN−1​.
+The third line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, print a single line containing one integer --- the number of valid sequences of visited towns modulo 109+7.

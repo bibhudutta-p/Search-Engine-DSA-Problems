@@ -1,0 +1,18 @@
+Problem
+ Read problems statements in Mandarin Chinese , Russian and Vietnamese as well.
+Akhil has an array consisting of N positive integers. As we know that there are (N*(N+1))/2 non-empty contiguous subarrays in an array of size N. Akhil found that exactly E of the contiguous subarrays had even sum and remaining O = (N*(N+1))/2 - E have odd sum.
+
+Next day, he lost the original array. But he still remembered the E and O values correctly. Now, he wants to recreate any such array which has exactly E even sum continuous subarrays and O odd ones. If there are many such possible arrays, printing any one of them will make him happy.
+
+Input
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows:
+First line of each test case contains an integer N denoting the length of lost array.
+Second line of each test case contains two space separated integers E and O, denoting number of contiguous subarrays with even and odd sums, respectively. 
+
+Output
+
+For each test case, output a single line containing all the integers of an array separated by a space.
+Each integer should lie between 0 and 100(both inclusive).
+If there is no such possible array, print -1 in a single line.
+

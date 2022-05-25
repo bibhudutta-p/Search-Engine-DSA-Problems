@@ -1,0 +1,11 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a positive integer N. Consider the sequence S=(1,2,…,N). You should choose two elements of this sequence and swap them.
+A swap is nice if there is an integer M (1≤M<N) such that the sum of the first M elements of the resulting sequence is equal to the sum of its last N−M elements. Find the number of nice swaps.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer N.
+
+Output
+For each test case, print a single line containing one integer ― the number of nice swaps.

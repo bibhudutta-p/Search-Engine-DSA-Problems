@@ -1,0 +1,9 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+A recent survey suggested that almost everybody knows that a palindrome is a string which reads the same backwards as forwards. More recently, puppy Tuzik invented a brand-new concept: K-palindromes. A string is called a K-palindrome if it is possible to make it a usual palindrome by replacing at most K characters. For example, a string abb can be made a palindrome by replacing one character, the second b with an a. Please note, that according to the definition, a usual palindrome is a K-palindrome for any non-negative integer K.
+Today, Tuzik was walking in a garden and came across a string S of N characters. Now, he wants to know the sum of the lengths of all substrings of S which are K-palindromes. Note that two substrings are considered to be different if they cover the different ranges of indices, even if they are equal as strings.
+Input
+The first line of input contains an integer T denoting the number of test cases. Each of the next T lines contains a description of a separate test case.
+The only line of the test case description contains two integers N and K followed by string S, all separated by single spaces. S consists of lowercase Latin characters only.
+Output
+For each test case, output a single line containing one integer: the answer for the test case.

@@ -1,0 +1,28 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Sonya lives in a magical land which consists of N cities (numbered 1 through N) and N−1 roads connecting them. In other words, the country where Sonya lives is a tree.
+The country is magical because toys of an infinite number of types are made there. The types of toys are labeled by all integers and in each city, there is a toy store which sells an infinite number of toys of each type.
+Some stores make better toys of some types than other stores. For each valid i and each integer j, the quality of any toy with type j in the store in city i is Ki​⋅j+Bi​, where Ki​ and Bi​ are parameters of this store.
+Sonya loves to buy toys from the magical land as gifts for her friends. She knows what types of toys her friends like. Therefore, she sometimes decides that she wants to buy a toy with some type z, travels along the shortest path between some cities u and v and buys one toy with the chosen type z. Obviously, she wants this toy to have the maximum possible quality among all toys with this type found in stores on this path (including stores in cities u and v), so she needs to know this maximum quality.
+Also, sometimes, there are new reforms in the magical land, which change the parameters of some stores. In each reform, the shortest path between two cities u and v is chosen, along with two parameters x and y. Then, for each city c on this path (including u and v), Kc​ is increased by x and Bc​ is increased by y.
+Your task is to process Q queries of two types:
+
+u, v, x, y: There is a new reform.
+u, v, z: Sonya wants to know the maximum of qualities of toys with type z sold on the simple path between cities u and v.
+
+Input
+
+The first line of the input contains two space-separated integers N and Q.
+The second line contains N space-separated integers — the initial values of K1​,K2​,…,KN​.
+The third line contains N space-separated integers — the initial values of B1​,B2​,…,BN​.
+Each of the following N−1 lines contains two space-separated integers u and v denoting that cities u and v are connected by a road.
+The next Q lines describe queries.
+
+Each of these lines starts with three space-separated integers t, u and v, where t denotes the type of the current query.
+If t=1, this is followed by a space and two space-separated integers x and y.
+If t=2, this is followed by a space and one integer z.
+
+
+
+Output
+For each query of the second type, print a single line containing one integer — the maximum possible quality of a toy Sonya can buy.

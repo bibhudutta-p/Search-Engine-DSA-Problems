@@ -1,0 +1,15 @@
+Problem
+Chef has two strings A and B consisting of lowercase alphabets, each of length N. Help Chef in finding the number of indices i (1≤i≤N) such that A[i…N]<B[i…N].
+
+S[i…N] denotes the suffix of string S starting at index i, i.e. Si​Si+1​ … SN​.
+String S< String T denotes that S is lexicographically smaller than T. If two strings S and T have the same length N, we say that S is lexicographically smaller than T if there exists an index i(1≤i≤N) such that S1​=T1​, S2​=T2​,…,Si−1​=Ti−1​ and Si​<Ti​. For example, "abc" is lexicographically smaller than "acd", "abe", but not smaller than "abc", "aac".
+
+Input Format
+
+The first line contains T denoting the number of test cases. Then the test cases follow.
+The first line of each test case contains N, denoting the length of the strings A and B.
+The second line of each test case contains the string A.
+The third line of each test case contains the string B.
+
+Output Format
+For each test case, print a single line containing one integer -  the number of indices i such that A[i…N]<B[i…N].

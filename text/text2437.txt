@@ -1,0 +1,20 @@
+Problem
+Kiteretsu goes to his Chemistry Lab to perform the perfect reaction.
+In his lab, he found N reagents numbered 1 to N. The ith reagent has two properties - Ai​ and Bi​.
+A reaction can be performed between the reagents i and j only if Ai​≤j.
+If a reaction is performed between reagents i and j, i⋅j amount of heat is produced. Out of this, D⋅(Bi​⊕Bj​) is absorbed and the rest heat is released. Here, ⊕ denotes the bitwise XOR operation.
+More formally, in a reaction between reagents i and j, the heat released is given by:
+
+H(i,j)=i⋅j−D⋅(Bi​⊕Bj​)
+
+Find the maximum possible heat which can be released in a reaction.
+Note: The input of this problem is large, so use fast input/output methods.
+Input Format
+
+The first line will contain T - the number of test cases. Then the test cases follow.
+First line of each test case contains two integers N,D.
+Second line of each test case contains N integers A1​,A2​,…,AN​.
+Third line of each test case contains N integers B1​,B2​,…,BN​
+
+Output Format
+For each test case, print a single line, a single integer denoting the maximum possible heat that can be released in a reaction.

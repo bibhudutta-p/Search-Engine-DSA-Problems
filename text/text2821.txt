@@ -1,0 +1,9 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+You are given an unrooted tree with N nodes, numbered from 1 to N. Each edge of the tree has a positive integer, associated with it. Your goal is to calculate the number of unordered pairs (S, T) of tree's nodes such that the greatest common divisor of all the integers associated with the edges of the path between S and T is equal to one. Of course, we consider only the pairs where S isn't equal to T.
+You are also given Q queries, where the ith query is described by two integer Ai and Ci. In the ith query, the number associated with the Aith edge will be changed Ci. You also want to calculate the answer for the tree after each query.
+Input
+There is only one test case in one test file.
+The first line of input contains an integer N, denoting the number of nodes in the tree. The ith line of the next N−1 lines contains the description of ith edge, where the line has three space-separated integers X, Y and Z. It means that ith edge connect nodes X and Y, and the associated integer is Z. Then the next line contains an integer Q, denoting the number of queries. The ith line of the next Q lines has two space-separated integers Ai and Ci.
+Output
+In the first line, print the answer for the initial tree. Then print the answer for the tree after each query. Here the answer means that the number of unordered pairs (S, T) of the nodes such that the greatest common divisor of all the integers associated with the edges of the path between S and T is equal to one.

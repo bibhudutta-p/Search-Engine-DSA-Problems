@@ -1,0 +1,26 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Eugene loves sequences, especially arithmetic progressions. One day he was asked to solve a difficult problem.
+
+If a sequence of numbers A1, A2, ... , AN form an arithmetic progression A, he was asked to calculate sum of F(Ai), for L ≤ i ≤ R.
+F(X) is defined as:
+If X < 10 then F(X) = X.
+Else F(X) = F(sum_of_digits(X)).
+
+Example:
+F(1378) = 
+F(1+3+7+8) = 
+F(19) = 
+F(1 + 9) = 
+F(10) = 
+F(1+0) = 
+F(1) = 1
+Input
+
+The first line of the input contains an integer T denoting the number of test cases.
+Each test case is described in one line containing four integers: A1 denoting the first element of the arithmetic progression A, D denoting the common difference between successive members of A, and L and R as described in the problem statement.
+
+Output
+
+For each test case, output a single line containing one integer denoting sum of F(Ai).
+

@@ -1,0 +1,16 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+ 
+Sereja have array A' that contain N integers. Now Sereja want to permute elements of the array, he want to use some permutation p, such that A[i] = A'[p[i]], where A - new array. 
+ 
+Lets function f(A,i) = S - A[i] - A[i +1] - ... - A[j], where j is the maximum possible index, such that A[i] + A[i + 1] + ... + A[j] <= S, if A[i] > S, f(A, i) = S.
+ 
+Help Sereja to find such permutation p, such that (f(A, 1) + f(A, 2) + ... f(A, k))/k will be as low as possible. 
+Input
+ 
+First line of input contain integer T - number of testcases. Next lines contain T testcases. First line of each testcase contain three integers N, k, S. Next line contain N integers - array A'.
+ 
+Output
+ 
+For each testcase output N numbers in one line - permutation p. 
+ 

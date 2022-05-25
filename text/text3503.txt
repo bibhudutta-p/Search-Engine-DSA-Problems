@@ -1,0 +1,17 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+To heal people with virus infections, Ada designed small robots (nanobots) that travel through the bloodstream, scanning all tissues of the body.
+The nanobots have detected a region of infected cells described by a matrix with N rows (numbered 1 through N from top to bottom) and N columns (numbered 1 through N from left to right). For each valid r and c, the cell in row r and column c has a membrane with thickness Tr,c​.
+To prevent the spread of the virus, the nanobots surrounded the infected region and decided to destroy all the infected cells. The nanobots can form a powerful laser with force F and shoot this laser horizontally from the left or from the right of any row, or vertically from the top or from the bottom of any column. Whenever the laser is fired, it breaks through the maximum number of cells in its way such that the total thickness of these cells' membranes is less than or equal to F and destroys them; the cells that lie behind them are unaffected. Formally, if the laser destroys C cells, then they are the first C cells which lie in the laser's way (from the direction in which it is fired), haven't been destroyed before, and the sum of thicknesses of their membranes is at most F.
+The laser may be fired multiple times from any directions in any rows or columns. It may also be fired repeatedly in the same direction and the same row or column. However, each shot uses a lot of the nanobots' energy, so Ada wants to destroy all cells using as few shots as possible.
+Let H be the minimum number of shots needed to destroy all cells when using only horizontal shots, and V the minimum number of shots needed to destroy all cells when using only vertical shots. Ada programmed the nanobots to perform K=min(V,H) shots. Help Ada write a program that uses a strictly smaller number of shots.
+Input
+
+The first line of the input contains two space-separated integers N and F.
+N lines follow. For each valid i, the i-th of these lines contains N space-separated integers Ti,1​,Ti,2​,…,Ti,N​.
+The last line contains a single integer K.
+
+Output
+First, print a line containing a single integer S (K>S) ― the number of shots you want to make.
+Then, print S lines describing the shots. Each of these lines should contain a character X, followed by a space and an integer Y.
+X can be 'L', 'R', 'U' or 'D', denoting a laser fired from the left, right, up or down respectively. If X is 'L' or 'R', then Y denotes the row in which the laser is fired; otherwise, Y denotes the column in which the laser is fired.

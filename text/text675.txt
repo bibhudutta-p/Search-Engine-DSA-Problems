@@ -1,0 +1,16 @@
+Problem
+You are given a binary string S and an integer K. In one operation, you can pick any bit and flip it, i.e turn 0 to 1 or 1 to 0. Can you make the string S a palindrome using exactly K operations?
+Print YES if this is possible, and NO if it is not.
+Input Format
+
+The first line of input contains one integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of two lines of input.
+
+The first line of each test case contains two space-separated integers N and K, denoting the length of the binary string and the number of operations to be performed.
+The second line contains the binary string S.
+
+
+
+Output Format
+For each test case, print the answer on a new line — YES if the S can be made a palindrome using exactly K operations, and NO otherwise.
+You may print each character of YES and NO in either uppercase or lowercase (for example, yes, yEs, Yes will all be considered identical).

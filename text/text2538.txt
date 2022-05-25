@@ -1,0 +1,16 @@
+Problem
+
+Consider a bijective function ƒ
+f:1,2,3,…,n→1,2,3,…,n
+
+
+We have M  different color. We have to associate a color to every x∈1,2,3,...n with one of the color such that x andƒ(ƒ(x)) has same  color .
+
+Let G be an array, where G[x] = pair(ƒ[x], color[x]). 
+Find the number of distinct arrays G modulo 1000000007.
+Input Format:
+First and the only line of the input, contains 2 space seperated intergers N and M.
+
+Output Format:
+Print single integer, i.e, number of distinct arrays G modulo 1000000007.
+

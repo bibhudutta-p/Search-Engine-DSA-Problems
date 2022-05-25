@@ -1,0 +1,11 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a sequence A1​,A2​,…,AN​ and an integer X. The weirdness of a contiguous subsequence Al​,Al+1​,…,Ar​ is defined as W(l,r)=∑i=lr​Ai​⋅Xi−l. Find P=∏i=1N​∏j=iN​W(i,j)2 modulo 998,244,353.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and X.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer P modulo 998,244,353.

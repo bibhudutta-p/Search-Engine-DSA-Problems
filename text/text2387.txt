@@ -1,0 +1,13 @@
+Problem
+ Read problems statements in Mandarin Chinese and Russian as well.
+You are given a function f which is defined as :
+ 
+Your task is to find the value of 
+ 
+where M is given in input.
+Input Format
+First line contains T, the number of test cases.
+First line of each test case contain 3 space separated integers N, M and Q.
+Next Q line follows, each line contain r.
+Output Format
+For each test case, output Q lines, each line containing the required answer.

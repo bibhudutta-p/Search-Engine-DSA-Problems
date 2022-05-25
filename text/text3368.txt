@@ -1,0 +1,35 @@
+Problem
+This problem is similar to the problem "STRFLIP". The only difference between them is the number of moves allowed — in this problem, up to ⌊N/2⌋+10 moves can be made. In Div. 1 and Div. 2 this problem is worth 60 points and "STRFLIP" is worth 40. In Div. 3 this problem is non-scorable and "STRFLIP" is worth 100 points.
+You are given a binary string A of length N, which we treat as being 1-indexed.
+In one move, you are allowed to
+
+Pick a contiguous substring (i.e. A[L:R] for some 1≤L≤R≤N) of A that contains at least one '0' and at least one '1'
+Flip all the characters of the chosen substring (i.e. change every 0 to 1 and every 1 to 0)
+
+You are also given a target string B of the same length as A.
+Determine if it is possible to convert A to B by applying a sequence of moves as described above.
+If it is possible to convert A to B, then find a sequence of no more than ⌊N/2⌋+10 moves that accomplishes this.
+It can be shown that whenever it is possible to convert A to B, then it is possible to do so using no more than ⌊N/2⌋+10 moves.
+If there are multiple answers, you can print any of them.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of three lines.
+The first line of each test case contains a single integer N, the size of the strings.
+The second line of each test case contains A, a binary string with N characters.
+The third line of each test case contains B, a binary string with N characters.
+
+Output Format
+
+For each test case, print the answer starting from a new line in the following format:
+In the first line, print −1 if it is impossible to convert A to B. Otherwise, print a single non-negative integer K — the number of moves that your solution requires.
+Use the next K lines to describe your sequence of moves, in the same order they are to be performed.
+The ith of these K lines should contain two integers Li​ and Ri​, denoting the starting and ending positions of the substring chosen in the ith operation.
+Note that the following conditions must be satisfied:
+
+0≤K≤⌊N/2⌋+10
+1≤Li​≤Ri​≤N for each valid i
+Each substring A[Li​:Ri​] must contain at least one '0' and one '1'.
+
+
+

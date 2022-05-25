@@ -1,0 +1,19 @@
+Problem
+ 
+ X-24 - the clone of Logan has evil plans, and this time he has decided to reduce Logan to ashes. He has a subset code which can cause havoc, and Logan must know what it is to curb X-24's actions. 
+ After musing for a long time, Logan finally deduced the subset code. 
+ Let's say there are N targets of the subset code. Each target has some value associated with it. 
+ Logan can carry out the following operation any number of times ( even 0 times ) 
+ Logan can choose a particular subset of those N targets (even no element) ( let's say X elements ), and decrease the value of those elements by an integer K1, and also increases the value of rest of the targets ( remaining N-X elements  ) by another healing integer K2.  
+ Laura advises Logan to anyhow convert value of at least Y targets to Z if he wants to stop the destruction.
+ Help Logan in determining if the destruction can be stopped or not 
+ 
+Input
+ You are provided with T test cases. 
+ First line of each test case contains an integer N.
+ Second line contains N space separated integers- Arr[ ] 
+ Third line has 4 integers - K1, K2, Z, Y 
+ 
+Output
+For each test case, print "YES" or "NO" (without quotes) as per the condition stated above.
+ 

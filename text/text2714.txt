@@ -1,0 +1,19 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+It's not always easy to make up stories around problems ― like this one.
+We know that there is a hidden sequence A1​,A2​,…,AN​ which contains only integers between 1 and K inclusive. We have acquired M triplets (X1​,Y1​,Z1​),(X2​,Y2​,Z2​),…,(XM​,YM​,ZM​). A very reliable source has given us intel that for each valid i, the Yi​-th occurrence of the integer Xi​ in the sequence A is AZi​​, i.e. AZi​​=Xi​ and there are Yi​−1 indices j<Zi​ such that Aj​=Xi​.
+Find any sequence A consistent with this information or determine that no such sequence exists.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, K and M.
+M lines follow. For each i (1≤i≤M), the i-th of these lines contains three space-separated integers Xi​,Yi​ and Zi​.
+
+Output
+For each test case:
+
+If no valid sequence exists, print a single line containing the string "No".
+Otherwise, print two lines.
+The first of these lines should contain the string "Yes".
+The second line should contain N space-separated integers A1​,A2​,…,AN​.
+

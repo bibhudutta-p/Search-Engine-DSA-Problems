@@ -1,0 +1,11 @@
+Problem
+Read problems statements in Mandarin Chinese , Russian and Vietnamese as well.
+You are given a weighted graph with N nodes and M edges. Some of the nodes are marked as special nodes. Your task is to find the shortest pairwise distance between any two different special nodes.
+Input
+
+The first line of the input contains three space-separated integers N, M and K denoting the number of nodes, the number of edges, and the number of special nodes.
+The next line contains K space-separated distinct integers A1​, A2​, …, AK​, denoting the special nodes.
+The next M lines each contain three space-separated integers - X, Y, Z, denoting an edge connecting the nodes X and Y, with weight Z.
+
+Output
+Output the shortest pairwise distance between any two different special nodes.

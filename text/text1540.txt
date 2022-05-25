@@ -1,0 +1,13 @@
+Problem
+Read problems statements Hindi ,Bengali , Mandarin chinese , Russian and Vietnamese as well.
+There are N circles in a plane. Circle i and circle j form a good pair if it is possible to choose a point P1​ on the perimeter of circle i and a point P2​ on the perimeter of circle j such that the Euclidean distance between P1​ and P2​ is exactly K. (Note that P1​ and P2​ do not need to have integer coordinates.)
+You should answer Q queries. In each query, you are given the required distance K. Chef is interested in finding the number of good pairs of distinct circles for each query. Please help him.
+Note: Circle i and circle j are distinct when i=j. There may be any number of circles that coincide (have identical centers and radii).
+Input
+
+The first line of the input contains two space-separated integers N and Q denoting the number of circles and the number of queries respectively.
+Each of the following N lines contains three space-separated integers X, Y and R describing a circle with radius R and center (X,Y).
+Each of the next Q lines contains one integer K describing a query.
+
+Output
+For each query, print a single line containing one integer — the number of good pairs of circles.

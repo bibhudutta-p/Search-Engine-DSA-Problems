@@ -1,0 +1,19 @@
+Problem
+Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
+Chef works in a similar way to a travelling salesman ― he always travels to new cities in order to sell his delicious dishes.
+Today, Chef is planning to visit N cities (numbered 1 through N). There is a direct way to travel between each pair of cities. Each city has a specific temperature; let's denote the temperature in the i-th city by Ci​. Chef has a fixed temperature tolerance D with the following meaning: for each pair of cities a and b, he may travel from city a directly to city b only if ∣Ca​−Cb​∣≤D, otherwise he would catch a heavy flu because of the sudden change in temperature.
+Chef starts from city 1. Is he able to visit all N cities in such a way that each city is visited exactly once?
+Notes:
+
+Chef is not able to travel through a city without visiting it.
+City 1 is visited at the beginning.
+It is not necessary to be able to travel directly to city 1 from the last city Chef visits.
+
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and D.
+The second line contains N space-separated integers C1​,C2​,…,CN​.
+
+Output
+For each test case, print a single line containing the string "YES" (without quotes) if Chef can visit all cities or "NO" (without quotes) if he cannot.

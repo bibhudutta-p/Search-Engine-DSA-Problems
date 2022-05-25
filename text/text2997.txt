@@ -1,0 +1,16 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Given an integer N, you can apply a operation on N multiple times(possibly 0).
+Operation is defined as follows:
+
+Choose a positive integer K such that K has exactly 4 divisors and K is a divisor of N.
+Change N to N/K.
+
+Find the minimum number of divisors possible of the resulting number N.
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains an integers N.
+
+Output:
+For each test case, output a single line containing one integer — the minimum number of divisors possible of the resulting number.

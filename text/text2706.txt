@@ -1,0 +1,20 @@
+Problem
+Read problems statements in Mandarin chinese
+, Russian and Vietnamese as well.
+After six days, professor GukiZ decided to give more candies to his students. Like last time, he has N students, numbered 1 through N. Let's denote the number of candies GukiZ gave to the i-th student by pi​. As GukiZ has a lot of students, he does not remember all the exact numbers of candies he gave to the students. He only remembers the following properties of the sequence p:
+
+The numbers of candies given to each of the first K students (p1​,p2​,…,pK​) are known exactly.
+All elements of the sequence p are distinct and positive.
+GukiZ didn't give more than x candies to any student (the maximum value in the sequence p is not greater than x).
+For each student i, there is at least one other student j such that ∣pi​−pj​∣≤D.
+The professor gave out the biggest possible total number of candies, i.e. S=p1​+p2​+p3​+…+pN​ is maximum possible.
+
+GukiZ would like to know the total number of candies S he had at the beginning. However, times change and after six days, the professor is really tired, so it is possible that there is no sequence p which satisfies the constraints. Can you help GukiZ find the number of candies he gave out, or tell him that he must have made a mistake?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains four space-separated integers N, K, x, D.
+The second line contains K distinct space-separated integers p1​,p2​,…,pK​.
+
+Output
+For each test case, print a single line containing one integer — the number of candies GukiZ had, or −1 if there is no valid sequence p.

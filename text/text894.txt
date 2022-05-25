@@ -1,0 +1,11 @@
+Problem
+Sasuke and Itachi are playing a game. Sasuke first creates an array A containing N positive integers A1​,A2​,…,AN​. He then creates a new array B of length N such that Bi​=gcd(A1​,A2​,...,Ai​) for each 1≤i≤N. Now, Sasuke gives array B to Itachi and asks him to find any array A (with 1≤Ai​≤109) such that the given process applied to A will produce B. Can you help Itachi solve this problem?
+Here, gcd stands for greatest common divisor.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers B1​,B2​,…,BN​
+
+Output Format
+For each test case, print a single line containing N space-separated integers denoting the array A you constructed. If no such array A exists, print −1 instead.

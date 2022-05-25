@@ -1,0 +1,10 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+You are given a string S containing only decimal digits ('0' through '9') and a number N. Your task is to insert an arbitrary number (including zero) of plus signs '+' into S in order to form a valid expression whose value is equal to N.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a string S, followed by a space and an integer N.
+
+Output
+For each test case, print a single line containing one string — your solution, i.e. the expression obtained after inserting some plus signs into S. If there are multiple solutions, you may output any one. It is guaranteed that at least one solution exists.

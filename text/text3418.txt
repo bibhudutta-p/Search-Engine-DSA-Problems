@@ -1,0 +1,15 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Find the number of sequences with K elements which satisfy the following conditions:
+
+Each element is an integer between L and R inclusive.
+The bitwise XOR of all elements is between A and B inclusive.
+
+Since the number of sequences satisfying the given conditions can be quite large, compute it modulo 998,244,353.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains five space-separated integers L, R, A, B and K.
+
+Output
+For each test case, print a single line containing one integer — the number of valid sequences modulo 998,244,353.

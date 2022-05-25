@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef got another sequence as a birthday present. He does not like this sequence very much because it is not sorted. Since you are a good programmer, Chef is asking for your help.
+You are given a sequence A1​,A2​,…,AN​ and an integer K. You may perform any number of operations of the following type (in any order): choose a valid integer i and swap Ai​ with Ai+K​. Can you sort the sequence this way?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing the string "yes" if the sequence can be sorted or "no" otherwise (without quotes).

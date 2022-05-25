@@ -1,0 +1,22 @@
+Problem
+Define f(x) to be the largest divisor of x which is not equal to x; in the case of x=1, we define f(1)=1 as an exception.
+You are given a tree containing N nodes numbered from 1 to N, where each node i has a value Vi​ assigned to it. Define g(X,R) with 1≤X,R≤N as the number of arrays of nodes A that satisfy the following conditions:
+
+1≤Ai​≤N (i.e. Ai​ represents a node on the tree).
+A1​=X.
+Ai​=Aj​ for all 1≤i<j≤∣A∣.
+The distance between node Ai​ and A1​ is no more than R for all 1<i≤∣A∣. The distance between two nodes Ai​ and A1​ on a tree is defined as the number of edges on the simple path from Ai​ to A1​.
+VAi​​=f(VAi−1​​) or VAi​​=VAi−1​​ for all 1<i≤∣A∣.
+
+Two arrays are considered the same if both have the same length and same element at each position.
+You are given Q queries, each of which contains two integers X and R, and for each of which you need to find the value g(X,R). As this number can be very large, output it under modulo 109+7.
+Input Format
+
+The first line of the input contains an integer N - the number of nodes in the tree.
+The next line contains N space-separated integers V1​,V2​,…,VN​ - the values of the nodes.
+Each of N−1 lines contains two space-separated integers u and v denoting an edge between node u and v on the tree.
+The next line contains an integer Q - the number of queries.
+Each of the next Q lines contains two space-separated integer X and R - the initial node and the specified distance of that query.
+
+Output Format
+For each query, output on a single line g(X,R)mod109+7.

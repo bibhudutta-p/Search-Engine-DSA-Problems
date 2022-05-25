@@ -1,0 +1,15 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+The Ministry of Transportation has recently developed an electronic system for management of roads within states. The system allows opening and closing roads remotely. The Ministry has decided to test the system in two states (let's call them A and B); to simplify the configuration of the system for testing, these states were chosen in such a way that the following restriction holds: each state consists of N cities (numbered 1 through N) and M bidirectional roads (numbered 1 through M) connecting them.
+During the testing, the system was discovered to be faulty - it merged the two configurations into one and assumed that it is managing a single state with N cities and M roads. When the system was issued a command to open (or close) a road with number i in one of the states, it would open (or close) both the road with number i in state A and the road with number i in state B.
+Let's call a state connected if it is possible to reach each of the N cities in this state from all other cities using only open roads. If the system worked correctly, for each state, it would be enough to open N−1 suitable roads in order to make it connected, while after the error, it became a much harder task to make both states connected at the same time.
+Currently, all roads are closed. Please help the Ministry of Transportation determine the smallest number of commands to open a road that should be issued in the system in order to make both states A and B connected.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+The following M lines describe the roads in the state A. Each of these lines contains two space-separated integers u and v denoting that cities u and v in the state A are connected by a road.
+The last M lines describe the roads in the state B in the same format.
+
+Output
+For each test case, print a single line containing one integer ― the smallest number of roads that should be opened in order to make both states A and B connected.

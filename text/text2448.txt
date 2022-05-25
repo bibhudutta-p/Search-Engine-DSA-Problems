@@ -1,0 +1,15 @@
+Problem
+Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
+Let's define the niceness of a sequence of positive integers X1​,X2​,…,XN​ as the sum of greatest common divisors of all pairs of its elements, i.e.
+∑i=1N​∑j=i+1N​gcd(Xi​,Xj​).
+For example, the niceness of the sequence [1,2,2] is gcd(1,2)+gcd(1,2)+gcd(2,2)=4.
+You are given a sequence A1​,A2​,…,AN​; each of its elements is either a positive integer or missing.
+Consider all possible ways to replace each missing element of A by a positive integer (not necessarily the same for each element) such that the sum of all elements is equal to S. Your task is to find the total niceness of all resulting sequences, i.e. compute the niceness of each possible resulting sequence and sum up all these values. Since the answer may be very large, compute it modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and S.
+The second line contains N space-separated integers A1​,A2​,…,AN​. Missing elements in this sequence are denoted by −1.
+
+Output
+For each test case, print a single line containing one integer — the total niceness modulo 109+7.

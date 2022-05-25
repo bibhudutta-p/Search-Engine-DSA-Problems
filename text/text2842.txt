@@ -1,0 +1,15 @@
+Problem
+You are given two sets of points S and T on the xy-plane. S contains N points and T contains  M points.
+The points (xi​,yi​) in T have a special property - for every 1≤i<M, xi+1​>xi​ and yi+1​<yi​.
+For each point (x,y)∈T, find the minimum Manhattan distance between (x,y) and a point in S. Formally, for each (x,y)∈T, find
+min(xi​,yi​)∈S​(∣x−xi​∣+∣y−yi​∣)
+Input Format
+
+The first line of input contains two space-separated integers N and M - the size of S and T, respectively.
+The next N lines each contain two space-separated integers xi​ and yi​, representing the points of S.
+The last M lines each contain two space-separated integers xi​ and yi​, representing the points of T.
+
+Output Format
+
+For each test case, output M lines. The i-th of these lines should contain a single integer, the minimum Manhattan distance between the i-th point in T and a point in set S.
+

@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Vietnamese,
+Bengali, Mandarin Chinese, and Russian as well.
+Given N points in a 2D space, find the minimum sum of areas of rectangles required to cover all the points given that we can use at most 2 non-overlapping rectangles whose sides can touch. The rectangles must be axis-aligned, meaning the sides are vertical and horizontal.
+Input
+
+The first line contains an integer T, the number of test cases. Then the test cases follow.
+Each test case contains N+1 lines of input.
+The first line contains a single integer N, the number of points.
+The next N lines each contains two integers xi​, yi​, the coordinates of the i-th point.
+
+Note: Points need not be distinct.
+Output
+For each test case, output in a single line the answer to the problem.

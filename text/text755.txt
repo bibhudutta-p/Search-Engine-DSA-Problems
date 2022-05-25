@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Russian and Bengali.
+An array is called lovely if the sum of absolute differences of each adjacent pair of elements is odd; formally, the array S of size m is lovely if ∑i=1m−1​ ∣Si​−Si+1​∣ is odd.
+You are given an array A of N integers. You need to reorder the array in any manner such that the array becomes lovely. If there is no reordering operation that makes the array lovely, output -1.
+Input Format
+
+The first line contains an integer T denoting the number of test cases. The T test cases then follow.
+The first line of each test case contains an integer N.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, print a single line containing N integers denoting the modified array which is lovely, or -1 if it is not possible.

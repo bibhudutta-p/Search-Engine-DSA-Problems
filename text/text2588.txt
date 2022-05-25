@@ -1,0 +1,26 @@
+Problem
+Winter is here and so are the white walkers.
+The war against white walker is going on a 2-D plane.
+Jon Snow, the heir to the Iron Throne is standing at (0,0) on the plane.
+N white walkers are coming towards the wall to attack the night's watch.
+Currently each white walker is at a fixed point (xi​,yi​)  on the 2-D plane.
+Horizontal distance between two points (x1​,y1​) and (x2​,y2​) is ∣x1​−x2​∣, and vertical distance between them is ∣y1​−y2​∣.
+There are Q queries to answer.
+Each query is of the form LRK.    (1≤L≤R≤N)
+For each query, only white walkers in the range [L,R] have to be considered.
+Active white walkers in this range [L,R] are only those whose horizontal distance from Jon is not more than K units.
+The POWER of the active white walker army is calculated as the XOR sum of the number of divisors of the vertical distance of active enemies from Jon.
+Jon knows that the active army is of no harm if their power is 0.
+Jon snow has a weapon with which he can kill exactly one active white walker, such that killing him will render the army powerless.
+Can you help Jon to find out for each query how many choices does he have to kill exactly one white walker such that the army becomes powerless?
+Input:
+
+First line contains N. The number of white walkers in the army.
+Next N lines contains 2 integers - (xi​,yi​) each denoting the x and y coordinate of white walkers.
+Next line contains an integer Q denoting the number of queries.
+Next Q lines contains 3 integers each. L, R and K.
+
+Output :
+
+For each query print the number of white walkers Jon can target to make the army powerless.
+

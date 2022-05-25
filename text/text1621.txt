@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given two strings S and R. You may reorder the characters in the string R in any way; let's denote the resulting string by Rr​. This reordered string is valid if it contains all substrings of S, i.e. for each substring s of S (including S itself), Rr​ contains s as a substring.
+Find the lexicographically smallest valid reordered string or determine that there is no such valid string.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single string S.
+The second line contains a single string R.
+
+Output
+For each test case, print a single line containing one string — the lexicographically smallest valid reordered string, or "Impossible" if there is no such string.

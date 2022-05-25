@@ -1,0 +1,11 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, and Bengali as well.
+You are given an array of N integers. Find the minimum number of integers you need to delete from the array such that the absolute difference between each pair of integers in the remaining array will become equal.
+Input Format
+
+The first line of input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains an integer N.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, print a single line containing one integer - the minimum number of integers to be deleted to satisfy the given condition.

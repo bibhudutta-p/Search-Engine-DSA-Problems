@@ -1,0 +1,22 @@
+Problem
+Alice and Bob play a game on an array of N integers. They alternate moves, with Alice making the first move.
+The rules are as follows:
+
+On their first move, a player can pick any element in the array, add its value to their score, and then remove it from the array.
+On a move that is not their first move, the player should pick an element with the opposite parity of the element chosen on their previous move, add its value to their score, and then remove it from the array.
+If a player cannot make a move, either because the array is empty or it doesn't contain an element of the parity they need, the player skips their turn.
+The game ends when both players are unable to move.
+
+Note that the parity of an element chosen by a player depends only on the parity of their own previously chosen element — it does not depend on what their opponent last chose.
+Determine the optimal score of Alice if both players play optimally, each attempting to maximize their own score. If there are multiple ways to obtain maximum score for themselves, the players will adopt a strategy that will maximize the score of their opponent whilst obtaining their maximum score themselves.
+Note that it is not necessary to use all the elements in the array.
+Also note that when a player skips a turn, the parity that he needs in the next move remains same as that of the current move.
+Input Format
+
+The first line of input will contain a single integer T, denoting the number of test cases. Then the test cases follow.
+Each test case consists of two lines of input.
+The first line of each test case contains one integer N — the size of the array A
+The second line of each test case contains N space-separated integers, denoting the array elements.
+
+Output Format
+For each test case, output on a new line the optimal score achieved by Alice.

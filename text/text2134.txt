@@ -1,0 +1,15 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Flatland is a 1D country — all points in Flatland lie on one line. Everybody in Flatland loves pizza (because it's flat enough).
+There are n pizzerias numbered 1 through n, which serve m consumers numbered 1 through m. Let's denote the position of the i-th pizzeria by si​ and the position of the i-th consumer's home by ci​. No two pizzerias are located at the same position, but the position of any consumer can coincide with the position of any pizzeria or consumer.
+Every consumer wants to order one pizza, spending as little money as possible. The i-th pizzeria sells each pizza at a certain baseline price pi​; delivering pizza from point x1​ to point x2​ costs an additional (x1​−x2​)2. These prices are independent — even if multiple pizzas can be delivered at once, each consumer needs to pay the full price for their delivery.
+Unfortunately, some consumers don't like some pizzerias, so they won't order pizza from them. Specifically, for each consumer, you are given a list of pizzerias this consumer won't order from no matter what.
+For each consumer, find the amount of money they will spend for the pizza with delivery.
+Input
+
+The first line of the input contains two space-separated integers n and m denoting the number of pizzerias and the number of consumers.
+For each i (1≤i≤n), the i-th of the following n lines contains two space-separated integers si​ and pi​.
+For each i (1≤i≤m), the i-th of the following m lines contains two space-separated integers ci​ and ki​, followed by a space (if ki​>0) and ki​ space-separated integers di,1​,di,2​,…,di,ki​​ denoting the list of pizzerias the i-th consumer won't order from.
+
+Output
+Print m lines. For each i (1≤i≤m), the i-th of these lines should contain a single integer — the amount of money the i-th consumer will spend.

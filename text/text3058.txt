@@ -1,0 +1,21 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Bear Limak loves preparing problems for algorithmic contests.
+While his favorite part is inventing a story and writing the statement, he doesn't really like creating the test data.
+Not only it's hard to do, but also making a mistake may spoil a problem completely, likely making a problem easier.
+Limak prepared the following problem for you.
+You start with an empty set of points on a two-dimensional plane.
+There are N queries, each with one new point (xi, yi) to insert to the set.
+After each query you must find the diameter of the set, i.e. the maximum distance between two points in the set.
+To avoid printing floating numbers, after each query print the square of the diameter.
+In many problems, in test generators an author should create some (possibly smart and tricky) data, and then shuffle it before printing.
+Limak did the same in this problem, not noticing how crucial it may be.
+You can assume that in every test the N points are randomly shuffled.
+In other words, generators have a line "random_shuffle(array with points)" just before printing.
+It isn't guaranteed that a problem is solvable within the time limit without this extra constraint.
+Input
+The first line of the input contains an integer N denoting the number of points.
+The i-th of N following lines contains two space separated integers xi and yi denoting coordinates of the i-th point to insert.
+Output
+Output N lines.
+The i-th line should contain the square of the diameter of the set with points (x1, y1), ..., (xi, yi).

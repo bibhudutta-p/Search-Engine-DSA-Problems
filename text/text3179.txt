@@ -1,0 +1,19 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef likes trees a lot. Now he thinking about one interesting problem on trees. He finds the following problem interesting, and you? 
+
+
+Given a tree T and Q queries to it. Tree T has N nodes numbered from 1 to N. Each node v has a value Av associated with it. Queries can be one of three types.
+
+1 u v - reverse the values on the path between vertices u and v.
+2 ul ur vl vr - print "Yes" if all the values on the path from ul to  ur are exactly same as that of path from  vl to vr, and "No" otherwise. It is ensured that length of both the paths are same.
+3 ul ur vl vr - Copy all values on path from ul to  ur and insert them into the path from vl to vr. It is ensured that length of both the paths are same.
+
+
+Input
+The first line contains two integers N and Q. 
+The second line contains N space-separeted integers denoting Av - the values associated with nodes.
+Next N-1 lines contains two space-separeted integers u, v denoting the nodes connected by an edge.
+Next Q lines contains queries as described above.
+Output
+For each query of second type output your answer in a single line.

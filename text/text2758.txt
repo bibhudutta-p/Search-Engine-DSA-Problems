@@ -1,0 +1,26 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+
+You are given an undirected tree of N vertices, each of which edges is marked with some lowercase Latin letter between a and z.
+
+It's easy to notice that, if you select some distinct vertices u and v and write down a sequence of characters on the shortest path from u to v, you will get a lowercase string corresponding to this path.
+
+Let's call any string t a period of some string s if s can be obtained by concatenating the string t to itself one or more times.
+
+Your task is to process, on a given tree, the following two types of queries: 
+
+ 1 u v - output the length of the shortest period of the string corresponding to the path from u to v.
+ 2 u v c - replace the character marked on the edge between u and v with the character c.
+
+
+Input
+
+The first line of each test case contains a single integer T denoting the number of tests in input. The description of T test cases follows.
+The first line of a test case contains an integer N — the number of vertices in the tree.
+The next N - 1 lines contains 2 space-separated entities: integer ui, integer vi and a character ci denoting the edge between ui and vi marked with character ci on it.
+The next line contains one integer M denoting the number of queries.
+Each of the next M lines contains three space-separated integers typei, vi, ui.
+If typei=2, then character ci follows these integers.
+
+Output
+For each query of type 1 you should output minimal period of string corresponding to this query.

@@ -1,0 +1,18 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You are given an integer D. Find an integer sequence A1​,A2​,…,AN​ such that the following conditions are satisfied:
+
+1≤N≤105
+1≤Ai​≤105 for each valid i
+∑i=1N​∑j=iN​(min(Ai​,Ai+1​,…,Aj​)−GCD(Ai​,Ai+1​,…,Aj​))=D
+
+It can be proved that a solution always exists under the given constraints.
+Note: GCD(B1​,B2​,…,BM​) is the greatest integer which divides all the integers B1​,B2​,…,BM​.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer D.
+
+Output
+For each test case, print two lines. The first of these lines should contain a single integer N. The second line should contain N space-separated integers A1​,A2​,…,AN​.
+If there are multiple solutions, you may find any one of them.

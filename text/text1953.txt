@@ -1,0 +1,15 @@
+Problem
+Chef is given two arrays A and B, each having N elements.
+In one move, Chef can choose an index i (1≤i≤N−1), get (Ai​−Ai+1​) points, and then swap Ai​ and Ai+1​.
+For example: If Chef has the array - [10,7,5] and Chef chooses index 1 during his move, he will get 10−7=3 points and the new array will become [7,10,5]
+Can you help Chef in finding the maximum number of points he can get while converting the array A into array B?
+Note: It is guaranteed in the input that there exists a sequence of moves which can convert array A into B.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of testcases. The description of the T testcases follows.
+The first line of each test case contains a single integer N denoting the number of elements in A and B.
+The second line of each test case contains N space separated integers A1​,A2​,...,AN​.
+The third line of each test case contains N space separated integers B1​,B2​,...,BN​.
+
+Output Format
+For each test case, print a single line containing one integer, which is the maximum number of points that Chef can get while converting the array A into array B

@@ -1,0 +1,22 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Sergey thinks that some permutations are better than other permutations. He thinks that the permutations with the smaller number of inversions are nicer than the ones with the bigger number of inversions. So the smaller the number of inversions is, the nicer is the permutation.
+Sergey has a permutation A which he wants to make as nice as possible. This is kind of special permutation, because initially it doesn't have any index i such that Ai = i (Assume 1-based indexing). For making it nicer, he can swap two adjacent numbers in this permutation, but only if both of them are not on their places (i.e. if you swap Ai and Ai+1, then Ai ≠ i and Ai+1 ≠ i+1 should be held). He wants to perform such operation multiple times to make the number of inversions in the permutation as small as possible.
+Making the permutation the nicest of the possible ones has turned out to be a complicated problem, so Sergey asks you to help him and to provide any sequence of the allowed swaps that would lead him to obtaining the nicest permutation. Since Sergey is quite eager to see the way to improve his permutation, he wants the sequence to be not longer than 2 × N2. It can be proved that such sequence can be found under this restriction.
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N denoting the amount of numbers in the permutation. 
+The second line contains N space-separated integers A1, A2, ..., AN denoting the permutation itself.
+Output
+For each test case, output an answer in the following format:
+
+The first line should contain a single integer C denoting the number of swap operations.
+On the following line, output C space-separated integers Dj denoting the swap of the Djth and the (Dj+1)th number in the permutation (1-indexed).
+
+
+The restrictions for the output sequence are:
+
+1 ≤ C ≤ 2 × N2
+1 ≤ Dj < N
+
+

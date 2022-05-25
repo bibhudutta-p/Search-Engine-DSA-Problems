@@ -1,0 +1,30 @@
+Problem
+Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
+Consider a list L of permutations, where a permutation with length x denotes a permutation of integers 1 through x and the elements of this list are indexed starting from 1. Initially, the list contains a single permutation with length 1 (i.e. L1​=(1)).
+You may create new permutations and append them to L using operations with the following form:
+
+Choose two (not necessarily distinct) valid indices i and j.
+Let's denote the permutations Li​ and Lj​ by (A1​,A2​,…,AS​) and (B1​,B2​,…,BR​) respectively.
+Create a new permutation in one of the following ways (note that the permutations Li​ and Lj​ in the list L are not actually changed):
+
+Add S to each element of Lj​, then concatenate Li​ and Lj​, i.e. the resulting permutation is C=(A1​,A2​,…,AS​,B1​+S,B2​+S,…,BR​+S). For example, if Li​=(1,4,2,3) and Lj​=(2,1), then C=(1,4,2,3,6,5).
+Add R to each element of Li​, then concatenate Li​ and Lj​, i.e. the resulting permutation is C=(A1​+R,A2​+R,…,AS​+R,B1​,B2​,…,BR​). For example, if Li​=(1,4,2,3) and Lj​=(2,1), then C=(3,6,4,5,2,1).
+
+
+Append C to L, i.e. if L contained p permutations before this operation, then C becomes permutation Lp+1​.
+
+You are given a permutation P=(P1​,P2​,…,PN​). You should create this permutation using at most 2N operations (the last of these operations must append P to L) or determine that it is impossible. It is not required to use the minimum number of operations.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers P1​,P2​,…,PN​.
+
+Output
+For each test case, if it is impossible to create the given permutation, print a single line containing the string "NO" (without quotes). Otherwise:
+
+Print a line containing the string "YES" (without quotes).
+Then, print a line containing a single integer K — the number of operations you want to perform (1≤K≤2N).
+Then, print K lines. Each of these lines should contain three space-separated integers i, j and w describing one operation (1≤w≤2), where w=1 or w=2 denotes that you want to create the new permutation in the first way or the second way (described above), respectively.
+
+Your solution will be considered incorrect if either i or j is invalid for any of your operations or if at the end, the last permutation in the list is not equal to P.

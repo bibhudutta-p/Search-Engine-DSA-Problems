@@ -1,0 +1,22 @@
+Problem
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+You are given a sequence A1​,A2​,…,AN​. Consider every pair that consists of:
+1) One of the longest non-decreasing subsequences of A.
+2) One of the longest non-increasing subsequences of A.
+Find the maximum possible length of the longest common subsequence of the two sequences in such a pair.
+Input Format
+
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+
+
+The first line of each test case contains an integer N.
+
+
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+
+Output Format
+
+For each test case, print a single line containing one integer ― the maximum possible length of the longest common subsequence of any longest non-decreasing subsequence of A and any longest non-increasing subsequence of A.
+

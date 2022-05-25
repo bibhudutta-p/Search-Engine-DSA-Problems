@@ -1,0 +1,36 @@
+Problem
+Uneori îmi spun: am să mor
+atât de singuratecă-n mijlocul lor;
+limba simplă a bucuriilor n-am învâțat;
+am să mor ca o pasăre care prea mult a zburat,
+dar n-a făcut cuib nicăieri.
+― Oamenii ma uimesc, Magda Isafost
+
+As of writing the informal statement, the winter just came and the statement was in season. Now, it is not winter anymore, so here is the formal statement instead:
+You are given a connected graph with N nodes and M edges. You are given Q queries of the following types:
+
+1 u: Given node u (1≤u≤N), set the state of the node u to frozen.
+2 t: Given t, let t units of time pass by.
+3 v: Given node v (1≤v≤N), answer if node v is currently frozen.
+
+Initially, no node is frozen.
+The graph has the following property:
+
+If, at time T, a node u is frozen, then, at time (T+1), all neighbours of u become frozen.
+
+For each query of type 3, answer whether the node is currently frozen.
+Note:
+
+If a node is already frozen, it remains unaffected after a type 1 query.
+If, for a frozen node u, a neighbour v of node u is frozen at time T, node v remains unaffected at time (T+1).
+
+Input Format
+
+The first line of input contains three integers N,M, and Q.
+M lines follow, the ith of which contains two integers ui​ and vi​, representing there is an edge between nodes ui​ and vi​.
+Then, Q lines follow, the jth of which contains two integers typej​ and xj​.
+If typej​ is 1 or 2, it indicates that you must effectuate an update of the type typej​ with parameter xj​. Otherwise, answer the query with parameter xj​
+
+Output Format
+For each query of type 3, print YES if the queried node is frozen. Otherwise, print NO.
+You may print each character of the string in uppercase or lowercase (for example, the strings YeS, yEs, yes and YES will all be treated as identical).

@@ -1,0 +1,11 @@
+Problem
+You are given N integers A1​,A2​,…,AN​. Find any permutation B1​,B2​,…,BN​ of these integers, for which the value of min(∣B1​−B2​∣,∣B2​−B3​∣,…,∣BN​−B1​∣) is maximized.
+Input Format
+
+The first line of the input contains a single integer T, the number of test cases. The description of the test cases follows.
+The first line of each test case contains a single integer N — the number of integers.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, output N integers B1​,B2​,…,BN​ — the permutation of A1​,A2​,…,AN​ for which the value of min(∣B1​−B2​∣,∣B2​−B3​∣,…,∣BN​−B1​∣) is maximized.
+If there are multiple such permutations, you can output any of them.

@@ -1,0 +1,35 @@
+Problem
+ Read problems statements in Mandarin Chinese , Russian and Vietnamese as well.
+
+Triangle classification is an important problem in modern mathematics. Mathematicians have developed many criteria according to which a triangle can be classified. In this problem, you will be asked to classify some triangles according to their sides and angles.
+
+
+According to their measure, angles may be:
+  Acute — an angle that is less than 90 degrees
+    Right — a 90-degrees angle
+    Obtuse — an angle that is greater than 90 degrees
+  
+According to their sides, triangles may be:
+  Scalene — all sides are different
+    Isosceles — exactly two sides are equal
+  
+According to their angles, triangles may be:
+  Acute — all angles are acute
+    Right — one angle is right
+    Obtuse — one angle is obtuse
+  Triangles with three equal sides (equilateral triangles) will not appear in the test data.
+The triangles formed by three collinear points are not considered in this problem. In order to classify a triangle, you should use only the adjactives from the statement. There is no triangle which could be described in two different ways according to the classification characteristics considered above.
+Input
+The first line of input contains an integer SUBTASK_ID denoting the subtask id this input belongs to.
+The second line of input contains an integer T denoting the number of test cases. The description of T test cases follows.
+
+The only line of each test case contains six integers x1, y1, x2, y2, x3 and y3 denoting Cartesian coordinates of points, that form the triangle to be classified.
+
+
+It is guaranteed that the points are non-collinear.
+
+Output
+For each test case, output a single line containing the classification of the given triangle.
+If SUBTASK_ID equals 1, then the classification should follow the "<Side classification starting with a capital letter> triangle" format.
+If SUBTASK_ID equals 2, then the classification should follow the "<Side classification starting with a capital letter> <angle classification> triangle" format.
+Please, check out the samples section to better understand the format of the output.

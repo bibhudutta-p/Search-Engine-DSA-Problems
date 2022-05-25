@@ -1,0 +1,11 @@
+Problem
+Chef is baking delicious cookies today! Since Chef is super hungry, he wants to eat at least N cookies.
+Since Chef is a messy eater, he drops a lot of crumbs. Crumbs of B cookies can be put together to make a new cookie!
+Given N and B, help Chef find out the minimum number of cookies he must initially bake, A, to satisfy his hunger.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains of  two space separated integers N,B.
+
+Output:
+For each test case, print a single integer A, the minimum number of cookies Chef must bake initially.

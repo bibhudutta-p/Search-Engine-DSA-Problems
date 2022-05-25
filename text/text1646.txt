@@ -1,0 +1,12 @@
+Problem
+You are given a graph with N vertices (numbered 1 to N) and M bidirectional edges, which doesn't contain multiple edges or self-loops — that is, the given graph is a simple undirected graph.
+For each pair of vertices a,b such that 1≤a,b≤N, it is possible to add a new edge between vertices a and b to the graph, with a cost of (a−b)2.
+Find the minimum cost of adding edges so that vertex N is reachable from vertex 1.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains 2 space-separated integers, N and M.
+The ith of the next M lines contains 2 space-separated integers ui​ and vi​, denoting a bidirectional edge between vertex ui​ and vertex vi​ in the graph.
+
+Output Format
+For each test case, output the answer in a single line.

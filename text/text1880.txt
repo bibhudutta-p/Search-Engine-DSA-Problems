@@ -1,0 +1,16 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Vietnamese as well.
+Ben Fero is a popular guy who likes inventing and solving interesting problems. Last weekend, he found a challenging problem, but he could not solve it on his own, so he decided to ask you for help. Can you help Ben Fero solve this problem?
+You are given three integers A, B and C. Let's call a triple of integers (a,b,c) interesting if it satisfies the following criteria:
+
+1≤a≤A, 1≤b≤B and 1≤c≤C
+for any two real numbers x and y such that x=0 and y=0, ax2+2bxy+cy2>x2+y2 holds
+
+You should find the number of interesting triples. Since this number could be very large, compute it modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains three space-separated integers A, B and C.
+
+Output
+For each test case, print a single line containing one integer ― the number of interesting triples modulo 109+7.

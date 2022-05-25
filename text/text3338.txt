@@ -1,0 +1,20 @@
+Problem
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+The nation of Islandia can be represented as an N×N grid. Let (i,j) denote the square at the i-th row from the top and the j-th column from the left. A cell (i,j) is labelled 1 if it is land and 0 if it is water. Any two cells of the grid which share a side, and are both land are said to belong to the same island.
+Islandia holds two contests a year, the first at (xa​,ya​) and the second at (xb​,yb​). Ashish will need to travel from cell (xa​,ya​) to (xb​,yb​). To do so, he can perform a sequence of zero or more moves. In each move if he is at (xi​,yi​), he can perform one of two actions:
+
+Type 1: Move from (xi​,yi​) to some land cell (xj​,yj​) that lies on a different island at a cost of ∣xi​−xj​∣+∣yi​−yj​∣
+Type 2: Move from (xi​,yi​) to some land cell (xj​,yj​) that lies on the same island at a cost of 0.
+
+Let the beauty of a sequence of moves be the number of moves of type 1 while traveling from (xa​,ya​) to (xb​,yb​). We define the simple cost as the minimum cost of a sequence with beauty≤1.
+Ashish wants to figure out the maximum beauty possible to go from (xa​,ya​) to (xb​,yb​) without exceeding the simple cost. However, Ashish only knows (xa​,ya​). Find the answer for every possible land cell (xb​,yb​).
+Note that we DO NOT need to minimize the cost of the trip, only maximize the beauty without exceeding the simple cost.
+Input
+
+The first line contains an integer T, the number of test cases. Then T test cases follow.
+The first line of each test case contains an integer N.
+The following N lines each contains a string S=s1​s2​…sN​. The string on the i-th line represents the i-th row of the grid, where sj​ is 1 if the cell (i,j) is land, and 0 if it is water.
+The last line of each test case contains two integers xa​ and ya​ where (xa​,ya​) represents the cell where the first contest will be held. It is guaranteed that this cell will be a land cell.
+
+Output
+For each test case, print N lines, each containing the N space-separated integers. The j-th value of the i-th line represents the maximum beauty possible on a journey from (xa​,ya​) to (i,j) satisfying the mentioned conditions, if the cell (i,j) is land. If (i,j) is a water cell or belongs to the same island as (xa​,ya​), the value to be printed is 0.

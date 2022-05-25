@@ -1,0 +1,15 @@
+Problem
+Kim has broken in to the base, but after walking in circles, perplexed by the unintelligible base design of the JSA, he has found himself in a large, empty, and pure white, room.
+The room is a grid with H∗W cells, divided into H rows and W columns. The cell (i,j) is at height A[i][j]. Unfortunately, his advanced sense of smell has allowed him to sense a mercury leak, probably brought in by Jishnu to end his meddling. The mercury leak has a power (which determines what height the mercury can reach before dissipating into harmless quantities) and a source cell. It spreads from cells it has already reached to other cells in the four cardinal directions: north, south, east, and west. (That is, the mercury can spread up, down, right, or left in the grid, but not diagonally.) Mercury can only spread to a cell if the cell's height is strictly less than the power value.
+Unfortunately, Kim does not exactly know the starting cell or the power value of the mercury leak. However, his impressive brain has determined that it must be one of Q (power, starting cell) combinations. For each combination, he wants to find out how many cells are dangerous for him to go to: that is, how many cells will eventually be reached by the mercury. This will help him determine a suitable cell to stay in and slowly fix the leak from above.
+Can you help Kim achieve this objective?
+Note: If the starting cell's height is not less than the power level, the mercury immediately dissipates. So, in this case, output 0.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow.
+The first line in each testcase contains three integers, H, W, and Q.
+On the 2nd to (H+1)th lines of each testcase: The (i+1)th line contains W space-separated integers, representing the heights of the cells on the ith row of the grid.
+On the (H+2)th to (H+Q+1)th lines of each testcase: The (i+H+1)th line contains 3 space-separated integers, r[i], c[i], and p[i], which represents a (power, starting cell) combination. For this specific combination, the mercury leak originates on the cell (r[i],c[i]) and has power p[i].
+
+Output:
+For each testcase, output Q lines, with each line containing one integer. The ith line should output the number of dangerous cells, given that the leak originated on cell (r[i],c[i]) with power p[i], as defined in the input. Read the sample and sample explanation for more details.

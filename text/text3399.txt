@@ -1,0 +1,11 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+
+Given N points on a 2D plane and an integer K, choose 3 distinct points so that the area of the triangle whose vertices are the chosen points does not exceed K/2. If there are multiple such triangles, among all possible triangles choose the one which has maximum area.
+
+Input
+First line contains two integers N and K.
+
+Each of the next N lines contains two integers Xi and Yi, denoting the coordinates of the i-th point.
+Output
+Output a single integer, the maximum area of a triangle which does not exceed K/2,  multiplied by 2. If there's no valid triangle output -1 instead.

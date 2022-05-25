@@ -1,0 +1,36 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+
+	There is a directed acyclic graph with N vertices. The vertices are numbered from 1 to N.
+
+	For every 1 ≤ i ≤ N-1, there is an edge from vertex i to vertex i+1, which has weight ai.
+
+	For every 1 ≤ i ≤ N-2, there is an edge from vertex i to vertex i+2, which has weight bi.
+
+	For every 1 ≤ i ≤ N-3, there is an edge from vertex i to vertex i+3, which has weight ci.
+
+	There are no other edges.
+
+	For each pair of vertices s, t where s < t, let d(s, t) denote the length of the shortest path from s to t. Your task is to compute the sum of d(s, t) for every 1 ≤ s < t ≤ N.
+
+	Input
+
+	First line of the input contains an integer T denoting number of test cases. T test cases follow.
+
+	For each test case:
+
+	The first line contains an integer N.
+
+	The second line contains N - 1 integers a1, a2, ..., aN-1.
+
+	The third line contains N - 2 integers b1, b2, ..., bN-2.
+
+
+		The fourth line contains N - 3 integers c1, c2, ..., cN-3.
+
+
+	Output
+
+	For each test case, output a single line containing an integer, denoting the answer. It can be proved that the answer fits in the signed 64-bit type.
+
+	

@@ -1,0 +1,14 @@
+Problem
+
+You are given N lattice points (Xi, Yi), i = 1, 2, ..., N on a 2D Coordinate System.
+You have to process Q queries, each query will be given as the form "x y d".
+Let ABC be the triangle having vertices at A(x+d, y), B(x, y) and C(x, y+d).
+For each query, you have to find how many of the given lattice points lie inside or on the boundary of the triangle ABC.
+Input
+
+The first line of the input contains two space-sparated integers N and Q.
+Each of the following N lines have two space-sparated integers Xi, Yi giving the x and y coordinate of a lattice point.
+Then the following Q lines contain three space-sparated integers x, y, d giving a query.
+Output
+
+For each query, output one integer on a line which denotes the number of the given lattice points which lie inside or on the boundary of the triangle.

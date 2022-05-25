@@ -1,0 +1,18 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+
+Misha is an expert on combinatorics, so he knows a lot about permutations. Recently, he learned the definition of a convex polygon and invented too many new problems involving permutations. Please help him solve one of them.
+
+
+Let's define a function on a set a with size k: F(a1, a2, ... , ak). Imagine that we have sticks of lengths a1, a2, ... , ak. F(a1, a2, ... , ak) = 1, if and only if a convex polygon can be created from these sticks. F(a1, a2, ... , ak) = 0, otherwise.
+
+
+Misha has the identity permutation over n elements — In (In = {1, 2, 3, .. n}). He wants to know the sum of the function F over all possible distinct k-sized subsets of In.
+
+
+Please help Misha find this sum. Since its value may be very large, you should output the sum modulo 109+7.
+
+Input
+The first line of input contains an integer T denoting the number of test cases. Each of the next T lines contains two space-separated integers — n and k.
+Output
+For each test case, output a single line containing a single integer — the solution of Misha's problem modulo 109+7.

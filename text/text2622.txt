@@ -1,0 +1,21 @@
+Problem
+Read problems statements Bengali , Mandarin chinese , Russian and Vietnamese as well.
+You are given two integer sequences A1​,A2​,…,AN​ and B1​,B2​,…,BN​.
+We define the similarity of the sequences A and B as the number of indices i such that Ai​=Bi​.
+You should process Q queries. In each query, you are given parameters l, r and c; you should change each of the elements Al​,Al+1​,…,Ar​ to c, and then compute the similarity of the sequences A and B.
+Chef knows that this is simple, so he asks you to answer the queries online. Note that the input is given in a special format to ensure that.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+The third line contains N space-separated integers B1​,B2​,…,BN​.
+Each of the next Q lines contains three space-separated integers x, y and z describing a query in the following format:
+
+Let's denote the similarity of A and B before this query by Pr​ (for the first query, Pr​ is the similarity of the initial sequences).
+For this query, l=x⊕Pr​, r=y⊕Pr​ and c=z⊕Pr​.
+
+
+
+Output
+For each query, print a single line containing one integer — the similarity after this query.

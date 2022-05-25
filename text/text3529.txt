@@ -1,0 +1,17 @@
+Problem
+Read problem statements in Mandarin, Bengali, and Russian as well.
+You are given N distinct points (P1,x​,P1,y​),(P2,x​,P2,y​),…,(PN,x​,PN,y​) on the coordinate plane, and Q queries in the form L R X.
+In each query, consider the polygon formed by the points in the interval [L,R] (i.e. the points (PL,x​,PL,y​),(PL+1,x​,PL+1,y​),…,(PR,x​,PR,y​)), along with (0,0) and (X,0).
+
+If this polygon is not convex, that is the polygon contains an angle greater than 180∘, output −1.
+Otherwise, the polygon can be dissected into R−L+1 triangles that all contain (X,0) as a vertex. Out of these triangles, consider the triangle with the maximum area, and let this area be A. Output 2A.
+
+Input Format
+
+The first line contains one integer N - the number of points.
+The i-th line of the next N lines contain two integers Pi,x​ and Pi,y​ - the x and y coordinate of the i-th point.
+The next line contains one integer Q - the number of queries.
+Each of the next Q lines contain three integers L, R, and X representing a query.
+
+Output Format
+For each query, output on a single line −1 if the polygon is not convex, otherwise output 2A, where A is the area of the largest triangle the polygon can be dissected into per the statement's description.

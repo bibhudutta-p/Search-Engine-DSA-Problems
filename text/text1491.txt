@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Mandarin Chinese and Vietnamese as well.
+Chef placed N boxes (numbered 1 through N) in a straight line. For each valid i, the i-th box contains Ai​ balls.
+Then, Chef painted the boxes using M distinct colours in such a way that for each M consecutive boxes, no two of these boxes have the same colour.
+Help Chef choose M distinct boxes (not necessarily consecutive) such that no two of the chosen boxes have the same colour and the difference between the number of balls in a box that contains the maximum number of balls and a box that contains the minimum number of balls among the chosen boxes is the smallest possible.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer ― the minimum possible difference between the maximum and minimum number of balls in the chosen boxes.

@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Hindi, Vietnamese, Mandarin Chinese, Russian and Bengali as well.
+These days, Chef is working on opening a restaurant. Obviously, Chef dislikes running the restaurant by himself. In order to avoid such a terrible thing, he decided to hire exactly M workers (numbered 1 through M) to help him.
+The workers will choose some positive integer constants a1​,a2​,…,aM​. A worker with a constant a wants to be paid a fixed salary after each a days. Chef is very orderly, so he wants to choose a Chef-year — a period of x days, and a Chef-week — a period of y days, where x and y depend on the workers' constants in such a way that Chef can always pay each worker's salary at the end of a Chef-week and all the workers are paid their salaries at once at the end of a Chef-year.
+Chef also wants a Chef-year to be as short as possible and a Chef-week to be as long as possible. It can be shown that these conditions are satisfied when x is the lowest common multiple of a1​,a2​,…,aM​ and y is the greatest common divisor of a1​,a2​,…,aM​. For a group of M workers with known a1​,a2​,…,aM​, Chef then defines the value of the group as xpf(y)，where f(x)=∑i=0q​fi​xq−i is a polynomial of degree q.
+Now, Chef wants to know the sum of values of the group of M workers over all possible sequences a1​,a2​,…,aM​ which meet the constraint x≤N. Since the answer may be extremely large, you should compute it modulo 109+7.
+Note: This problem has a stricter submission limit, each user may only submit this problem at most 50 times during the contest.
+Input
+
+The first line of the input contains four space-separated integers N, M, p and q.
+The second line contains q+1 space-separated integers f0​,f1​,…,fq​ — the coefficients of the polynomial f.
+
+Output
+Print a single line containing one integer — the sum of values for all possible groups of workers modulo 109+7.

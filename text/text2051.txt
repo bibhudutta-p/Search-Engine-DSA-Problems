@@ -1,0 +1,14 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+In an undirected weighted graph, we define an s−t mincut cost as the minimum sum of weights of edges which have to be removed from the graph so that there would be no path between vertices s and t.
+You are given a two-dimensional array A with size N×N. You are allowed to increase the value of each element of this array by any non-negative integer (these integers may be different for different elements). Afterwards, the array A should satisfy the following condition: there is a graph G with N vertices (numbered 1 through N) such that for each i and j (1≤i,j≤N), the i−j mincut cost in G is equal to Aij​.
+Let's define the cost of the above operation as the sum of all integers added to elements of the initial array A. Compute the minimum possible cost.
+Note that: We consider only non-negative weight graphs.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains N space-separated integers Ai1​,Ai2​,…,AiN​.
+
+Output
+For each test case, print a single line containing one integer — the minimum cost.

@@ -1,0 +1,21 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a tree with N vertices numbered 1 through N. For each valid i, initially, vertex i has value Wi​. The value of each vertex can be either −1 or a non-negative integer.
+At any time, let's denote the sequence of values of vertices on the path from vertex u to vertex v by S(u,v). We are interested in replacing each element −1 in such a sequence by a non-negative integer (not necessarily the same for each −1).
+You should process Q queries of five types:
+
+UPDATE U X: Change the value of vertex U to X.
+INCREASING U V A B: Find the number of ways to replace each −1 in the sequence S(U,V) by an integer such that the resulting sequence is strictly increasing and contains only integers between A and B (inclusive).
+DECREASING U V A B: Find the number of ways to replace each −1 in the sequence S(U,V)by an integer such that the resulting sequence is strictly decreasing and contains only integers between A and B (inclusive).
+NON-DECREASING U V A B: Find the number of ways to replace each −1 in the sequence S(U,V) by an integer such that the resulting sequence is non-decreasing and contains only integers between A and B (inclusive).
+NON-INCREASING U V A B: Find the number of ways to replace each −1 in the sequence S(U,V) by an integer such that the resulting sequence is non-increasing and contains only integers between A and B (inclusive).
+
+Input
+
+The first line of the input contains two space-separated integers N and Q.
+The second line contains N space-separated integers W1​,W2​,…,WN​.
+Each of the next N−1 lines contains two space-separated integers U and V denoting that vertices U and V are connected by an edge.
+Q lines follow. Each of these lines describes one query in the format given above.
+
+Output
+For each query except the UPDATE queries, print a single line containing one integer ― the number of ways to replace each −1, modulo 109+7.

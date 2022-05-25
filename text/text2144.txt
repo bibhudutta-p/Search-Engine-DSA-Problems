@@ -1,0 +1,27 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+You are given a tree of N nodes numbered from 1 to N. 
+The ith edge connecting node ui and vi has a weight of wi.
+
+
+Your target is to handle the queries of the following two types:
+
+
+"1 i c" : Update the weight of ith edge with the new weight c.  
+  (1 represents the query type). 
+
+"2 u v" : Find the length of the path from node u to v. (2 represents the query type).
+
+
+Input
+
+The first line contains a single integer N.
+Each of the next N - 1 lines contains three integers u v w, representing an edge 
+  between u and v with the weight of w.
+The next line contains a single integer Q representing the number of queries
+Each of the next Q lines contains three integers representing a query as described above.
+
+Output
+
+For each query of type 2, output the answer in a single line.
+

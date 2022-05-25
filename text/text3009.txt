@@ -1,0 +1,17 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+
+Watson has infinite supply of K different type of objects denoted by numbers 1 to K. He makes an array A of N objects, A1, A2, ..., AN using these objects.
+Now, he'll update this array Q times. In ith update, he'll replace an existing object in array with a new object of different type from 1 to K i.e. Axi = yi.
+
+
+After each update, he wants Sherlock to report the smallest size of a contiguous subarray which contains all types of objects i.e. smallest value of R - L + 1 such that number of distinct values in AL, AL + 1, ..., Ar is K. If no such subarray exists, Sherlock should output -1.
+
+Input
+
+First line contains N, K and Q denoting number of array elements, number of different types of objects and number of updates. Next line contains N space separated integers denoting the initial array A. ith of the next Q lines contains integers xi and yi, denoting the update parameters of the ith update.
+
+Output
+
+After each update, output an integer in one line denoting the smallest contiguous subarray size consisting of all types of objects. If no such subarray exists, output -1.
+

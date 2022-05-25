@@ -1,0 +1,16 @@
+Problem
+Roughly speaking, this problem asks you to create the checker of the problem used in December CookOff.
+You are given a tree with N vertices and a string C of length N, consisting of the characters 'R', 'G' and 'B'.
+For each integer i (1≤i≤N), Ci​ is the color of vertex i — 'R' is for Red, 'G' is for Green and 'B' is for Blue.
+The input is called valid if for all pairs of Blue vertices (u, v), u=v, there is at least one Red vertex and one Green vertex on the simple path between u and v.
+Your task is to validate the input for given T test cases. For each test case, print Yes if the input is valid, otherwise No.
+Input Format
+
+The first line of input contains one positive integer T, the number of test cases. The description of T test cases follows.
+The first line of each test case contains one positive integer N, the number of vertices of the tree.
+The second line of each test case contains a string C, denoting the colors of the vertices.
+Each of the following N−1 lines contains two space-separated integers u and v, denoting an edge between vertices u and v in the tree.
+
+Output Format
+For each test case, output a single line containing Yes if the input is valid, and No otherwise.
+You may print each character of the string in uppercase or lowercase (for example, the strings "yEs", "yes", "Yes" and "YES" will all be treated as identical).

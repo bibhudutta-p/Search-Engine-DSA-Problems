@@ -1,0 +1,23 @@
+Problem
+There is a matrix of size N×M. Two distinct cells of the matrix (x1​,y1​) and (x2​,y2​) are painted with colors 1 and 2 respectively.
+You have to paint the remaining cells of the matrix such that:
+
+No two adjacent cells are painted in same color.
+Each color is an integer from 1 to 109 (both inclusive).
+The number of distinct colors used is minimum (including 1 and 2).
+
+Note:
+
+You cannot repaint the cells (x1​,y1​) and (x2​,y2​).
+Two cells are adjacent if they share a common edge. Thus, for a cell (x,y) there are 4 adjacent cells. The adjacent cells are (x,y+1),(x,y−1),(x+1,y), and (x−1,y).
+
+Input Format
+
+First line will contain T, number of test cases. Then the test cases follow. Each test case consists of 3 lines.
+The first line contains two space seperated integers N and M denoting the dimensions of the matrix.
+The second line contains two integers x1​ and y1​, denoting the coordinates of cell which is painted 1.
+The third line contains two integers x2​ and y2​, denoting the coordinates of cell which is painted 2.
+
+Output Format
+For each test case, output N lines, each consisting of M space separated integers where jth integer in ith line denotes the color of cell in ith row and jth column of the matrix and must be in [1,109] inclusive.
+In case of multiple possible answers, output any.

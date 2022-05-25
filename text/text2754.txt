@@ -1,0 +1,15 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Hussain really likes problems that involve summation over X, where X can be subsets, paths in a tree, intervals of numbers etc.
+You are given two integer sequences A1​,A2​,A3​,…,AN​ and B1​,B2​,B3​,…,BN​. Consider an arbitrary non-empty subset S of the set {1,2,…,N}. Let's define the swagness of such a set as
+(max(p∈S)​Ap​)⋅(max(p∈S)​Bp​).
+Hussain is interested in the sum of swagnesses of all possible sets S. (Note that there are 2N−1 such sets.) Since the sum may be very large, compute it modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,A3​,…,AN​.
+The third line contains N space-separated integers B1​,B2​,B3​,…,BN​.
+
+Output
+For each test case, print a single line containing one integer — the total swagness modulo 109+7.

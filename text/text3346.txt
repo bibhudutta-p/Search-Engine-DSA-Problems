@@ -1,0 +1,24 @@
+Problem
+
+You are given a polynomial P(X) = CD * XD + ... + C1 * X + C0 with integer coefficients C0, C1, ..., CD. You are also given a non-negative integer Q and positive integers M and N. Your task is to find the following sum
+
+
+                        (P(0) * Q0 + P(1) * Q1 + ... + P(N − 1) * QN − 1) mod M.
+
+
+Here A mod B means the remainder of the division of A by B.
+
+
+Usually polynomials are given by the sequence of their coefficients. However, in this problem you will be given the sequence A0, A1, ..., AD, where Ai = P(i) mod M, as an input. One can prove that these values are enough to restore the value of P(K) mod M for any integer K. Therefore, the value of the above sum is uniquely determined by the values M, Q, N, D, A0, A1, ..., AD.
+
+
+The function of the form P(X) * QX sometimes is called quasi-polynomial, hence the title of the problem.
+
+Input
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows. The first line of each test case contains four space-separated integers M, Q, N, D. The second line contains D + 1 space-separated integers  A0, A1, ..., AD.
+
+Output
+
+For each test case, output a single line containing the value of the corresponding sum.
+

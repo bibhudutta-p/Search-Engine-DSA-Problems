@@ -1,0 +1,14 @@
+Problem
+Alice and Bob have invented a new game. They have a rooted tree having N nodes (rooted at node 1), and the ith node has the value Ai​ associated with it (1-indexed). The value associated with the root node is 0.
+They start with a marker at the root node, and a score of 0. Alice and Bob moves alternatively, with Alice moving first. In one move, they can move the pointer from a node to one of its child node, and add the value associated with that child node to the score. If the marker reaches a leaf node, the game ends.
+Alice wants to minimize the score of the game, whereas Bob wants to maximize the score. They were about to start the game when the Charlie arrives. He looked at the game, and declared the game to be boring. However, Charlie asked them - "What will be the score at the end of the game, if each one of you can skip at most K moves?"
+Can you help Alice and Bob to answer Charlie?
+Input Format
+
+The first line of input contains a single integer T, denoting the number of testcases. The description of the T testcases follows.
+The first line of each test case contains two space separated integers N and K.
+The second line of each test case contains N space separated integers A1​,A2​,...,AN​. It is guaranteed that A1​=0.
+The following N−1 lines contains two space separated integers x and y, which denotes that there is an edge between nodes x and y.
+
+Output Format
+For each testcase, output in a single line the answer to the Charlie's problem.

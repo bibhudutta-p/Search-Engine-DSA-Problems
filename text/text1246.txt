@@ -1,0 +1,11 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef has a tasty ingredient ― an integer K. He defines a tasty matrix A with N rows (numbered 1 through N) and M columns (numbered 1 through M) as Ai,j​=K+i+j for each valid i,j.
+Currently, Chef is busy in the kitchen making this tasty matrix. Help him find the bitwise XOR of all elements of this matrix.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains three space-separated integers N, M and K.
+
+Output
+For each test case, print a single line containing one integer ― the bitwise XOR of all elements of the tasty matrix with the given dimensions made with the given special ingredient.

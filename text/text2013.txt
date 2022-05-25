@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Mandarin, Russian, and Vietnamese as well.
+You have an n×n matrix a. You can rearrange the elements of the matrix in any way. Let m1​,m2​,…,mn​ be the medians of each row in a after the rearrangement. The goodness of the matrix a is defined as the minimum median among the medians of all rows i.e min(m1​,m2​,…,mn​). Naturally, rearranging values also comes with a cost. The cost of rearrangement is defined as m1​+m2​+⋯+mn​.
+Find the maximum goodness you can achieve after rearranging a matrix a such that the cost of rearrangement doesn't exceed k or −1 if the answer doesn't exist.
+The median of an array a consisting of n elements is the ⌈2n+1​⌉th smallest element of a. The median of [4,8,6,1] is 6 and the median of [1,6,2,4,5] is 4.
+Input Format
+
+The first line of the input contains a single integer t denoting the number of test cases. The description of t test cases follows.
+The first line of each test case consists of two space-separated integers n and k.
+n lines follow, each consisting of n space-separated integers denoting the matrix a
+
+Output Format
+For each test case, print a single line containing one integer - the maximum goodness you can achieve such that the rearrangement cost does not exceed k or -1 if the answer doesn't exist.

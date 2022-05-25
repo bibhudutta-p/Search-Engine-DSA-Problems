@@ -1,0 +1,12 @@
+Problem
+Chef's college is starting next week. There are S subjects in total, and he needs to choose K of them to attend each day, to fulfill the required number of credits to pass the semester. There are N+1 buildings. His hostel is in building number 0. Subject i is taught in building Ai​. After each subject, there is a break, during which he goes back to his hostel. There are M bidirectional paths of length 1 which connects building u to building v. Find the minimum possible total distance Chef needs to travel each day if he chooses his subjects wisely.
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contain M+2 lines of input.
+First line will contain 4 space separated integers N, M, S, K, number of buildings other than hostel building, number of edges, total number of subjects taught, number of subjects required to pass the semester.
+Next M lines have 2 space separated integers u, v representing the path connecting buildings u and v.
+Next line has S space separated integers A1​,A2​,…AS​ representing the building in which ith subject is taught.
+
+Output:
+For each testcase, output in a single line answer to the problem.

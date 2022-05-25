@@ -1,0 +1,13 @@
+Problem
+Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
+You are given a grid with N rows and M columns; each cell of this grid is either empty or contains an obstacle. Initially, all cells are colorless.
+You may perform the following operation an arbitrary number of times (including zero): choose a 2×2 square in the grid and color all four of its cells. Each cell may be colored any number of times.
+You want all empty cells to be colored and all cells containing obstacles to be colorless. Find out if this state can be achieved.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+The following N lines describe the grid. Each of these lines contains a string with length M containing only characters '.' (denoting an empty cell) and '#' (denoting a cell with an obstacle).
+
+Output
+For each test case, print a single line containing the string "YES" if it possible to color the grid in the required way or "NO" if it is impossible (without quotes).

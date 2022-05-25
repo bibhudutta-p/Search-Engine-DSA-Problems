@@ -1,0 +1,8 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+For positive integers a and b, we say that a fraction ba​ is good if it is equal to m+1m​ for some positive integer m.
+You are given an integer N. Find the number of pairs of integers i,j such that 1≤i,j≤N and the fraction i+1i​⋅jj+1​ is good.
+Input
+The first and only line of the input contains a single integer N.
+Output
+Print a single line containing one integer ― the number of pairs of integers i,j (1≤i,j≤N) such that i+1i​⋅jj+1​ is good.

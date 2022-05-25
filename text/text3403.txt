@@ -1,0 +1,16 @@
+Problem
+You are given a grid with 2 rows and N columns containing distinct integers. The number in the i-th row and j-th column is denoted by Ai,j​. In one operation, you can swap numbers in any two cells which share a side.
+For a binary string S of length N, let's define f(S) as follows:
+
+f(S) is the smallest number of swaps required to achieve a state of board in which A1,i​<A2,i​ if Si​=1, and A1,i​>A2,i​ if Si​=0, for each i from 1 to N.
+
+It's easy to show that it's possible to achieve any state of the board by swapping adjacent elements, so f(S) is always defined.
+Find the sum of f(S) over all 2N binary strings S of length N.
+Input Format
+
+The first line of the input contains a single integer T, the number of test cases. The description of the test cases follows.
+The first line of each test case contains a single integer N.
+Then two lines follow, the i-th line contains N space-separated integers Ai,1​,Ai,2​,…,Ai,N​.
+
+Output Format
+For each test case, output a single integer — the sum of f(S) over all binary strings S of length N.

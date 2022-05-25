@@ -1,0 +1,21 @@
+Problem
+Chef loves palindromes! Chef loves them so much he can see palindromes anywhere! Even in this problem.
+Chef has N sequences of white cells. For each i (1 ≤ i ≤ N), the i-th sequence is formed by li cells; Chef has to paint exactly bi of these cells black.
+After painting those cells, Chef writes down the lengths of all white blocks (maximum contiguous subsequences of white cells) from left to right as a single string of digits.
+For example, if Chef's initial sequence of cells is "wwwwwwwww" and he has to paint three cells black, he can get "bwwbwbwww" ('w' stands for a white cell, 'b' for a black cell). In this case, he will write down the lengths of white blocks 2, 1, 3 as the string "213". He can also paint it to get "bbwwwwwbw" and write down "51". He can even paint it to get "bbbwwwwww" and write down "6". There are many other options as well.
+After painting all sequences, Chef will have written down a list of N strings. Now he can reorder these strings in any way he wants and concatenate them into one string S.
+It's time for palindromes! Chef wants the resulting string S to be as close to a palindrome as possible. The distance of S to a palindrome is defined as the minimum number of characters in S that Chef needs to change to get a palindrome.
+For example, the string "123345" has distance 2 to a palindrome. Strings "2" and "1221" have distance 0 to a palindrome, since they are already palindromes.
+You need to find a way to paint some cells, reorder and concatenate the resulting strings to form a string S with the minimum possible distance to a palindrome.
+Input
+
+The first line of the input contains a single integer N.
+The second line contains N space-separated integers l1, l2, ..., lN.
+The third line contains N space-separated integers b1, b2, ..., bN.
+
+Output
+
+The first N lines of the output should describe the sequences of cells obtained after painting some cells black.
+The i-th of these lines should contain a single string of length li consisting of letters 'b' and 'w'. There should be exactly bi letters 'b' in this string.
+The following line should contain a sequence of N space-separated integers p1, p2, ..., pN denoting the order of strings written down for each sequence of cells — the i-th string in the concatenation should be the string written down for the pi-th sequence of cells. p1, p2, ..., pN has to be a permutation of numbers 1 through N.
+

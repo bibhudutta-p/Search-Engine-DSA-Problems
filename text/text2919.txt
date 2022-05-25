@@ -1,0 +1,13 @@
+Problem
+You are given an array A of N integers, and an integer X. For each K in the range [1,N], determine the number of ways to partition the array into exactly K non-empty subarrays such that the maxima of each of the subarrays are at least X.
+The number of ways can be large, so output it modulo 998244353.
+Note: The input and output are large, so use fast input-output methods.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case contains two lines of input.
+The first line of each test case consists of two space-separated integers N and X.
+The second line consists of N space-separated integers denoting the elements of the array A.
+
+Output Format
+For each test case, output a single line containing N space-separated integers, the i-th of which denotes the number of ways to partition the array into exactly i non-empty subarrays such that the maxima of each of the i subarrays are at least X. Print the answer modulo 998244353.

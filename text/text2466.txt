@@ -1,0 +1,15 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+You are given N sequences P1​,P2​,…,PN​. Each of them is a permutation of numbers 1 through M.
+Let's define a product of two permutations X and Y of numbers 1 through M as a permutation Z=X⋅Y such that Zi​=YXi​​ for each valid i.
+You should answer Q queries. Each query is described by two numbers L and R. Let's define a permutation B=PL​⋅PL+1​⋅…⋅PR​; the multiplication of permutations is evaluated left to right, i.e. as ((PL​⋅PL+1​)⋅…)⋅PR​. The answer to a query is ∑i=1M​i⋅Bi​.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+N lines follow. For each valid i, the i-th of these lines contains M space-separated integers Pi,1​,Pi,2​,…,Pi,M​ denoting the permutation Pi​.
+The next line contains a single integer Q.
+Each of the following Q lines contains two space-separated integers L and R describing one query.
+
+Output
+For each test case, print Q lines. For each valid i, the i-th of these lines should contain a single integer — the answer to the i-th query.

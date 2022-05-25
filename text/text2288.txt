@@ -1,0 +1,25 @@
+Problem
+ Read problems statements in Mandarin Chinese and Russian as well.
+
+You might have realized up to now that some of the Devu's friend are really weird. It is Devu's 22nd birthday today. His friends are coming to his home for his birthday party. Some of his friends are so shameless that instead of giving him a gift, they even ask gifts from him. 
+
+
+Devu has n friends. He wants to invite some of his friends in the party. Devu knows beforehand that ith friend will give a gift of ri rupees. If ri is positive, then it means that they will give a gift of |ri| rupees to Devu, otherwise it means that they want to receive a gift of|ri| rupees from Devu.
+
+
+Devu's friend are really weird and they keep conditions before Devu like this : "If you invite me, you should also invite my best friend too". For ith person, you are given an integer fi denoting his best friend. It means that if Devu invites ith person, then he has to invite person fi too. Please note that best friend relationship is not bi-directional i.e. it is not necessary that if A is best friend of B, then B should be best friend of A.
+
+
+You have to help Devu in choosing an optimal set of friends to invite so that the total amount of money he receives in gifts is maximum. Devu can also choose to not to invite anyone at all. Find out the maximum total amount of money Devu can have.
+
+Input
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+First line of each test case will contain a single integer n denoting total number of friends of Devu.
+Second line contains n space separated integers denoting array f which describes best friend of ith person.
+Third line contains n space separated integers denoting array r as stated in the problem.
+
+Output
+
+For each test case, print a single line containing maximum amount of rupees he can have in the end. 
+

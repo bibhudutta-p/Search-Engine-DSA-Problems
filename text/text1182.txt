@@ -1,0 +1,15 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+For positive integer x let define function F(x) = 1 * (1! + x) + 2 * (2! + x) + .. + x * (x! + x). 
+"k!" means factorial: k! = 1 * 2 * .. * k 
+
+Chef wants to calculate F(p1) + F(p2) + ... + F(pn). 
+As answer could be large, help him, calculate value modulo m. 
+
+Input
+First line contains two integers n and m.
+Next line contains n space separated integers pi.
+
+Output
+Output a single line containing one integer --- calculated value modulo m.
+

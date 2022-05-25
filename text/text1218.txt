@@ -1,0 +1,21 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef has an array A consisting of N integers. He also has an intger K.
+Chef wants you to find out number of different arrays he can obtain from array A by applying the following operation exactly K times.
+
+Pick some element in the array and multiply it by -1
+
+
+
+As answer could be quite large, print it modulo 109 + 7.
+
+Input
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space separated integers N, K as defined above.
+The second line contains N space-separated integers A1, A2, ..., AN denoting the elements of the array.
+
+Output
+
+For each test case, output a single line containing an integer corresponding to the number of different arrays Chef can get modulo 109 + 7.
+

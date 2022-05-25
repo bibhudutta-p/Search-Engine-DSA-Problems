@@ -1,0 +1,17 @@
+Problem
+"If you want to know what a man’s like, take a good look at how he treats his inferiors, not his equals."
+There are N wizards in Hogwarts with each wizard at level Ai. Harry is analyzing  behaviour of different wizards. Sirius maps behaviour of one wizard using a Generous function defined as:
+
+
+Sirius asks Harry several queries. Each query contains L, R and P. Harry has to find Total Generosity for each query defined by function:
+
+Since the value of Total Generosity can be very large, output Total Generosity%(109 + 7)
+
+Input
+
+The first line of input contains 3 space separated integers N denoting the number of wizards, Q denoting the number of queries and K.
+The second line contains N space-separated integers A1, A2, ..., AN denoting the level of each wizard.
+Each of the next Q lines contains 3 space seaparated integers L, R and P denoting the query parameters.
+
+Output
+Output Total Generosity%(109 + 7) for each query in new line

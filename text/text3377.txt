@@ -1,0 +1,29 @@
+Problem
+You are given a tree with N nodes, numbered from 1 to N. It is  rooted at node 1.
+We call the simple path between node A and node B to be vertical if node A lies on the path from the root to B or node B lies on the path from the root to A. In other words, LCA (A,B) must be A or B.  And in such cases, we define a node A to lie above node B in the tree if distance to A from the root is less than the distance from the root to B. Otherwise we define it to lie below B.
+You also have with you 1 Proton and E Electrons (together called as particles) .  And you need to place these in some nodes of the tree.
+Suppose we fix the proton to be at some node A. We then call a placement of electrons valid if the following conditions are met  :-
+
+Each node can have at most one particle in it. Also, every particle should be placed in some node.
+Electrons can only be placed in nodes from which the simple path to A is vertical (that is, they should either be above A, or below A).
+At least XA​ nodes above A should contain an electron and at least YA​ nodes below A should contain an electron.
+
+The Dipole moment for a valid placement of electrons is calculated as follows :-
+
+Consider the sum of distances from A to nodes which contain an electron and lie above A. Let this sum be S1​.
+Similarly, consider the sum of distances from A to nodes which contain an electron and lie below A. Let this sum be S2​.
+The Dipole Moment is then defined as |S1​−S2​+ZA​|, here ZA​ is the positive charge if the proton is placed at A. Here, |X| refers to the absolute value of X.
+
+For every A (1≤A≤N) print the minimum dipole moment you can achieve among all valid placement in which the node A contains the proton.
+In case there is no valid placement for a particular node A, print −1 for that.
+Note that the distance between two nodes is the number of edges in the simple path between them.
+Input:
+
+The first line contains a single integer, T, which denotes the number of testcases.
+The first line of each testcase will contain two integers, N and E, which denote the number of nodes and number of electrons respectively.
+The next N−1 lines contain two integers u and v denoting that there’s an edge between u and v in the tree.
+The i-th of the next N lines contain 3 space separated integers ,  Xi​,Yi​,Zi​
+
+Output:
+
+Output T lines, where each line should be containing N space-separated integers, the Ath integer should be the minimum dipole moment if the proton is placed at node A , or -1 if there is no valid placement.

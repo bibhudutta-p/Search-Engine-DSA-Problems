@@ -1,0 +1,25 @@
+Problem
+You are given a binary string S of length N.
+Let G be a complete directed graph of N vertices numbered from 1 to N. There is a directed edge going from vertex u to v if one of the following is true:
+
+Su​=Sv​ and u<v
+Su​=Sv​ and u>v
+
+For example, if S=1010 then G looks like this:
+
+
+You will be given Q queries of two different types:
+
+1 L R - Flip all the bits in S in range [L,R] and update G accordingly.
+2 L R X - Find whether there is a path that starts from vertex X and visits each vertex in G[L,R] exactly once (a hamiltonian path in other words).
+
+G[L,R] is the subgraph induced by the vertices in the range [L,R] and the edges connecting them. For example, if S=1010 then G[2,4] consists of the vertices 2, 3, and 4, and the three edges 2→4, 4→3, and 3→2.
+Input Format
+
+The first line contains two integers, N and Q.
+The second line contains a binary string S of length N.
+The ith line of the next Q lines contains the description of the ith query.
+
+Output Format
+For each query of type 2, print a single line containing YES if there's a hamiltonian path starting from vertex X, or NO otherwise.
+You may print each character of the string in uppercase or lowercase (for example, the strings yEs, yes, Yes and YES will all be treated as identical).

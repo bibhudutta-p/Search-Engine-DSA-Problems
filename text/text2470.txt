@@ -1,0 +1,11 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+A Dr.D’s Legacy Original
+Dr.D wishes to choose exactly K distinct integers from a given interval [L,R] in such a way that the bitwise AND of the chosen integers is maximum possible. Find this maximum value.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains three space-separated integers L, R and K.
+
+Output
+For each test case, print a single line containing one integer — the maximum value of the bitwise AND.

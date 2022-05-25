@@ -1,0 +1,10 @@
+Problem
+ Read problems statements in Mandarin Chinese , Russian and Vietnamese  as well.
+ Read problems statements in Mandarin Chinese , Russian and  Vietnamese
+Chef loves to play with graphs. Today, Chef has a complete graph G consisting of N vertices and he is eager to count the number of non-empty subsets of the edge set
+ of G such that the removal of any chosen subset separates the graph into exactly K connected components. Chef is unable to solve this task on his own and has, therefore, requested your assistance. Please help him.
+Since the required answer can be very large, Print it modulo M.
+Input:
+First line of input contains a single integer T denoting the number of test cases. First and the only line of each test case contains 3 space separated integers — N, K and M — denoting the number of vertices in the graph G, required number of connected components, and the modulus.
+Output:
+For each test case, output the required answer.

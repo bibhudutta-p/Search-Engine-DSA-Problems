@@ -1,0 +1,15 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+This problem is similar to the problem "MNDIGSUM". The only differences are in the constraints and in the input format. In this problem the range for the base B is [2,R], the value of n can be upto 1012 and the total number of queries is at most 300. The differences are described in bold.
+Let f(n,B) be the sum of digits of the integer n when written in base B.
+More formally, if n=i=0∑∞​ai​Bi where ai​ is an integer in the range [0,B−1], then f(n,B)=i=0∑∞​ai​.
+Given Q queries, each consisting of two integers n and r. Find the value of B corresponding to which f(n,B) is minimum for all 2≤B≤r. If there are multiple such values, you can print any of them.
+Input Format
+
+The first line contains in single integer Q, the number of queries
+Each of the next Q lines contain two space separated integers n and r respectively.
+
+Output Format
+
+For each query (n r) find the value of the base B that lies within [2,r] such that f(n,B) is minimum.
+

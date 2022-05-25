@@ -1,0 +1,20 @@
+Problem
+There are N cans lying on the X-axis at points Xi​ (1≤i≤N). Each of the N cans is associated with two values Ai​ and Bi​.  Also, the segment between the points L and R (L≤R) is considered to be green zone including the points L and R.
+There are two types of operations -
+1. Select a can i out of the N cans and move it one unit in either direction along the axis, i.e. if before the operation can is at Xi​ then after the operation, it moves to either Xi​+1 or Xi​−1. This costs Bi​ coins and it can be performed any number of times for each of the cans.
+2. Choose any integer k and shift the green zone to the segment between L′ and R′, where L′ and R′ are the mirror images of points R and L with respect to line X=k respectively. This operation should be performed exactly once.
+After all the operations, you get number of coins equal to sum of values of Ai​ of the cans which lie in the final green zone.
+We define the net coins as:
+Number of coins you get - Number of coins spent
+Find the maximum possible net coins you can earn.
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each of the testcases consists of four lines.
+First lines consists of three integers N, L and R.
+Next line consist of N space separated integers X1​,X2​,...,XN​.
+Next line consist of N space separated integers A1​,A2​,...,AN​.
+Next line consist of N space separated integers B1​,B2​,...,BN​.
+
+Output Format
+For each testcase, output in a single integer, the maximum number of net coins you can earn.

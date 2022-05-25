@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+You are given a sequence A1, A2, ..., AN and Q queries. In each query, you are given two parameters L and R; you have to find the smallest integer X such that 0 ≤ X < 231 and the value of (AL xor X) + (AL+1 xor X) + ... + (AR xor X) is maximum possible.
+Note: xor denotes the bitwise xor operation.
+Input
+
+The first line of the input contains two space-separated integers N and Q denoting the number of elements in A and the number of queries respectively.
+The second line contains N space-separated integers A1, A2, ..., AN.
+Each of the next Q lines contains two space-separated integers L and R describing one query.
+
+Output
+For each query, print a single line containing one integer — the minimum value of X.

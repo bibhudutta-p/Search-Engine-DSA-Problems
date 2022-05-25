@@ -1,0 +1,17 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+James has a board (a two-dimensional plane) with N nails sticking out of it and a rubber band tangled up between these nails. The rubber band can be viewed as a closed curve made up of M line segments (a closed polyline with M vertices). None of the nails intersect the rubber band, but the rubber band may intersect itself.
+James wants to move the rubber band away from the nails. Specifically, the rubber band is removed if there is a line which does not intersect the rubber band or any of the nails and splits the board into two half-planes such that one half-plane contains all nails and the other half-plane contains the whole rubber band.
+James can deform, stretch and shrink the rubber band in any way he wants, as long as it does not intersect with any nail (no point of the rubber band coincides with any nail) at any time during performing the deformations. However, he is not allowed to pick up the rubber band from the board (all deformations must occur in the given 2D plane).
+Given the positions of the nails and the shape of the rubber band, determine if James will be able to remove the rubber band.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+Each of the following N lines contains two space-separated real numbers x and y denoting the coordinates of one nail.
+The next line contains a single integer M.
+Each of the following M lines contains two space-separated real numbers x and y denoting the coordinates of one vertex of the polyline. The rubber band is formed by connecting each pair of consecutive vertices by a line segment and connecting the first and last vertex by a line segment.
+
+All real numbers on the input are given with up to 6 decimal digits.
+Output
+For each test case, print a single line containing the string "YES" if James can remove the rubber band or "NO" if he can not (without quotes).

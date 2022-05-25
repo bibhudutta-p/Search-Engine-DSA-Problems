@@ -1,0 +1,12 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+
+Chef likes trees a lot. He has a weighted rooted tree T rooted at node 1. There are N nodes in the tree numbered from 1 to N. Each node v has a value Av associated with it. Let's call ugliness of path between nodes u and v - C(u, v) as bitwise XOR of all values on path. Let's call ugliness of node v maximal ugliness among all the paths which lies in subtree v. For each node find ugliness of it.
+
+Input
+The first line contains one integer T, denoting the number of the test cases. 
+First line of each test case contains one integer N. 
+Second line contains N space-separated integers denoting Av - the values associated with nodes.
+Next N-1 lines contains two space-separated integers u, v denoting the nodes connected by an edge.
+Output
+For each test case for each node in range from 1 to N, output its ugliness in a single line.

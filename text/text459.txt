@@ -1,0 +1,14 @@
+Problem
+Chef has an array A having N elements. Chef wants to make all the elements of the array equal by repeating the following move.
+
+Choose any integer K between 1 and N (inclusive). Then choose K distinct indices i1​,i2​,…,iK​, and increase the values of Ai1​​,Ai2​​,…,AiK​​ by 1.
+
+Find the minimum number of moves required to make all the elements of the array equal.
+Input Format
+
+The first line contains T denoting the number of test cases. Then the test cases follow.
+The first line of each test case contains a single integer N denoting the number of elements in A.
+The second line of each test case contains N space separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, print a single line containing one integer denoting the minimum number of moves required to make all the elements of the array equal.

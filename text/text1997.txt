@@ -1,0 +1,15 @@
+Problem
+You are given a tree with N nodes (numbered 1 through N). There are K special nodes f1​,f2​,…,fK​ in this tree.
+We define d(p,q) to be the number of edges on the unique path from node p to node q.
+You are given a node a. For each node b from 1 to N, find the maximum value of d(a,u)−d(b,u) where u is a special node, as well as any special node u for which that maximum value is attained.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, K, a.
+The second line contains K space-separated integers f1​,f2​,…,fK​.
+N−1 lines follow. For each valid i, the i-th of these lines contains two space-separated integers ui​ and vi​ denoting an edge of the tree.
+
+Output
+For each test case, print two lines.
+In the first line print N space-separated integers. For each valid i, the i-th integer should be the maximum value of d(a,u)−d(i,u) where u is a special node.
+In the second line print N space-separated integers. For each valid i, the i-th integer should be any special node u for which the maximum of d(a,u)−d(i,u) is attained.

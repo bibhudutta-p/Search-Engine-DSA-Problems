@@ -1,0 +1,16 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Gorodetskiy is a university student. He is really good at math and really likes solving engaging math problems. In the last exam, his professor gave him really hard math problems to solve, but Gorodetskiy could not solve them and failed the exam, so the professor told him: "These problems are a piece of cake, you should know them from school!" Here is one of the problems from the exam - you can decide if it really was an easy problem or not.
+You are given a positive integer M. Let's call a positive integer A an interesting number if there is at least one integer B (A≤B) such that A⋅B is divisible by M and MA⋅B​=A+B.
+Find all interesting numbers. Let's denote the number of such integers by K; it is guaranteed that K≤3∗105.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer M.
+
+Output
+For each test case:
+
+First, print a line containing a single integer K.
+Then, print K lines. For each valid i, the i-th of these lines should contain a single integer ― the i-th interesting number in increasing order.
+

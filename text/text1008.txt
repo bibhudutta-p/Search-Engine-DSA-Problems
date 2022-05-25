@@ -1,0 +1,22 @@
+Problem
+A number M is said to be a Mystical Number with respect to a number X if (M⊕X)>(M&amp;X).
+You are given an array A of size N. You are also given Q queries. Each query consists of three integers L, R, and X.
+For each query, find the count of Mystical Numbers in the subarray A[L:R] with respect to the number X.
+Notes:
+
+⊕ represents the Bitwise XOR operation and &amp; represents the Bitwise AND operation.
+A[L:R] denotes the subarray A[L],A[L+1],…,A[R].
+
+Input Format
+
+The first line contains a single integer T - the number of test cases. Then the test cases follow.
+The first line of each test case contains an integer N - the size of the array A.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​ denoting the array A.
+The third line of each test case contains an integer Q - denoting the number of queries.
+The ith of the next Q lines contains three space-separated integers L , R and X.
+
+Output Format
+For each testcase,
+
+For each query, print in a new line, the count of Mystical Numbers among A[L],A[L+1],…,A[R] with respect to the number X.
+

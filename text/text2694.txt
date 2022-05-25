@@ -1,0 +1,20 @@
+Problem
+Chef and his friends would like to attend a large New Year's party in Goa. However, their teacher has given them an assignment to complete. Chef asked for your help to complete the assignment quickly so that he can attend the party with complete freedom.
+Chef was given an array A=[A1​,A2​,…,AN​] of length N, an array B=[B1​,B2​,…,BM​] of length M, and a prime number P. His task is to find the number of good pairs. An ordered pair of integers (i,j) is said to be a good pair if it satisfies the following conditions:
+
+1≤i≤N
+1≤j≤M
+(Ai​⊕Bj​)<P
+P divides ((Ai​⋅(Ai​⊕Bj​))−1)
+
+where ⊕ denotes the bitwise XOR operation.
+Please help Chef and his friends, and find the number of good pairs.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N,M, and P, respectively.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​.
+The third line of each test case contains M space-separated integers B1​,B2​,…,BM​.
+
+Output Format
+For each test case, output one line containing a single integer — the number of good pairs.

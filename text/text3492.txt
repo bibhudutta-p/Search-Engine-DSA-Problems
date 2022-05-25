@@ -1,0 +1,36 @@
+Problem
+Chef has a large orchestra in his kitchen and he is preparing for a concert next week. He also has a music score, which is represented by a string S with length N. Each note in the music score is represented by a lowercase or uppercase English letter; the values of lowercase letters 'a' through 'z' are 1 through 26 and the values of uppercase letters 'A' through 'Z' are 27 through 52.
+There are M melodies (numbered 1 through M) which Chef considers pretty melodies. For each valid i, the i-th pretty melody is represented by a string Ti​ and it has a pretty value Ci​.
+There are also A good melodies. For each valid i, the i-th good melody is represented by a string Pi​ and it has a cost Qi​.
+To modify Chef's music score (the string S), there are three types of operations you may apply:
+
+Choose one note (one character in S) and replace it by another note. The cost of this operation is the absolute difference between the original value and the new value of the replaced note. For example, the cost of replacing 'b' by 'e' is ∣5−2∣=3, and the cost of replacing 'B' by 'x' is ∣24−28∣=4.
+Choose a non-empty substring of S and replace it by a good melody (not necessarily with the same length). For each valid i, the cost of replacing a substring by a good melody Pi​ is Qi​.
+Duplicate a substring ― choose a non-empty substring of S (let's denote it by s) and insert a copy of s into S, immediately after the chosen occurrence of s. For example, after applying this operation on the substring "Dc" in the string "AcbDcb", the resulting string is "AcbDcDcb". The cost of this operation is R.
+
+You may apply any of these operations in any order, but you must satisfy the following restrictions:
+
+You must apply at most 105 operations.
+You must apply an operation of type 3 at most once.
+You have X coins. The total cost (sum of costs) of all operations you apply must not exceed X.
+The length of the string S must not exceed 106 at any time.
+
+Let's define the pretty value of Chef's music score V=∑i=1M​Ki​⋅Ci​, where Ki​ denotes the number of times the i-th pretty melody occurs in Chef's music score as a substring (these occurrences may overlap). Your goal is to maximise the pretty value of Chef's music score.
+Input
+
+The first line of the input contains five space-separated integers N, M, A, X and R.
+The second line contains a single string S with length N denoting Chef's initial music score.
+M lines follow. For each i (1≤i≤M), the i-th of these lines contains a string Ti​, followed by a space and an integer Ci​.
+A more lines follow. For each i (1≤i≤A), the i-th of these lines contains a string Pi​, followed by a space and an integer Qi​.
+
+Output
+
+First, you should print a line containing a single integer L ― the number of operations you want to apply.
+Then, you should print L lines describing these operations in the order in which they should be applied, in the following format depending on their types:
+
+1 x c, if you want to replace the x-th note (indexed from 1) in the current music score by the character c (c must be a lowercase or uppercase English letter)
+2 l r i, if you want to replace the substring between the l-th and r-th note (inclusive; 1≤l≤r) in the current music score by the i-th good melody
+3 l r, if you want to duplicate the substring between the l-th and r-th note (inclusive; 1≤l≤r) in the current music score
+
+
+

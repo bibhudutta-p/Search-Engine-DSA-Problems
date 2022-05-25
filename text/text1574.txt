@@ -1,0 +1,21 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given N distinct points in a 2-D plane, numbered 1 through N. The X-coordinate of the points are X1​,X2​,…,XN​ respectively and the Y-coordinates are Y1​,Y2​,…,YN​ respectively. Your goal is to make the location of all the N points equal to that of each other. To achieve this, you can do some operations.
+In one operation, you choose an index i(1≤i≤N) and a real number K and change the location of the ith point in one of the following ways:
+
+Set (Xi​,Yi​)=(Xi​+K,Yi​)
+Set (Xi​,Yi​)=(Xi​,Yi​+K)
+Set (Xi​,Yi​)=(Xi​+K,Yi​+K)
+Set (Xi​,Yi​)=(Xi​+K,Yi​−K)
+
+Find the minimum number of operations to achieve the goal.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+Each test case contains three lines of input.
+The first line contains a single integer N.
+The second line contains N space-separated integers X1​,X2​,…,XN​.
+The third line contains N space-separated integers Y1​,Y2​,…,YN​.
+
+Output Format
+For each test case, print a single line containing one integer - the minimum number of operations to achieve the goal.

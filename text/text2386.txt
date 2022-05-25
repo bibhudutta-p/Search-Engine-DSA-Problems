@@ -1,0 +1,18 @@
+Problem
+We define f(x)={f(x⊕reverse(x))+10​amp;if x=0amp;otherwise​
+Here, ⊕ denotes the bitwise XOR operation and reverse is a function that takes a postive integer, reverses its binary representation (without any leading zeros) and returns the resulting number. For example reverse(2)=1, reverse(6)=3, reverse(7)=7
+Given an integer N, find out the value of ∑i=12N−1​f(i) modulo 998244353 or claim that there exists a positive integer x <2N for which f is undefined.
+Input Format
+
+The first line of input contains a single integer T - the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer N.
+
+Output Format
+
+For each test case output a single line containing one integer :
+
+−1 if there exists a positive integer x such that x<2N and f(x) is undefined
+∑i=12N−1​f(i) modulo 998244353 otherwise
+
+
+

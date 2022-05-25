@@ -1,0 +1,29 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Don't miss the "Tests Generation" section.
+The input is generated in a special way for this problem.
+Bear Limak lives in a square grid that consists of N rows and N columns.
+Each cell is either empty or blocked, denoted with character '.' or '#' respectively.
+Limak can only visit empty cells and he can't move outside the grid.
+Limak wants to impress a girl he likes.
+He should make a sequence of moves described by a string S of length L.
+Each character is one of 'R', 'L', 'U', 'D', denoting directions: right, left, up and down respectively.
+Depending on the starting cell, making all L moves might be impossible.
+Limak considers each empty cell as a starting one and wonders how many  moves in the sequence he can make, before being forced to stop.
+For example, if S starts with 'R' but a cell on the right from the starting cell is blocked (or is outside the grid), Limak would do 0 moves.
+Your task is to find the number of moves Limak would do from each starting cell, and print the bitwise XOR of those numbers.
+Tests Generation
+The input in this problem is generated as follows.
+For each test case we manually chose only three values: two integers L and N and one real value P (0 ≤ P < 1).
+Each character in S is chosen (generated) uniformly at random from the four allowed characters.
+Each cell in the grid is blocked with probability P, and empty otherwise.
+If all cells are blocked, the test case is generated again, so it is guaranteed that at least one cell is empty.
+Input
+The first line of the input contains an integer T denoting the number of test cases.
+The description of T test cases follows.
+The first line of each test case contains two integers L and N denoting the length of the sequence of moves and the size of the grid.
+The second line of a test case contains a string S denoting the sequence of moves.
+Next N lines describe the grid.
+The i-th line contains a string of length N denoting the i-th row of the grid.
+Output
+For each test case, output a single line containing one integer — the bitwise XOR of the number of moves made by Limak from each possible starting cell.

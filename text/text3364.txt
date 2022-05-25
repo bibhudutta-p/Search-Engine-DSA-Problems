@@ -1,0 +1,15 @@
+Problem
+You are given two numbers N and M. A pair of arrays (A,B) is called K-beautiful if and only if:
+
+∣A∣=∣B∣=N (i.e. both their lengths are equal to N)
+For all i such that 1≤i≤N, 0≤Ai​≤M and 0≤Bi​≤M.
+mex(A)≤mex(B)
+A is lexicographically smaller than B
+The first index i where Ai​<Bi​ is K
+
+For each K (1≤K≤N), find the number of K-beautiful pairs and print those values modulo MOD.
+Note: An array X is lexicographically smaller than Y if an only if there exists some i such that Xi​<Yi​ and Xj​=Yj​ for 1≤j<i. Also, mex(X) denotes the minimum non-negative integer that does not occur in X
+Input Format
+The first and only line of input contains three integers N, M, MOD - the parameters defined in the statement.
+Output Format
+Output N integers such that the i-th value denotes the number of i-beautiful pairs modulo MOD.

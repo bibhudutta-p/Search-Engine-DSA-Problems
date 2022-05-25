@@ -1,0 +1,10 @@
+Problem
+You are given two integers N,K such that K+1≤N≤2K−1. Your friend is hiding from you a permutation (P1​,P2​,…,PN​) of integers from 1 to N, whose elements are written cyclically.
+Your friend doesn't tell you the permutation. Instead, he tells you this. For each i from 1 to N he will tell you Ai​ − the number of such integers j with 0 \le j &lt; K such that P((i+j)modN)+1​<Pi​.
+Given A1​,A2​,…,AN​, find any permutation P producing them or tell that there is no such permutation.
+Input Format
+The first line of the input contains a single integer T − the number of test cases. The description of test cases follows.
+The first line of each test case contains two integers N,K.
+The second line of each test case contains N integers A1​,A2​,…,AN​.
+Output Format
+For each test case, if there is no permutation producing array A, output −1. Otherwise, output N integers P1​,P2​,…,PN​ (1≤Pi​≤N, Pi​=Pj​ for i=j) − the required permutation. If there are several such permutations, you can output any.

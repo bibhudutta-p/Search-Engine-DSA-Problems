@@ -1,0 +1,19 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Given an array A consisting of N integers, you have to perform Q operations on it. These operations can be of following two types.
+
+Type 1 is update operation in which you update the value of a particular element of the array
+Type 2 is range query from L to R in which you have to decompose the product of the elements in this range as sum of 4 square numbers.
+
+All these operations should be done under modulo P where P may or may not be prime.
+
+Note - There can be more than one possible solution for a particular query, you can output any of them.
+Input
+The first line of the input contains T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space separated integers N, Q and P denoting the number of of elements in the array, the number of queries and the modulo value respectively.
+The second line contains N space-separated integers - A1, A2, ..., AN denoting the input array A. 
+The next Q lines contain 2 types of queries.
+Type 1 operations are given as "1 X Y" (without the double quotes) where X denotes the indice to be updated and Y denotes the value it needs to be set to, ie. A[X] = Y
+Type 2 operations are given as "2 L R" (without the double quotes) where L and R are the left and right end point for the given query.
+Output
+For each query of the type 2, output the respective 4 numbers in arbitrary order that when squared and summed under modulo P make that respective product modulo P. In case there is no such quadruple then output -1. All the 4 numbers should be between 0 to P - 1(inclusive)

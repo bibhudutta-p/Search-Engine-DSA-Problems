@@ -1,0 +1,17 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Recently Chef invented a new structure that he has called Xor Grid. It is an infinitely large grid G filled with numbers based on these three rules:
+
+
+G[1, c] = 1 for all c ≥ 1
+G[r, 1] = r for all r ≥ 1
+G[r, c] = G[r - 1, c] xor G[r, c - 1] for all r > 1 and c > 1
+
+
+Now Chef is wondering, what are the xor sums of all the numbers within some specific rectangles of the Xor Grid?
+Note Xor sum refers to successive xor operations on integers. For example, xor sum of integers x1, x2, x3, ..., xn will be (..((x1 xor x2) xor x3)... xor xn).
+Input
+The first line of the input contains an integer T denoting the number of test cases.
+For each test case, the only line of input contains four integers r1, r2, c1 and c2, where (r1, c1), (r2, c2) denotes the coordinates of top left and bottom right cells of the rectangle.
+Output
+For each test case, output a single integer ― the xor sum of all the numbers within G[r1..r2, c1..c2].

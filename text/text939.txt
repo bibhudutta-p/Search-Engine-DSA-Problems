@@ -1,0 +1,12 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Given N, count how many permutations of [1, 2, 3, ..., N] satisfy the following property.
+
+
+Let P1, P2, ..., PN denote the permutation. The property we want to satisfy is that there exists an i between 2 and n-1 (inclusive) such that
+Pj > Pj + 1  ∀    i ≤ j ≤ N - 1.
+Pj > Pj - 1  ∀    2 ≤ j ≤ i.
+Input
+First line contains T, the number of test cases. Each test case consists of N in one line.
+Output
+For each test case, output the answer modulo 109+7.

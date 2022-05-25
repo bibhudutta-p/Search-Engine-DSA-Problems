@@ -1,0 +1,18 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+Given an array A consisting of N positive integers, and Q queries on it. The queries can be of five types: 
+
+1 l r - let S - sorted set of elements with indices between l and r. You need to find: 
+
+2 x y - assign the value y to element at position x. 
+3 x - delete element at position x from array. 
+4 z y - insert y after element at position z. If z equal 0 then y should insert before the first element. 
+5 l r - count the number of distinct numbers in array between indices l and r. 
+
+
+All the indices in the queries are 1-based.
+Array always contains at least one element.
+Input
+The first line of input contains two integers N and Q denoting the number of elements in A, and the number of queries to be executed. The second line of input contains N integers denoting the array A. Each of the next Q lines contains one query.
+Output
+For each query of type 1 or type 5, output the answer to the query in a single line.

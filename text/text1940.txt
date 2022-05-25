@@ -1,0 +1,21 @@
+Problem
+You are given two arrays A and B, each of size N. You can perform the following types of operations on array A.
+
+Type 1: Select any prefix of A and increment all its elements by 1.
+Type 2: Select any suffix of A and increment all its elements by 1.
+
+Your task is to transform the array A into array B using the minimum number of operations. If it is impossible to do so, output −1.
+For an array A having N elements:
+
+A prefix of the array A is a subarray starting at index 1.
+A suffix of the array A is a subarray ending at index N.
+
+Input Format
+
+First line will contain T, number of test cases. Then the test cases follow.
+The first line of each test case contains a single integer N, the size of arrays A and B.
+The next line contains N space-separated integers, where the ith integer denotes Ai​.
+The next line contains N space-separated integers, where the ith integer denotes Bi​.
+
+Output Format
+For each test case, print a single line containing one integer ―  minimum operations required to convert A into B. Print −1 if it is impossible to convert A into B.

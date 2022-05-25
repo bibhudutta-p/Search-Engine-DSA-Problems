@@ -1,0 +1,14 @@
+Problem
+Nayra doesn't like stories of people receiving random arrays as birthday presents, but this time she received random arrays as presents for her own birthday! After struggling for a day trying to figure out what to do with the array, she asked Aryan for help. He gave her the following problem.
+You are given 3 integers M, P and N.
+For an array A, let f(A) be defined as the length of the longest strictly increasing subsequence of A and let g(A)=(f(A))P.
+Consider all distinct arrays A of length N such that 1≤Ai​≤M for all (1≤i≤N). Calculate the sum of g(A) over all such MN arrays. Since the answer can be huge, print it modulo 754974721.
+Each test case has Q queries. For all Q queries, M and P remain the same, only N varies.
+Input Format
+
+First line will contain T, the number of test cases. Then the test cases follow.
+First line of each test case contains three integers M,P, and Q.
+Second line of each test case contains Q integers, values of N for each query.
+
+Output Format
+For each testcase, output in a single line containing Q space-separated integers, answers for each query modulo 754974721.

@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a sequence of positive integers A1​,A2​,…,AN​. You should make all its elements equal by performing a sequence of operations.
+In one operation, you may choose any contiguous subsequence Al​,Al+1​,…,Ar​ such that for each i (l+1≤i≤r), Ai​=Al​, i.e. a sequence of identical elements, then choose any integer x<Al​, and for each i (l≤i≤r), replace Ai​ by x. The integers x chosen in different operations may be different.
+Find the smallest number of operations necessary to make all elements of the given sequence equal.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+Print a single line containing one integer ― the smallest number of operations.

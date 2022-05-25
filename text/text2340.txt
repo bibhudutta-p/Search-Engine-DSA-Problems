@@ -1,0 +1,14 @@
+Problem
+You are given a M x M grid representing a city. A cell in this grid is represented as (i,j), i.e. the cell at the i-th row and j-th column in the grid. You own two trucks A and B that deliver goods. Truck A is located at at (Ax,Ay) and Truck B is located at (Bx,By). Both trucks have an infinite number of goods. The two trucks could initially be at the same location.
+The distance to travel between cells (i1​,j1​) and (i2​,j2​) is the Manhattan Distance, i.e.,  ∣i1​−i2​∣+∣j1​−j2​∣ units.
+Your company has to serve N orders, where the i-th order is located at position (xi​,yi​). An order is said to be served if some truck moves to the location of the i-th order. Additionally, the i-th order can be served only once all order numbers from 1 to i−1 have been served.
+What is the minimum total distance that the trucks must travel to serve all N orders?
+Input:
+
+First line will contain N, the number of orders to serve.
+The next line contains 2 space separated integers, Ax,Ay, the co-ordinates of truck A
+The next line contains 2 space separated integers, Bx,By, the co-ordinates of truck B
+N lines lines follow, i-th of which contains 2 space separated integers, (xi​,yi​), the location of the i-th order.
+
+Output:
+Print a single integer, denoting the minimum total distance travelled by the trucks.

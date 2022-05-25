@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef has invited Alice for his birthday party. Now, Alice is thinking about what to give Chef as a present. She should obviously choose a sequence ― what could possibly be a better birthday gift than a sequence!
+After some thinking, Alice chose a sequence of integers A1​,A2​,…,AN​. However, she does not want to simply give this sequence to Chef. Instead, she decided to give Chef a sequence B1​,B2​,…,BN​, where Bi​=⋁j=1i​Aj​ for each valid i and ⋁ denotes the bitwise OR operation. Chef can try to generate a sequence A from B, but there could be more than one such possible sequence.
+Now, Alice is wondering how many sequences A correspond to the given sequence B. Since this number could be very large, compute it modulo 109+7. Note that it is not guaranteed that the given sequence B was generated from some sequence A.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers B1​,B2​,…,BN​.
+
+Output
+For each test case, print a single line containing one integer ― the number of possible sequences A modulo 109+7.

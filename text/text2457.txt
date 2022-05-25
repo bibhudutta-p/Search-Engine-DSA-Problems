@@ -1,0 +1,11 @@
+Problem
+Instead of writing,a×(b+c)=a×b+a×c, Joe by mistakenly swapped the × and + signs on the left hand side. The equation became, a+(b×c)=a×b+a×c ?
+Joe somehow knew the value of a, but forgot the values of b and c such that the equation is satisfied. Can you help him find how many ordered pairs (b,c) satisfy the above equation?
+If there exists infinite ordered pair, output -1.
+Note: a,b,c are integers
+Input 
+
+Single line containing a single integer a
+
+Output
+Single line containing one integer, denoting the number of ordered set (b,c)

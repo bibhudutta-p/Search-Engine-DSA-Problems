@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Chef is so good at programming that he won almost all competitions. With all the prizes, Chef bought a new house. The house looks like a grid of size N (1-indexed) which consists of N × N rooms containing diamonds. For each room, the room number is equal to the sum of the row number and the column number.
+The number of diamonds present in each room is equal to the absolute difference between the sum of even digits and sum of odd digits in its room number. For example, if the room number is 3216, then the number of diamonds present in that room will be |(2+6)-(3+1)| = 4.
+You are given the number N. You have to print the total number of diamonds present in Chef's house.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The only line of each test case contains a single integer N.
+
+Output
+For each test case, print the answer on a separate line.

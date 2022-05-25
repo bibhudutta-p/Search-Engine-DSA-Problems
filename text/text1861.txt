@@ -1,0 +1,14 @@
+Problem
+You are given an integer C and an array A = A1​,A2​,…,AN​ which has distinct positive integers. It is guaranteed that Ai​≤C for 1≤i≤N. You have an infinite supply of coins of denomination Ai​ for 1≤i≤N. You have another array W=W1​,W2​,…WN​. This denotes that a single coin of denomination Ai​ has a weight of Wi​.
+You are given M queries: Q1​,Q2​,…,QM​. You need to get a collection of coins, such that their values add up to exactly Qi​ (ie. sum of denominations), and the sum of their weights is minimized. Output this minimum weight, or say that it is impossible to get exactly a sum of Qi​. As the minimum weight could be huge, output it module 109+7.
+Input:
+
+The first line of the input contains three integers: N, C and M.
+The i-th of the next N lines contains two numbers Ai​ and Wi​, which have been described above.
+The i-th of the next M lines contains a single integer: Qi​.
+
+Output:
+
+M lines, each of which should contain a single integer. If it is possible to achieve the queried value, then your output should be the remainder when the minimum total weight is divided by 109+7.
+If it is not possible to achieve the exact value in the query, print −1. Note that we do not take modulo anything here.
+

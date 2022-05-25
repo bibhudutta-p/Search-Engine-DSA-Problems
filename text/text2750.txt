@@ -1,0 +1,11 @@
+Problem
+You are given two sets of vertexes U = {U[1], U[2], ..., U[N]} and V = {V[1], V[2], ..., V[M]}. All N + M vertexes here are different. You are also given the matrix P of size N x M composed of real numbers from the segment [0, 1]. The number that stands at the intersection of the ith row and the jth column of this matrix is denoted by P[i][j] and means the probability that the vertexes U[i] and V[j] are connected by the bidirected edge. In other words, you are given a complete bipartite graph where each edge occurs with some probability. Your task is to find the expected size of the maximum matching of this graph.
+What exactly does it mean?
+Let's call our complete bipartite graph with random edges as random bipartite graph.
+Consider some arbitrary bipartite graph G = (U, V, E). Denote by P(G) the probability that our random bipartite graph is equal to G. How to calculate P(G)? Consider some pair of vertexes (U[i], V[j]). If these vertexes are connected by the edge in G then put PG[i][j] = P[i][j] otherwise put PG[i][j] = 1 – P[i][j]. Then P(G) is equal to the product of PG[i][j] for all N ∙ M pairs of (i, j), where 1 ≤ i ≤ N and 1 ≤ j ≤ M.
+Next, denote by MM(G) the size of the maximum matching in the graph G. In other words, MM(G) is the size of the largest set of edges of G such that no two edges share a common vertex. 
+Finally, the expected size of the maximum matching is the sum of products P(G) ∙ MM(G) for all possible bipartite graphs G with parts U and V. Note that there are 2 N ∙ M  such graphs in all. So don't try to calculate the answer directly by definition if you do not want to get verdict Time Limit Exceeded ;)
+Input
+The first line of the input file contains two integers N and M. Each of the following N lines contains M real numbers. jth number in the ith line of these N lines denotes P[i][j], the probability that the vertexes U[i] and V[j] are connected by the direct edge. Each pair of consecutive numbers in every line is separated by exactly one space.
+Output
+In the only line of the output file print the expected size of the maximum matching. Your answer will be considered as correct if it has an absolute error less than 10-6.

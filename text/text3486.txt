@@ -1,0 +1,16 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given an integer K and a random permutation ― sequence A1​,A2​,…,AN​ of integers 1 through N. You have to perform the following process:
+
+Split the permutation A into K non-empty contiguous subsequences S1​,S2​,…,SK​ such that each element of A appears in exactly one of them.
+Choose an arbitrary permutation P of the integers 1 through K.
+Create a new permutation B1​,B2​,…,BN​ by concatenating the sequences SP1​​,SP2​​,…,SPK​​ in this order.
+
+You are allowed to split the permutation A into K subsequences in any valid way and choose any permutation P you want. Your goal is to make the length of the longest increasing subsequence of the permutation B as large as possible.
+Input
+
+The first line of the input contains two space-separated integers N and K.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+Print a single line containing N space-separated integers B1​,B2​,…,BN​.

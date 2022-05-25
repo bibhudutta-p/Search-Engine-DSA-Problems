@@ -1,0 +1,15 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Everybody's heard about Chefland — the digital country where dreams come true, where nobody hears about crime and where everyone can get Accepted without submitting solutions. Of course, Chefland has the shape of a tree — there are N servers and N-1 bidirectional channels connecting pairs of servers in such a way that there is exactly one path between each pair of servers.
+The citizens in Chefland are living online; each citizen lives on exactly one server at any point in time. Don't be surprised, it's a futuristic scenario! Each channel connecting two servers has a value called ping. Each citizen can move to a different server through channels; moving through a channel with ping 2w takes w nanoseconds. Initially, there are ci citizens living on the i-th server (for each 1 ≤ i ≤ N).
+Recently, Chef has created an ICO for Chefcoin — the cryptocurrency of the future in Chefland. Everyone in Chefland should receive exactly 1 Chefcoin. How to organize this process? Chefcoins can only be received on certain servers containing cryptoexchanges. Unfortunately, Chef can only create cryptoexchanges on two servers, since they consume a lot of electric power. The citizens want to receive Chefcoin as fast as possible; therefore, each citizen chooses the closest server with a cryptoexchange and moves to that server. Receiving Chefcoin at a cryptoexchange takes zero time.
+Chef wants to minimize the sum of the times each citizen needs to spend moving to receive Chefcoin. The two servers containing cryptoexchanges can be chosen arbitrarily. Compute the minimum total time it takes Chefland's citizens to receive Chefcoin!
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers c1, c2, ..., cN.
+N-1 lines follow. Each of these lines contains three space-separated integers u, v and w denoting a channel with ping 2w nanoseconds connecting servers u and v.
+
+Output
+For each test case, print a single line containing one integer — the minimal sum of times it takes each citizen to receive Chefcoin if the two cryptoexchanges are placed optimally.

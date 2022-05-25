@@ -1,0 +1,8 @@
+Problem
+This is probably the simplest problem ever. You just need to count the number of ordered triples of different numbers (X1, X2, X3), where Xi could be any positive integer from 1 to Ni, inclusive (i = 1, 2, 3).
+No, wait. I forgot to mention that numbers N1, N2, N3 could be up to 1018. Well, in any case it is still quite simple :)
+By the way, because of this the answer could be quite large. Hence you should output it modulo 109 + 7. That is you need to find the remainder of the division of the number of required triples by 109 + 7.
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows. The only line of each test case contains three space-separated integers N1, N2, N3.
+Output
+For each test case, output a single line containing the number of required triples modulo 109 + 7.

@@ -1,0 +1,19 @@
+Problem
+Read problems statements in Mandarin chinese and Vietnamese as well.
+You are given a tree with N nodes (numbered 1 through N) and N−1 edges. Each node has a value; let's denote the value of node x by Wx​.
+Next, let's define the value of a simple path v1​,v2​,…,vk​ as ∑i=1k​i⋅Wvi​​. A simple path in a tree is a sequence of nodes v1​,v2​,…,vk​ such that:
+
+k≥1
+there is an edge between nodes vi​ and vi+1​ for each i (1≤i≤k−1)
+vi​=vj​ for each i,j (1≤i,j≤k) such that i=j
+
+You should find the maximum of values of all simple paths in the given tree.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers W1​,W2​,…,WN​.
+Each of the following N−1 lines contains two space-separated integers u and v denoting an edge between nodes u and v.
+
+Output
+For each test case, print a single line containing one integer — the maximum value of a simple path.

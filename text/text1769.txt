@@ -1,0 +1,15 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Alice and Bob created N and M recipes, respectively (N,M≥1), and submitted them to Chef for evaluation. Each recipe is represented by a string containing only lowercase English letters. Let's denote Alice's recipes by A1​,A2​,…,AN​ and Bob's recipes by B1​,B2​,…,BM​.
+Accidentally, Chef mixed up those recipes ― now, he has L=N+M recipes in a sequence S1​,S2​,…,SL​. Thankfully, the recipes created by Alice and Bob are distinguishable from each other. It is well-known that for each recipe s created by Alice, the following property holds, and for each recipe created by Bob, it does not hold: For each 1≤l<r≤∣s∣, the substring sl​,sl+1​,…,sr​ contains at least as many vowels as consonants. The letters 'a', 'e', 'i', 'o', 'u' are vowels, while the other letters are consonants.
+The score of a candidate who made K recipes is calculated as the product of fxcK​xc​​ for all letters c that occur in at least one of these recipes; here, xc​ is the number of recipes which contain the letter c and fxc​ is the total number of occurrences of this letter in all K recipes.
+Let's denote the scores of Alice and Bob by scA​ and scB​ respectively. Chef wants to know their ratio scA​/scB​. We know that Chef is a legendary cook, but he is not very good at calculating, so he is asking you to find that number.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer L.
+L lines follow. For each valid i, the i-th of these lines contains a single string Si​.
+
+Output
+For each test case, if the ratio of scores exceeds 107, print a single line containing the string "Infinity" (without quotes); otherwise, print a single line containing one real number scA​/scB​.
+Your answer will be considered correct if its absolute or relative error does not exceed 10−6. It is guaranteed that scA​/scB​ does not lie in the range 107±10.

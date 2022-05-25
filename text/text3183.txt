@@ -1,0 +1,14 @@
+Problem
+"You know Walter, sometimes it doesn't hurt to have someone watching your back"
+The Hitmen twins of the Juarez Cartel, Leonel and Marco Salamanca, often known as the "Cousins", have set off from Mexico in search of Walter White. They come across an informant, who only agrees to help them if they solve his puzzle of interesting numbers.
+There are N interesting numbers A1, A2, ... AN consisting of integers from 1 to N.
+The task is to find Kth smallest GCD among all GCD ( Ai,Aj) for each (i,j), such that 1≤i<j≤N.
+Print the Kth smallest GCD and also find any pair having the resultant GCD (print their indices).
+Input:
+
+The first line will contain T, number of testcases. T testcases follow :
+The first line of each testcase contains two space-separated integers N,K.
+The second line of each testcase contains N space-separated integers A1, A2, ...,AN.
+
+Output:
+For each test case, print two lines. On the first line, print the Kth smallest GCD. On the second line, print any pair of indices (x,y) such that x != y and GCD ( Ax,Ay) = Kth smallest GCD.

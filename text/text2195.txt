@@ -1,0 +1,6 @@
+Problem
+Several integers X0, X1, ..., XK-1 are randomly chosen from some intervals.  Namely, X0 is randomly chosen between A0 and B0, inclusive, X1 is randomly chosen between A1 and B1, inclusive, and so on.  We are interested in the expected value of the greatest common divisor of the Xi which is the average of GCD(X0, X1, ..., XK-1) over all possible choices of X0, X1, ..., XK-1. In order to avoid floating-point precision issues, we instead use the following output method. Suppose the expected value of the greatest common divisor of all the Xi is P/Q, where P and Q are relatively prime positive integers.  Find an integer N between 0 and 1000000006, inclusive, for which (P + Q * N) is divisible by 1000000007 = 109 + 7.
+Input
+Input will begin with an integer T, the number of test cases. Each test case begins with an integer K, the number of integers to be chosen.  K pairs of integers Ai Bi follow.
+Output
+For each test case, output the value N according to the problem statement.  If multiple such values exist, print any one of them.  If no such value exists, print -1.

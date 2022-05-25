@@ -1,0 +1,17 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+You are working in a company with N employees numbered from 0 to N - 1, and employee 0 is the director. Each employee, except the director, has a supervisor. The director doesn't have a supervisor. Let's call employee v, an ancestor of employee u if and only if v is the supervisor of u or v is an ancestor of the supervisor of u.
+Also, each employee belongs to exactly one club at any moment. Employee i belongs to club number Ci initially. The company has assemblies for which all the employees of the company gather. During an assembly, the employees introduce each other, in a particular fashion. Employee v introduces employee a to employee b if a, b,
+v are from the same club, a is ancestor of v and v is ancestor of b.
+Also some employees may change their club. You are given these changes, and you need to calculate the total number of introduces if an assembly was to be held after each such club membership change.
+Input
+
+The first line contains two integers, N and Q, denoting the number of employees in the company and the number of club membership changes, respectively.
+The second line contains N - 1 space-separated integers: P1, P2, ..., PN - 1, denoting the supervisors. Pi is the supervisor of employee i.
+The third line contains N space-separated integers: C0, C1, ..., CN - 1, denoting the clubs. Ci is the club that employee i belongs to initially.
+Then, Q lines follow which contain the numbers X1, X2, .., XQ, one in each line. That is, line number i + 3 contains Xi. What it denotes is explained below.
+
+
+The queries are encoded, and have to be decoded online. The i-th change (i running from 1 to Q) is that employee number (i - 1) mod N changes his club to (Xi + ans) mod N. Where ans is the previous output (Note that, even for i = 1, there is a "previous output", because as is explained below, the first output has to be before any change).
+Output
+You have to output Q + 1 lines. Line number i + 1 should contain the answer for the original company after first i changes. That is, you should output the answer for the original company, and then after each club membership change.

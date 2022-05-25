@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef lives in an N×M grid. He is currently participating in a treasure hunt, and has two items left to find. Chef knows that the Manhattan distance between the cells containing these two items is exactly k. He wants to know, in how many different pairs of cells can the two items be present?
+Let Ak​ be the number of desired pairs when the value of Manhattan distance between the two cells containing these two items is equal to k. Let C=∑i=1N+M−2​Ai​⋅31i−1. You have to find the value of C.
+The answer may be large, so you need to find it modulo 998244353.
+The Manhattan distance between two points (x,y) and (x′,y′) is defined as ∣x−x′∣+∣y−y′∣.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+Each testcase contains of a single line of input, two integers N and M.
+
+Output Format
+On a new line for each test case, print C modulo 998244353

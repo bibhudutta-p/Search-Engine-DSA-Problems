@@ -1,0 +1,18 @@
+Problem
+Read problems statements in Russian.
+Chef has an array A of size N. Chef wants to choose any subsequence of size exactly ⌈2N​⌉ from the array such that GCD of all the elements in that sequence must be 2. Chef names such a kind of sequence as a half-sequence.
+Help Chef to find whether he would be able to select any half-sequence in the given array.
+As a reminder,
+
+A subsequence of an array is a sequence that can be derived from the given array by deleting zero or more elements without changing the order of the remaining elements.
+GCD stands for Greatest Common Divisor. The greatest common divisor of a subsequence is the largest integer d such that all the numbers in sequence are divisible by d. For more information, refer to here.
+⌈x⌉ is the ceiling (round up) operation: ⌈3.5⌉=4,⌈2⌉=2.
+
+Input Format
+
+The first line contains an integer T denoting the number of test cases. The T test cases then follow.
+The first line of each test case contains a single integer N denoting the size of the array.
+The second line of each test case contains N space-separated integers A1​,A2​....AN​ denoting the given array.
+
+Output Format
+For each test case, output on one line YES if Chef can find a half-sequence, else print NO. Output is case insensitive.

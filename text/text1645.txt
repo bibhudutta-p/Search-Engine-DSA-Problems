@@ -1,0 +1,34 @@
+Problem
+
+Chef Ciel has forgotten the combination to the safe.
+It's a serious incident, because the safe contains this month's waitstaff salaries.
+
+
+To open the safe, N boxes and N balls are used.
+The safe has N boxes that numbered from 1 to N uniquely.
+Each box can contain only one ball.
+Now, the box i contains one ball that numbered i, and the safe is locked.
+
+
+The only things which Ciel remember for unlocking the safe are the followings:
+
+
+She must put every ball into some box.
+
+
+Let the box i contains the ball Ai.
+When the safe is opened the number of divisors of i equals to the number of divisors of Ai for all i from 1 to N. 
+
+How many combinations which satisfy above conditions should she check?
+The number of combinations can be very large, so you should print this number modulo 500009 (5*105+9).
+
+Input
+
+The first line contains an integer T, the number of test cases.
+Then T test cases follow.
+The only line of each test case contains an integer N.
+
+Output
+
+For each test case, print the number of combinations modulo 500009 (5*105+9).
+

@@ -1,0 +1,14 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Bitsetbaba Ashiq works in a power grid, which consists of 2K power stations (numbered 0 through 2K−1). Initially, there are no connections between the power stations.
+One day, Ashiq's boss gave him M integers x1​,x2​,…,xM​ and asked Ashiq to add connections between some power stations. For each two different power stations u and v, Ashiq should connect them directly if there is a valid index i such that u⊕v=xi​. Here, ⊕ denotes the bitwise XOR operation.
+To confirm whether Ashiq has completed the task correctly, he should report to his boss the number of connected components in the resulting power grid. Two power stations u and v are in the same connected component if they are connected directly or indirectly (through other stations).
+Ashiq is lazy and he does not want to actually physically perform the task, but he also wants to keep his job. Therefore, he asks for your help. Can you help him find the final number of connected components?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers K and M.
+The second line contains M space-separated integers x1​,x2​,…,xM​.
+
+Output
+For each test case, print a single line containing one integer — the number of connected components.

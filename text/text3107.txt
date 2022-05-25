@@ -1,0 +1,15 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given N=240 integers, randomly generated in [0;998244353).
+You need to answer Q queries, in each query, you are given one integer X, 0≤X<998244353. And you need to find a subset of given integers with sum X, modulo 998244353.
+For each test case, it is guaranteed that at least one such subset exists.
+Input:
+
+The first line contains one integer N=240.
+The second line contains N integers, A1​,A2​,…,AN​ (0≤Ai​<998244353).
+The third line contains one integer Q.
+The next line contains Q integers X1​,X2​,…,XQ​ (0≤Xi​<998244353).
+
+Output:
+For each query, assume that you've chosen indices 1 \leq i_1 &lt; i_2 &lt; \ldots \lt i_k. Then, denote Y=2i1​−1+2i2​−1+…+2ik​−1. You have to print four integers: Ymod260,(⌊260Y​⌋)mod260,(⌊2120Y​⌋)mod260,(⌊2180Y​⌋)mod260.
+If there are several possible solutions, you can print any.

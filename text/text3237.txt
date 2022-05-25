@@ -1,0 +1,26 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, and Bengali as well.
+Chef has an array a1​,…,an​ of n elements. Initially, all elements of the array are equal to 1. There are two types of operations.
+
+
+1 i:  Take the index i (1≤i≤n), and multiply it by 2 (ai​:=2⋅ai​).
+
+
+2 i j:  Take two indexes i and j (1≤i,j≤n,i=j), and subtract aj​ from ai​, (ai​:=ai​−aj​).
+
+
+All elements must be positive after each operation, and at most 109.
+In addition, you are given an array b. Chef wants to make b from a. Help Chef to reach the array b in no more than 43 000 operations, or determine it is impossible.
+Input:
+
+
+The first line contains a single integer n - size of the array.
+
+
+The second line contains n integers b1​,…bn​ - the array b.
+
+
+Output:
+If it is impossible to reach b, print −1.
+Otherwise, output k - the number of operations (0≤k≤43 000). On the next k lines, print the operations as described in the statement.
+If there are multiple solutions, you may output any.

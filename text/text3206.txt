@@ -1,0 +1,12 @@
+Problem
+Given a tree with n nodes. Split it into 3 parts such that all the three parts are connected components in original graph and each node is exactly present in one of the parts and the following function is minimised:
+Let s1,s2,s3 be the sizes of the 3 parts (or connected components)
+then f=∣s1−s2∣+∣s2−s3∣+∣s1−s3∣
+Also calculate the number of ways of splitting the tree. Two ways are considered different if different sets of edges is removed.
+Input:
+
+First line will contain n, number of vertices in the tree.
+Each of the next n−1 lines contain two space separated integers u and v denoting an edge between u and v
+
+Output:
+Output in a single line two space centered integers denoting the optimal value of function and number of ways to achieve it.

@@ -1,0 +1,15 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+You are given rooted tree with N weighted nodes numbered from 1 to N. The root of tree is node with number 1. Your goal is to handle Q queries, each of which can be one of the below three types:
+
+getSum(u) := returns sum of values in nodes in u's subtree.
+add(u, x) := adds x to values of every node in u's subtree (including u).
+swap(u, v) := swaps whole subtrees of u and v if and only if the subtrees are disjoint.
+
+Input
+The first line of the input contains two space separated integers N and Q, denoting the number of nodes in the tree and the number of queries to handle, respectively.
+In the second line there are N space separated integers w1, w2, ..., wN, where wi denotes the value assigned to node i at the beginning.
+Each of the following N-1 lines contains two space separated integers u and v denoting that there is an edge between u to v in the tree.
+The i-th of the following Q lines contains a description of the i-th query. It starts with integer qtype denoting the type of the query. If qtype=1, then it is followed by a single integer denoting the parameter of the query. Otherwise, if qtype=2 or qtype=3, it is followed by two space separated integers denoting the parameters to the query.
+Output
+For each query of type 1, output the answer for such a query in a single line. Moreover, output -1 for each query of type 3 for which the given subtrees are not disjoint.

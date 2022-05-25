@@ -1,0 +1,20 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef has a huge and beautiful tree in his garden (an oak, not the kind of tree you just thought of), so quite often he just sits inside and looks at this wonderful oak through the window.
+When observing the tree for a long time Chef sees that even an oak has a life. A bunch of cute green acorns may grow on some branches, which in turn may cause some branches to fall down due to not being able to hold all the weight. A bird may sit down on a branch causing all the acorns to fall down from this branch, from the branches growing out of this branch, and from all the branches growing out of them, and so on... In other words, it really looks like the oak is alive.
+The tree has a trunk (once again, a wooden trunk is meant here) and n branches. Every branch grows either out of the trunk or out of another branch. We will say that branch B is below branch A if there exists a sequence of branches C1, C2, ..., Ck such that C1 = A; Ck = B and Ci + 1 grows out of Ci for all 1 ≤ i < k. Every branch has a maximum weight w it can hold ― in case a branch plus all the branches below it have more than w acorns overall, the branch (together with all the branches below it and all the acorns on them) falls down. The branch which falls is the 'deepest' branch. That is, once some acorns have grown on a branch, then, if this branch cannot handle the weight, it falls. Else, if the branch on which this branch grows cannot handle the weight, that branch falls, and so on. This happens sequentially, and so once a branch has fallen, none of the branches above it fall in the same moment, and at most one branch would fall after any particular event. Also, the trunk is super strong, and hence can carry any amount of weight.
+ 
+Oh, and just one more thing ― the tree is persistent, so it is quite hard for Chef to remember all the states of the oak, can you help him with this? Chef will tell you everything he notices about the tree, but you should answer what exactly the last event resulted into.
+Input
+The first line of the input contains an integer T denoting the number of test cases.
+For each test case, the first line of input contains two integers n and m ― the number of branches the oak has and the number of events Chef has to tell you about. The branches are numbered from 1 to n.
+The v-th of the following n lines contains 2 integers ― pv and wv. If pv = 0, then branch v grows out of the trunk, otherwise it grows out of branch pv. wv is the maximum weight branch v can hold.
+The i-th of the following m lines describes the i-th event Chef has observed:
+
+The first integer is state ― the state of the oak we are applying the new event to. state = 0 means the state at the very beginning with no branches fallen and no acorns grown. state > 0 means the state right after the event number state
+The second integer is q ― the type of the event
+If q = 1, two integers u and x follow, meaning that x acorns have grown on the branch u. After this event some branch could have fallen, and if this is the case, output the number of this branch. Otherwise output 0
+If q = 2, an integer u follows meaning that a bird has sat down on the branch u and all the acorns from this branch and from all the branches below it have fallen. For this type of event Chef asks you to print the total number of acorns that have fallen
+
+Output
+For each event print the value Chef asked you about on a separate line.

@@ -1,0 +1,15 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Vivek likes playing with lasers, but his friend Divyansh says that reading biographies is much more interesting. In order to prove that lasers are fun too, Vivek proposed an interesting task involving them:
+You are given N points in a plane (numbered 1 through N); for each valid i, the i-th point is Pi​=(i,Ai​). There are N−1 line segments between them (numbered 1 through N−1); for each valid i, the i-th line segment is formed by connecting the points Pi​ and Pi+1​.
+You should answer Q queries. In each query, a laser beam is fired horizontally to the right, from a point (x1​,y) to a point (x2​,y) (where it stops and does not propagate further). Find the number of line segments it collides with on the way.
+The beam is considered to collide with a line segment if it intersects or touches this segment, except when the left endpoint of this segment is (x2​,y) or its right endpoint is (x1​,y).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+Each of the next Q lines contains three space-separated integers x1​, x2​ and y describing a query.
+
+Output
+For each query, print a single line containing one integer ― the number of line segments the beam collides with.

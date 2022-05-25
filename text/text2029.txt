@@ -1,0 +1,12 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+You are given a function f which is defined as :
+
+Your task is to find the value of  f(N) / ( f(r)*f(N-r) ) . As it will be a large number output it modulo M.
+ Input 
+First line contains T , number of test cases to follow.
+Next follows T test case.
+First line of ever test case contain 3 space separated integers N , M and Q.
+Next Q line follows , each line contain r.
+Output
+For every test case , output Q lines , each line containing the answer.

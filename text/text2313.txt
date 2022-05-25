@@ -1,0 +1,19 @@
+Problem
+Alice recently converted all the positive integers from 1 to 2N−1 (both inclusive) into binary strings and stored them in an array S.  Note that the binary strings do not have leading zeroes.
+While she was out, Bob sorted all the elements of S in lexicographical increasing order.
+Let Si​ denotes the ith string in the sorted array.
+Alice defined a function F such that F(Si​) is equal to the count of 1 in the string Si​.
+For example, F(101)=2 and F(1000)=1.
+Given a positive integer K, find the value of ∑i=1K​F(Si​).
+String P is lexicographically smaller than string Q if one of the following satisfies:
+
+P is a prefix of Q and P=Q.
+There exists an index i such that P_i &lt; Q_i and for all j<i,  Pj​=Qj​.
+
+Input Format
+
+The first line will contain an integer T - number of test cases. Then the test cases follow.
+The first and only line of each test case contains two integers N and K.
+
+Output Format
+For each test case, output the value ∑i=1K​F(Si​).

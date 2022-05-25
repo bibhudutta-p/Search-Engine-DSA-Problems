@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Chef is baking a large cake! The cake consists of N different ingredients numbered 1 through N. Chef can choose how much of each ingredient to use in his cake recipe; let's denote the amount of the i-th ingredient used in the cake by gi​. Chef can only measure ingredients in fixed whole units, so the amounts of all ingredients must be integers.
+In order to keep the cake inexpensive (and, of course, use each ingredient from the recipe), the chosen amounts of ingredients have to satisfy the condition 1≤gi​≤K (for each 1≤i≤N). The taste of the resulting cake is computed as the bitwise XOR of the amounts of all ingredients, i.e. g1​⊕g2​⊕⋯⊕gN​. For example, if N=3 and g=[1,2,5], the taste of the cake is equal to 1⊕2⊕5=6.
+Please help Chef and find one way to choose the amounts of all ingredients such that the taste of the cake is maximum possible.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and K.
+
+Output
+For each test case, print a single line containing N space-separated integers g1​,g2​,…,gN​ — the amounts of ingredients 1,2,…,N.

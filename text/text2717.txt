@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Vivek is quite fond of expected values. One day, he stumbled upon the following problem. He cannot solve it, so he is asking you for help.
+Consider all trees with N vertices (numbered 1 through N); two trees are different if there is a pair of vertices u and v such that there is an edge between vertices u and v in exactly one of these trees.
+For a uniformly randomly chosen tree T, let's denote the degrees of vertices 1 through N in this tree by d1​,d2​,…,dN​. Then, let's denote A=(d1​⋅d2​⋅…⋅dN​)K. Find the expected value of A.
+It can be proved that the expected value of A can be expressed as a fraction P/Q, where P and Q are coprime positive integers and Q is coprime to 998,244,353. You should compute the value of P⋅Q−1 modulo 998,244,353, where Q−1 denotes the multiplicative inverse of Q modulo 998,244,353.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and K.
+
+Output
+For each test case, print a single line containing one integer ― P⋅Q−1(mod998244353).

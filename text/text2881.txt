@@ -1,0 +1,13 @@
+Problem
+You are given two positive integers a and b, we define f(a,b) as the maximum value of ∣gcd(a,x)−gcd(b,x)∣ where x is some natural number. Formally,
+f(a,b)=x∈Nmax​∣gcd(a,x)−gcd(b,x)∣
+, where N represents the set of natural numbers and gcd(a,b) represents the greatest common divisor of a and b.
+You are given an integer k. You need to find the number of ordered pairs (a,b) (where a,b are positive) such that f(a,b)=k.
+Note that pairs (a,b) and (b,a) are considered different if a=b. For example, pair (1,2) is not the same as (2,1).
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each testcase contains a single integer k.
+
+Output Format
+For each testcase, output the number of ordered pairs (a,b) such that f(a,b)=k.

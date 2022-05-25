@@ -1,0 +1,16 @@
+Problem
+Read problems statements in Mandarin chinese and Vietnamese as well.
+You are given a string S. A cyclic shift of S is a string formed by moving a number of characters from the beginning of S to its end (in the same order). Formally, for an integer k (0≤k<N), the k-th cyclic shift is a string R with length N such that:
+
+Ri​=Si+k​ for each 1≤i≤N−k
+Ri​=Si−N+k​ for each N−k+1≤i≤N
+
+A string is palindromic if it is equal to its own reverse string.
+Compute the number of palindromic cyclic shifts of the given string.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single string S.
+
+Output
+For each test case, print a single line containing one integer — the number of palindromic shifts.

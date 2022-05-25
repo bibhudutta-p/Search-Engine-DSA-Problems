@@ -1,0 +1,17 @@
+Problem
+There are initially X people in a room.
+You are given an array A of length N which describes the following events:
+
+If Ai​≥0, then Ai​ people enter the room at i-th minute. For e.g. if A2​=3, then 3 people enter the room at the 2-nd minute.
+If Ai​<0, then ∣Ai​∣ people leave the room at i-th minute. Here ∣Ai​∣ denotes the absolute value of Ai​. For e.g. if A4​=−2, then 2 people leave the room at the 4-th minute.
+
+Determine the maximum number of people in the room at any moment of time.
+It is guaranteed in the input that at any moment of time, the number of people in the room does not become negative.
+Input Format
+
+The first line will contain T - the number of test cases. Then the test cases follow.
+The first line of each test case consists of two integers N and X - the length of the array A and the number of people in the room initially.
+The second line of each test case contains N integers A1​,A2​,A3​,…AN​.
+
+Output Format
+For each testcase, output the maximum number of people in the room at any point of time.

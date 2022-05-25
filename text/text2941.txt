@@ -1,0 +1,31 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+There are two types of vaccines available: Covaxin and Covishield.
+A black marketeer has X coins and wants to buy as many vaccines as possible. Due to the black marketing concerns, government has enforced the following policy:
+
+
+ith dose of Covaxin costs a+(i−1)⋅b coins for every i≥1.
+
+
+ith dose of Covishield costs c+(i−1)⋅d coins for every i≥1.
+
+
+The values of the four parameters a,b,c and d, however isn't constant and might vary from query to query. In general the value of these four parameters for ith query will be Ai​,Bi​,Ci​ and Di​ respectively.
+Let ansi​ be the maximum total quantity of vaccines the black marketeer can buy corresponding to the ith query. For each query, you have to find the value of ansi​.
+You will be given integers A1​,B1​,C1​,D1​,P,Q,R,S,T and M which will define the queries to be followed.
+For i≥1 and i≤I−1:
+
+Ai+1​=(Ai​+ansi​⋅T)modM+P
+Bi+1​=(Bi​+ansi​⋅T)modM+Q
+Ci+1​=(Ci​+ansi​⋅T)modM+R
+Di+1​=(Di​+ansi​⋅T)modM+S .
+
+Note: Since the output is large, prefer using fast input-output methods.
+Input Format
+
+First line contains of input contains an integer I denoting the number of queries.
+Second line of input contains five integers X,A1​,B1​,C1​,D1​.
+Third line of input contains six integers P,Q,R,S,T,M.
+
+Output Format
+For each query output the maximum quantity of vaccines the black marketeer can buy.

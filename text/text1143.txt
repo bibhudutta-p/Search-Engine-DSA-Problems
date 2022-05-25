@@ -1,0 +1,13 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+You are given 2 arrays W =  (W1, W2, .., WN) and C =  (C1, C2, .., CN) with N elements each. A range [l, r] is unique if all the elements Cl, Cl+1, .., Cr are unique (ie. no duplicates). The sum of the range is Wl +  Wl+1 + ... + Wr.
+You want to find an unique range with the maximum sum possible, and output this sum.
+Input
+
+The first line of the input contains an integer T, denoting the number of test cases. The description of each testcase follows.
+The first line of each test case contains a single integer N, denoting the size of the arrays.
+The second line contains N space-separated integers : C1, C2, .., CN.
+The third line contains N space-separated integers : W1, W2, .., WN.
+
+Output
+For each testcase, output a single integer in a new line, which should be the maximum possible sum of an unique range.

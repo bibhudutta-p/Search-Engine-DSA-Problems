@@ -1,0 +1,19 @@
+Problem
+Chef's friend JJ challenged him to construct a tree which has exactly R red coloured nodes, G green coloured nodes and B blue coloured nodes.
+To make the task interesting he added an extra condition: the simple path between any two blue nodes should contain at least one red node and at least one green node.
+Can you help Chef to complete JJ's challenge by constructing any valid tree that satisfies these conditions?
+Input Format
+
+The first line contains T - the number of test cases. Then the test cases follow.
+The first line of each test case contains R, G, and B - the number of red, green and blue nodes respectively in the tree.
+
+Output Format
+
+If a tree can be constructed that fulfils all the requirements then
+
+In the first line, output a string of length R+G+B in which the ith character (1-based indexing) is either R, G or B denoting the colour of the ith node as red, green or blue respectively.
+In the following R+G+B−1 lines, output two integers U and V denoting there is an edge between Uth and Vth node.
+
+
+If no tree fulfils the requirements print -1 in a single line.
+

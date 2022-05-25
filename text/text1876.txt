@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef has a tree with N nodes (numbered 1 through N) and a non-negative integer x. The nodes of the tree have non-negative integer weights; let's denote the weight of node i by ai​.
+Next, let's define the XOR value of a tree as the bitwise XOR of weights of all its nodes.
+Chef wants to remove zero or more edges from his tree in such a way that each individual tree in the forest formed by removing these edges has XOR value x. Help him compute the number of ways to remove a set of edges such that this condition is satisfied. Since the answer may be large, compute it modulo 109+7.
+Input
+
+The first line of the input contains two space-separated integers N and x.
+The second line contains N space-separated integers a1​,a2​,…,aN​.
+Each of the following N−1 lines contains two space-separated integers u and v denoting an edge between nodes u and v in Chef's tree.
+
+Output
+Print a single line containing one integer ― the number of ways to remove edges, modulo 109+7.

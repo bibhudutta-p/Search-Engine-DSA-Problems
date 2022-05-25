@@ -1,0 +1,22 @@
+Problem
+Salmon is playing a game!
+He is given two integers N and K. His goal is to output K pairs (xi​,yi​). He creates a function f such that f(xi​)=yi​ and f is undefined for all other values of x. His pairs must then meet the following conditions:
+
+All xi​ are distinct.
+All yi​ are distinct.
+All xi​,yi​ are in the range [0,2N−1] and are integers.
+f(f(xi​)) is defined for all i.
+Let H(x) be the number of set bits in the binary representation of x. Then, H(xi​)=H(f(f(xi​))) for all i.
+
+Unfortunately, Salmon is unable to solve this. Help Salmon win the game!
+If there are multiple correct solutions, you may output any one of them. It can be proven that a solution exists for all N and K that meet constraints.
+Input
+
+The first line input contains a single integer T denoting the number of testcases
+Each of the next T lines contains two space-separated integers N and K respectively.
+
+Output
+
+Output K lines for each testcase.
+The i-th line of a testcase should contain two space-separated integers: xi​ and yi​, following the given constraints.
+

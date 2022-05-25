@@ -1,0 +1,10 @@
+Problem
+Sereja has an array of n integers a[1], a[2], ..., a[n]. In one move Sereja can do the following operation
+Assume integers v and t, Where 1 ≤ v, t ≤ n, such that, all the elements of the array a[v], a[v + t], a[v + t * 2], ... a[v + t * k] Where k ≥ 0 are equal.
+To delete all elements a[v], a[v + t], a[v + t * 2], ... a[v + t * k] from the array. The remaining elements are written in a without any gaps.
+Note that you can not decide the value of k. After you decide the integers v and t, k will be set to the largest value possible. That is, the largest k such that v + t * k ≤ n. Your selection of v and t must satisfy the conditions described above for this value of k.
+Sereja wants to delete the entire array. Help him delete all the elements of the array in the fewest number of moves. Since this is a Challenge Problem, your objective is to minimize the number of moves it takes to delete the entire array.
+Input
+The first line contains an integer n, the size of the array. The second line contains integers a[1], a[2], ..., a[n], the integers written in the array.
+Output
+For each test case print in the first line number q, the number of moves you will take. In next q lines print pairs of the integers v[i], t[i] (1 ≤ i ≤ q), the values for v and t that you assume during the move i. Be careful with the output sequence and output format. This problem uses a custom judge. Non adherence to the format may lead to verdicts like internal error, run time error and wrong answer.

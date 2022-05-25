@@ -1,0 +1,18 @@
+Problem
+An optimist believes in the optimal usage of all options available.
+Chef gives you a sequence A1​,A2​,…,AN​ consisting of integers. You can perform the following operation on the sequence any number of times (possibly 0):
+
+Select any continuous segment Al…r​ and sort the segment in non-descending order, while keeping other elements unchanged. The cost to perform this operation is max(Al…r​)−min(Al…r​).
+
+For example, if the sequence A=[3,4,1,5,1,9], then applying the operation on A2…5​ yields the sequence [3,1,1,4,5,9]. The cost to perform this operation is 5−1=4 .
+You have to determine the minimum total cost of operations so that the sequence A becomes sorted in non-descending order, which means for all 2≤i≤N, the condition Ai−1​≤Ai​ is satisfied.
+Input Format
+
+The first line of the input contains a single integer T - the number of test cases. The test cases then follow.
+The first line of each test case contains a single integer N.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+
+For each test case, print the minimum total cost of operations so that the sequence A becomes sorted in non-descending order.
+

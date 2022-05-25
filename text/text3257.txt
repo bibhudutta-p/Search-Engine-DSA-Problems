@@ -1,0 +1,25 @@
+Problem
+You have a grid with N rows and M columns in which K cells are black and the rest are white.
+Let (i,j) represent the cell in the i-th row from the top and the j-th column from the left.
+If you are currently at cell (i,j), you can:
+
+move one cell down to (i+1,j)
+move one cell right to (i,j+1)
+
+The cost of a path is defined as the number of times you move between two cells that have different colours.
+You are given Q queries. In the i-th query, you are initially at (1,1) and want to reach (Xi​,Yi​) with the minimum cost.
+For each query, before you begin, you can perform the following operation any number of times (possibly zero):
+
+Choose a column and flip the colour of all cells in this column (i.e. change the colour of all the black cells to white and the colour of all the white cells to black in this column)
+
+For each query, what is the minimum cost of a path from (1,1) to (Xi​,Yi​) after performing this operation any number of times (possibly zero)?
+Note: The operations applied in different queries are independent of each other.
+Input Format
+
+The first line of the input contains a single integer T - the number of test cases. The description of T test cases follows.
+The first line of each test case contains three integers N, M, K and Q - the number of rows, the number of columns, the number of black cells and the number of queries respectively.
+The following K lines each contain two integers Ai​ and Bi​ - indicating that the i-th black cell is at (Ai​,Bi​).
+The following Q lines each contain two integers Xi​ and Yi​ - the destination cell of the i-th query.
+
+Output Format
+For each test case, print a single line containing Q space separated integers ― the answer for each of the Q queries.

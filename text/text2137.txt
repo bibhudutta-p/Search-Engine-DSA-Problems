@@ -1,0 +1,18 @@
+Problem
+Read problem statements in Vietnamese,
+Bengali, Mandarin Chinese, and Russian as well.
+Given a tree with N nodes, answer Q queries of the following type:
+
+a,b (where a=b) which asks you to calculate ∑i=1N​min(dist(i,a),dist(i,b)) where dist(x,y) is the number of edges on the shortest path between the nodes x and y in the tree.
+
+Note: The input and output of this problem are large, so prefer using fast input/output methods.
+Input
+
+The first line contains an integer T, the number of test cases. Then the test cases follow.
+Each test case contains N+Q lines of input.
+The first line contains two integers N and Q.
+The next N−1 lines each contains two integers u, v representing an edge between nodes u and v in the tree.
+The next Q lines each contains two integers a, b, the nodes considered for the respective query.
+
+Output
+For each query of each test case, output the answer in a new line.

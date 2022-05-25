@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Kuroni is not only a great programmer, but also a successful farmer. He has already built N cowsheds for his cows (numbered 1 through N) and equipped them with air conditioners, refrigerators, etc. Despite these facilities and high quality food, the cows do not seem to be happy. Through research, Kuroni figured out that cows also need the Internet to communicate and chit-chat with each other.
+Kuroni decided to build a LAN system of connections between his cowsheds. Initially, no connections between the cowsheds exist. Then, for Q days (numbered 1 through Q), Kuroni adds some direct connections without removing any previously added connections. For each valid i, on the i-th day, Kuroni adds direct bidirectional connections between pairs of cowsheds (Li​,Ri​),(Li​+1,Ri​−1),…,(Ri​,Li​), i.e. (Li​+k,Ri​−k) for each 0≤k≤Ri​−Li​. (There may be multiple connections between some pairs of cowsheds. A cowshed may also be connected with itself.)
+Two cowsheds are in the same group if they can communicate with each other either directly or indirectly ― through connections with some other cowsheds. At the end of each day, tell Kuroni the number of groups of cowsheds that currently exist.
+Input
+
+The first line of the input contains two space-separated integers N and Q.
+Q lines follow. For each valid i, the i-th of these lines contains two space-separated integers Li​ and Ri​.
+
+Output
+Print Q lines. For each valid i, the i-th of these lines should contain a single integer ― the number of groups at the end of the i-th day.

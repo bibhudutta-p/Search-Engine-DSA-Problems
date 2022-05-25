@@ -1,0 +1,16 @@
+Problem
+The most dangerous cyborg Jenish is finally entrapped on a narrow bridge over a valley. The bridge is N meters long. For convenience, position i represents a portion of bridge between whose left border is at distance i−1 meters from left end and right border is at distance i meters from left end.
+There are N batteries placed at positions 1,2...N. The ith one has energy a[i].
+There are two tanks of strength X at positions 0 and N+1. Initially Jenish has 0 energy.
+From now at any second t starting from 1,
+first, Jenish can select any battery placed at position i such that (t≤i≤N−t+1) and add a[i] to his energy (every battery can be used atmost once).
+Then both the tanks move one meter towards each other. If there are still any batteries present at positions where the tanks are heading, the battery gets destroyed.
+At any moment if Jenish's total energy is greater than or equal to X, he destroys both the tanks and he escapes the cops. If by the end of ⌊2(n+1)​⌋th second, he can't destroy the tanks, he himself gets destroyed. Find out if he can escape.
+Input:
+
+The first line consists of a single integer T, the number of test cases.
+The first line of each test case contains two space separated integers which represents N and X for that test case respectively.
+The second line of each test case contains N space separated integers, ith of which represents a[i].
+
+Output:
+For each test case, print in a single line, YES if Jenish can escape or NO if he gets destroyed.

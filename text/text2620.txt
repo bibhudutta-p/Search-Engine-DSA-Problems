@@ -1,0 +1,24 @@
+Problem
+Let A be an array of N elements and let us define beauty of array as (consider 1 based indexing)
+long long int beauty(int N, int A[]){
+     long long int val = 0;
+     for(int i = 1; i &lt; N; i++){
+           for(int j = i + 1; j &lt;= N; j++){
+                 if(a[i] &lt; a[j]){val++;}
+                 else{val--;}
+           }
+     }
+     return val;
+}
+
+Let G be a tree with N nodes numbered from 1 to N rooted at node 1. Find the Expected Beauty of all the valid BFS(BreadthFirstSearch) of G.
+Expected beauty of a BFS can be calculated using above function considering visiting order as elements of the array.
+Input:
+
+First line will contain N, the number of nodes.
+This will be followed by N−1 lines each containing two space-separated integers a, b denoting that their is an edge between nodes a and b.
+
+Output:
+
+On a single line, print a real number, the answer to the problem. Your answer will be considered correct if its absolute or relative error does not exceed 10−6. Formally, if your answer is a and the jury's answer is b, your answer will be accepted if max(1,b)∣a−b∣​≤10−6.
+

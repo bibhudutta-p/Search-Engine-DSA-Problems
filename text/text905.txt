@@ -1,0 +1,13 @@
+Problem
+Alice has an array A of length N. She is interested in finding the number of pairs (i,j) such that 1≤i<j≤N and Ai​⊕Aj​<Ai​&amp;Aj​.
+⊕ represents the Bitwise XOR operator.
+&amp; represents the Bitwise AND operator.
+Input Format
+
+The first line of input will contain an integer T — number of test cases. Then the test cases follow.
+Each test case contains two lines of input.
+The first line of each test case contains an integer N, the length of the array A.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, output the number of pairs (i,j) such that 1≤i<j≤N and Ai​⊕Aj​<Ai​&amp;Aj​.

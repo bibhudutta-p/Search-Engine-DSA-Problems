@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You are given a grid with N rows (numbered 1 through N) and M columns (numbered 1 through M). Each cell of this grid contains either water or land. The initial state of the grid is described by strings S1​,S2​,…,SN​; for each valid i and j, the j-th character of Si​ is '.' if the cell in the i-th row and j-th column initially contains water or '*' if this cell initially contains land.
+A maximal group of connected land cells (by moving between side-adjacent land cells) is called an island.
+You may perform any number of operations (including zero). In one operation, you should choose one cell of the grid and convert it either to a land cell or to a water cell. Find the smallest number of operations required to maximise the number of islands in the grid.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+N lines follow. For each valid i, the i-th of these lines contains a single string Si​ with length M.
+
+Output
+For each test case, print a single line containing one integer ― the smallest number of operations required to maximise the number of islands.

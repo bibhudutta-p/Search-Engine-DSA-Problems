@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Arya is a country with N cities (numbered 1 through N). We may assume that the map of Arya is a tree with N vertices corresponding to the cities, rooted at the city number 1. The coronavirus has spread all over the world and unfortunately, Arya is infected too.
+The government is trying to defeat this virus. Their scientists made a medicine which can be used to cure parts of the country. We know that there is an integer k with the following meaning: for each city v, if we give the medicine to people in this city, then this city and all cities in its subtree such that their distance from v is at most k become cured. When a city is cured, it never becomes infected again.
+Clearly, to cure the whole tree, this procedure has to be repeated one or more times; let's say when we give medicine to people in one city, we need to spend one unit of medicine. Now, for each possible k, the government wants to know the minimum number of units of medicine that need to be produced in order to cure all cities, and they told the National Olympiad in Informatics Committee to solve this critical problem.
+For each possible value of k (1≤k≤N), let's denote the minimum required number of units of medicine by ak​. Can you find S=∑i=1N​ai​?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+Each of the next N−1 lines contains two space-separated integers u and v denoting that cities u and v are connected by an edge.
+
+Output
+For each test case, print a single line containing one integer S.

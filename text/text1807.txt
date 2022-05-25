@@ -1,0 +1,24 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef's love for Fibonacci numbers helps him to design following interesting problem.
+He defines a function F for an array S as follows:
+
+
+where
+
+Si denotes a non-empty subset of multiset S.
+sum(Si) denotes the sum of all element of multiset Si.
+Fibonacci(x) denotes the xth Fibonacci number.
+
+Given an array A consisting of N elements. Chef asked you to process following two types of queries on this array accurately and efficiently.
+
+C X Y: Change the value of Xth element of array to Y i.e AX = Y.
+Q L R: Compute function F over the subarray defined by the elements of array A in the range L to R, both inclusive.
+
+
+Please see the Note section if you need details regarding Fibonacci function.
+
+Input
+First line of input contains 2 space separated integer N and M denoting the size of array A and the number of queries to be performed. Next line of input contains N space separated integers denoting the elements of array A. Each of next M lines of input contains a query having one of the mentioned two types.
+Output
+For each query of type Q, output the value of function F for the given range of array A.

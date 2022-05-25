@@ -1,0 +1,30 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef has a sequence A1​,A2​,…,AN​. He wants to sort it in non-decreasing order. Unfortunately, he can only modify it using specific operations. In each operation, Chef should do the following:
+
+Choose an integer K such that 0<K<230.
+Choose an integer P such that 1≤P≤N.
+Perform one of the following actions:
+
+type t=1: for each i (1≤i≤P), change Ai​ to Ai​+K
+type t=2: for each i (P≤i≤N), change Ai​ to Ai​+K
+type t=3: for each i (1≤i≤P), change Ai​ to Ai​⊕K
+type t=4: for each i (P≤i≤N), change Ai​ to Ai​⊕K
+
+
+
+Here, ⊕ denotes bitwise XOR. In different operations, Chef may choose different values of t, K and P.
+Can you help Chef make the sequence non-decreasing using at most ⌊N/2⌋ operations (possibly 0 times)? Find one such sequence of operations.
+Note that you do not need to minimise the number of operations. If there are multiple solutions, you may find any one of them. It is guaranteed that a solution using at most ⌊N/2⌋ operations always exists.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case:
+
+First, print a line containing a single integer X ― the number of operations you want to perform (0≤X≤⌊N/2⌋).
+Then, print X lines. Each of these lines should contain three space-separated integers t, P and K describing an operation (1≤t≤4).
+

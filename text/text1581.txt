@@ -1,0 +1,10 @@
+Problem
+Find the length of the longest contiguous segment in an array, in which if a given element K is inserted, K becomes the second largest element of that subarray.
+Input:
+
+The first line will contain T, number of test cases. Then the test cases follow.
+The first line of each test case contains two integers N and K.
+The next line contains N space-separated integers Ai denoting the elements of the array.
+
+Output:
+Print a single line corresponding to each test case — the length of the largest segment.

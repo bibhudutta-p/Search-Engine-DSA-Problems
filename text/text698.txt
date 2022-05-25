@@ -1,0 +1,20 @@
+Problem
+You are given arrays A and B of length N each. Determine the number of good pairs.
+A pair (i,j) (1≤i,j≤N) is said to be good if all of the following conditions are satisfied:
+
+i<j;
+Ai​=Bj​;
+Aj​=Bi​;
+
+Input Format
+
+First line will contain T, the number of test cases. Then the test cases follow.
+
+Description of each test case:
+
+First line contains an integer N - denoting the length of the arrays.
+Second line contains N space-separated integers A1​,A2​,…AN​ - denoting the array A.
+Third line contains N space-separated integers B1​,B2​,…BN​ - denoting the array B.
+
+Output Format
+For each test case, output the number of good pairs.

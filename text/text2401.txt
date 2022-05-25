@@ -1,0 +1,15 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a rooted tree with N vertices (numbered 1 through N); vertex 1 is the root. Each vertex has a weight; let's denote the weight of vertex i by wi​.
+You should answer Q queries. The queries have to be processed online, i.e. to obtain each query, you need the answer to the previous query.
+In each query, you are given a vertex v and a parameter k. For each vertex u in the subtree of v (including v), consider the value wu​⊕k (⊕ denotes the bitwise XOR operation). The answer to this query is the maximum of these values and the smallest u such that vertex u is in the subtree of vertex v and wu​⊕k is equal to this maximum.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+The second line contains N space-separated integers w1​,w2​,…,wN​.
+Each of the next N−1 lines contains two space-separated integers x and y denoting that there is an edge between nodes x and y.
+The next Q lines describe queries. Each of these lines contains two space-separated integers a and b. The parameters v and k can be obtained in the following way: let's denote the value and vertex from the answer to the previous query by xl​ and vl​ respectively (xl​=vl​=0 if this is the first query); then, v=a⊕vl​ and k=b⊕xl​.
+
+Output
+For each query, print a single line containing two space-separated integers — the answer to the query, i.e. the number of the vertex for which we get the maximum value and the maximum value.

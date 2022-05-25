@@ -1,0 +1,12 @@
+Problem
+Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
+You are given a sequence of N powers of an integer k; let's denote the i-th of these powers by kAi​. You should partition this sequence into two non-empty contiguous subsequences; each element of the original sequence should appear in exactly one of these subsequences. In addition, the product of (the sum of elements of the left subsequence) and (the sum of elements of the right subsequence) should be maximum possible.
+Find the smallest position at which you should split this sequence in such a way that this product is maximized.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and k.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer — the size of the left subsequence. If there is more than one possible answer, print the smallest possible one.

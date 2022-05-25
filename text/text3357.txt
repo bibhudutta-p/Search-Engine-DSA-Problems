@@ -1,0 +1,22 @@
+Problem
+Chef has a binary string S of length N.
+He can perform the following operation on string S:
+
+Select a substring of size M and flip all the characters of the selected substring, i.e., change 0 to 1 and 1 to 0.
+
+There are Q queries of the following 2 types:
+
+0: Append 0 to the front of string S.
+1: Append 1 to the front of string S.
+
+After each query, find the minimum number of operations required to make lexicographically smallest possible string from S. Note that queries are dependent. Thus, after each query, the string S gets updated.
+Note: The input of this problem is large, so use fast input/output methods.
+Input Format
+
+The first line will contain T - the number of test cases. Then the test cases follow.
+The first line of each test case contains three integers N, M, and Q.
+The second line of each test case contains the string S.
+After that, Q lines follow. The ith line contains an integer X (0≤X≤1) - the ith query. For each query, you need to append X to the front of string S.
+
+Output Format
+For each test case, print Q lines. The ith line should contain the answer to the ith query.

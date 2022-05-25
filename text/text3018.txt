@@ -1,0 +1,21 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef and Abhishek are two friends. Abhishek really appreciates Chef's skills and wants to learn the secret formula behind Chef's tasty dishes. Chef will tell his secret formula only to a
+competent person. So to check Abhishek's competency, Chef asked him to solve the following problem.
+Find the number of integers between 0 and N (inclusive) such that the product of digits of the integer is greater than or equal to K!, where K is the number of digits present in the integer.
+Example: Consider N=1000.
+
+The only digit present in the integer 0 is 0. So the product of digit is also 0 and 1!=1. So 0 will be not counted in the answer because 0≯1.
+The digits present in the integer 25 are 2,5. So the product of digits is (2⋅5)=10 and 2!=2. So 25 will be counted in the answer because  10≥2.
+The digits present in the integer 11 are 1,1. So the product of digits is (1⋅1)=1 and 2!=2. So 11 will be not counted in the answer because 1≯2.
+The digits present in the integer 157 are 1,5,7. So the product of digits is (1⋅5⋅7)=35 and  3!=6. So 157 will be counted in the answer because 35≥6.
+
+Since Abhishek is a lazy person, he wants your help to solve the problem.
+Note: K! represents the factorial of K and K!=1⋅2⋅3⋅…⋅(K−1)⋅K .
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer N.
+
+Output Format
+For each test case, output in a single line the answer for given integer N

@@ -1,0 +1,17 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+
+Given a board of N rows and M columns, place the minimum number of knights such that every cell either contains a knight or is attacked by at least one knight.
+
+
+Like in standard chess, a knight attacks every cell that is two squares away horizontally and one square vertically, or two squares vertically and one square horizontally.
+
+Input
+
+The first line of input contains one number T, the number of test cases.
+Each test case contains two integers N and M, the dimensions of the board.
+
+Output
+
+For each test case print the minimum number of knights required to cover every cell of the board.
+

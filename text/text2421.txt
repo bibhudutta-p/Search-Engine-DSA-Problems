@@ -1,0 +1,15 @@
+Problem
+A famous student of AESC MSU, as you know, comes from Kostomuksha. Kostomuksha has a popular game called Doka.
+The essence of Doka is as follows:
+You are given an array A and an integer X. You want to calculate how many subarrays of this array have a geometric mean of X.
+Formally, calculate the number of pairs of integers (L,R) such that 1≤L≤R≤N and
+R−L+1AL​⋅AL+1​⋅…⋅AR​​=X
+Input Format
+
+The first line of input contains an integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of two lines of input.
+The first line of each test case contains two space-separated integers N,X — the size of the array A and the required geometric mean.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, on a new line print the number of subarrays that satisfy the condition.

@@ -1,0 +1,20 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a convex polygon with N sides. You have to answer Q queries. The ith query is described by two integers vi​,ti​. In this query, all sides of the polygon start moving parallel to their respective perpendicular vector away from the centroid with a constant velocity of vi​secunits​. Output the final area covered by N sides of the polygon after time ti​ seconds.
+For each query,  consider the initial coordinates of vertices of the given polygon.
+Note:
+
+Since the input-output is large, prefer using fast input-output methods.
+The problem requires high precision, so prefer using data types with a precision equivalent to long double in C++.
+
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+Each testcase contains N+Q+1 lines of input.
+The first line of each test case contains two space-separated integers N,Q.
+N  lines follow. For each valid i, the ith of these lines contains two space-separated integers xi​,yi​, coordinates of the ith vertex of the polygon.
+Next Q lines follow. For each valid i, the ith of these lines contains two space-separated integers  vi​,ti​, description of the ith query.
+
+Output Format
+For each query, output in a single line the final area covered by N sides of the polygon.
+Your answer will be considered correct if its relative or absolute error does not exceed 10−2.

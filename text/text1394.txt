@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, and Vietnamese as well.
+Dr.D got so famous thanks to his first problem that he decided to commemorate it by making yet another problem with an almost identical statement — he only changed one word.
+We want to choose exactly two integers (not necessarily distinct) from the interval [L,R]. Find the maximum possible value of the bitwise OR of the chosen integers.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers L, R.
+
+Output
+
+For each test case, print a single line containing one integer — the maximum bitwise OR.
+

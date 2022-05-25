@@ -1,0 +1,16 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+In October Long Challenge Chef set the problem CNNCT2. Its editorial, which you may (or may not) find helpful in this problem, is available here.
+While preparing the problem, Chef struggled with generating strong test cases for it. In fact, he even considered the test generation to be much more challenging than the problem itself, in the end. Now, after two months, Chef decided to turn the test generation process into a problem and here is the result.
+Chef created four different randomised solutions that use heuristics. All of them are known to fail on some test cases, but your objective is to find a single test case such that all four solutions fail on it. The implementations of the four heuristics, as well as the implementation of the correct solution, are provided in the source code of the checker (see below). This source code also contains some higher-level descriptions of the heuristics in comments.
+Checker
+A C++ implementation of the checker is provided here. This checker is mostly identical to the one used on the server to judge your submissions. The only differences are in the input, output and in the seed used for the random generator. See the comment at the top of the source code for instructions about how to compile and use the checker.
+Input
+This problem has no input (the input is empty).
+Output
+The output of your solution should be a valid test case for the problem CNNCT2.
+
+First, print a line containing two space-separated integers N and M.
+Then, print M lines describing the roads in the state A. Each of these lines should contain two space-separated integers u and v denoting that cities u and v in the state A are connected by a road.
+Finally, print M lines describing the roads in the state B in the same format.
+

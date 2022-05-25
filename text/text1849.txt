@@ -1,0 +1,19 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a tree with N vertices (numbered 1 through N). Its edges are numbered 1 through N−1. For each valid i, there is an integer ai​ written on the i-th vertex. Also, for each valid i, there is an integer bi​ written on the i-th edge.
+You want the following condition to be satisfied: for each vertex v and each edge e adjacent to v, av​≥be​. In order to achieve that, you may perform an arbitrary number of steps (including zero). In one step, you may perform one the following operations:
+
+Select two different vertices u and v. Swap au​ and av​.
+Select two different edges e and f. Swap be​ and bf​.
+Select a vertex v and an integer x. Change av​ to x and pay one coin.
+
+Calculate the minimum number of coins you need in order to satisfy the required condition.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+N−1 lines follow. For each i (1≤i≤N−1), the i-th of these lines contains three space-separated integers ui​, vi​ and bi​ denoting that the i-th edge connects vertices ui​ and vi​ and the initial value written on it is bi​.
+The last line contains N space-separated integers a1​,a2​,…,aN​.
+
+Output
+For each test case, print a single line containing one integer ― the minimum necessary number of coins.

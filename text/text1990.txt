@@ -1,0 +1,14 @@
+Problem
+The currency of Dholakpur is pretty awesome. There notes have values  1, C, C2, C3 ... . The sequence goes on till infinity, so notes have unbounded values.
+
+Little Bheem is a resident of Dholakpur and runs a Laddu shop. He always keeps infinite number of notes of each value with him, but pays using minimum number of notes. For example, if C = 5 and he has to pay 32 rupees, he will pay using one note of value 25, one note of value 5, and two notes of value 1. He cannot pay 32 rupees with fewer than four notes.
+
+Bheem is wondering what is Kth smallest amount which, if paid using fewest possible notes, would require exactly S notes.
+
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+Each test is descried by exactly one lines, containing three space separated integers C, S and K.
+
+Output
+For each test case, output a separate line containing the required answer.
+

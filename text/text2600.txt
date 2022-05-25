@@ -1,0 +1,21 @@
+Problem
+For an integer K and a permutation A=[A1​,A2​,…,AN​] of values from 1 to N, we define a function f(A) that returns the number of pairs of integers (i,j) such that
+
+1≤i<j≤N
+j>i+K
+Aj​>Ai​
+For all x≥(i+1) and x≤(j−1) , Ax​<Ai​
+for all x<i , Ax​<Ai​
+
+In simple words, in the subarray A[1..j]​, Ai​ is the second-largest element and Aj​ is the
+largest element.
+You are given K. Calculate ∑f(A) for ALL permutations A of size N.
+Since the answer can be very large, find the sum over modulo 109+7.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two integers N and K.
+
+Output Format
+For each test case, output a single line containing one integer - the sum of f(P) for
+all permutation of size N for the given K.

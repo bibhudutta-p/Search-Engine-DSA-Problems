@@ -1,0 +1,12 @@
+Problem
+Let P be a polynomial in n variables given by:
+P(x1​,x2​,…,xn​)=(k+x1​+x2​+⋯+xn​)m
+Here n, k and m are positive integers. Find the sum of all coefficients of the terms of the polynomial which have even powers in each of the n variables and output it modulo 109+7.
+Note that the constant term's coefficient is also included in the sum. Please see the sample IO and Explanation for details.
+Input:
+
+First line will contain the number of testcases T
+Each testcase will consist of single line with 3 positive integers n, k and m in that order
+
+Output:
+Output a single line containing the required sum modulo 1000000007 for each testcase.

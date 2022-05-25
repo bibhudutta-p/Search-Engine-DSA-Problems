@@ -1,0 +1,13 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef has found a new game and now he wants you to help him to get as much points as possible. 
+Rules of the game: There are different types of game pieces -  geometric shapes composed of some amount of square blocks. In the picture below you can see all the types of figures and enumeration. 
+
+The playing field is 10 cells width and 10 cells height. On each step of the game you are given exactly three game pieces. After that you need to put each of them to the game field such that after your move no two figures on the field are overlapped(you cannot rotate figures). If your move results in one or more horizontal or/and vertical lines of 10 units without gaps, those lines disappear. Notice that you put these three figures one by one and if you place the first figure and there are some lines ready to disappear, then they will disappear and only after that you place other figures.  
+The game ends when you can't put no more figures on the game field.
+ 
+Input
+Each line of input contains three integers figure1, figure2 , figure3 denoting the type of the figures appeared on this step. If the game has ended - in the next line of input will be "-1 -1 -1". 
+Interaction with the judge
+In each step you should read from the standard input all information about figures that appear in this step. After receiving this input, you should print one line containing nine space-separated parameters id1, r1, c1, id2, r2, c2, id3, r3 and c3. Integers {id1, id2, id3} is the permutation of {1, 2, 3} and denote the order in which you will put these three figures. Integer ri denotes the number of the row of the lowest block of idith figure after you put it and ci denotes the number of the column of the leftmost block of idith figure after you put it. The rows are numbered from 1 to 10 from top to bottom and columns are numbered from 1 to 10 from left to right. Remember to flush the output after every line you print.
+To finish the game(if you don't know where to put figures or it's impossible to put some figures) you need to output "-1" for figures you don't know where to put. For example, if on some move you don't know how to place all three figures, you need to output nine '-1"s as describing of all three figures. But if you can place, for example, only second figure, you need to output next numbers: "2 r1 c1 -1 -1 -1 -1 -1 -1". When judge reads "-1"s as describing of some figure, it means that the game ends at this step and then judge will output only "-1 -1 -1" as sign of finishing the game. 

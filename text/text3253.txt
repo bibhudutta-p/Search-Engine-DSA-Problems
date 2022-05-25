@@ -1,0 +1,16 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+The droid R2-D2 is travelling in space with a special mission. In space, there are N planets (numbered 1 through N) and M bidirectional space highways. Each space highway connects two planets and in order to use it, R2-D2 needs to have a sufficiently high status level.
+The droid’s mission consists of Q stages. In each stage, there are two planets x and y such that the droid should start the stage at planet x with some initial status level L (L≥0) and travel to planet y. For each valid i, when R2-D2 is at planet i (including the initial planet x), he may increase his status level by Ai​; it is not allowed to increase the status level multiple times on the same planet in the same stage. Find the minimum value of L such that it is possible for R2-D2 to reach planet y or determine that it is impossible to reach planet y for any L.
+Note that the level R2-D2 has at the end of each stage is not carried over to the next stages (he may start the next stage with a lower initial status level).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+Each of the following M lines contains three space separated integers U, V and W denoting that there is a space highway between planets U and V and R2-D2 may use this highway only if his status level is at least W.
+The next line contains a single integer Q.
+The following Q lines describe stages. Each of these lines contains two space-separated integers x and y.
+
+Output
+For each stage, print a single line containing one integer ― the minimum status level required to complete the stage, or −1 if it is impossible to complete this stage.

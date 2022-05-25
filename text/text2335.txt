@@ -1,0 +1,17 @@
+Problem
+Read problems statements Hindi ,Bengali , Mandarin chinese , Russian and Vietnamese as well.
+You are given a sequence of non-negative integers A1​,A2​,…,AN​ and Q queries. A sequence is good if the bitwise AND of all its elements is a perfect square. In each query:
+
+you are given two parameters L and R
+consider the subsequence B=AL​,AL+1​,…,AR​
+you should find the number of good contiguous subsequences of B
+
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+Each of the following Q lines contains two space-separated integers L and R describing one query.
+
+Output
+For each query, print a single line containing one integer — the number of good contiguous subsequences.

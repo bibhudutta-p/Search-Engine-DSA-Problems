@@ -1,0 +1,16 @@
+Problem
+Read problems statements Hindi ,Bengali , Mandarin chinese , Russian and Vietnamese as well.
+You are given positive integers N and D. You may perform operations of the following two types:
+
+add D to N, i.e. change N to N+D
+change N to digitsum(N)
+
+Here, digitsum(x) is the sum of decimal digits of x. For example, digitsum(123)=1+2+3=6, digitsum(100)=1+0+0=1, digitsum(365)=3+6+5=14.
+You may perform any number of operations (including zero) in any order. Please find the minimum obtainable value of N and the minimum number of operations required to obtain this value.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and D.
+
+Output
+For each test case, print a single line containing two space-separated integers — the minimum value of N and the minimum required number of operations.

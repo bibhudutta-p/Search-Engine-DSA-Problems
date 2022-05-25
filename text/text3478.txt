@@ -1,0 +1,13 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef has a rectangular matrix A of nxm integers. Rows are numbered by integers from 1 to n from top to bottom, columns - from 1 to m from left to right. Ai, j denotes the j-th integer of the i-th row.
+Chef wants you to guess his matrix. To guess integers, you can ask Chef questions of next type: "How many integers from submatrix iL, iR, jL, jR are grater than or equal to x and less than or equal to y?". By submatrix iL, iR, jL, jR we mean all elements Ai, j for all iL ≤ i ≤ iR and jL ≤ j ≤ jR. 
+Also Chef can answer not more than C questions of next type: "What is the sum of integers from submatrix iL, iR, jL, jR?"
+As soon as you think you know the Chefs matrix, you can stop asking questions and tell to the Chef your variant of the matrix. Please see "Scoring" part to understand how your solution will be evaluated. 
+ 
+Input
+The first line of the input contains three space-separated integers n, m and C denoting the sizes of the matrix and the maximum number of the second-type questions. After that the judge will answer your questions and evaluate the resuts. Read more about that in the "Interaction with the judge" part of the statement. 
+ 
+Interaction with the judge
+To ask a first-type question you should print to the standard output one line containing seven space-separated integers 1 iL iR jL jR x y. To ask a second-type question you should print one line containing five space-separated integers 2 iL iR jL jR. After that you should read from the standard input one integer - answer to the question. To end the game you should print 3 and starting from next line print n lines, each of them contains m space-separated integers - your variant of the matrix A. After that your program must stop. Remember to flush the output after every line you print.
+ 

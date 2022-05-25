@@ -1,0 +1,19 @@
+Problem
+You have been given an integer K and four arrays A, B, C, and D with sizes SA​, SB​, SC​ and SD​ respectively.
+Follow the given steps:
+
+Pick four indices x, y, z, and w from arrays A, B, C, and D respectively. Note that (1≤x≤SA​), (1≤y≤SB​), (1≤z≤SC​) and (1≤w≤SD​).
+There are in total SA​×SB​×SC​×SD​ ways to do the above step. For each way, write down the value of (Ax​+By​)×(Cz​+Dw​) on a board.
+Sort all the numbers written on the board in non-decreasing order.
+
+Find the Kth element written on the board.
+Input Format
+
+First line contains five integers SA​, SB​, SC​, SD​ and K.
+The second line contains SA​ space-separated integers A1​,A2​,...,ASA​​ denoting the array A.
+The third line contains SB​ space-separated integers B1​,B2​,...,BSB​​ denoting the array B.
+The fourth line contains SC​ space-separated integers C1​,C2​,...,CSC​​ denoting the array C.
+The fifth line contains SD​ space-separated integers D1​,D2​,...,DSD​​ denoting the array D.
+
+Output Format
+For each test case, output the required number in a single line .

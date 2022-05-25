@@ -1,0 +1,23 @@
+Problem
+Read problem statements in Mandarin Chinese and Bengali.
+There is an empty bus with M seats and a total of N people, numbered from 1 to N. Everyone is currently outside the bus. You are given a sequence of Q events of the following form.
+
+
++ i :  It denotes that the person i enters the bus.
+
+
+− i : It denotes that the person i leaves the bus.
+
+
+It is guaranteed in the input that each person from 1 to N enters at most once as well as leaves the bus at most once.
+Determine whether the sequence of events is consistent or not (i.e. no person leaves the bus before entering and the number of passengers in the bus does not exceed M at any point of time).
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+Each test case contains Q+1 lines of input.
+The first line of each test case contains three space-separated integers N,M,Q.
+Q lines follow. For each valid j, jth of these lines contains a character ch, followed by a space and an integer i. Here ch is either '+' or '−' and 1≤i≤N.
+It is guaranteed that ‘‘+ i" and ‘‘− i" appears at most once for every 1≤i≤N
+
+Output Format
+For each test case, print a single line containing one string - "Consistent" (without quotes) if the sequence is consistent, "Inconsistent" (without quotes) otherwise.

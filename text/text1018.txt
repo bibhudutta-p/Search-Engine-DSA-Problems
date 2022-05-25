@@ -1,0 +1,12 @@
+Problem
+Read problems statements Hindi ,Bengali , Mandarin chinese , Russian and Vietnamese as well.
+Chef is stuck at the following problem. Help him solve it!
+Chef has a sequence of integers A1​,A2​,…,AN​. He should find the number of pairs (i,j) such that 1≤i<j≤N and the bitwise XOR of Ai​ and Aj​ can be written as a sum of two (not necessarily different) prime numbers with the same parity (both odd or both even).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-seprated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer — the number of valid pairs.

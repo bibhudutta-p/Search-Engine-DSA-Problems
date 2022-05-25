@@ -1,0 +1,28 @@
+Problem
+"Right smart bird you got there, Mr. Potter. She arrived here just five minutes before yourself."
+- Tom
+
+Hedwig is not only a smart owl, but she is charming as well. Haron likes her very much and has asked her out. Alas, Hedwig is too busy delivering mails and needs Haron to wait for some time. But, she knows Haron would get really bored alone. Hence, she has asked you to play with him. As soon as Haron knew you love competitive coding, he asks you one of his unsolved problems. You now have to solve this problem and tell Haron the solution which will take some time so that Hedwig can come back and go on a date with him.
+Haron's problem states : You are given a tree rooted in vertex 1 having N vertices. Each vertex has a color associated with it. 
+
+For every vertex v you are given an integer which represents its lucky number, let it be X. Now you have to find number of distinct colors which occur exactly X times in subtree of v.
+
+Note :  Subtree of v contains v too.
+
+Input
+The first line of input contains one integer N denoting the number of vertices in tree.
+
+The second line contains N space separated integers where ith integer is colori, the color of ith vertex.
+
+
+The third line contains N space separated integers where the ith integer is lucky_numberi which denotes the lucky number of ith vertex.
+
+
+Next N-1 lines contain two space separated integers x and y each, denoting that there is an undirected edge between vertices x and y.
+
+
+Output
+Print N space separated integer in one line where ith integers denotes the required answer for ith vertex.
+
+
+

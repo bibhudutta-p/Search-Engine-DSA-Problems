@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef has met up with his old friend Jack recently. Jack told Chef that he found a recipe for an ancient dish, but unfortunately, it is locked in a safe and to open the safe, it is necessary to enter the solution to the following problem.
+There is a sequence of non-negative integers A1​,A2​,…,AN​ on the safe. Find the number of pairs (l,r) (1≤l≤r≤N) which satisfy the condition (Al​∨Al+1​∨…∨Ar​)⊕(Al​∧Al+1​∧…∧Ar​)≥max(Al​,Al+1​,…,Ar​).
+Here, ⊕ denotes bitwise XOR, ∨ denotes bitwise OR and ∧ denotes bitwise AND.
+Jack and Chef cannot think of anything except the recipe, so you are asked to open the safe.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer ― the number of pairs (l,r) that satisfy the given condition.

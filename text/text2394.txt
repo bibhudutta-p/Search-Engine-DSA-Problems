@@ -1,0 +1,14 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Given an array  A  of  N  integers and an integer  P  ( not necessarily prime ). You are required to answer  Q  queries, i-th query is described by two numbers Li, Ri, the answer to the query is the product of all numbers in array A from index Li to index Ri modulo P. You have to answer the queries in online mode, that is you can't know a query before you answer all queries that are before it.
+ 
+Input
+the first line contains one integer  T , the number of test-cases.
+the first line of each test-case contains  N, P, Q .
+the third line contains N space-separated integers, the of elements array  A .
+the fourth line contains array B which consists of floor(Q/64) + 2 integers . Let's number the queries starting from 0. If i is divisible by 64 then: 
+
+ Li = (Bi / 64 + x) mod N, Ri = (Bi / 64 + 1 + x) mod n .
+Otherwise:  Li = (Li-1 + x) mod N, Ri =  (Ri-1 + x) mod N . If  Li > Ri  you should swap them. here x is equal to 0 if it's the first query, otherwise it's equal to the answer of the previous query plus 1 modulo P.
+Output
+After each test-case you have to print one number - the value of x after the the last query modulo P

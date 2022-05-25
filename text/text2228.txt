@@ -1,0 +1,15 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef works as a cook in a restaurant. Each morning, he has to drive down a straight road with length K to reach the restaurant from his home. Let's describe this road using a coordinate X; the position of Chef's home is X=0 and the position of the restaurant is X=K.
+The road has exactly two lanes (numbered 1 and 2), but there are N obstacles (numbered 1 through N) on it. For each valid i, the i-th obstacle blocks the lane Li​ at the position X=Xi​ and does not block the other lane.
+When driving, Chef cannot pass through an obstacle. He can switch lanes in zero time at any integer X-coordinate which does not coincide with the X-coordinate of any obstacle. However, whenever he switches lanes, he cannot switch again until driving for at least D units of distance, and he can travel only in the direction of increasing X. Chef can start driving in any lane he wants. He can not switch lanes at non-integer  X-coordinate.
+Sometimes, it is impossible to reach the restaurant without stopping at an obstacle. Find the maximum possible distance Chef can travel before he has to reach an obstacle which is in the same lane as him. If he can avoid all obstacles and reach the restaurant, the answer is K.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, K and D.
+The second line contains N space-separated integers X1​,X2​,…,XN​.
+The third line contains N space-separated integers L1​,L2​,…,LN​.
+
+Output
+For each test case, print a single line containing one integer ― the maximum distance Chef can travel.

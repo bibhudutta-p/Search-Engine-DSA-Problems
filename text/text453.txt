@@ -1,0 +1,15 @@
+Problem
+You are given a binary string S of length N.
+You have to perform the following operation exactly once:
+
+Select an index i (1≤i≤N) and delete Si​ from S. The remaining parts of S are concatenated in the same order.
+
+How many distinct binary strings of length N−1 can you get after applying this operation?
+Input Format
+
+The first line of input contains a single integer T - the number of test cases. The description of T test cases follow.
+The first line of each test case contains N - the length of the binary string S.
+The second line contains the binary string S.
+
+Output Format
+For each test case, output the number of distinct binary strings that you can get after applying the operation exactly once.

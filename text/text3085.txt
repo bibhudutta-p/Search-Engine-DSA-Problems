@@ -1,0 +1,12 @@
+Problem
+ Read problems statements in Mandarin Chinese , Russian and Vietnamese as well.
+Chef likes problems with arrays. Let's call an array V dominating if there exists a number x (the dominator) whose number of occurrences is strictly greater than half the size of the array (that is, floor(|V|/2)).
+
+
+For example, the arrays {1, 2, 1} is dominating, with the number 1 being the dominator, since half the size of the array is 1, while the number 1 occurs twice. Similarly, the array {1, 1, 1, 2} is dominating. On the other hand, the arrays {1, 2, 3} and {1, 2, 2, 1} are not dominating.
+
+Given an array A consisting of N positive integers, you need to help Chef find the number of subarrays of A which are dominating.
+Input
+The first line of input contains one integer N denoting the number of elements in the array A. The second line of input contains N space-separated integers denoting the array A.
+Output
+Output the answer to the query in a single line.

@@ -1,0 +1,11 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef has a matrix A with size M×N. He wants to fill each of its cells with a random integer between 1 and K (inclusive); these integers are independent.
+Then, Chef builds a directed graph on this matrix: for each ordered pair of side-adjacent cells of the matrix such that the value in the first cell is greater than or equal to the value in the second cell, he adds an edge from the first cell to the second cell.
+Find the expected value of the number of strongly connected components (SCC) in this graph. It can be proved that the answer can be represented as a fraction P/Q, where P and Q are positive integers and Q is coprime with 998,244,353. You should compute P⋅Q−1 modulo 998,244,353, where Q−1 denotes the multiplicative inverse of Q modulo 998,244,353.
+Input
+
+The first and only line of the input contains three space-separated integers M, N and K.
+
+Output
+Print a single line containing one integer P⋅Q−1 modulo 998,244,353.

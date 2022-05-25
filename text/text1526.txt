@@ -1,0 +1,19 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given two matrices A and B, each with R rows (numbered 1 through R) and C columns (numbered 1 through C). Let's denote an element of A or B in row i and column j by Ai,j​ or Bi,j​ respectively.
+You are also given an integer X. You may perform the following operation on A any number of times:
+
+Choose an integer v.
+Choose X consecutive elements of A, either in the same row or in the same column.
+Add v to each of the chosen elements of A.
+
+Determine whether it is possible to change A to B in a finite number of operations.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers R, C and X.
+R lines follow. For each valid i, the i-th of these lines contains C space-separated integers Ai,1​,Ai,2​,…,Ai,C​.
+R more lines follow. For each valid i, the i-th of these lines contains C space-separated integers Bi,1​,Bi,2​,…,Bi,C​.
+
+Output
+For each test case, print a single line containing the string "Yes" if there is a sequence of operations that changes the matrix A to B, or "No" if such a sequence of operations does not exist.

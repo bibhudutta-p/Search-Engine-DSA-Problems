@@ -1,0 +1,9 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+Chef has an empty matrix of NxM. He wants to construct rectangle genome. For this reason Chef should fill the matrix with letters G, С, A, T.
+The genome will be stable if it contains K different submatrices. Of course, Chef wants to make his genome as stable as possible, that is the difference between the number of different submatrices in genome and number K should be as small as possible.
+Please, write a program for Chef that constructs as stable genome as possible. Note, that you must fill each cell of the matrix. Two submatrices is different if either one of their dimensions differs or for some pair of corresponding cells their content differs.
+Input
+The first line contains a single integer T, denoting the number of testcases. Each of the next T lines contains the description of the testcase: three integers N, M, K.
+Output
+For each testcase in the first N lines print NxM matrix. Each character of the matrix should be G, C, A or T.

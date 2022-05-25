@@ -1,0 +1,19 @@
+Problem
+Please note that TLs are different for different subtasks.
+Madoka decided to create her own chat with her friends in it. However, the chat was unmonitored for a while, so her friends started posting pictures of manuls with numbers in it. Coming back to the messy chat, Madoka knows that she cannot suspend it now, because that will make her friends hate her. Instead, she wants to understand the rules her friends are using to post manuls.
+Madoka and her friends all have the same favorite number K. After a little investigation, she realized that her friends are posting manuls using the following rules:
+
+Initially, a picture with only 1 manul is posted.
+If the last picture posted has A manuls in it, then a picture with B manuls will be posted next if the following conditions are met:
+
+lcm(A,B)≤A⋅(A+1)
+A<B≤A+K
+
+
+
+Madoka knows that her friends will stop counting when a picture with at least N manuls is posted. Since this chat is hers, Madoka can suggest which picture to be posted each time. To not pollute the chat, Madoka is trying to find a sequence of pictures with the minimum number of pictures used.
+Help Madoka!
+Input Format
+The only line of input contains two space-separated integers N and K.
+Output Format
+Print the answer to the problem - the minimum number of pictures that can be used.

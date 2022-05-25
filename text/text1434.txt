@@ -1,0 +1,14 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Sheokand loves strings. Chef has N strings S1​,S2​,…,SN​ which he wants to give to Sheokand; however, he doesn't want to give them away for free, so Sheokand must first correctly answer Q queries Chef asks him.
+In each query, Chef tells Sheokand an integer R and a string P. Consider Chef's strings S1​ through SR​. Out of these strings, consider all strings such that their longest common prefix with P is maximum possible. Sheokand should find the lexicographically smallest of these strings.
+Sheokand is busy with his exams. Can you solve the queries for him?
+Input
+
+The first line of the input contains a single integer N.
+N lines follow. For each valid i, the i-th of these lines contains Chef's string Si​.
+The next line contains a single integer Q.
+The following Q lines describe queries. Each of these lines contains an interger R, followed by a space and a string P.
+
+Output
+For each query, print a single line containing the string that satisfies the required conditions — the answer to that query.

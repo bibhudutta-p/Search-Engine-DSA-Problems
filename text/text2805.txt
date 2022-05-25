@@ -1,0 +1,14 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+There are N chefs (numbered 1 through N) and M dishes (numbered 1 through M). For each valid i, the i-th chef can cook dishes of exactly one type Fi​. Also, each chef is a friend of K different chefs.
+Whenever some chef cooks a dish, he asks all chefs who either are his friends or know how to cook this dish to evaluate the dish. No chef may evaluate his own dish.
+All the chefs are arranged in a row from chef 1 to chef N. Chefina is going to choose two valid integers L and R and allow the chefs L,L+1,…,R to cook their dishes and have them evaluated as described above. She wants to choose L and R in such a way that each of the N chefs evaluates at least one dish. Find the number of such pairs.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, M and K.
+The second line contains N space-separated integers F1​,F2​,…,FN​.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains K space-separated integers D1​,D2​,…,DK​ denoting the friends of the i-th chef.
+
+Output
+For each test case, print a single line containing one integer ― the number of pairs such that each chef evaluates at least one dish.

@@ -1,0 +1,19 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, and Bengali as well.
+Consider a string s. The following operation can be performed on it successively several (possibly zero) times.
+
+Select any non empty suffix of s and append it to s
+
+For example, if s=abcd, then s can become either abcdd, abcdcd, abcdbcd or abcdabcd after one operation. Successive operations are now performed on the new string.
+You are given a string t, the resultant string after applying several (possibly zero) operations on some string. You must find any such string s of the shortest length from which t can be obtained after some sequence of operations. It can be proven that such a string always exists.
+Input Format
+
+
+The first line contains one number T, the number of test cases.
+
+
+The only line of each test case contains the string t.
+
+
+Output Format
+For each test case print a string s of the shortest possible length which satisfies the requirements. If there are multiple such strings, you may print any.

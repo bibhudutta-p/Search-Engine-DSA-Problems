@@ -1,0 +1,16 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+You have a rectangular grid of size N × M, namely, there are cells (x, y) for 1 ≤ x ≤ N, 1 ≤ y ≤ M. Two cells are adjacent if they share a side. More formally, two cells (x1, y1), (x2, y2) are adjacent if |x1 − x2| + |y1 − y2| = 1. Between two adjacent cells there can be a wall. Two cells a and b are connected if there is a way between them (in other words there is a sequence of cells c1, c2, ..., ck that c1 = a, ck = b, and for each 1 ≤ i < k, ci, ci+1 are adjacent cells without wall between them).
+Now you are given Q queries, each of whom is of following four types.
+
+1 x y - build the wall between cells (x, y) and (x, y+1). If there is already exist a wall between them, this query is ignored.
+2 x y - build the wall between cells (x, y) and (x+1, y). If there is already exist a wall between them, this query is ignored.
+3 x1 y1 x2 y2 - check if cells (x1, y1) and (x2, y2) are connected. You must answer 1 if they are connected, 0 otherwise.
+4 - You must answer the size of the largest connected component. A connected component is a set of sells wherein each two cells are connected. The size of a connected component is a number of the cells in it.
+
+You must assume that there are no walls on the grid before the queries.
+Input
+The first line of input contains an integer T, denoting the number of test cases. Then T test cases are follow.
+The first line of each test case contains three space-separated integers N, M and Q, denoting the grid sizes and amount of queries. For next Q lines, each line contains a query. The format of queries are the same as described by the statement.
+Output
+For each test case, output an integer, denoting the sum of answers for queries of type 3 and 4. Note that you just print only the sum of the answers for each test case.

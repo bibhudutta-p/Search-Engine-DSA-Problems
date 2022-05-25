@@ -1,0 +1,12 @@
+Problem
+You are given an array A consisting of N Integers which are initially all 0. You are also given an array B consisting of N Integers. You have to tell whether you can make A equal to B or not by performing the following operation any number of times.
+In one operation you can choose exactly K distinct indices in the array A and increase the value at these indices by 1.
+Input:
+
+First line will contain T, the number of testcases. Then the testcases follow.
+Each testcase contains two lines of input.
+First line contains two Integers N and K.
+Second line contains N Integers denoting array B.
+
+Output:
+For each testcase, output in a single line YES if A can be converted to B, otherwise print NO.

@@ -1,0 +1,15 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+This is an interactive problem.
+Chef has a secret rectangle. The sides of this rectangle are aligned with Cartesian axes x and y. Let's denote the coordinates of the lower left corner of the rectangle by (xl​,yl​) and the coordinates of the upper right corner by (xu​,yu​); it is guaranteed that xl​,yl​,xu​,yu​ are non-negative integers. Your task is to find these coordinates.
+You may ask Chef at most Q queries (providing your answer does not count as a query). In each query, you give Chef a point with integer coordinates (x0​,y0​). Chef responds with the Manhattan distance of this point to the closest point in the secret rectangle, i.e. if we denote the set of points in the rectangle by
+S={(p,q)∣p,q∈Zandxl​≤p≤xu​andyl​≤q≤yu​},
+then Chef answers with
+min(p,q)∈S​∣p−x0​∣+∣q−y0​∣.
+Interaction
+
+First, your program should read a line containing a single integer ― the number of test cases T. The description of interaction for T test cases follows.
+For each test case, you may ask queries. To ask a query, print a line containing the character 'Q', a space and two space-separated integers x0​ and y0​ (0≤x0​,y0​≤109). Then, you should read a line containing a single integer. If this integer is non-negative, it denotes the answer to your query. Otherwise, it means that you exceeded the limit on the number of queries, the coordinates you printed are invalid or some other error occured.
+When you have found the secret rectangle, you should print a line containing the character 'A', a space and four space-separated integers xl​, yl​, xu​ and yu​. Then, you should read a single line containing one integer, which is 1 if your answer was correct or negative if it was wrong.
+
+Note that when you read a negative integer, you should immediately terminate your program to receive a Wrong Answer verdict; otherwise, you may receive any verdict. Don't forget to flush the output after printing each line!

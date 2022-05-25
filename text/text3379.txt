@@ -1,0 +1,13 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef is tending a really large spaghetti garden. This garden consists of many spaghetti trees. Specifically, there is a spaghetti tree planted for each lattice point location (x, y) with x, y ≥ 0. (Yes, there are an infinite number of trees in Chef's garden!)
+It's the 1st of April, so it's harvest time for Chef. Chef plans to harvest all spaghetti strands within a certain region today. In case you didn't know, a spaghetti tree bears spaghetti strands as its fruits.
+Specifically, Chef plans to harvest all spaghetti strands hanging from every spaghetti tree whose location (x, y) is within the interior or boundary of a certain polygon with N vertices. Also, the spaghetti tree located at (x, y) currently bears exactly Fx+y fruits, where Fk satisfies the following fourth-order recurrence:
+Fk = a·Fk-1 + b·Fk-2 + c·Fk-3 + d·Fk-4
+How many strands of spaghetti will Chef be able to harvest today? Since this number can be very large, output it modulo 109 + 9. (Note: this is slightly different from the usual mod.)
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains nine space separated integers N, a, b, c, d, F0, F1, F2, and F3.
+After that, N lines follow. The ith line contains two integers  xi and yi, denoting that (xi, yi) is the ith vertex of the polygon in counterclockwise order.
+Output
+For each test case, output a single line containing the integer: the answer for that test case.

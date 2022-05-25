@@ -1,0 +1,18 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Chef has to cross a highway with infinite length consisting of N parallel lanes. The width of each lane is Y. Between each pair of adjacent lanes, there is a divider with negligible width; at each divider and the side of the highway, Chef can wait for an arbitrarily long time to allow the cars to pass by and then continue crossing the highway. Since Chef is lazy, he wants to cross the highway while walking the minimum possible distance; therefore, he will only move in a straight line perpendicular to the highway. Chef walks with a constant velocity S.
+There is exactly one car in each lane. Each car is as wide as a whole lane (so it covers the entire width of its lane), has a known length and travels with fixed velocity in either direction along the highway. For each i (1≤i≤N), the car in the i-th lane has velocity Vi​ and length Ci​.
+Let's measure distances along the highway, i.e. all points which lie on the same line perpendicular to the highway have the same coordinate x. Chef's position is x=0; for each i (1≤i≤N), the initial position of the car in the i-th lane is Pi​ and the direction in which it's moving is Di​. If Di​=1, the car is moving in the positive direction (its position is increasing) and if Di​=0, the car is moving in the negative direction (its position is decreasing).
+The drivers on a highway don't expect anyone to be crossing it, so they drive carelessly and won't be able to apply brakes at any point in time.
+Find the minimum time Chef needs to cross the highway without getting hit by a car. Chef does not get hit by a car if the minimum distance between him and any car remains greater than 10−6 at all times.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, S and Y denoting the number of lanes, Chef's walking speed and the width of a lane.
+The second line contains N space-separated integers V1​,V2​,…,VN​ denoting the absolute velocities of the cars.
+The third line contains N space-separated integers D1​,D2​,…,DN​ denoting the directions in which the cars are moving.
+The fourth line contains N space-separated integers P1​,P2​,…,PN​ denoting the initial positions of the cars. The position of a car is the x-coordinate of its front side, i.e. for a car moving in the positive direction, it is the largest coordinate of any point of the car, and for a car moving in the negative direction, it is the smallest coordinate of any point of the car.
+The fifth line contains N space-separated integers C1​,C2​,…,CN​ denoting the lengths of the cars.
+
+Output
+For each test case, print a single line containing one real number — the minimum time needed to cross the highway. Your answer will be considered correct if its absolute error does not exceed 10−3.

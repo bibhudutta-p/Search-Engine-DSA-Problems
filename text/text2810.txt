@@ -1,0 +1,16 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a tree with N vertices numbered 1 through N as a sequence of N−1 edges — pairs (a1​,b1​),(a2​,b2​),…,(aN−1​,bN−1​). Let's define the value of a sequence A with length N−1 as
+F(A)=∑i=1N−1​Ai​⋅Wi​,
+where W1​,W2​,…,WN−1​ are given weights.
+You may change the order of the pairs and the order of elements within any pairs. Formally, consider a reordering (P,R) — any permutation P=(P1​,P2​,…,PN−1​) of the integers 1 through N−1 and any subset R of these integers (possibly containing all of them). Let's define two sequences C=(cP1​​,cP2​​,…,cPN−1​​) and D=(dP1​​,dP2​​,…,dPN−1​​), where for each valid i, ci​=ai​ and di​=bi​ if i∈R, or ci​=bi​ and di​=ai​ if i∈R. If D is strictly increasing, the reordering is valid and its value is F(C).
+Find the maximum value of a valid reordering, i.e. the maximum F(C), and the number of valid reorderings that have this maximum value.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N−1 space-separated integers W1​,W2​,…,WN−1​.
+N−1 lines follow. For each i (1≤i≤N−1), the i-th of these lines contains two space-separated integers ai​ and bi​.
+
+Output
+For each test case, print a single line containing two space-separated integers — the maximum value of a reordering and the number of reorderings with the maximum value.

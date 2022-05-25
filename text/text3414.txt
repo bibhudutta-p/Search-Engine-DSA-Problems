@@ -1,0 +1,24 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Bearland has N cities, numbered 1 through N.
+For every i between 1 and N-1 inclusive, there is a road between cities i and i+1.
+There K extra roads: the i-th of them connects two different cities ai and bi.
+So, there are N-1+K roads in total.
+All roads are bidirectional.
+You can assume that every two cities are connected by at most one road.
+Let f(s, t) denote the distance between cities s and t, i.e. the minimum possible number of roads needed to get from one city to the other.
+Your task is to find the sum of f(s, t) over all pairs of cities (s, t) such that s < t.
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+
+The first line of each test case contains an integer N denoting the number of cities.
+
+
+The second line contains an integer K denoting the number of extra roads.
+Note the unusual constraint for K (in the constraints section below).
+
+The i-th of the following K lines contains two different integers ai and bi, denoting cities connected by the i-th road.
+All N-1+K roads will be distinct.
+Output
+For each test case, output a single line containing one integer — the sum of f(s, t) over all pairs (s, t) such that s < t.
+For the given constraints, it can be proved that the answer fits in the 64-bit signed type.

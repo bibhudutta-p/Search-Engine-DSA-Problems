@@ -1,0 +1,12 @@
+Problem
+“It's leviOsa, not levioSA!”
+Hermione did the "swish and flick" to levitate the feather. Ron being annoyed ask her to solve a different task. 
+Ron ask her Q queries. In each query he provides her a value N and ask her to find F(N).
+F(N)=R=0∑⌊2N​⌋​((RN​)−(RN−R​)), where (rn​)=r!∗(n−r)!n!​
+As Hermione is busy learning new spells, she seeks for your help.Help her in finding F(N) for each query.As the value of F(N) can be very large, output F(N)%(106 + 3).
+Input
+The first line of the input contains an integer Q denoting the number of queries.
+Each of the next Q lines contains an integer N.
+Output
+ Output F(N)%(106 + 3) for each query in a seaparate line.
+

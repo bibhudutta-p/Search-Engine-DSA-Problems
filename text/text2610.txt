@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a sequence A1​,A2​,…,AN​ and an integer K. Determine if it is possible to reorder the elements of the sequence A into a sequence B1​,B2​,…,BN​ and choose a real number m in such a way that for each contiguous subsequence of B with length K, the arithmetic average of the elements of this subsequence is m. If it is possible, find one such reordered subsequence B.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing the string "YES" if it is possible to reorder the elements of A in the required way, or "NO" otherwise.
+If it is possible, print a second line containing N space-separated integers B1​,B2​,…,BN​. If there are multiple solutions, you may print any one.

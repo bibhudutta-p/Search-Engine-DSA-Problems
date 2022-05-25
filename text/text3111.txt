@@ -1,0 +1,15 @@
+Problem
+Vishesh just found an array A having N positive integers. He hates even numbers and would like to make the array full of only odd numbers. To do so, he is allowed to do the following operation.
+
+Pick a positive integer X such that X=2Y for some non-negative integer Y. Then, for all elements Ai​ in A, if Ai​ is divisible by X, then we divide Ai​ by X (in other words, we assign Ai​←XAi​​).
+
+Let's define f(B) as the minimum operations required to make an array B have only odd numbers using the operation described above. Find the sum of f(a) over all subarrays a of A.
+Note: A subarray of A is acquired by removing some (possibly none) elements from the beginning and some (possible none) elements from the end of A.
+Input Format
+
+The first line of each input contains T - the number of test cases. The test cases then follow.
+The first line of each test case contains an integer N - the size of A.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​ - the array A.
+
+Output Format
+For each test case, output on a single line the answer to the problem.

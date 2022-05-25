@@ -1,0 +1,13 @@
+Problem
+Chandler wants to give Joey money as Joey is going through some financial struggles. He believes $1500 will be enough to pay off the bills. Chandler makes up a game on the spot called "Cups", which has no rules. Every move Joey makes in the "game", Chandler says that he wins a lot of money. Joey, being "smart", finds this out and thus wants to set some rules.
+Joey and Chandler have a set of cards, where the value of a card is defined as the product of all the digits of the number printed on that card.
+For example, value of the card with the number 7 equals 7, value of the card with the number 203 equals 2⋅0⋅3=0.
+The initial number on Joey's card is N (without any leading zeroes). Chandler can make at most K changes on the digits of the number before it gets noticed. In one change, he can choose any digit x (x=9) of the number printed on card and replace it with x+1.
+Find the maximum possible value of Joey's card after making the changes.
+Input Format
+
+First line will contain T, number of testcases. Then the testcases follow.
+For each test case, given two integer N and K, denoting the initial number on Joey's card and the number of changes Chandler can make.
+
+Output Format
+For each testcase, output in a single line the maximum possible value of Joey's card after making the changes.

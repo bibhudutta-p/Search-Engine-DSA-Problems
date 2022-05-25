@@ -1,0 +1,19 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chefina gave Chef a sequence F1​,F2​,…,FN​ as a birthday present. She constructed it from a sequence of positive integers A1​,A2​,…,AN​ in the following way: for each valid i, Fi​=∑j=1i​(−1)(j+1)⋅Aj​.
+Unfortunately, Chef was playing with the sequence F and shuffled it. Now, he has a sequence denoted by B, but he does not remember F. The only things he knows are that F is a permutation of B and among all such permutations which Chefina could have constructed, her sequence F was the lexicographically smallest.
+Chef does not want to disappoint Chefina, but he is too busy in the kitchen, so he asked you to help him recover F. Find the sequence F he got from Chefina or determine that he made another mistake and a sequence that satisfies the given conditions does not exist.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers B1​,B2​,…,BN​.
+
+Output
+For each test case:
+
+If there is no solution, print a single line containing the string "NO" (without quotes).
+Otherwise, print two lines.
+The first of these lines should contain the string "YES" (without quotes).
+The second line should contain N space-separated integers F1​,F2​,…,FN​.
+

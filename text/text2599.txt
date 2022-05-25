@@ -1,0 +1,10 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+You are given a string S and N queries. Each query is defined by two integers - Li and Pi. Count the number of strings of the length Li that occur exactly Pi times (as the consecutive substrings) in the string S.
+Input
+The first line of input contains the string S.
+
+The second line of input contains the integer N - the number of queries.
+Then there are N lines, the i-th one contains numbers Li and Pi for the i-th query.
+Output
+For each query output the answer at the corresponding line of the output.

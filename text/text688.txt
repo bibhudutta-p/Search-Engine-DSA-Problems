@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Consider a sequence A1​,A2​,…,AN​, where initially, Ai​=i for each valid i. You may perform any number of operations on this sequence (including zero). In one operation, you should choose two valid indices i and j, compute the greatest common divisor of Ai​ and Aj​ (let's denote it by g), and change both Ai​ and Aj​ to g.
+You are given a sequence B1​,B2​,…,BN​. Is it possible to obtain this sequence, i.e. change A to B, using the given operations?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers B1​,B2​,…,BN​.
+
+Output
+For each test case, print a single line containing the string "YES" if it is possible to obtain A=B or "NO" if it is impossible.

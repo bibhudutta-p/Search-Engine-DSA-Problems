@@ -1,0 +1,9 @@
+Problem
+ Read problems statements in Mandarin Chinese , Russian and Vietnamese as well.
+Chef is not very good with geometric problems, and he, therefore, asks you to solve one of them. He has N red points and M black points, and Q queries on them. In each query, he will give you a subset of red points, you have to find out number of black points lying strictly inside the convex polygon formed by using the given subset as vertices.
+
+Input
+The first line of input contains two integers — N and M — denoting the number of red and black points, respectively. The next N lines contain two space-separated integers each denoting the coordinates of red points, with the ith line describing the ith point. Analogously, the next M lines contain two space-separated integers each denoting the coordinates of the black points. The next line contain one integer Q denoting the number of polygons. Each of the next Q lines contains a polygon in the form k i1 i2 … ik. Here, k is the number of vertices of the polygon, and i1, i2, …, ik are the indices of red points which form the polygon, in a clockwise order.
+
+Output
+For each query, output a new line containing the answer to it.

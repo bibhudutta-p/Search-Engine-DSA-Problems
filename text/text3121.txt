@@ -1,0 +1,27 @@
+Problem
+A permutation of length N is an array of N integers such that every integer between 1 and N (inclusive) appears in it exactly once.
+Chef creates a set from a permutation (P1​,P2​,…,PN​) of length N, as follows:
+
+Initially Chef takes a empty set S=ϕ, and then for every index i(1≤i≤N), Chef insert a pair of integers (li​,ri​) into S, where 1≤li​≤ri​≤N and (Pli​​,Pli​+1​,…,Pri​​) denotes the longest subsegment of the permutation with Pi​ as the maximum element.
+
+Note:
+
+The elements of the set S are always distinct.
+Two pairs (li​,ri​) and (lj​,rj​) are same only if li​=lj​ and ri​=rj​.
+
+For example, if the permutation is (2,3,4,1), Chef creates the following set S={(1,1),(1,2),(1,4),(4,4)}.
+You are given a set T containing N distinct pairs of integers. Find the number of different permutations of length N from which Chef can create a set S, which is equivalent to set T. Since the number can be very large, print it modulo (109+7).
+Two sets S and T are considered equivalent if:
+
+∣S∣=∣T∣, where ∣S∣ denotes the size of set S.
+Every element of S is present in T, i.e, for each (li​,ri​)∈S,(li​,ri​)∈T.
+
+Note that the elements of the set T may not be given in a particular order.
+Input Format
+
+The first line of input contains an integer T, denoting the number of test cases. The T test cases then follow:
+The first line of each test case contains a single integer N, denoting the size of set T.
+Each of the next N lines contains a pair of integers (li​,ri​), denoting the set T.
+
+Output Format
+For each test case, output on a single line the number of valid permutations, modulo (109+7).

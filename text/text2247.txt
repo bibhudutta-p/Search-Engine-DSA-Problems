@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Russian and Mandarin Chinese.
+Chef goes to a candy store that sells N different candies. For each candy, we know its price and sweetness. Chef has D dollars and can take a maximum of 2 candies, one in each hand. Find the maximum total sweetness he can buy under the given constraints.
+NOTE: Since the input-output is large, prefer using fast input-output methods.
+Input Format
+
+The first line contains an integer T, the number of test cases. Then the test cases follow.
+Each test case contains three lines of input.
+First line will contain 2 space separated integers N and D, the number of different candies and the amount of money Chef has.
+Second line contains N space separated integers P1​,P2​,…,PN​, where Pi​ is the price of the ith candy.
+Third line contains N space separated integers S1​,S2​,…,SN​, where Si​ is the sweetness of the ith candy.
+
+Output Format
+For each testcase, output in a single line, the maximum total sweetness Chef can buy with the money he has, and with at most two candies.

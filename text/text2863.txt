@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese,Russian, and Vietnamese as well.
+You are given a K×K matrix M. For each r and c (1≤r,c≤K), let's denote the element in the r-th row and c-th column by Mr,c​. You are also given three integers N, a and d. Let's define a K×K matrix
+S=∑i=0N​Fa+i⋅d​⋅Mi.
+Here, M0 is the identity matrix and for any non-negative integer i, Fi​ is the i-th Fibonacci number ― formally, F0​=0, F1​=1 and Fi​=Fi−1​+Fi−2​ for i>1.
+Let's denote elements of the matrix S in the same way as for M. For each valid r and c, compute Sr,c​ modulo 998,244,353.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains four space-separated integers K, a, d and N.
+K lines follow. For each valid i, the i-th of these lines contains K space-separated integers Mi,1​,Mi,2​,…,Mi,K​.
+
+Output
+For each test case, print K lines. For each valid i, the i-th of these lines should contain K space-separated integers Si,1​,Si,2​,…,Si,K​ modulo 998,244,353.

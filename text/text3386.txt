@@ -1,0 +1,17 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Some elephants have decided to drink water from a pond. The pond may be considered a grid with N rows (numbered 1 through N) and N columns (numbered 1 through N). There are 4N elephants and they stand at the perimeter of the pond in such a way that there is exactly one elephant at the top and bottom of each column and at the left and right end of each row.
+Since elephants can only see straight, in order to drink, an elephant must stretch its trunk over and into the pond. If an elephant's trunk has length L, it covers L nearest cells to the elephant in the elephant's row or column. For example, for an elephant with trunk length 3 standing at the south side of column 2, its trunk should cover cells (N,2), (N−1,2) and (N−2,2).
+Since elephant herds have a strict hierarchy, the elephants on each side of the pond order themselves in such a way that their trunk lengths are either non-increasing or non-decreasing.
+It is guaranteed that the trunks of elephants at the opposite ends of a row or column will never touch each other. But it is still possible for the trunks of some elephants (which are on adjacent sides) to touch or intersect in this scenario. The trunks of two elephants touch if there is at least one cell they both cover. The elephants do not want this to happen, so some of them have to leave. Your task is to find the minimum number of elephants that have to be removed from this arrangement so that no two remaining elephants' trunks touch each other.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers Ln,1​,Ln,2​,…,Ln,N​, where Ln,i​ denotes the length of the trunk of the elephant at the north side of column i.
+The third line contains N space-separated integers Ls,1​,Ls,2​,…,Ls,N​, where Ls,i​ denotes the length of the trunk of the elephant at the south side of column i.
+The fourth line contains N space-separated integers Le,1​,Le,2​,…,Le,N​, where Le,i​ denotes the length of the trunk of the elephant at the east side of row i.
+The fifth line contains N space-separated integers Lw,1​,Lw,2​,…,Lw,N​, where Lw,i​ denotes the length of the trunk of the elephant at the west side of row i.
+
+Output
+For each test case, print a single line containing one integer — the minimum number of elephants to remove.

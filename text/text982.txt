@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+VK gave a problem to Chef, but Chef is too lazy, so he asked you to solve the problem for him. The statement of the problem follows.
+Consider an integer with N digits (in decimal notation, without leading zeroes) D1​,D2​,D3​,…,DN​. Here, D1​ is the most significant digit and DN​ the least significant. The weight of this integer is defined as ∑i=2N​(Di​−Di−1​).
+You are given integers N and W. Find the number of positive integers with N digits (without leading zeroes) and weight equal to W. Compute this number modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and W denoting the number of digits and the required weight.
+
+Output
+For each test case, print a single line containing one integer — the number of N-digit positive integers with weight W, modulo 109+7.

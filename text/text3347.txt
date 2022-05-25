@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You are given an integer A. Let's define an infinite sequence S(A)=A%P,A2%P,A3%P,…, where P=108+7 is a prime and % is the modulo operator.
+Let's also define a decreasing sum D(S) as the sum of all elements of a sequence S which are strictly smaller than all preceding elements of S. When S is a sequence of non-negative integers, the number of such elements is clearly finite.
+Find D(S(A)).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer A.
+
+Output
+For each test case, print a single line containing one integer D(S(A)).

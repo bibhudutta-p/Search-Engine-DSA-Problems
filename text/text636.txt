@@ -1,0 +1,16 @@
+Problem
+You are given an array A=[A1​,A2​,…,AN​] consisting of N positive integers.
+You are also given a constant K, using which you can perform the following operation on A:
+
+Choose two distinct indices i and j such that Ai​+Aj​≤K, and remove either Ai​ or Aj​ from A.
+
+Is it possible to obtain an array consisting of only one element using several (possibly, zero) such operations?
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, print "YES" if it is possible to obtain an array consisting of only one element using the given operation, otherwise print "NO".
+You may print each character of the string in uppercase or lowercase (for example, the strings "yEs", "yes", "Yes" and "YES" will all be treated as identical).

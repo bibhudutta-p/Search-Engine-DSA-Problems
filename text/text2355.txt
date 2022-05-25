@@ -1,0 +1,17 @@
+Problem
+You are given an integer sequence A=(A1​,A2​,…,AN​) of length N and an integer M such that 0≤M<i=1∑N​Ai​.
+An integer sequence B=(B1​,B2​,…,BN​) of length N is called good if:
+
+0≤Bi​≤Ai​ for each 1≤i≤N
+B1​+B2​+⋯+BN​=M
+
+Find the maximum value of gcd(A1​−B1​,A2​−B2​,…,AN​−BN​) over all good sequences B. Here, gcd denotes  the greatest common divisor.
+Note: gcd(a,b,c)=gcd(a,gcd(b,c)) and gcd(a,0)=gcd(0,a)=a.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N,M.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, print a single line containing one integer — the maximum value of gcd(A1​−B1​,A2​−B2​,…,AN​−BN​) over all good sequences B.

@@ -1,0 +1,25 @@
+Problem
+Chef was on vacation when a thought struck him. Given three integers N,K, and X, he would like to make an array A of length N such that it satisfies the following conditions:
+
+0≤Ai​≤N for each 1≤i≤N
+The MEX of every contiguous subarray of length K in A is X.
+
+Please help Chef in finding such an array. If there are multiple answers, you can output any configuration; and if there is no possible answer, output −1.
+Note: The MEX of an array is the minimum non-negative integer that is not present in it. For example,
+
+The MEX of array [0,2,5,1] is 3, because it contains 0,1 and 2 but not 3.
+The MEX of array [1,2,5] is 0, because 0 is the smallest non-negative integer not present in the array.
+The MEX of array [0,1,2,3] is 4.
+
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of a single line of input, containing three space-separated integers N,K,X — the length of the required array, the length of subarrays to be checked, and the required MEX value respectively.
+
+Output Format
+For each test case, output a single line containing the answer:
+
+If no array satisfying the conditions exists, print −1.
+Otherwise, print N space-separated integers denoting the elements of the array, the ith of which is Ai​.
+
+If there are multiple answers, you can output any of them.

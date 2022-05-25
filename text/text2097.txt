@@ -1,0 +1,15 @@
+Problem
+You are given a binary string A of length N. Rearrange the binary string to form binary strings S and T such that the length of the longest common substring between S and T is minimum.
+Print both strings S and T.
+Note that both S and T must be anagrams of A — see the examples below for more clarity.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of two lines.
+The first line of each test case contains a single integer N — the length of the binary string A.
+The second line of each test case contains a binary string A of length N.
+
+Output Format
+
+For each test case, output two lines. The first line contains string S while the second line contains string T. Both strings S and T must be anagrams of string A and thus, have length N.
+

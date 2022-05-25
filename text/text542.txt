@@ -1,0 +1,11 @@
+Problem
+You are given an array A containing N positive integers. Find the number of pairs (i,j) such that 1≤i<j≤N and:
+Ai​+Aj​≥Ai​⋅Aj​
+Input Format
+
+The first line contains an integer T denoting the number of test cases. The T test cases then follow.
+The first line of each test case contains an integer N.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, output on a new line the required answer.

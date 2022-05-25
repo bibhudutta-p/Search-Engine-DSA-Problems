@@ -1,0 +1,12 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+
+Recently, Chef learned how to solve the Longest common subsequence problem. Being a fan of Ekta Kapoor1, he really likes problems which require finding something kth. Please help him solve one such problem he encountered.
+
+
+Chef wants to know the lexicographically kth longest common subsequence of any two given strings A and B. In other words, let L be the length of LCS(A, B), S be the sorted set of all common sequences of A and B with length L, you should find Sk. Keep in mind that all elements of a set are distinct.
+
+Input
+The first line of input contains two integers n and k. The second line contains the string A, and the third contains the string B. Lengths of both A and B equal n. 
+Output
+Output lexicographically kth longest common subsequence. If such a sequence doesn't exist, output -1.

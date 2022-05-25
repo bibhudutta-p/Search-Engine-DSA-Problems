@@ -1,0 +1,12 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef has recently got a broadband internet connection. His history of internet data usage is provided as below.
+During the first T1 minutes, the internet data used was D1 MBs per minute, and during the next T2 minutes, it was D2 MBs per minute, and so on till during last TN minutes it was DN MBs per minute.
+The internet provider charges the Chef 1 dollar for every 1 MB data used, except for the first K minutes, when the internet data is free as part of the plan provided to Chef.
+Please find out the total amount that Chef has to pay the internet provider (in dollars).
+Input
+First line of the input contains a single integer TC the number of test cases. Description of TC test cases follow.
+First line of each test case contains two space separated integers N and K.
+Next N lines of each test case contains information about the internet data usage. Specifically, in the i-th line, there will be two space separated integers: Ti and Di.
+Output
+For each test case output a single integer in separate line, the amount that Chef has to pay in dollars.

@@ -1,0 +1,15 @@
+Problem
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+Chef has failed miserably in several cooking competitions, which makes him think that he's been out of luck recently. Therefore, he decided to build a magic circle using his N chopsticks (numbered 1 through N), hoping that it would somehow improve his luck.
+The magic circle consists of N chopsticks placed on an infinite straight line (so it's not actually a circle). The line is drawn on the ground and chopsticks should be stuck vertically into the ground.
+The chopsticks have lengths x1​,x2​,⋯,xN​. For each valid i, the i-th chopstick can be placed on the line at any integer position yi​; then it casts a shadow on the range [yi​,yi​+xi​] on the line. No two chopsticks may be placed at the same position.
+The positions of the chopsticks should satisfy an additional condition: for each pair of neighbouring chopsticks i and j (such that there are no other chopsticks between them), the distances between these neighbouring chopsticks ∣yi​−yj​∣ must fall in a given range [L,U].
+The magic power of the circle depends on the total shadowed length S=∣⋃i​[yi​,yi​+xi​]∣. While Chef expects the circle to have the maximum effect, he must prepare for the worst-case scenario — due to his recent bad luck. Please help Chef find both the minimum and the maximum value of S.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, L and U.
+The second line contains N space-separated integers x1​,x2​,⋯,xN​.
+
+Output Format
+For each test case, print a single line containing two space-separated integers Smin​ and Smax​.

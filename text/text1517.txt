@@ -1,0 +1,16 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Consider N binary variables x1​,x2​,…,xN​. For each valid i, the i-th of these variables can be xi​=0 or xi​=1; therefore, there are 2N possible assignments of values to the variables. For each valid i, setting xi​=1 gives you score gi​.
+In addition, there are M special intervals (numbered 1 through M). For each valid i, the i-th interval is [ui​,vi​] and if xui​​=xui​+1​=…=xvi​​=1, then your score increases by di​.
+Note that both gi​ and di​ can be negative (setting more variables to 1 can decrease your score), and your score can also be negative. Formally, the score of an assignment of values to the binary variables is
+∑i=1N​gi​⋅xi​+∑i=1M​di​⋅∏j=ui​vi​​xj​.
+Find the K highest scores among all assignments on these variables. Formally, if we computed the scores of all 2N assignments and sorted them in non-increasing order, you should find the first K of these values.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, M and K.
+The second line contains N space-separated integers g1​,g2​,…,gN​.
+M lines follow. For each valid i, the i-th of these lines contains three space-separated integers ui​, vi​ and di​.
+
+Output
+For each test case, print a single line containing K space-separated integers ― the K highest scores of assignments on the binary variables, in decreasing order.

@@ -1,0 +1,18 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Dr.D is bored, so he's making up problems to pass the time. Here is one of them.
+You are given a sequence A1​,A2​,…,AN​. Find the number of 7-tuples of indices (a,b,c,d,e,f,g) such that:
+
+1≤a<b<c<d<e<f<g≤N
+Ag​<Ae​<Af​<Ad​<Ab​<Ac​<Aa​
+
+Since this number could be huge, compute it modulo 987654319.
+Input
+
+The first line of the input contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+
+Print a single line containing one integer — the number of tuples modulo 987654319.
+

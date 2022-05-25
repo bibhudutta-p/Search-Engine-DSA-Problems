@@ -1,0 +1,8 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a string S. Find the number of ways to choose an unordered pair of non-overlapping non-empty substrings of this string (let's denote them by s1​ and s2​ in such a way that s2​ starts after s1​ ends) such that their concatenation s1​+s2​ is a palindrome.
+Two pairs (s1​,s2​) and (s1′​,s2′​) are different if s1​ is chosen at a different position from s1′​ or s2​ is chosen at a different position from s2′​.
+Input
+The first and only line of the input contains a single string S.
+Output
+Print a single line containing one integer — the number of ways to choose a valid pair of substrings.

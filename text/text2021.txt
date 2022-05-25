@@ -1,0 +1,18 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Chef has a sequence A consisting of N positive integers.
+He is playing a game with this sequence. The goal of the game is to maximize the greatest common divisor of all elements of the sequence. Chef may perform the following operation an arbitrary number of times (including zero):
+
+Choose a positive integer d and a valid index i such that Ai​ is divisible by d2.
+Divide Ai​ by d2.
+Choose a valid index j (not necessarily different from i) and multiply Aj​ by d.
+
+Help Chef and find the maximum GCD of all integers in the sequence he could obtain if he plays optimally!
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer — the maximum possible value of the greatest common divisor of all elements of the sequence.

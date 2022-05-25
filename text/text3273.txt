@@ -1,0 +1,11 @@
+Problem
+
+
+There are N barmen, given their probabilities Pi for passing the interview of a bar. Each barman has a productivity Bi. If more than one barman work together their productivity adds up. The bar hires exactly K barmen. Find out the expected productivity value of the bar.
+If the expected value is of the form p/q where p and q are coprime, print (p*q-1) modulo 786433.
+
+Input Format: 
+First line of the input contains two space separated integers N , K 
+Next N lines contains 3 space separated integers, where ith line contains Numi, Deni, Bi respectively, where Pi = Numi/Deni.
+Output Format:
+If the expected value is of the form p/q where p and q are coprime, print (p*q-1) modulo 786433.

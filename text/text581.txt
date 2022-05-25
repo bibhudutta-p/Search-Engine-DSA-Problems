@@ -1,0 +1,14 @@
+Problem
+Chef wants to impress Chefina by giving her the maximum number of gifts possible.
+Chef is in a gift shop having N items where the cost of the ith item is equal to Ai​.
+Chef has K amount of money and a 50% off discount coupon that he can use for at most one of the items he buys.
+If the cost of an item is equal to X, then, after applying the coupon on that item, Chef only has to pay ⌈2X​⌉ (rounded up to the nearest integer) amount for that item.
+Help Chef find the maximum number of items he can buy with K amount of money and a 50% discount coupon given that he can use the coupon on at most one item.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The next line contains N space-separated integers, where the ith integer Ai​ denotes the cost of the ith item.
+
+Output Format
+For each test case, print a single line containing one integer ― the maximum number of items Chef can buy.

@@ -1,0 +1,15 @@
+Problem
+Consider a tree with N nodes, rooted at node 1.
+The value of the ith node (1≤i≤N) is denoted by Ai​.
+Chef defines the function MEX(u,v) as follows:
+Let B denote the set of all the values of nodes that lie in the shortest path from u to v (including both u and v). Then, MEX(u,v) denotes the MEX of the set B.
+Find the maximum value of MEX(1,i), where 1≤i≤N.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of the T test cases follows.
+The first line of each test case contains a single integer N - the number of nodes in the tree.
+The second line of each test case contains N space separated integers A1​,A2​,...,AN​. Ai​ represents the value of the ith node.
+The following N−1 lines contain two space-separated integers X and Y, denoting that there exists an edge between the nodes X and Y.
+
+Output Format
+For each test case, output in a single line, the maximum value of MEX(1,i) where 1≤i≤N.

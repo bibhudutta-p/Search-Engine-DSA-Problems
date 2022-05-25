@@ -1,0 +1,23 @@
+Problem
+The Rumbling is a hypothetical cataclysmic event involving Karl Fritz's Wall Titans marching across the Earth, destroying all life upon it. Eren Yeager who possesses the Founding Titan has decided to begin The Rumbling to show the true power of the Eldians to the rest of the world.
+
+
+There are N Titans standing in a line from west to east. Each of the Titans is facing one of the four directions i.e., North, South, East, or West, represented by uppercase English letters 'N', 'S', 'E', and 'W' respectively.
+
+
+A Titan can rotate on the spot where it is standing. It requires X units of energy to rotate 90 degrees clockwise, and  Y units of energy to rotate 90 degrees anti-clockwise.
+
+
+For the activation of The Rumbling, all the Titans must face Eren Yeager.
+
+
+So, Eren wants to position himself on the West-East line (on which other Titans are standing). He can either stand to the left of all Titans, in between two consecutive Titans, or to the right of all Titans. He wants to choose a position that minimizes the units of energy required by all the Titans to rotate and face him. Find the minimum units of energy required by all the Titans for the Activation of the Rumbling in the optimal configuration.
+Input Format
+
+The first line consists of T, the number of test cases. Description of the test cases follow.
+The first line of each test case will contain N, the number of Titans.
+The second line of each test case will contain a string S of length N, where the ith character represents the directions faced by the ith Titan.
+The third line of each test case will contain two space-separated integers, the values of X and Y.
+
+Output Format
+For each test case, output a single line containing one integer, the answer to that test case.

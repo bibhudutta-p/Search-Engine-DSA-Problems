@@ -1,0 +1,16 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+You are given two spanning trees T1​ and T2​ on the same set of N vertices (numbered 1 through N). For each edge e1​ in T1​, you have to calculate the number of edges e2​∈T2​ which satisfy the following conditions:
+
+T1​−e1​+e2​ (the graph formed by removing the edge e1​ from T1​ and adding the edge e2​) is a spanning tree
+T2​−e2​+e1​ is also a spanning tree
+
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+Each of the following N−1 lines contains two space-separated integers u and v denoting an edge in T1​ between vertices u and v.
+The following N−1 lines describe the edges of T2​ in the same format.
+
+Output
+For each test case, print N−1 space-separated integers — the number of valid edges e2​ for each edge e1​∈T1​ (in the order in which they are given on the input).

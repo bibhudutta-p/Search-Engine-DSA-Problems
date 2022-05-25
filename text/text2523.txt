@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef wants to buy candy for his friend. He went to a store which sells candies from N jars, arranged in a circle and numbered 1 through N in such a way that for each valid i, jars i and i+1 are adjacent, and jars 1 and N are also adjacent. For each valid i, the candies in the i-th jar have a sweetness Ai​.
+Obviously, Chef wants to buy the sweetest candies. However, he gets attracted by a limited-time offer in the store and wants to use it. The offer is as follows: Chef has to choose an integer k (1≤k≤N), then choose k jars which are contiguous in the circle, and finally, he can buy the candies from these jars at a discounted price. For a fixed k, Chef chooses the k contiguous jars uniformly randomly (among all possible sets of k contiguous jars), but once he chooses them, he buys only candies with the largest sweetness among the chosen jars.
+As you may have guessed, Chef is confused about which value of k to choose. For each valid k, let's denote the expected value of the sweetness of the candies he will buy if he chooses this value of k by Sk​. Then, let's denote Fk​=Sk​⋅N; it can be proved that for each valid k, Fk​ is an integer. Can you help Chef find the values of F1​,F2​,…,FN​?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing N space-separated integers F1​,F2​,…,FN​.

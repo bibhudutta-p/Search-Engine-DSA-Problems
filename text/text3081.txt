@@ -1,0 +1,20 @@
+Problem
+Given an array A of length N such that 1≤Ai​≤N and Ai​=i, ∀i∈[1,N].
+Count the number of arrays B of length N such that ∀i∈[1,N]:
+
+Bi​=BAi​​
+1≤Bi​≤M
+
+Since the answer may be large, print it modulo 109+7.
+Input Format
+
+The first line contains a single integer T − the number of test cases. The description of T test cases follows.
+Each test case contains 2 lines of input:
+
+The first line of each test case contains two space separated integers N, M.
+The second line of each test case contains N space separated integers A1​,A2​,…,AN​.
+
+
+
+Output Format
+For each test case, output a single integer on a newline - answer modulo 109+7.

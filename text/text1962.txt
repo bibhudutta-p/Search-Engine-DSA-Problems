@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Mandarin Chinese  and Russian.
+This time, Chef has given you an array A containing N elements.
+He had also asked you to answer M of his questions. Each question sounds like: "How many inversions will the array A contain, if we swap the elements at the ith and the jth positions?".
+The inversion is such a pair of integers (i,j) that i<j and Ai​>Aj​.
+Input
+
+The first line contains two space separated integers N and M - the number of integers in the array A and the number of questions respectively.
+The second line contains N space-separated integers - A1​,A2​,…,AN​, respectively.
+Each of next M lines describes a question by two integers i and j - the 1-based indices of the numbers we'd like to swap in this question.
+
+Output
+Output M lines. Output the answer to the ith question of the ith line.

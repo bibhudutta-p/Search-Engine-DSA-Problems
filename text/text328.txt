@@ -1,0 +1,18 @@
+Problem
+It is Chef's birthday. You know that Chef's favourite number is X. You also know that Chef loves averages. Therefore you decide it's best to gift Chef 3 integers A1​,A2​,A3​, such that:
+
+The mean of A1​,A2​ and A3​ is X.
+1≤A1​,A2​,A3​≤1000.
+A1​,A2​ and A3​ are distinct.
+
+Output any suitable A1​,A2​ and A3​ which you could gift to Chef.
+As a reminder, the mean of three numbers P,Q,R is defined as: mean(P,Q,R)=3P+Q+R​.
+For example, mean(2,3,5)=32+3+5​=310​=3.333ˉ, mean(2,2,5)=32+2+5​=39​=3.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains one integer X — Chef's favourite number.
+
+Output Format
+For each test case, one line containing 3 space-separated integers — A1​,A2​, and A3​, which satisfy the given conditions. If there are multiple possible answers you may output any of them.
+It can be shown that an answer always exists, under the given constraints.

@@ -1,0 +1,15 @@
+Problem
+An index i in a permutation P of length N is said to be good if:
+
+Pi​ is divisible by i
+
+You are given 2 integers N and K. You need to construct a permutation P of length N such that exactly K indices in that permutation are good.
+If no such permutation exists, output −1.
+If multiple such permutations exist, output any.
+Input Format
+
+The first line contains a single integer T - the number of test cases. Then the test cases follow.
+The first and only line of each test case contains two integers N and K - the length of the permutation to be constructed and the number of good indices.
+
+Output Format
+For each test case, output any permutation satisfying the given condition.

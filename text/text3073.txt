@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a set S, which is a subset of {1,2,…,N}.
+Consider a permutation P1​,P2​,…,PN​ of the integers 1 through N. The cost of this permutation is the number of indices i>1 such that Pi​ is divisible by Pi−1​ and Pi−1​Pi​​∈S.
+For each k between 0 and N−1 (inclusive), find the number of permutations with cost k. Since these numbers may be large, compute them modulo 998,244,353.
+Input
+
+The first line of the input contains a single integer N.
+The second line contains a binary string T with length N. For each valid i, the i-th character of T is '1' if i∈S or '0' otherwise.
+
+Output
+Print a single line containing N space-separated integers. For each k (0≤k<N), the k+1-th of these integers should be the number of permutations with cost k, modulo 998,244,353.

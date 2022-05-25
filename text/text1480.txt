@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a rooted tree with N nodes (numbered 1 through N); node 1 is the root. Each node has a value; let's denote the value of node i by Ai​.
+You may perform the following operation any number of times (including zero): choose any node which still exists in the tree and remove the whole subtree of this node including itself.
+Let's define the profit as the sum of values of all nodes which currently exist in the tree minus X⋅k, where k denotes the number of times this operation was performed. Find the maximum possible profit.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and X.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+Each of the following N−1 lines contains two space-separated integers u and v denoting that nodes u and v are connected by an edge.
+
+Output
+For each test case, print a single line containing one integer — the maximum profit.

@@ -1,0 +1,23 @@
+Problem
+Sardar Khan has finally decided to attack Ramadhir - he will bomb one of Ramadhir's businesses in Wasseypur. Sardar Khan knows that Ramadhir has N businesses (numbered 1 to N) and that there are N−1 roads connecting pairs of these businesses in such a way that all businesses are connected. Further, Sardar knows that each business has a specific value - the i-th business has value Ai​.
+When Sardar Khan destroys a business, he also destroys every road directly connected to it.
+Formally, destroying business v also destroys all existing roads of the form (u,v).
+Sardar thinks that the damage dealt to Ramadhir upon destroying business v equals the sum of the greatest common divisors of every remaining maximal connected set of businesses. More formally,
+
+Let the connected components of the graph obtained on deleting v and edges incident to it be C1​,C2​,…,Ck​.
+Define gcd(Ci​) to be gcd(Ai1​​,Ai2​​,…,Air​​) where Ci​ consists of vertices i1​,i2​,…,ir​.
+The damage caused by destroying v is then ∑i=1k​gcd(Ci​).
+
+Sardar Khan wants to maximize the damage he deals. Can you find the maximum possible damage he can achieve, given that he destroys exactly one business?
+If the process of computing damage is still unclear, please refer to sample test cases for an explained example.
+Input Format
+
+The first line of input contains an integer T, denoting the total number of test cases. The description of T test cases follows.
+The first line of each test case contains an integer N, denoting the number of businesses Ramadhir owns.
+Each of the next N−1 lines contains 2 integers a and b, denoting a road between businesses a and b.
+Finally, the last line of each test case contains N space-separated positive integers A1​,A2​,…,AN​, where Ai​ is the value of the i-th business.
+
+Output Format
+
+For each test case, output a single line containing one integer - the maximum possible damage that Sardar Khan can deal.
+

@@ -1,0 +1,21 @@
+Problem
+Read problem statements in Mandarin, Vietnamese, and Russian as well.
+A positive integer N≥1 is given.
+An N-uple (x1​,x2​,…,xN​) of nonnegative integers is special if, after we remove all entries which are zero, its entries are nondecreasing. For example (0,2,0,0,4,0,4,5,0,0) is special, but (3,2,0) and (0,1,3,0,0,1,0) are not.
+One can show that there is a unique function μ defined on the N-uples of nonnegative integers such that, for any N-uple x=(x1​,x2​,…,xN​)
+\begin{cases}
+    1 &\text{if x is special} \\
+    0 &\text{otherwise}
+\end{cases},$$
+where the sum ranges over all $N$-uples $y=(y_1, y_2,\dots, y_N)$ of nonnegative integers such that $y_i\le x_i$ for all $1\le i\le N$.
+
+You are given $x=(x_1,x_2,\dots, x_N)$, determine whether $\mu(x)$ is $0$ or not.
+
+
+### Input Format
+- The first line will contain $T$, the number of test cases. Then the test cases follow.
+- The first line of each test case contains one integer $N$, the size of the tuple considered.
+- The second line of each test case contains $N$ integers $x_1, x_2, \dots, x_N$, the entries of the given $N$-uple.
+### Output Format
+For each test case, print the string <tt>yes</tt> if $\mu(x)=0$ and the string <tt>no</tt> otherwise. You can print each letter in any case (upper or lower).
+### 

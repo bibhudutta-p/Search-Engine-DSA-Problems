@@ -1,0 +1,30 @@
+Problem
+Read problems statements in Mandarin chinese
+, Russian and Vietnamese as well.
+Vanja and Miksi really like games. After playing one game for a long time, they decided to invent another game!
+In this game, they have a sequence A1​,A2​,…,AN​ and two numbers Z1​ and Z2​. The rules of the game are as follows:
+
+The players take turns alternately, starting with Vanja.
+There is an integer S; at the beginning, S=0.
+In each turn, the current player must choose an arbitrary element of A and either add that number to S or subtract it from S. Each element can be selected multiple times.
+Afterwards, if S=Z1​ or S=Z2​, the current player (the player who made S equal to Z1​ or Z2​) is the winner of the game.
+If the game lasts for 1010 turns, Vanja and Miksi decide to declare it a tie.
+
+Can you help the boys determine the winner of the game? Please note that the game can end in a tie (if nobody can make S=Z1​ or S=Z2​ in the first 1010 moves).
+Both players play optimally, i.e. if there is a move which guarantees the current player's victory regardless of the other player's moves, the current player will make such a move. If the current player cannot win and there is a move which guarantees that the game will end in a tie, the current player will make such a move.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, Z1​ and Z2​.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+
+For each test case, print a single line containing one integer — the final result of the game:
+
+1 if Vanja (the first player) has a winning strategy
+2 if Miksi (the second player) has a winning strategy
+0 if the game ends in a tie
+
+
+

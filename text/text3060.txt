@@ -1,0 +1,19 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+A polygon T is said to be inside a polygon S if all points that lie strictly inside T (not on the perimeter of T) also lie strictly inside S.
+A multiset of polygons {Q1​,Q2​,…,Qr​} is said to form a chain if there is a permutation p1​,p2​,…,pr​ of the integers 1 through r such that for each i (1≤i<r), Qpi​​ is inside Qpi+1​​.
+You are given N convex polygons P1​,P2​,…,PN​ in a 2D Cartesian coordinate system. Every 10−100 seconds, you may choose one of the polygons and translate it by upto 10−100 either along the x-axis or along the y-axis.
+Find the minimum amount of time necessary to make all N polygons form a chain or decide that it is impossible.
+Input
+
+The first line of the input contains a single integer N. The descriptions of N polygons follow.
+For each polygon:
+
+The first line contains a single integer M denoting the number of its vertices.
+The following M lines describe the vertices in counterclockwise order. Each of these lines contains two space-separated integers x and y denoting the coordinates of one vertex.
+
+
+
+Output
+If it is impossible to make the polygons form a chain, print a single line containing the integer −1.
+Otherwise, print a single line containing one real number ― the minimum amount of time. Your answer will be considered correct if its absolute or relative error does not exceed 10−6.

@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Russian
+Chef has a sequence A1​,A2​,…,AN​. In one operation, Chef can choose one index i (1≤i≤N) and change Ai​ to Aip​, where p=max(0,⌈2Ai​​⌉−1).
+Help Chef find the smallest number of operations needed to make the sum of the sequence even or determine that it is impossible.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer — the minimum number of operations needed to make the sum of the sequence even, or −1 if it is impossible.

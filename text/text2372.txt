@@ -1,0 +1,19 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Chef had an array A with length N, but some of its elements got lost. Now, each element of this array is either unknown (denoted by -1) or a positive integer not exceeding K.
+Chef decided to restore the array A by replacing each unknown element by a positive integer not exceeding K.
+However, Chef has M restrictions that must hold for the restored array. There are two types of restrictions:
+
+I L R, meaning that for each i such that L < i ≤ R, the condition Ai - Ai-1 = 1 should be satisfied.
+D L R, meaning that for each i such that L < i  ≤ R, the condition Ai - Ai-1 = -1 should be satisfied.
+
+Chef would like to know the number of ways to restore the array while satisfying all restrictions, modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, M and K.
+The second line contains N integers A1, A2, ..., AN.
+Each of the following M lines contains one restriction in the form I L R or D L R.
+
+Output
+For each test case, print a single line containing one integer - the number of ways to restore the array modulo 109+7.

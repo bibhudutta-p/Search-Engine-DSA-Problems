@@ -1,0 +1,13 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+This problem deals with the effective formation of a cluster among K individuals living in a society. A society can be represented  as a N × N grid. Individuals are located at certain points on the grid. Each individual's social interaction is measured by a positive integer, called interaction power denoted by Ii. The dissimilarity between two individuals is defined as the absolute difference between their interaction powers. Less the absolute difference between interaction powers of two individuals, more the probability that they will interact with each other.
+Now your task is to form a single cluster of individuals by displacing some individuals from their original positions. Formally, a cluster means a connected component. An individual at point (xi, yi) is said to be adjacent to another individual at point (xj, yj) if and only if |xi − xj| ≤ 1 and |yi − yj| ≤ 1.
+What needs to be optimized ?
+The cost of clustering is defined as Score = 1000×A + 10×B , where A and B are two variables. The task is to minimize this cost.
+We define A first. Suppose P be the set of individuals on the grid and |P| = K. In order to create the cluster, we may need to displace some individuals from their original positions on the grid. Let the individual pi be displaced by a Manhattan distance di in order to become a part of the cluster.Now di = |xi(final) − xi(initial)| + |yi(final) − yi(initial)|.Here (xi(initial), yi(initial)) is the initial position of individual pi and (xi(final), yi(final)) is the position of the same individual after becoming a part of the cluster.Now A = Σ (di / Ii)  where i = 1 to K.Here Ii = Interaction power of individual pi.The variable B is defined after the cluster is formed.B = Σ ( si / ni ) , where  i = 1 to K.si = Σ (|Ij − Ii| ), where { pj ∈ P | pj is adjacent to pi }.ni = Number of individuals adjacent to pi.
+Input
+The first line of input contains an integer T, denoting the number of test cases. Then T test cases follow.
+The first line of each test case contains two space separated integers N and K, denoting the grid size and the number of individuals, respectively. Then N lines follow. The ith of these lines contains N space separated integers, denoting the information regarding the ith row. The jth value of ith row contains the index value of an individual at (i, j) cell. The index value, of course, ranges from 1 to K. Empty cells have zero value.
+Then K lines follow. The ith of these lines contains the value of Ii, the interaction power of ith individual.
+Output
+ For each test case, print N lines, each line containing N space separated integers. It represents the N × N grid containing the cluster.

@@ -1,0 +1,17 @@
+Problem
+MoEngage gives you an array A of length N.
+You are required to perform exactly (N−1) operations on the array. In one operation, you have to pick two indices i and j (1≤i<j≤N) and do the following:
+
+Remove the elements Ai​ and Aj​ from array.
+Append ∣Ai​−Aj​∣ to the array.
+
+Note that, after each operation, the size of the array is reduced by one. Thus, after (N−1) operations, only one element remains in the array.
+Find the number of distinct values the remaining element can have after (N−1) operations.
+Input Format
+
+First line of the input contains T, the number of test cases. Then the test cases follow.
+First line of each test case contains an integer N denoting the length of the array.
+Second line of each test case contains N space-separated integers describing the array A.
+
+Output Format
+For each test case, print the number of distinct values the remaining element can have after (N−1) operations.

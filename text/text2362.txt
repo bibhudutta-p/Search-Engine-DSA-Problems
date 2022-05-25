@@ -1,0 +1,15 @@
+Problem
+You are given two integers N and K.
+Construct an array A consisting of N distinct positive integers such that the following conditions are met:
+
+1≤Ai​≤2⋅104;
+There exists no subsequence of A with sum K.
+
+It can be shown that the answer always exists.
+Input Format
+
+The first line contains a single integer T: the number of test cases.
+The only line of each test case contains two integers N and K - as mentioned in the statement.
+
+Output Format
+For each test case, print a single line containing N space-separated elements: A1​,A2​,…,AN​. If there are multiple answers, you may print any.

@@ -1,0 +1,16 @@
+Problem
+You are given two arrays A and B, both of length N.
+You would like to choose exactly K distinct indices i1​,i2​,…,iK​ such that min(Ai1​​+Ai2​​+…+AiK​​,Bi1​​+Bi2​​+…+BiK​​) is maximized. Find this maximum value.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of 3 lines of input.
+
+The first line of each test case contains two space-separated integers N and K.
+The second line contains N space-separated integers A1​,A2​,…,AN​ denoting the elements of A.
+The third line contains N space-separated integers B1​,B2​,…,BN​ denoting the elements of B.
+
+
+
+Output Format
+For each test case, output a new line containing one integer — the required maximum value.

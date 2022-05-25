@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Vietnamese, and Bengali as well.
+You are given a grid with N rows and M columns, where each cell contains either '0' or '1'.
+You may perform the following operation up to K times: choose two different cells and swap the values in them. Find the largest possible side length of a square subgrid which contains only '0'-s after performing these operations.
+Input
+
+The first line of the input contains a single integer T, total number of testcases.
+Each testcase contains N+1 lines of input.
+The first line contains three space-separated integers N, M and K.
+N lines follow. For each valid i, the i-th of these lines contains a single string with length M describing the i-th row of the grid.
+
+Output
+For each testcase, print a single line containing one integer ― the largest side length of a square subgrid containing only '0'-s.

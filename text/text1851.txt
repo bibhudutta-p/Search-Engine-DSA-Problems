@@ -1,0 +1,14 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Chef has started learning to solve dynamic programming problems recently. He has practiced on a lot of problems already, so he wants to try his hands on the hardest problems in this domain.
+Chef only likes the interesting part of solving dynamic programming problems — specifically, he just likes to divide a problem into beautiful subproblems which consist of solving recurrences; he finds actually solving these recurrences quite boring. Since you are Chef's assistant, your job is solving this boring part for Chef.
+Let's define a recurrent sequence {dp(k)}k=1∞​ with parametres A, B and K as follows:
+
+dp(1)=K
+for n>1, dp(n)=A⋅dp(n−1)+B⋅i=1∑n−1​dp(i)⋅dp(n−i)
+
+Chef would like you to find dp(N). Since this number can be very large, compute it modulo 109+7.
+Input
+The first and only line of the input contains four space-separated integers N, K, A and B.
+Output
+Print a single line containing one integer — the value of dp(N) modulo 109+7.

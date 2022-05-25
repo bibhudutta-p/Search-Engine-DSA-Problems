@@ -1,0 +1,10 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given two integers N and K. You may perform the following operation any number of times (including zero): change N to N−K, i.e. subtract K from N. Find the smallest non-negative integer value of N you can obtain this way.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and K.
+
+Output
+For each test case, print a single line containing one integer — the smallest value you can get.

@@ -1,0 +1,14 @@
+Problem
+Please refer to sample test in English version of statement.
+Except for that, you can read problem statement in Mandarin Chinese, Russian and Vietnamese.
+There are N ice-creams placed in a row in a shop, where the i-th has cost C[i] and flavor F[i]. Chef wants to buy some consecutive segment of ice-creams so that their total cost doesn't exceed his budget K, and he can mix some subset of bought ice-creams to make a new ice-cream with maximum possible flavor.
+Mixing m ice-creams of flavors A1, A2, .., Am will result in an ice-cream of flavor equal to A1 ^ A2 ^ ... ^ Am where ^ is the xor operation. 
+What is maximum possible flavor that Chef can get?
+It's guaranteed that at least one ice-cream has cost that doesn't exceed Chef's budget.
+
+Input
+First line contains an integer T, which is the number of test-cases.
+The first line of each test-case contains two integers: N and K.
+Each of the following N lines contains two integers C[i] and F[i]. 
+Output
+Output the answer of each test-case in new line, the maximum flavor that the Chef can get.

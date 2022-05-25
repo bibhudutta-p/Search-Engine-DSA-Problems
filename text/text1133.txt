@@ -1,0 +1,18 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a sequence A1​,A2​,…,AN​ and you have to perform the following operation exactly X times:
+
+Choose two integers i and j such that 1≤i<j≤N.
+Choose a non-negative integer p.
+Change Ai​ to Ai​⊕2p, and change Aj​ to Aj​⊕2p, where ⊕ denotes bitwise XOR.
+
+Find the lexicographically smallest sequence which can be obtained by performing this operation exactly X times.
+A sequence B1​,B2​,…,BN​ is said to be lexicographically smaller than a sequence C1​,C2​,…,CN​ if there is an index i such that Bi​<Ci​ and for each valid j<i, Bj​=Cj​.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and X.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing N space-separated integers ― the lexicographically smallest obtainable sequence.

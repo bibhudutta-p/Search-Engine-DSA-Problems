@@ -1,0 +1,9 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given one positive integer N. Calculate
+∫0∞​e2πx+1e2πx−1​(x1​−N2+x2x​)dx.
+It is possible to prove that its value can be written as a fraction ba​, where a and b are positive integers and b is coprime with 998,244,353. You need to find a⋅b−1 modulo 998,244,353, where b−1 denotes the multiplicative inverse of b modulo 998,244,353.
+Input
+The first and only line of the input contains a single integer N.
+Output
+Print a single line containing one integer a⋅b−1 modulo 998,244,353.

@@ -1,0 +1,13 @@
+Problem
+Chef has a binary string S of length N. He wonders if it is possible to divide S into exactly K non-empty substrings such that each Si​ belongs to exactly one substring and the XOR of each substring is the same. Can you help Chef to determine if it is possible to do so?
+Note: XOR of substring SL⋯R​ is defined as: XOR(SL⋯R​)=SL​⊕SL+1​⊕⋯⊕SR​.
+Here, ⊕ denotes the bitwise XOR operation.
+Input Format
+
+The first line contains a single integer T - the number of test cases. Then the test cases follow.
+The first line of each test case contains two integers N and K - the length of the binary string S and the number of substrings in which S has to be divided.
+The second line of each test case contains a binary string S of length N containing 0s and 1s only.
+
+Output Format
+For each test case, output YES if S can be divided into K substrings such that XOR of each substring is the same. Otherwise, output NO.
+You may print each character of YES and NO in uppercase or lowercase (for example, yes, yEs, Yes will be considered identical).

@@ -1,0 +1,13 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+Consider a sequence of positive integers A = (A1, A2, ... , AN), and another sequence B = (B1, B2, ... , BM). We say that B is a subsequence of A, if B can be written as (Ai1, Ai2, ... , AiM), where 1 ≤ i1 < i2 ... < iM ≤ N. If B is a subsequence of A, there could be multiple ways to write it in such a manner, and among all those ways, we choose the way which minimizes iM. We call this minimized iM to be f(B). Note that in the definition of f(B), we are assuming that A is a constant. Also, when B is the empty sequence, it is considered to be a subsequence of A, and f(B) would then be 0.
+Now, given A, we will construct a graph G which has N + 1 nodes and labeled directed edges. The nodes are {V0, V1, ..., VN}. If there are two subsequences of A: C1 and C2, such that C2 is obtained by appending the integer b at the end of C1, and f(C1) ≠ f(C2), then the edge ( Vf(C1), b, Vf(C2) ) is added to the graph G if it is not already present in the graph. (Note that even if an edge with a different label is already present, this edge is added. Just that there will not be multiple edges from one vertex to another with the same label). The edge (Vi, b, Vj) means that it is a directed edge from Vi to Vj, and it has the label b.
+Chef constructed this graph, but then lost the sequence A, as well as all the labels on the graph. So all he has left is a directed graph (with possibly multiple edges from one vertex to another), and now he wants to find the sequence A. Since there could be many such sequences which fit the graph, he wants to find the lexicographically smallest such sequence. Help Chef in finding this.
+Input
+
+The first line contains a single integer, T, which is the number of testcases. The description of each testcase follows.
+The first line of each testcase contains two integers, N and M. This means that the input graph has vertices {V0, V1, ..., VN} and M directed multi-edges.
+The i-th of the next M lines contains two integers, xi and yi, which denote that there is a directed edge from Vxi to Vyi.
+
+Output
+For each testcase, output a single line which contains N positive integers which denote the lexicographically smallest sequence which can lead to the construction of the inputted graph. Or, if such a sequence does not exist, output -1.

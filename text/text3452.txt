@@ -1,0 +1,29 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+This is not intended to be the tie-break problem.
+In the Chefland army, there are M generals (numbered 1 through M) and N soldiers (numbered 1 through N).
+The Army has a vertical hierarchy ― a soldier may command many other soldiers (including zero), but each soldier has at most one commander. A soldier y is a subordinate of a soldier x if soldier x is the commander of soldier y or there is a soldier z commanded by soldier x such that soldier y is a subordinate of soldier z. No soldier is commanded by one of their subordinates because every soldier is feared by all of his subordinates. Moreover, all soldiers are subordinates of soldier 1. Let's denote the commander of soldier i by pi​ (p1​=0 since soldier 1 cannot have a commander).
+As in any organisation, the generals have some soldiers they hate. If a general meets a soldier whom he hates, this general becomes angry for the rest of the day.
+The soldiers should be paid some wages over one or more days. For each valid i, soldier i should be paid Si​ chefcoins. Shyam is in charge of this; he should choose an integer D (0≤D≤N2) and during each of the next D days, perform the following process:
+
+Choose an integer K and K soldiers, then call these soldiers to report their feats to the generals. Shyam is very careful ― on each day, he chooses these soldiers in such a way that there are no two called soldiers where one is afraid of the other (in other words, no called soldier is a subordinate of another called soldier).
+Choose a positive real number R and give each of the called soldiers R chefcoins.
+For each soldier v and general u, if soldier v was called and is hated by general u, then general u becomes angry. Let G be the total number of angry generals on this day. Then, the total angriness of the generals increases by G⋅R.
+Before the start of the next day, the generals that were angry calm down and are not angry anymore (so they can become angry again).
+
+Help Shyam pay the soldiers while minimising the total angriness of the generals over all D days.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers M and N.
+Each of the next M lines contains a binary string B with length N. For each valid i and j, the j-th character in the i-th of these strings is '1' if general i hates soldier j or '0' otherwise.
+The next line contains N space-separated integers S1​,S2​,…,SN​.
+The last line contains N space-separated integers p1​,p2​,…,pN​.
+
+Output
+For each test case:
+
+First, print a line containing a single integer D (0≤D≤N2) ― the number of days during which the soldiers are paid.
+Then, print D lines. In each of these lines, print an integer K, a space, a real number R, a space and K space-separated integers x1​,x2​,…,xK​ ― the numbers of the called soldiers.
+For each valid i, let the total amount of money received by soldier i be Wi​; your answer will be considered correct if ∣Wi​−Si​∣≤10−6.
+

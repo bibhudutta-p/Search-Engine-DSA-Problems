@@ -1,0 +1,16 @@
+Problem
+Read problems statements Hindi ,Bengali , Mandarin chinese , Russian and Vietnamese as well.
+Chef loves to play chess, so he bought a new chessboard with width M and height N recently.
+Chef considers a chessboard correct if its width (number of columns) is equal to its height (number of rows) and each cell has no side-adjacent cell of the same color (this is the so-called "chess order" which you can see in real-world chessboards). Chef's chessboard does not have to be a correct chessboard (in particular, it may have N=M).
+A sub-board of Chef's chessboard is a rectangular piece of this board with an arbitrarily chosen top left and bottom right cell (possibly equal to the original chessboard). Every sub-board is also a chessboard.
+Chef can invert some cells; inverting a cell means changing its color from white to black or from black to white. After inverting those cells, he wants to cut the maximum correct sub-board out of the original chessboard.
+Chef has not yet decided how many cells he would like to invert. Now he wonders about the answers to Q question. In the i-th question (1≤i≤Q), he is allowed to invert at most ci​ cells (possibly zero); he would like to know the side length of the largest possible correct sub-board of his chessboard. Help Chef answer these questions.
+Input
+
+The first line of the input contains two space-separated integers N and M.
+N lines follow. For each valid i, the i-th of these lines contains a string with length M describing the i-th row of Chef's chessboard. Each character of this string is either '0', representing a black cell, or '1', representing a white cell.
+The next line contains a single integer Q.
+The last line contains Q space-separated integers c1​,c2​,…,cQ​.
+
+Output
+For each question, print a single line containing one integer — the maximum size of a correct sub-board.

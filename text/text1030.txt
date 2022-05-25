@@ -1,0 +1,8 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+You are given two positive integers – A and B. You have to check whether A is divisible by all the prime divisors of B.
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+For each test case, you are given two space separated integers – A and B.
+Output
+For each test case, output "Yes" (without quotes) if A contains all prime divisors of B, otherwise print "No".

@@ -1,0 +1,20 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+There are N mountains in Chefland, arranged in a line and numbered 1 through N from left to right. For each valid i, the i-th mountain from the left has a height Hi​.
+Chef wants to choose a contiguous sequence of mountains l,l+1,…,r and visit them in this order. He has a notebook where he writes down some heights of mountains. Initially, the notebook contains only the integer 0 and each time he visits a new mountain whose height is strictly greater than all the integers written in the notebook so far, he writes its height in the notebook. The satisfaction Chef gets from travelling is the number of positive integers written in the notebook at the end. For example, if the mountains have heights (1​,5​,2,5,3,7​,2,9​), Chef's satisfaction is 4 and the integers written in the notebook at the end are 0,1,5,7,9.
+Your task is to answer Q queries. In each query, Chef gives you two integers L and R (1≤L≤R≤N) and you should find the maximum satisfaction he can get if he can choose to visit any contiguous sequence of mountains from l to r such that L≤l≤r≤R. Note that the queries are encoded in such a way that they have to be processed online.
+Input
+
+The first line of each test case contains three space-separated integers N, Q and s.
+The second line contains N space-separated integers H1​,H2​,…,HN​.
+Each of the following Q lines contains two space-separated integers x and y describing a query. The parameters L and R for this query can be computed as follows:
+
+Let last be the answer to the previous query, or 0 if this is the first query in this test case.
+Set L to (x+s⋅last−1)%N+1.
+Set R to (y+s⋅last−1)%N+1.
+If L>R, swap L and R.
+
+
+
+Output
+For each query, print a single line containing one integer — the maximum satisfaction Chef can get.

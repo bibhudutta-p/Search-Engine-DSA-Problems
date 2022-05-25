@@ -1,0 +1,16 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Limak, a little polar bear, loves puzzles. He has recently found an especially interesting one.
+There is a rectangular grid with N rows and N columns, both numbered 1 through N. Two cells are called adjacent if they share a side, i.e. all the cells other than those at boundary will have 4 adjacent cells. Every cell is colored in one of three colors. For convenience, let us label these colors by characters 'A', 'B' and 'C'.
+In one move, Limak can choose any two adjacent cells of different colors and change them both to the third color. For example, if two adjacent cells have colors 'A' and 'C', then Limak can change them both to colour 'B'.
+It's forbidden to choose two non-adjacent cells or to choose a cell with itself.
+It's allowed to choose two adjacent cells of the same color, but such a move does nothing.
+The goal of the puzzle is to get all the cells of the grid in the same color. Limak is a smart bear, he would surely achieve that, but there is a problem, he is color-blind.
+He sees the size of the grid but he can't distinguish the colors of cells.
+You are his only hope. Given an integer N, find a sequence of at most 100,000 moves such that it solves each grid of dimensions N × N.
+Input
+The only line of the input contains a single integer N, denoting the dimension of the grid.
+Output
+In the first line, output a single integer K (between 0 and 100,000, inclusive), denoting the number of moves.
+Then print K lines. The i-th of them should contain four integers r1, c1, r2 and c2, meaning that in the i-th move, you choose cells (r1, c1) and  (r2, c2). These two cells must be adjacent. All coordinates must be between 1 and N, inclusive.
+Here, (i, j) denotes a cell at the intersection of the i-th row and the j-th column.

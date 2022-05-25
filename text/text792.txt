@@ -1,0 +1,24 @@
+Problem
+Read problem statements in Russian, Mandarin Chinese, Bengali, and Vietnamese as well.
+There are N players with IDs from 1 to N, who are participating in the Javelin throw competition which has two rounds. The first is the qualification round, followed by the final round. The qualification round has gotten over, and you are given the longest distance that each of the N players has thrown as A1​,A2​,…,AN​. Now, the selection process for the final round happens in the following two steps:
+
+
+If the longest throw of a player in the qualification round is greater than or equal to the qualification mark of M cm, they qualify for the final round.
+
+
+If after step 1, less than X players have qualified for the finals, the remaining spots are filled by players who have thrown the maximum distance among the players who have not qualified yet.
+
+
+You are given the best throws of the N players in the qualification round A1​,A2​,…,AN​ and the integers M and X. Print the list of the players who will qualify for the finals in increasing order of their IDs.
+Input Format
+
+The first line of input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N,M,X.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+
+For each test case, print a single line containing K+1 space-separated integers, where K is the number of players qualified.
+First, print the integer K, then followed by a space, print K space-separated integers ID1​,ID2​,…,IDK​ where IDi​ denotes the players' ID who qualified for the finals.
+You have to print the IDs of the qualified players in increasing order.
+

@@ -1,0 +1,12 @@
+Problem
+Read problems statements Hindi ,Bengali , Mandarin chinese , Russian and Vietnamese as well.
+Once upon a time, in a land far, far away... nevermind, we don't recall the rest of the story.
+All we know is that Chef has a matrix of integers M with N rows and N columns; he wants to take a single element from each row and a single element from each column (N elements in total) and find their bitwise XOR. Find the set of all values he could obtain.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+N lines follow. For each i (1≤i≤N), the i-th of the following lines contains N space-separated integers Mi,1​,Mi,2​,…,Mi,N​.
+
+Output
+For each test case, print a single line containing one or more space-separated integers in increasing order — the obtainable values.

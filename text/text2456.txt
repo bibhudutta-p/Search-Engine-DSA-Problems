@@ -1,0 +1,51 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+In competitive programming, one of the common mistakes is using a variable type that stores too few bits, which leads to overflows and underflows.
+We will focus on the "unsigned int" type, which makes all calculations modulo 232, always giving a non-negative result between 0 and 232 - 1, inclusive.
+Sample calculations on type "unsigned int" are:
+7 - 5 = 2,        5 - 7 = 4294967294,        5 * 1,000,000,000 = 705032704
+
+Limak wants to become a great coder.
+Right now he learns the computional geometry.
+He already knows that three points (ax, ay), (bx, by), (cx, cy) are collinear if and only if:
+(bx - ax) * (cy - ay) = (by - ay) * (cx - ax)
+Without thinking which type to use, Limak wrote the following C++ function:
+
+	typedef unsigned int UI;
+	bool areCollinear(UI ax, UI ay, UI bx, UI by, UI cx, UI cy) {
+		return (bx - ax) * (cy - ay) == (by - ay) * (cx - ax);
+	}
+
+
+
+If you are more familiar with Python, you can assume that he wrote:
+
+    M = 2 ** 32
+    def subtract(a, b):
+        ans = a - b
+        if ans < 0:
+            ans += M
+        return ans
+    def mul(a, b):
+        return a * b % M
+    def areCollinear(ax, ay, bx, by, cx, cy):
+        return mul(sub(bx, ax), sub(cy, ay)) == mul(sub(by, ay), sub(cx, ax))
+
+
+
+To show Limak how important it is to watch for overflows, you must find any set of N distinct points that:
+
+Any three distinct points in any order would be treated as collinear by Limak's function.
+None three points are collinear (what implies that points are distinct).
+Coordinates are non-negative integers not exceeding 106.
+
+
+If there are many solutions (valid sets of points), you can print any of them.
+There exists at least one solution for every N allowed by the constraints.
+Input
+The only line of the input contains an integer N denoting the required number of points.
+Output
+Print N lines.
+The i-th of them should contain two space-separated integers xi and yi, denoting coordinates of the i-th point.
+If there are many solutions, you can print any of them.
+Remember that one of requirements is 0 ≤ xi, yi ≤ 106.

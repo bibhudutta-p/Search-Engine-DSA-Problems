@@ -1,0 +1,10 @@
+Problem
+Given two positive numbers B and C, what is the minimum positive value of A, such that A⋅B is divisible by C.
+Here, A⋅B denotes the value obtained when A is multiplied by B.
+Input Format
+
+The first line will contain an integer T - number of test cases. Then the test cases follow.
+The first and only line of each test case contains two integers B and C.
+
+Output Format
+For each test case, output the minimum value of A such that A⋅B is divisible by C.

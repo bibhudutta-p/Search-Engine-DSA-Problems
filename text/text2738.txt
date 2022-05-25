@@ -1,0 +1,22 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Given an array A consisting of N integers - A1, A2....AN. You have to find the value of 
+Σ MAX(i,j) * F(i,j) where 1 ≤ i < j ≤ N.
+
+
+MAX(i,j) is defined as max(Ai,Ai+1...Aj).
+
+F(i,j) is defined as: 
+
+F(i,j) will be 1 if (Ai&Aj) = Aj or (Ai&Aj) = Ai
+
+ F(i,j) will be 0, otherwise.
+    
+
+Here & denotes the bitwise AND operator.
+
+Input
+The first line of input will consist of integer N.
+The next line of input will consists of N integers A1, A2....AN.
+Output
+Output the value of the above mentioned expression in a single line.

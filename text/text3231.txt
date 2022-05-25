@@ -1,0 +1,20 @@
+Problem
+ Read problems statements in Mandarin Chinese and Russian as well.
+
+As you know already, it is Devu's birthday today. He wants to make a  Rangoli  to decorate his house. He created n points having integer coordinates on the front door of his house. He also made sure no three points are collinear in it because collinear points break beauty of it. For each point, there is parameter beauty which is a positive integer. 
+
+
+Now, when Devu's little sister saw the points drawn, she thought of creating patterns by drawing a convex polygon by choosing some of the n point as vertices of it. Also, as she is very naughty, instead of creating most beautiful pattern, she wants to create least beautiful pattern. Beauty of a polygon is sum of beauties of all the points lying inside or on the boundary of it.
+
+
+You have to help Devu's sister in finding out the least beauty of convex polygon of k vertices. If it is impossible to find such a convex polygon, print -1. Otherwise print the minimum weight of the convex polygon you can have. Please solve the problem for all k's from 3 to n.
+
+Input
+
+There is a single test case.
+First line contains a single integer n as defined in the problem.
+Then in the next n lines, each line contains three space separated integers x, y, b denoting that there is a point
+ with coordinates (x, y) with beauty equal to b. 
+
+Output
+Print n - 2 space separated integers corresponding to the answer for k = 3 to n as asked in the problem. 

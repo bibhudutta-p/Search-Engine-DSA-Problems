@@ -1,0 +1,31 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Sometimes, the stability of a stock market is at least as important as rapid price changes.
+Let a stable block be a maximal consecutive block of days with same stock prices.
+Moreover, let a stable block of order K be a stable block of length at least K.
+For example, if stock prices for 7 consecutive days are: 20, 10, 10, 7, 7, 7, 10, then there are 4 stable blocks there: [20], [10, 10], [7, 7, 7] and [10]. Moreover, there are:
+
+
+0 stable blocks of order 4 or higher
+1 stable block of order 3: [7, 7, 7]
+2 stable block of order 2: [10, 10], [7, 7, 7]
+4 stable block of order 1: [20], [10, 10], [7, 7, 7] and [10]
+
+
+Given historical prices of a stock across N days, the goal is to answer Q customers' questions.
+The i-th question contains three integers Li, Ri and Ki. It asks for the number of stable blocks of order Ki, if only the stock prices of the days in the range Li, Ri are considered.
+Input
+
+In the first line there is a single integer T, denoting the number of test cases to handle. After that the description of T test cases follow.
+The first line of each test case contains two space-separated integers N and Q, denoting respectively, the number of days for which the stock prices are given, and the number of questions to answer.
+
+The second line contains N space-separated integers A1, A2, ..., AN, where Ai denotes the price of the stock on the i-th day. 
+
+
+Q lines follow. In the i-th of them there are three space-separated integers Li, Ri and Ki denoting the i-th query.
+
+
+Output
+
+For each test case, print answers to all queries in the test case, one per line.
+

@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+On each of the following N days (numbered 1 through N), Chef is planning to cook either pizza or broccoli. He wrote down a string A with length N, where for each valid i, if the character Ai​ is '1', then he will cook pizza on the i-th day, while if Ai​ is '0', he will cook broccoli on this day.
+Chefu, his son, loves pizza but hates broccoli ― just like most kids. He wants to select a substring of A with length K and change each character '0' in this substring to '1'. Afterwards, let's define pizza time as the maximum number of consecutive days where Chef will cook pizza. Find the maximum pizza time Chefu can achieve.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The second line contains a string A with length N.
+
+Output
+For each test case, print a single line containing one integer ― the maximum pizza time.

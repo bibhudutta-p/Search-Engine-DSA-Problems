@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+There are N athletes (numbered 1 through N) in a line. For each valid i, the i-th athlete starts at the position i and his speed is Vi​, i.e. for any real number t≥0, the position of the i-th athlete at the time t is i+Vi​⋅t.
+Unfortunately, one of the athletes is infected with a virus at the time t=0. This virus only spreads from an infected athlete to another whenever their positions are the same at the same time. A newly infected athlete may then infect others as well.
+We do not know which athlete is infected initially. However, if we wait long enough, a specific set of athletes (depending on the athlete that was infected initially) will become infected. Your task is to find the size of this set, i.e. the final number of infected people, in the best and worst possible scenario.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers V1​,V2​,…,VN​.
+
+Output
+For each test case, print a single line containing two space-separated integers ― the smallest and largest final number of infected people.

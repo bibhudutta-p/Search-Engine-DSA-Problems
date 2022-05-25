@@ -1,0 +1,11 @@
+Problem
+There are N computer screens in a line from left to right. The ith screen from left displays number i(1≤i≤N). Now these computer screens are divided into m groups. You are given d1​,d2​,d3​....dm​(1≤d1​≤d2​≤d3​...≤dm​ and ∑i=1m​di​=N). This means that 1st group contains screens displaying numbers from 1 to d1​, 2nd group contains numbers from  d1​+1 to d1​+d2​ and so on. Now there is a computer virus which is infecting these computer screens. Initially, all screens are uninfected.
+Now, these computers perform the following operations as long as there exists an uninfected screen:
+During each operation step, two things happen. First, the virus infects the rightmost uninfected screen in each group. Then, every uninfected screen updates the value on its screen to the sum of all values on uninfected screens to its left, and its own screen, modulo 109+7.
+For given N and  d1​,d2​...dm​ find sum of all numbers on the screens of the computers (eventually, after everything becomes infected, and this process stops) modulo 109+7.### Input:
+
+First line contains two integers N  and m.
+Next line contains m space separated integers denoting the array d1​,d2​.....,dm​.
+
+Output:
+Output in a single line sum of all numbers on the screens of computers modulo 109+7.

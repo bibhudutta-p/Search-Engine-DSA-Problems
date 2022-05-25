@@ -1,0 +1,11 @@
+Problem
+Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
+You are given an integer sequence A with length N. Find the number of ordered pairs of positive integers (a,b) such that a occurs in A at least b times and b occurs in A at least a times.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer — the number of pairs.

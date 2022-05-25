@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+In Chefland, each person has their own non-empty personal string. When two people with personal strings T1​ and T2​ (possibly identical) become friends in Chefland, their strings are replaced by a new string S=T1​+T1​+T2​+T2​, where + denotes string concatenation.
+Chef recently became friends with Chefina. However, Chefina's personal string was her favourite and she got upset when it was replaced by S. She wanted her personal string back. Chef does not remember T1​ and T2​ now, he only knows S.
+Find the number of ways in which Chef can retrieve valid strings T1​ and T2​ from the given string S. It is also possible that Chef does not remember S correctly, in which case there is no way to retrieve T1​ and T2​.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single string S.
+
+Output
+For each test case, print a single line containing one integer ― the number of ways to retrieve T1​ and T2​ from S.

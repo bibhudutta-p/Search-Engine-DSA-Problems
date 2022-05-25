@@ -1,0 +1,18 @@
+Problem
+You are given a tree rooted at node 1 with N vertices. The ith vertex initially has value Ai​(1≤i≤N). You are also given Q queries.
+In each query you are given a vertex V.  Let S={S1​,S2​,...Sx​} denote the set of vertices such that Si​ is in the subtree of V, distance between Si​ and V is even and Si​=V for all i. For all Si​ , add ASi​ to AV​ and change the value of ASi​ to zero.
+Find the values of all the vertices after all queries are performed.
+Note-The distance between two vertices is defined as the number of edges
+traversed on the shortest path from one vertex to the other.
+Input:
+
+The first line contains an integer T denoting the number of test cases.
+The first line of each test case contain two integers N and Q.
+The second line contains N space separated integers, A1​,A2​,...,An​ denoting the initial values of the vertices.
+The next N−1 lines contain two integers u and v denoting an edge between uand v.
+The next Q lines contain a single integer which is the query.
+
+Output:
+
+Print a single line containing N integers for each test case which is the final values of the vertices.
+

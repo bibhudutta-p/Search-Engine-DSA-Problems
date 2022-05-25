@@ -1,0 +1,24 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Chef has recently learnt about the most amazing dish. The recipe for this dish lists two sequences A1​,A2​,…,AN​ and B1​,B2​,…,BN​, and Q tasks. Chef noticed that there are only three types of tasks:
+
+Z Y: set BZ​=Y
+L R X: for each i such that L≤i≤R, set Ai​=BX+i−L​
+L R: compute the sum AL​+AL+1​+…+AR​
+
+Chef must perform all the tasks in the given order if he wants to master cooking the most amazing dish. He set out to perform all the tasks, but soon realised that there are too many of them! Since Chef does not want to miss his favourite TV show, you should help him perform all the tasks written on the recipe.
+Input
+
+The first line of the input contains two space-separated integers N and Q.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+The third line contains N space-separated integers B1​,B2​,…,BN​.
+The next Q lines describe the tasks. Each of these lines contains an integer T denoting the type of the current task, followed by a space and the parametres of this task in the following format:
+
+if T=1, two space-separated integers Z and Y
+if T=2, three space-separated integers L, R and X
+if T=3, two space-separated integers L and R
+
+
+
+Output
+For each task of type 3, print a single line containing one integer — the required sum.

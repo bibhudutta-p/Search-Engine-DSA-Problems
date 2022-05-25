@@ -1,0 +1,11 @@
+Problem
+Chef was recently studying the Bitwise OR operation, and stumbled upon the following problem:
+Let F(i)=1 ∣ 2 ∣ 3 ∣ … ∣ i, where ∣ denotes bitwise OR.
+You are given an integer N. Find the number of distinct i such that 2≤i≤N and F(i)=F(i−1).
+Input Format
+
+The first line of input will contain an integer T — the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains an integer N.
+
+Output Format
+For each test case, output the number of distinct i such that 2≤i≤N and F(i)=F(i−1).

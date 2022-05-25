@@ -1,0 +1,11 @@
+Problem
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+You are given an integer K and a tree of size N, rooted at node 1. In one operation, you can either select a node of the tree and color its entire subtree or create a new (uncolored) copy of the given tree. Find the minimum number of operations required so that the total number of colored nodes among all trees is exactly K.
+Input
+
+The first line contains an integer T, denoting the number of test cases. Then T test cases follow.
+For each test case, the first line contains two integers N and K, the size of the given tree and the number of nodes to be colored, respectively.
+The next line contains N−1 integers p2​,…,pn​, where pi​ is the parent of node i.
+
+Output
+For each testcase, output a single integer: the minimum number of operations required to color exactly K total nodes.

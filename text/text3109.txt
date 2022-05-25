@@ -1,0 +1,25 @@
+Problem
+
+In the magic land there is a triangle ABC.
+
+
+You have N spell cards. Each card has two parameters, i-th card has parameters x[i] and y[i]. Using of the i-th spell card add x[i] to the x-coordinate of the point A and add y[i] to the y-coordinate of the point A. So if A has coordinates (X, Y) it will be moving to (X + x[i], Y + y[i]) by using this card.
+
+
+You can use at most K spell cards. Applying of several spell cards performs consecutively. So if A was moved to some point A' by the first spell card then second spell card is applied to the new position of A, that is, to the point A', and so on for further cards.
+
+
+Your task is to find the maximal possible circumference of the triangle ABC after using of at most K spell cards (note that you can use no spell cards). The circumference of a triangle ABC is the sum of its side lengths: |AB| + |BC| + |CA|. And in our problem by triangle we mean any three points A, B, C of the plane. So, in particular, the points A, B, C can lie on the same line, or even some of them can coincide.
+
+Input
+
+The first line of the input contains two integers N and K.
+The second line contains two integers Ax and Ay, the coordinates of the point A.
+The third line contains two integers Bx and By, the coordinates of the point B.
+The fourth line contains two integers Cx and Cy, the coordinates of the point C.
+Each of the following N lines contains two integers x[i] and y[i], the parameters of the i-th spell card.
+
+Output
+
+Output should contain a single real number rounded to exactly 13 digits after the decimal point, the maximal possible circumference of the triangle ABC that can be achieved by using at most K spell cards. Your answer will be considered as correct if it has an absolute error less than 10-12.
+

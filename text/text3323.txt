@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given an unweighted tree with N nodes (numbered 1 through N). Let's denote the distance between any two nodes p and q by d(p,q).
+You should answer Q queries. In each query, you are given parameters a, da​, b, db​, and you should find a node x such that d(x,a)=da​ and d(x,b)=db​, or determine that there is no such node.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+Each of the next N−1 lines contains two space-separated integers u and v denoting that nodes u and v are connected by an edge.
+Each of the next Q lines contains four space-separated integers a, da​, b and db​ describing a query.
+
+Output
+For each query, print a single line containing one integer ― the number of a node satisfying the given requirements, or −1 if no such node exists.
+If there are multiple solutions, you may output any one.

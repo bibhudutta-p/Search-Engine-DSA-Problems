@@ -1,0 +1,19 @@
+Problem
+Chef has an array A such that Ai​=i.
+A transform on the array is performed by replacing each element of the array with the bitwise XOR of the prefix till that element. For example, if B denotes the array after performing transform on array A, then, Bi​=A1​⊕A2​⊕…⊕Ai​. Similarly, if C denotes the array after performing two transforms on array A, then, Ci​=B1​⊕B2​⊕…⊕Bi​.
+Let fK be the array obtained by performing K transforms on the array A. Thus, fXK​ denotes the Xth element of the Kth transform of the array A.
+Formally,
+
+fi0​=Ai​
+fi1​=A1​⊕A2​⊕…⊕Ai​
+fi2​=f11​⊕f21​⊕…⊕fi1​
+fik​=f1k−1​⊕f2k−1​⊕…⊕fik−1​. Here, ⊕ denotes the bitwise XOR operation.
+
+Given K and X, determine the value fXK​.
+Input Format
+
+First line will contain T, number of test cases. Then the test cases follow.
+Each test case contains of a single line of input, two integers K,X as mentioned in the problem statement.
+
+Output Format
+For each test case, output in a single line, the value fXK​

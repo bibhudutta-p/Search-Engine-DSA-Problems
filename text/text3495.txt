@@ -1,0 +1,28 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+Chef wants to paint with you today:)
+
+
+The field of the game is a matrix that has N rows and M columns.
+The rows of the matrix are numbered from 1 to N.
+The columns of the matrix are numbered from 1 to M.
+Initially some cells are painted with black color. All other are painted with white.
+On each step Chef can choose any white cell and the direction: Left-Right or Up-Down. 
+Left-Right direction means that Chef goes left from chosen cell and paint each cell on his way with red color until he reach the board or some already painted with red or black color cell. Then he do the same in right direction (goes right from the chosen cell) and then he paint chosen cell with red color. 
+Up-Down direction means the same for appropriate directions
+The aim of game is to paint all white cells with red color in the minimal number of steps. 
+
+
+Input
+The first line of each test case contains three integers N, M, K denoting the size of matrix and the number of painted with black color cells. 
+Each of next K lines contains two integers i, j denoting the painted with black color cells. 
+Output
+In the first line print integer P - the number of steps. 
+Next P lines should describe steps. Each step in a single line. 
+The description of each step contains two integers i, j denoting the cell you choose and string "0" or "1", according to the directions you choose
+("0" - Left-Right, "1" - Up-Down).
+Scoring
+
+For each test your score will be defined as number of steps. 
+The total score for a submission is the sum of the scores for all test cases. 
+

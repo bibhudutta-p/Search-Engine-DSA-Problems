@@ -1,0 +1,23 @@
+Problem
+Given a positive integer N, construct two arrays A and B, each of size N such that:
+
+Ai​=Aj​ for all (1≤i<j≤N);
+Bi​=Bj​ for all (1≤i<j≤N);
+Ai​=Bj​ for all (1≤i,j≤N);
+1≤Ai​,Bi​≤3⋅105 for all (1≤i≤N);
+⊕A[1,i]=⊕B[1,i] for all (1≤i≤N) such that i is even.
+
+Here ⊕A[L,R] corresponds to the bitwise XOR of all elements of the subarray [L,R] of array A. Similarly, ⊕B[L,R] corresponds to the bitwise XOR of all elements of the subarray [L,R] of array B.
+If multiple answers are possible, ouput any.
+Input Format
+
+First line will contain T, the number of test cases. Then the test cases follow.
+Each test case contains of a single line of input, a single integer N - as mentioned in statement.
+
+Output Format
+For each test case, output two lines.
+
+The first line contains N space-separated integers denoting the elements of the array A.
+The second line contains N space-separated integers denoting the elements of the array B.
+
+If multiple answers are possible, ouput any.

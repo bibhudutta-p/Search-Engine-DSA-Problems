@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given M triplets (X1​,Y1​,B1​),(X2​,Y2​,B2​),…,(XM​,YM​,BM​). Find the number of sequences of positive integers A1​,A2​,…,AN​ such that for each valid i, lcm(AXi​​,AYi​​)=Bi​, or determine that there is an infinite number of such sequences.
+Since the answer can be very large, compute it modulo 1,000,000,007 (109+7). Note that the values B1​,B2​,…,BM​ can also be very large ― you are given their prime decompositions.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+M lines follow. For each i (1≤i≤M), the i-th of these lines contains three space-separated integers Xi​, Yi​ and Ri​, followed by a space and 2Ri​ space-separated integers p1​,e1​,p2​,e2​,…,pRi​​,eRi​​, denoting that Bi​=∏r=1Ri​​prer​​.
+
+Output
+For each test case, print a single line containing one integer ― the number of valid sequences modulo 1,000,000,007, or −1 if there are infinitely many valid sequences.

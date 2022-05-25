@@ -1,0 +1,26 @@
+Problem
+In a market of mangoes, there are N sellers numbered from 1 to N. The i-th seller initially charges a price of Ai​ coins for each of their mangoes. However, the sellers are very competitive, and they will change prices based on other sellers nearby.
+You have a simple graph (unweighted, undirected graph containing no self-loops or multiple edges) G with N vertices and M edges. There is an edge between two sellers if and only if they are neighbours. When you buy a mango from a seller numbered X, the following occurs:
+
+Seller X keeps his price the same.
+Every seller Y who is a neighbour of X increases their price by 1, that is, AY​=AY​+1 for every Y who is a neighbour of X.
+Every other seller Z who is not a neighbour of X decreases their price by 1; that is, AZ​=AZ​−1 for every Z who is not a neighbour of X.
+
+Prices can become zero or negative during this process.
+Now you should process Q queries of the following three types:
+
++ u v — Add an edge between nodes u and v in the graph. It's guaranteed there is no edge between u and v currently.
+- u v — Remove an edge between nodes u and v in the graph. It's guaranteed there is an edge between u and v currently.
+? — Find the minimum amount of money you need to pay so that you can buy exactly one mango from every seller. After queries of this type, the prices of all sellers are reset to their initial value.
+
+Input Format
+
+The first line contains two integers N and M - the number of sellers and the number of edges in the graph.
+The second line contains N space-separated integers A1​,A2​,…,AN​ denoting the price array A.
+The next M lines each contain two integers u and v (1≤u,v≤N, u=v), representing an edge of G.
+The next line contains the integer Q — the number of queries.
+The next Q lines contain the queries. Each query is in the format given in the problem statement.
+There is at least one query of type ?.
+
+Output Format
+For each query of type ?, output one integer — the minimum amount of money you need to pay so that you can buy exactly one mango from each seller.

@@ -1,0 +1,18 @@
+Problem
+Read problem statements in Mandarin, Bengali, and Russian as well.
+The jury has a secret number N, where 1≤N≤1018. You want to know this number, and you are allowed to ask the jury some queries. In each query, you give the jury a number X where 0≤X≤2⋅1018, and the jury tells you XmodN.
+Please find N using at most two queries per test case.
+Interaction Format
+
+The first line of contains T - the number of test cases.
+For each test case, you are allowed to allowed to ask the jury at most two queries. To make a query, output ? X on one line; the jury will return the value of xmodN to the input for you to read.
+
+In the case you exceed the number of queries, the judge will exit with the Wrong Answer verdict.
+
+
+Once you have found the answer, output ! N on one line. This does not count as a query.
+
+If you output the wrong value for N, the judge will exit with the Wrong Answer verdict; if you output the correct value for N, the judge will silently continues. This means you should start asking queries for the next test case right after outputting the value of N for the previous test case.
+
+
+

@@ -1,0 +1,16 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Given a triplet of integers (X , Y , Z), such that X ≤ Y and Y ≥ Z, we define f(X , Y , Z) to be (X + Y) * (Y + Z). If either X > Y or Y < Z, or both, then f(X , Y , Z) is defined to be 0.
+You are provided three arrays  A , B and C   of any length (their lengths may or may not be equal).  
+Your task is to find the sum of f(X , Y , Z) over all triplets (X, Y , Z) where   X, Y and Z  belong to  A, B and C respectively.
+ Output your sum for each test case modulo 1000000007.
+Input
+
+The first line contains a single integer, T, which is the number of test cases. The description of each testcase follows:
+The first line of each testcase contains 3 integers: p, q and r. These denote the lengths of A,B and C respectively. 
+The second line contains p integers, which are the elements of A
+The third line contains q integers, which are the elements of B
+The fourth line contains r integers, which are the elements of C
+
+Output
+ Output the required sum modulo  1000000007  for each test case in a new line.

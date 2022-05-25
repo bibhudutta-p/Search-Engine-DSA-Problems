@@ -1,0 +1,18 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef Ada is building a new restaurant in the following way:
+
+First, N points X1​,X2​,…,XN​ are chosen on the x-axis.
+Then, N columns (numbered 1 through N) are made. For simplicity, the columns are represented as vertical segments; for each valid i, the height of the i-th segment is Hi​.
+Ada assigns a column to each of the points X1​,X2​,…,XN​ in an arbitrary way (each column must be assigned to exactly one point).
+Finally, Ada constructs the roof of the restaurant, represented by a polyline with N vertices. Let's denote the column assigned to the i-th point by Pi​. For each valid i, the i-th of these vertices is (Xi​,HPi​​), i.e. the polyline joins the tops of the columns from left to right.
+
+Ada wants the biggest restaurant. Help her choose the positions of the columns in such a way that the area below the roof is the biggest possible. Formally, she wants to maximise the area of the polygon whose perimeter is formed by the roof and the segments (XN​,HPN​​)−(XN​,0)−(X1​,0)−(X1​,HP1​​). Let S be this maximum area; you should compute 2⋅S (it is guaranteed that 2⋅S is an integer).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+N lines follow. For each valid i, the i-th of these lines contains two space-separated integers Xi​ and Hi​.
+
+Output
+For each test case, print a single line containing one integer 2⋅S.

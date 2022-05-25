@@ -1,0 +1,17 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You are given an odd integer N and two integer sequences A1​,A2​,…,AN​ and B1​,B2​,…,BN​.
+Your task is to reorder the elements of B, forming a new sequence C1​,C2​,…,CN​ (i.e. choose a permutation P1​,P2​,…,PN​ of the integers 1 through N, where Ci​=BPi​​ for each valid i), in such a way that the following condition holds: (A1​⊕C1​)=(A2​⊕C2​)=…=(AN​⊕CN​), where ⊕ denotes bitwise XOR. Find one such reordered sequence or determine that it is impossible.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+The third line contains N space-separated integers B1​,B2​,…,BN​.
+
+Output
+For each test case:
+
+If there is no valid way to reorder the sequence B, print a single line containing the integer −1.
+Otherwise, print a single line containing N space-separated integers C1​,C2​,…,CN​. If there are multiple solutions, you may find any one.
+

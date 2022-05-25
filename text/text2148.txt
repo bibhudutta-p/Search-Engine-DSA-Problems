@@ -1,0 +1,14 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+In a red-blue tree, each vertex is either red or blue and adjacent vertices always have different colours.
+You are given a tree with N vertices (numbered 1 through N). It is not necessarily a red-blue tree, but its vertices are still coloured red and blue. You may perform the following operation any number of times (including zero): choose two adjacent vertices and swap their colours.
+Find the smallest number of operations required to transform the tree into a red-blue tree or determine that it is impossible.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+N−1 lines follow. Each of these lines contains two space-separated integers u and v denoting that vertices u and v are connected by an edge.
+The last line contains a string S with length N. For each valid i, the i-th character of this string is either '0' if the i-th vertex is initially red or '1' if it is initially blue.
+
+Output
+Print a single line containing one integer ― the smallest number of operations or −1 if it is impossible to transform the tree into a red-blue tree.

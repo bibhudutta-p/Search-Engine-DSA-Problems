@@ -1,0 +1,11 @@
+Problem
+Chef has a sequence A of N integers such that ∣Ai​∣≤1.
+For each x such that −N≤x≤N, find the number of non-empty subsequences of A whose sum of elements is x. Since that answer may be too large, print this modulo 163,577,857.
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output:
+Output 2N+1 space-separated integers C0​,C1​…C2∗N​, where Ci​ denotes the number of non-empty subsequences with sum (i−N), modulo 163,577,857.

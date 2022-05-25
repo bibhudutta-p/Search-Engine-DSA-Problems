@@ -1,0 +1,22 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef has a nice job. Actually he doesn't even remember what he is supposed to do there, because he just plays video-games all the time, exactly h hours every working day!
+Recently he got bored of just randomly playing video-games and decided to complete all the levels of his favorite Game as fast as possible.
+The Game consists of n levels numbered with integers from 1 to n. After completing every level, some small number of new levels is unlocked. The structure of the Game levels is a tree with the root in level 1, i.e. every level (except for 1) has a unique level that unlocks it and level 1 is the only level that is considered unlocked at the very beginning. Chef has completed his favorite Game lots of times, so he knows that he needs exactly ti hours to complete level i. Due to specifics of the Game every level should be completed entirely within one working day, i.e. Chef cannot start a level on Thursday, and finish it Friday morning.
+Overall the game-play proceeds as follows:
+
+There is a stack S that initially contains only the level 1
+Chef pops the topmost level out of the stack. Let's call this level x
+Chef spends tx hours to complete level x. Note that he doesn't want to stay at work longer than for h hours, so if there is not enough time left today Chef will complete level x the next working day morning.
+After completing level x some mx new levels get unlocked
+Chef places all the mx unlocked levels on the top of the stack S in an arbitrary order, i.e. he is free to choose any order he likes
+If stack S is empty, the Game is considered completed, otherwise Chef goes back to the step 2
+
+Can you help Chef figure out the minimum number of working days necessary to complete the Game?
+Input
+The first line of the input contains an integer T denoting the number of test cases. 
+For each test case, the first line of input contains two integers n and h. 
+The next line contains n space-separated integers ― t1, t2, ..., tn.
+The following n lines describe the structure of Game's levels: the x-th of them contains an integer mx followed by mx integers ― the levels that get unlocked after completing level x.
+Output
+For each test case, output a single integer ― the minimum number of working days necessary to complete the Game.

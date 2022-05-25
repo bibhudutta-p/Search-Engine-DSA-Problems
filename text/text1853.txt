@@ -1,0 +1,10 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+Statement
+Yet another game from chef. Chef gives you N cards and M bags. Each of the N cards has an integer written on it. Now chef asks you to close your eyes and choose a subset of them. He then sums the numbers written on chosen cards, takes its absolute value and gives you those many coins. You win the game if you can divide these coins into M bags with each bag having equal share. As a first step to calculate the probability of winning, you would like to know the number of different subsets which will make you win. Note that all the cards are of different color, so even if 2 cards have the same number written on it, they are still considered as different cards.
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+First line of each test case contains two integers N and Q. Q denotes the number of queries to be answered. Second line of each test case contains N integers, the numbers written on cards.
+Following Q lines contain an integer M.
+Output
+For each query output the required Answer modulo 1000000009. Answer is the number of subsets that will ensure you win.

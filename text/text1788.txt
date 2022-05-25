@@ -1,0 +1,18 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+N integers A1​,A2​,…,AN​ are placed in a circle in such a way that for each valid i, Ai​ and Ai+1​ are adjacent, and A1​ and AN​ are also adjacent.
+We want to repeat the following operation exactly N−1 times (until only one number remains):
+
+Select two adjacent numbers. Let's denote them by a and b.
+Score a+b penalty points.
+Erase both a and b from the circle and insert a+b in the space between them.
+
+What is the minimum number of penalty points we can score?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers a1​,a2​,…,aN​.
+
+Output
+For each test case, print a single line containing one integer — the minimum number of penalty points.

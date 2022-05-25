@@ -1,0 +1,20 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef lent some money to Chefexim. He has been asking for his money back for a long time, but Chefexim always comes up with an excuse. This time, Chef got really angry, since he needed the money to buy some ingredients for his ladoos, and Chefexim decided to return the money he borrowed. Knowing Chef's love of challenges, Chefexim gave Chef a challenge along with the money in order to keep him calm and happy.
+Chefexim divided the money he borrowed from Chef into N bags (numbered 1 through N); for each valid i, the i-th bag contains Ai​ units of money. Then, he gave all N bags to Chef along with two integers K and X. Now, Chef may perform the following operation any number of times (including zero):
+
+Pick exactly K different bags with numbers i1​,i2​,…,iK​ (1≤ij​≤N for each valid j).
+Change the amounts of money inside the selected bags. For each j (1≤j≤K), the amount of money inside the ij​-th bag is changed from Aij​​ to Aij​​⊕X. Here, ⊕ denotes the bitwise XOR operation.
+
+Each bag may be picked any number of times in different operations.
+Find the maximum total amount of money (sum of amounts of money in all the bags) Chef can have at the end if he performs the operations optimally.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​ denoting the initial amounts of money inside the bags.
+The third line contains a single integer K.
+The fourth line contains a single integer X.
+
+Output
+For each test case, print a single line containing one integer — the maximum amount of money Chef can have.

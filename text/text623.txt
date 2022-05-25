@@ -1,0 +1,8 @@
+Problem
+In an attempt to reduce the growing population, Archer was asked to come up with a plan. Archer being as intelligent as he is, came up with the following plan:
+If N children, with names C1​,C2​,...,CN​, are born to parents with names A and B, and you consider C to be the concatenation of all the names of the children, i.e. C=C1​+C2​+...+CN​ (where + is concatenation operator), then C should be a substring of one of the permutations of A+B.
+You are given the task to verify whether the names parents propose to give their children are in fact permissible by Archer's plan or not.
+Input
+The first line contains an integer T, the number of test cases. T test cases follow. Each test case stats with a line containing two space separated strings A and B, denoting the names of the parents. The next line contains a single integer N denoting the number of children A and B are planning to have. Following this are N lines, the ith line containing Ci​, the proposed name for the ith child.
+Output
+For each test case output a single line containing YES if the names are permissible by Archer's plan, otherwise print NO.

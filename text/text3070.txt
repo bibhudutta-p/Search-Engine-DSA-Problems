@@ -1,0 +1,25 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a sequence of integers A1​,A2​,…,AN​. You should process Q queries. In each query:
+
+You are given two integer parameters id and v.
+Change the value of Aid​ to v.
+Then, consider all ways to partition the sequence A1​,A2​,…,AN​ into multisets M1​,M2​,…,MK​ (for an arbitrary K≥1) such that:
+
+Each element of A is assigned to exactly one multiset.
+The medians of all multisets are the same.
+
+
+Find the maximum possible value of K, i.e. the maximum number of multisets in such a partition.
+
+The median of a multiset is defined as follows: Consider the multiset as a sequence sorted in non-decreasing order. If its size is odd, the median is the middle element. If it is even, there are two integers in the middle and the median is the smaller one (either one if they are equal).
+Note that a multiset may contain duplicate elements, so if x elements of A with identical values are assigned to the same multiset, that multiset will contain the same integer x times.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+Each of the next Q lines contains two space-separated integers id and v describing a query.
+
+Output
+For each query, print a single line containing one integer ― the maximum number of multisets.

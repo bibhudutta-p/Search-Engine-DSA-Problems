@@ -1,0 +1,18 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Recently, Chef found a new formula for computing powers of a sequence:
+
+You are given two sequences A1​,A2​,…,AN​ and (l1​,r1​),(l2​,r2​),…,(lN​,rN​).
+The 1-st power of the sequence A is A1=A.
+For each k>1, the k-th power of the sequence A (denoted by Ak) is a sequence with length N such that for each valid i, the i-th element of this sequence is (Ak)i​=(Ak−1)li​​⊕(Ak−1)li​+1​⊕…⊕(Ak−1)ri​−1​⊕(Ak−1)ri​​.
+
+After discovering this new formula, Chef tried to find AK, but he felt that it is very time consuming. Therefore, Chef wants you to do it. Can you find the K-th power of A for Chef?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+N lines follow. For each valid i, the i-th of these lines contains two space-separated integers li​ and ri​.
+
+Output
+For each test case, print a single line containing N space-separated integers (AK)1​,(AK)2​,…,(AK)N​.

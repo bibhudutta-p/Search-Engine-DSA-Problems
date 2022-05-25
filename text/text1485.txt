@@ -1,0 +1,15 @@
+Problem
+Read problems statements in Russian and Bengali.
+Chef has an array A with N elements. He wants to find N points P1​,…,PN​ with integer coordinates on the 2D coordinate plane such that, for all pairs of indices i and j (1≤i<j≤N), the Manhattan distance from Pi​ to Pj​ is Ai​+Aj​. Help him find any N points satisfying the condition, or state that no such points exist.
+As a reminder, the Manhattan distance between the points (x1​,y1​) and (x2​,y2​) is defined as ∣x1​−x2​∣+∣y1​−y2​∣.
+Input Format
+
+The first line contains an integer T denoting the number of test cases. The T test cases then follow.
+The first line of each test case contains a single integer N.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, if there is no set of points satisfying the stated condition, output NO.
+Otherwise, output YES on one line, then output N lines. Each line should contain two integers Xi​ and Yi​ (−1018≤Xi​,Yi​≤1018) denoting the x and y coordinates of the point Pi​ respectively.
+It can be proven that if a solution exists, then a solution exists under the constraints above.
+Output is case insensitive.

@@ -1,0 +1,21 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Nick lives in a country named JosephLand. JosephLand consists of N 
+cities. City 1 is the capital city. There are N - 1 directed roads. It's guaranteed that it is possible to reach capital city from any city, and in fact there is a unique path from any city to the capital city.
+Besides, you can't cross roads for free. To pass a road, you must have a ticket. There are total M tickets. You can not have more than one ticket at a time! Each ticket is represented by three integers:
+
+v k w : you can buy a ticket with cost w in the city v. This ticket can be used at max k times. That means, after using this ticket for k roads ticket can't be used!
+
+
+By the way, you can tear your ticket any time and buy a new one. But you are not allowed to buy a ticket if you are still having a ticket with you!
+Nick's home is located in the capital city. He has Q friends, and he wants to invite all of them for dinner! So he is interested in knowing about how much each of his friends is going to spend in the journey! His friends are quite smart and always choose a route to capital city that minimizes his/her spending! Nick has to prepare dinner, so he doesn't have time to figure out himself, Can you please help him?
+
+Please note that it's guaranteed that, one can reach the capital from any city using the tickets!
+Input
+The first line of input contains two space separated integers N and M, denoting the number of cities in JosephLand, and the number of tickets, respectively.
+The next N - 1 lines contain two integers ai, bi, denoting that there is a road from city ai to bi.
+The next M lines contain three integers vi, ki, wi denoting the ticket described above.
+The next line contains a single integer Q denoting the number of Nick's friends.
+The next Q lines contain a single integer each, hi denoting city, where Nick's ith friend lives.
+Output
+Output Q lines: the answer for each friend.

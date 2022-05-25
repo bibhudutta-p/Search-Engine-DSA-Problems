@@ -1,0 +1,15 @@
+Problem
+ Read problems statements in Mandarin Chinese and Russian as well.
+Chef has recently learnt about sequences of parentheses. These are special sequences that contain only the characters '(' and ')'.
+A regular parentheses sequence follows the following definition:  
+
+An empty sequence is regular
+If S is a regular sequence, then (S) is also regular
+If A and B represent two regular sequences, then their concatenation AB is also regular.
+Therefore, the sequences (), ()() and (())() are regular, while ()(, ) and ))() are non-regular.
+Now, you need to find the longest subsequence of the given sequence which is non-regular. Amongst all such distinct answers, output the lexicographically Kth amongst them. If the number of distinct subsequences with maximum length is less than K, please output -1 instead.
+Input:
+The first line contains a single integer T, denoting the number of test cases to follow.
+Each of the test cases have exactly two lines, the first contains the parentheses sequence and the second contains the value of K.
+Output:
+Output exactly T lines, each containing answer to the corresponding query.

@@ -1,0 +1,10 @@
+Problem
+Given a positive integer N, find a possible arrangement of the integers from 0 to N -1 such that the binary representation of every number (except the first) differs at most at one bit from the binary representation of the number before it. Or tell that it’s impossible to get such an arrangement.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer N.
+
+Output
+For every testcase print N integers on a single line, the required sequence. If there are multiple possible answers, print any one. If no such sequence is possible, print -1.
+

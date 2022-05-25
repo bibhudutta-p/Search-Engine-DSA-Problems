@@ -1,0 +1,19 @@
+Problem
+Read problems statements in Russian and Bengali.
+You are given an integer N. Output a permutation of values from 1 to N that satisfies the following condition:
+
+gcd([1+A1​,2+A2​,3+A3​,…,N+AN​])>1
+
+It can be proven that a solution always exists. If there are multiple permutations that can satisfy the condition, then output any one of them.
+As a reminder,
+
+A permutation of values from 1 to N is an array containing integers from 1 to N in any order but each of them appearing exactly once.
+GCD stands for Greatest Common Divisor. The greatest common divisor of a sequence is the largest integer d such that all the numbers in sequence are divisible by d. For more information, refer to here.
+
+Input Format
+
+The first line contains an integer T denoting the number of test cases. The T test cases then follow.
+The first line of each test case contains an integer N.
+
+Output Format
+For each test case, output on one line a permutation of values from 1 to N which satisfies the above condition.

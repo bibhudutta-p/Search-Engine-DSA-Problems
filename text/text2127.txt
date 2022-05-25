@@ -1,0 +1,13 @@
+Problem
+A permutation of length N is an array of N integers A=[A1​,A2​,…,AN​] such that every integer from 1 to N appears in it exactly once.
+We define a function over a permutation as follows:
+F(A)=(A1​∗A2​)+(A2​∗A3​)+⋯+(AN−2​∗AN−1​)+(AN−1​∗AN​)
+You are given an integer N. What is the expected value of the function F over all possible permutations of length N?
+The expected value of the function can be represented as a fraction of the form QP​. You are required to print P⋅Q−1(mod1000000007).
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer N.
+
+Output Format
+For each test case, output on a single line the expected value of the function modulo 1000000007.

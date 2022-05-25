@@ -1,0 +1,13 @@
+Problem
+You are given an integer N. Find the number of distinct XORs it is possible to make using two positive integers no larger than N.
+Formally, let S be the set
+S={x⊕y∣1≤x,y≤N}
+where ⊕ denotes the bitwise XOR operation.
+Find ∣S∣ (where ∣S∣ denotes the size of set S. Note that a set, by definition, has no repeated elements). The answer might be large, so output it modulo 109+7.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of a single line of input, which contains one integer N.
+
+Output Format
+For each test case, output a single line containing the answer, modulo 109+7.

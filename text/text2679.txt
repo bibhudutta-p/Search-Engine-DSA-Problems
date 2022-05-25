@@ -1,0 +1,18 @@
+Problem
+There is a country which has n houses and m bi-directional roads between these houses, where the ith road connects house ui​ to vi​. A subset of these houses S is called a city if any house in S is reachable from any other house in S. Formally, a subset of houses S is a city if x and y are reachable from each other for all x,y∈S. The funding required for a city S consisting of k houses is defined as k2.
+The president has given the mayor Saarang an order: divide the country into 2 cities with exactly one road connecting them. In other words, divide the country into two cities S1​ and S2​ such that:
+
+Each house i either belongs to S1​ or S2​.
+There exists a single road connect a house x from S1​ and a house y from S2​.
+
+For this purpose, you are allowed to build more bi-directional roads. The funding required to build a road between any 2 houses is c.
+Saarang, however, is busy preparing for his board exams so he requests you to solve this problem for him. Find the minimum total funding required to divide the country per the president's requirements, or −1 if no division is possible.
+Note: The total funding is the sum of the funding required for the 2 cities and the roads built. If after the division, the two cities have x and n−x houses respectively and you have built a total of a roads, The total funding will be x2+(n−x)2+c×a.
+Input Format
+
+First line will contain T, number of test cases. Then the test cases follow.
+The first line of each test case consists of three integers n, m and c.
+m lines follow, each consisting of 2 integers ui​ and vi​ indicating a road between houses ui​ and vi​.
+
+Output Format
+For each test case, output the minimum funding required to divide the country per the president's requirements, or −1 if no division is possible.

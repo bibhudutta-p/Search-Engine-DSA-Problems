@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef has met up with his friend Isaac recently. Isaac told Chef that his team needs to solve the following problem to win ACPC and qualify to ICPC 2021. However, no one in the team is good at expected value problems ― can you help them qualify?
+A sequence a1​,a2​,…,aN​ is said to be a hill sequence if there is an integer p (1≤p≤N) such that 0≤a1​≤a2​…≤ap​≥ap+1​≥…≥aN​≥0. For example, the sequences [1,2,2,3], [1,2,5,5,2,0] and [5,4,3,3] are hill sequences, but [1,2,2,1,3] is not.
+Consider all hill sequences a1​,a2​,…,aN​ such that ∑i=1N​ai​=M. We choose one of them uniformly randomly. Then, we define F(a,K)=∑i=1N​aiK​. For the purposes of this problem, 00=1. What is the expected value of F(a,K) modulo 109+7?
+The answer can be expressed as a fraction qp​, where p and q are non-negative integers and q is coprime with 109+7 for the given constraints. You should compute p⋅q−1 modulo 109+7, where q−1 denotes the multiplicative inverse of q modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains three space-separated integers N, M and K.
+
+Output
+For each test case, print a single line containing one integer p⋅q−1 modulo 109+7.

@@ -1,0 +1,23 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+
+Sereja has an integer number A that doesn't contain zeroes in its decimal form. 
+Also he has N integers B[1], B[2], ..., B[N]. 
+
+
+Let us first define function f for a number A as follows. 
+.
+
+
+Now he has to reorder the digits of A such that f(A) is minimum. 
+Please help him in finding most optimal A.
+ 
+Input
+
+First line contain a single integer T denoting number of test cases. Then T tests follow.  
+First line of each test case contains an integer A. 
+Next line contains an integer N. 
+Next line contains N integers B[1], B[2], ..., B[N].  
+
+Output
+For each test case, output optimal value of A after reordering digits in a single line.

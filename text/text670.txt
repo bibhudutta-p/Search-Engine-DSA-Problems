@@ -1,0 +1,14 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+In a world of superheroes each person is either a superhero or a villain. It is well known that every superhero has a name ending with either “man” or “woman”, for example “chefman”, “prettywoman” are Superheroes. All other persons are villains, for example “hacker” and “unclejohn". 
+
+Currently a big fight between the superheroes and the villains is going to happen. Initially there is only one superhero fighting one villain. Then total of N persons joined the fight one after another. If at point of time, there are two more superheroes than villains in the fight, superheroes will win the fight immediately, as they can overwhelm villains with their powers. On the other hand, if there are 3 more villains than superheroes at any time, they will win, because they use dirty tricks to defeat the superheroes. If over all all the fights, none of these cases happen, then the fight is declared to be a draw. For a given list of people joining the fight in the given order, decide which groups wins the fight or whether the fight is ended with a draw. 
+
+Input
+In the first line there is a single integer T denoting the number of test cases to handle. After that the description of T test cases follow.
+Description of each test cases starts with a line containing a single integer N denoting the number of people joining the fight.
+The i-th of the following N lines contains the name of person joining the fight at time i.
+Output
+
+For each test cases, output either "superheroes" if superheroes win the fight, "villains" if villains win or a "draw" if the fight ends with a draw. All of these strings should be outputted without quotes.
+

@@ -1,0 +1,13 @@
+Problem
+You are given a weighted directed graph of N vertices and N2 edges, and an array A of length N. Initially, every ordered pair of vertices (u,v) is connected by a directed edge u→v of cost Au​ (this also includes self-loops).
+Then there were M changes in edges' weights such that the weight of the directed edge u→v is now equal to c. You are asked to find the sum of the lengths of the shortest paths over all ordered pairs of distinct vertices.
+Input
+
+The first line contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+The third line of each test case contains a single integer M.
+The next M lines contain information about the changed edges in the u v c format.
+
+Output
+For each test case, output the sum of the lengths of the shortest paths over all ordered pairs of vertices.

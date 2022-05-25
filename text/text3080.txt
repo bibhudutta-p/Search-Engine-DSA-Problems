@@ -1,0 +1,17 @@
+Problem
+You are given a permutation of n a1​,a2​,...an​. You will also be given another integer x between 1 and n.
+In one move, you can swap the element x with an element at an odd number of places to the left or right of it. For example, if x is at position i, then you can swap it with ai+1​,ai+3​,... and ai−1​,ai−3​,...
+Your task is to sort the array in at most 10n moves or determine that it is impossible to sort the array
+Input:
+
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains two lines of input.
+The first line contains two integers n and x.
+The second line contains n space separated numbers a1​,a2​,...an​
+
+Output:
+
+For each test case, output in the first line "YES" if it is possible to sort the array otherwise "NO."
+If it is possible to sort the array, then in the next line output the number of moves m.
+Then output m lines, consisting of two indexes i and j to be swapped. (Note that either i or j should be the index of x.
+

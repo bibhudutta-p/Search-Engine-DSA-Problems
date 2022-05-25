@@ -1,0 +1,22 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+Once again Harry is out there with his friends Ron and Hermione looking out for Horcruxes. They found out that one of the Horcrux is located at The Lestrange Vault. But You-Know-Who has locked the vault with a dark spell.
+Fortunately, the password to the vault can be found out by solving a problem. But they were not able to solve the problem and hence need help from Chef. Since Chef is quite busy, he has delegated this task to you.
+You are given an array of N elements. MEX of a set is defined as the minimum non-negative integer that doesn't exist in it. For example, the MEX of the set {0, 2, 4} is 1 and the MEX of the set {1, 2, 3} is 0. Note that the MEX of empty set will be 0.
+Similar to Expected value, let's define Cheftated value, C[Y] of a random variable Y as follows:
+
+where Y is a random variable with a finite number of outcomes y1, y2, ..... , ya occurring with probabilities p1, p2, ..... , pa. Take 00 = 1.
+
+You are given an array A consisting of N non-negative integers. Your task is to calculate the cheftated value of base K xor sum of MEX values of X randomly selected subsequences( repetitions allowed) of A.
+Cheftated value can always be represented as an irreducible fraction P/Q such that gcd(Q, 330301441) = 1, i.e. Q-1 ( multiplicative inverse) modulo 330301441 exists. You have to print the value P * Q-1 modulo 330301441. Please see the sample explanation for more details.
+Also, xor-sum in base K (xork) can be perfomed by representing the numbers in base K and adding each digit in base K( without carrying forward), e.g. xorsum of 6 and 9 in base 5 is equal to 115 xor5 145 = 205, i.e. the number 10.
+
+Input
+First line of the input contains an integer T denoting number of test cases. 
+First line of each test case contains three space separated integers N, K and X.
+Second line of each test case contains N space separated integers, i-th of which is Ai denoting the ith element of the array.
+
+Output
+
+For each test case, output a line containing single integer representing the value of P*Q-1 modulo 330301441.
+

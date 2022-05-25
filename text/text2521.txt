@@ -1,0 +1,25 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+Chef calls a sequence of integers A1​,A2​,…,AN​ good if it satisfies the following conditions:
+
+Ai​⊕Ai+1​>0 for all valid i
+Ai−1​⊕Ai​⊕Ai+1​=Ai​ for all valid i
+
+In particular, any sequence with length 1 is good and any sequence of length 2 which satisfies the first condition is good.
+Here, ⊕ denotes the bitwise XOR operation.
+Chef gives you a sequence A1​,A2​,…,AN​. You may perform the following operation on the sequence any number of times (possibly 0): choose 3 pairwise distinct valid indices a, b and c and change Ac​ to Aa​⊕Ab​. Note that this means the operation can only be performed if N≥3.
+Chef is asking you to make the sequence good using at most 3⋅N operations or report that it is impossible. Note that you do not have to minimise the number of performed operations.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case:
+
+If it is impossible to change the given sequence into a good sequence using at most 3⋅N operations, print a single line containing the integer −1.
+Otherwise, first, print a line containing a single integer M (0≤M≤3⋅N) ― the number of operations you want to perform.
+Then, print M lines describing these operations in the order in which you want to perform them. For each i (1≤i≤M), the i-th of these lines should contain three space-separated integers ai​, bi​ and ci​ (pairwise distinct; 1≤ai​,bi​,ci​≤N) ― the indices on which the i-th operation is performed.
+
+If there are multiple solutions, you may find any one of them.

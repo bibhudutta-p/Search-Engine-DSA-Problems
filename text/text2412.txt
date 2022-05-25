@@ -1,0 +1,16 @@
+Problem
+MoEngage has given you an array A consisting of N positive integers.
+You should perform Q queries of the following two types:
+
+1 i X : Set Ai​ to X.
+2 L R : Find the minimum non-negative integer K such that the sequence [∣AL​−K∣,∣AL+1​−K∣,…,∣AR−1​−K∣,∣AR​−K∣] is sorted in non-decreasing order. Print −1 if no such K exists.
+
+For each query of type 2, output the minimum non-negative integer K satisfying the constraint, or −1 if there isn't any.
+Input Format
+
+The first line contains two integers N,Q.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+Then, the ith of the next Q lines contains three integers describing the queries 1 i X or 2 L R.
+
+Output Format
+For each query of type 2, output the minimum integer K satisfying the constraint, or −1 if there isn't any in a new line.

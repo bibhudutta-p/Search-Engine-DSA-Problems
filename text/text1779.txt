@@ -1,0 +1,9 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Eugene has to do his homework. But today, he is feeling very lazy and wants to you do his homework. His homework has the following given maths problem.
+You are given three integers: A, N, M. You write the number A appended to itself N times in a row. Let's call the resulting big number X. For example, if A = 120, N = 3, then X will be 120120120. Find out the value of X modulo M.
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follow.
+Each test case is described in one line containing three integers: A, N and M as described in the problem statement.
+Output
+For each test case, output a single line containing an integer denoting the value of X modulo M.

@@ -1,0 +1,11 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+A non-negative number is called "S semi-palindromic" if it is divisible by S and it is possible to rearrange its digits in such a way that the resulting number is palindromic. If the initial number had D digits (without leading zeroes), consider the number obtained by rearranging to have exactly D digits as well (leading zeroes are allowed).
+Compute the number of "S semi-palindromic" numbers smaller than 10K.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers S and K.
+
+Output
+For each test case, print a single line containing one integer — the answer modulo 109+7.

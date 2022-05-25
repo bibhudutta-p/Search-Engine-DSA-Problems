@@ -1,0 +1,14 @@
+Problem
+“Jesse, you asked me if I was in the meth business, or the money business… Neither. I’m in the empire business.”
+Walter’s sold his stack in Gray Matter Technologies, a company which he deserved half a credit, for peanuts. Now this company is worth a billion dollar company. Walter wants to get it's shares to have his Empire Business back and he founds an opportunity.
+There are N persons having shares A1​,A2​,A3​,…AN​ in this company. Walter can buy these shares with their minimum Sold Values.
+Sold Values of a person's share i (1≤i≤N) with another person's share j (1≤j≤N) is equal to Aj​+∣i−j∣. So, a person's share can have N possible sold values and Walter has to find minimum sold value among them for each person.
+Since Walter has to run his meth business also he asks you to find minimum sold value for each person.
+Input:
+
+First line will contain T, number of test cases. Then the testcases follow.
+The First line of each test case contains a integer N.
+The Second line of each test case contains N space integers namely A1​,A2​,…AN​.
+
+Output:
+For each test case, output in single line N space integers denoting minimum sold value for each person.

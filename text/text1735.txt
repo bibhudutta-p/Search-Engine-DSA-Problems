@@ -1,0 +1,24 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+You are given a binary tree with N vertices numbered 1 through N. The root of the tree is vertex 1. There are two types of vertices:
+
+non-leaf: has exactly two sons — a left son and a right son
+leaf: doesn't have sons, but it has an integer value
+
+Let's denote the number of leaves by L. It is guaranteed that the values of all leaves are pairwise distinct numbers between 1 and L inclusive.
+To each leaf, we can assign a string in the following way:
+
+consider the simple path 1=v1​,v2​,…,vl​ from the root to leaf vl​
+the string Svl​​ assigned to leaf vl​ has length l−1; for each valid i, Si​ is 'L' if vi+1​ is the left son of vi​ or 'R' if it's the right son of vi​
+
+It's clear that these strings are all pairwise distinct. Let's call the tree leaf-sorted if the following property holds for every pair of different leaves a,b: Sa​ is lexicographically smaller than Sb​ if and only if the value of a is smaller than the value of b.
+You are allowed to perform the following operation an arbitrary number of times (including zero): choose a non-leaf vertex and swap the edges to its left and right son. That is, the original left son of this vertex becomes the right son and the original right son becomes the left son (along with their whole subtrees).
+Find the minimum number of operations needed to make the tree leaf-sorted, or determine that it's impossible.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains two space-separated integers l and r. If l=−1, vertex i is a leaf with value r. Otherwise, l and r respectively denote the left and right son of vertex i.
+
+Output
+For each test case, print a single line containing one integer — the minimum required number of operations or −1 if it's impossible to make the tree leaf-sorted.

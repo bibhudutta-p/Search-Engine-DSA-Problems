@@ -1,0 +1,12 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+Chef lives in Chefcity. Chefcity can be represented as a straight line with Chef's house at point 0 on this line. There is an infinite number of subway stations in Chefcity, numbered by positive integers. The first station is located at point 1 and for each i ≥ 1, the distance between stations i and i+1 is equal to i+1. (Station i+1 is always located at a higher coordinate than station i, i.e., the subway stations are located at points 1, 3, 6, 10, 15 etc.)
+Subway trains in Chefcity allow Chef to move between any pair of adjacent stations in one minute, regardless of the distance between them. Chef can also move by walking; his walking speed is one unit of distance in one minute. Chef can enter or exit the subway at any station.
+Chef has decided to go to the cinema. The only cinema in Chefcity is located at point X. (Note that the cinema can be placed at the same point as a subway station.) Help Chef determine the minimum possible time required to get to the cinema from his house.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer X.
+
+Output
+For each test case, print a single line containing one integer - the minimum possible travel time.

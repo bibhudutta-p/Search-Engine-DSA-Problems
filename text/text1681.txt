@@ -1,0 +1,13 @@
+Problem
+Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
+Arya and Aryan live in a country called Nadaca. Nadaca consists of N cities numbered 1 through N, which are connected by some bidirectional roads. Each road has a positive (not necessarily integer) length. Arya lives in city 1 and Aryan lives in city N.
+Arya claims that for each city v, the shortest path from city 1 to city v has length av​. Aryan does not disagree, but claims that for each city v, the shortest path from city N to city v has length bv​. You are the wisest person they know, so they asked you to tell them if it is possible for their claims to be true, i.e. if a road network which fully satisfies their claims exists. Help them!
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers a1​,a2​,…,aN​.
+The third line contains N space-separated integers b1​,b2​,…,bN​.
+
+Output
+For each test case, print a single line containing the string "Yes" if Arya's and Aryan's claims can be true or "No" otherwise.

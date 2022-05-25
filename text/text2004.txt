@@ -1,0 +1,26 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef is on an adventure to find the tastiest exotic spices. Everyone knows that the best spices are guarded by several ancient dragons that dwell within mountains.
+The mountain range can be modeled by a polyline in the 2D xz plane that passes through N points p1​=(1,h1​),p2​=(2,h2​),…,pN​=(N,hN​), in this order, where hi​ is a positive integer for each valid i. This polyline divides the set of points {(x,z):1≤x≤N} into two regions. The "solid" part of the mountain range is the "bottom" region, i.e. the region that contains the x-axis (the x-axis is the line z=0).
+A dragon's den is located at each of the N points. For each valid i, the den at the point pi​ initially contains a pile of spices with tastiness ai​. With a technique he learned from dragons, Chef can glide from den to den, tasting all of the spices along the way. The tastiness of an entire journey is the summed up tastiness of spices over all dens visited during the journey. However, there are some restrictions:
+
+Chef can only glide from a higher den to a strictly lower den, i.e. if he glides from a den at pi​ to a den at pj​, then hi​>hj​ must hold.
+Chef can only glide in one direction and never look back, i.e. if he starts travelling in the direction of decreasing x, he must keep travelling in that direction until the end of the journey, and if he starts travelling in the direction of increasing x, he must keep travelling in that direction until the end of the journey too.
+Chef cannot travel through solid mountain, i.e. he can only glide from a den at pi​ to a den at pj​ if the line segment connecting the points pi​ and pj​ does not intersect the "solid" part of the mountain range. However, it may touch the border of the mountain range, i.e. the polyline itself.
+
+Note that gliding is the only way for Chef to travel between dens.  It is valid for a journey to begin and end at the same den, in which case Chef tastes the spices at the den and nothing else.
+See the explanation of the sample test case for a concrete example.
+With that in mind, Chef needs you to process Q queries. There are two types of queries:
+
+1 b k: Chef changes his mind and decides that the tastiness of the spices in the den at the point pb​ should be changed to k instead.
+2 b c: Chef wants to start a journey at the den located at pb​ and end it at the den located at pc​. Find the maximum possible tastiness of such a journey or determine that no such journey exists.
+
+Input
+
+The first line of the input contains two space-separated integers N and Q.
+The second line contains N space-separated integers h1​,h2​,…,hN​.
+The third line contains N space-separated integers a1​,a2​,…,aN​.
+Then, Q lines follow. Each of these lines contains three space-separated integers describing a query in the above format.
+
+Output
+For each query of the second type, print a single line containing one integer ― the maximum tastiness of a journey or −1 if no valid journey exists.

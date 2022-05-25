@@ -1,0 +1,15 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Consider all matrices with N rows (numbered 1 through N) and M columns (numbered 1 through M) containing only integers between 0 and K−1 (inclusive). For each such matrix A, let's form a sequence L1​,L2​,…,LN+M​:
+
+For each i (1≤i≤N), Li​ is the maximum of all elements in the i-th row of A.
+For each i (1≤i≤M), LN+i​ is the maximum of all elements in the i-th column of A.
+
+Find the number of different sequences formed this way. Since this number may be very large, compute it modulo 109+7.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains three space-separated integers N, M and K.
+
+Output
+For each test case, print a single line containing one integer — the number of different sequences, modulo 109+7.

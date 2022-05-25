@@ -1,0 +1,18 @@
+Problem
+Krillin has died yet again. Goku and Picollo must find a dragon ball in order to resurrect him. Kami gives them a quiz to solve in return for the dragon ball.
+He gives them an array A (having 1 based indexing) of N integers and he'll ask them Q queries. The array is basically a frequency table which represents some data. It signifies that i occurs A[i] times in the data. The queries can be of two types -
+1 L R
+2 i x
+First query - They must find the mode and median in the range L to R where L and R are inclusive (L and R are indices of the array) and return their LCM. It is guaranteed that there will be an unique mode.
+Second query- The element at ith index must be updated to x.
+1 represents the first query and 2 represents the second query.
+Note: Use greatest integer function for computing the median. This means that the median should be the floor value if the computed median is a fraction.
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two integers N, Q separated by a single space.
+The second line of each test case contains N integers denoting elements of the array separated by single spaces.
+The next Q lines contain respective queries.
+
+Output:
+For each test case, print results of only the first type of queries in separate lines.

@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Alice and Bob are walking on an infinite straight street. Initially, both are at the position X=0 and they start walking in the direction of increasing X. After N seconds, they stop. Let's denote Alice's speed and Bob's speed during the i-th of these seconds by Ai​ and Bi​ respectively.
+Sometimes, Alice and Bob walk together, i.e. with the same speed side by side. Let's define the weird distance as the total distance they walk this way. Find this weird distance.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+The third line contains N space-separated integers B1​,B2​,…,BN​.
+
+Output
+For each test case, print a single line containing one integer ― the total weird distance. It can be proved that this distance is an integer.

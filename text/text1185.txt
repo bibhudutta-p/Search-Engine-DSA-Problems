@@ -1,0 +1,15 @@
+Problem
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+You are given a sequence A1​,A2​,…,AN​ which contains pairwise distinct elements and a sequence B1​,B2​,…,BN​, which also contains pairwise distinct elements (but not necessarily distinct from elements of A). For each valid i, 1≤Ai​,Bi​≤2⋅N.
+You may rotate B as many times as you want. A rotation consists of moving the first element of the sequence to the end. Afterwards, let's define a sequence C1​,C2​,…,CN​ as Ci​=(Ai​+Bi​)%N for each valid i.
+There are N possible sequences C. Find the lexicographically smallest of these sequences.
+Note: A sequence x is lexicographically smaller than a different sequence y if xi​ < yi​, where i is the smallest valid index where the sequences x and y differ.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+The third line contains N space-separated integers B1​,B2​,…,BN​.
+
+Output Format
+For each test case, print a single line containing N space-separated integers C1​,C2​,…,CN​ denoting the lexicographically smallest sequence.

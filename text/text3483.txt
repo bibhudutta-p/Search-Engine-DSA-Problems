@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+These days, Chef has been playing a game.
+The game is played on a grid with N rows (numbered 1 through N) and N columns (numbered 1 through N); let's denote the cell in row r and column c by (r,c). 2M cells (X1​,Y1​),(X2​,Y2​),…,(X2M​,Y2M​) in the grid are marked.
+Chef wants to add exactly M paths between pairs of distinct marked cells in such a way that no two paths intersect. A path from cell (Xi​,Yi​) to cell (Xj​,Yj​) is a sequence of distinct cells (U1​,V1​),(U2​,V2​),…,(UL​,VL​) such that (Xi​,Yi​) is the first cell and (Xj​,Yj​) the last cell in this sequence and for each valid i, cells (Ui​,Vi​) and (Ui+1​,Vi+1​) share a side. Two paths intersect if there is some cell which is in both paths.
+However, this seems too easy to Chef, so he added weights to all cells. Let's denote the weight of cell (r,c) by Vr,c​. You should find M paths as described above such that the sum of weights of all cells in all paths is as large as possible.
+Input
+
+The first line of the input contains two space-separated integers N and M.
+2M lines follow. For each i (1≤i≤2M), the i-th of these lines contains two space-separated integers Xi​ and Yi​.
+N more lines follow. For each i (1≤i≤N), the i-th of these lines contains N space-separated integers Vi,1​,Vi,2​,…,Vi,N​.
+
+Output
+Print M lines. Each of these lines should contain an integer L, followed by a space and 2L space-separated integers U1​,V1​,U2​,V2​,…,UL​,VL​ describing one of your chosen paths. The paths may not intersect and each path must begin and end at distinct marked cells.

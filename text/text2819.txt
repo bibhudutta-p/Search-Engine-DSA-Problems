@@ -1,0 +1,21 @@
+Problem
+You are given a N×M matrix A, filled with distinct numbers. You can start at any cell. If you are currently at cell (x1​,y1​), then you can jump to any other cell (x2​,y2​), if and only if the following two conditions are satisfied:
+
+
+Ax2​,y2​​>Ax1​,y1​​
+
+
+Manhattan distance between Ax2​,y2​​ and Ax1​,y1​​ >S. Formally, ∣x1​−x2​∣+∣y1​−y2​∣>S.
+
+
+Let V be the set of the cells visited by you.
+Maximize the value of ∑(x,y)∈V​ Ax,y​.
+Input Format
+
+The first line of the input contains the number T - the number of test cases. Then the test cases follow.
+The first line of each test case contains three integers N,M,S - the parameters defined in the statement.
+Then N lines follow, with M integers in each line.
+Each of the next N lines contains M integers, where the j-th integer in i-th line is equal to Ai,j​
+
+Output Format
+For each testcase output the maximum possible value of ∑(x,y)∈V​ Ax,y​.

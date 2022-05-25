@@ -1,0 +1,18 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+"Out of 6 billion humans, the troublemakers are just a handful." - Dalai Lama
+Nikitasha and Mansi are best friends. They have a binary sequence A1​,A2​,…,AN​ (each element of this sequence is 0 or 1). Their friend Sakshi always finds ways to trouble them. This time, Sakshi altered their sequence by performing the following operation Z times:
+
+Create a new sequence B1​,B2​,…,BN​. Initially, Ai​=Bi​ for each valid i.
+For each valid i such that Ai​=0 and Ai+1​=1, swap Bi​ and Bi+1​, i.e. set Bi​=1 and Bi+1​=0. Note that the order of swaps does not matter.
+Replace the sequence A by the sequence B.
+
+Now, Sakshi challenges Nikitasha And Mansi to find the altered sequence (the resulting sequence A after Z steps). Help Nikitasha and Mansi find this sequence.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Z.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing N space-separated integers — the altered sequence.

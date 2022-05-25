@@ -1,0 +1,41 @@
+Problem
+ Read problems statements in Mandarin and Russian. Translations in Vietnamese to be uploaded soon.
+ 
+
+Consider a maze like this one, encoded in ASCII as a grid of R by C cells, denoted by characters # (a wall) and o (a walkable cell). The top left cell of the maze is the start and the bottom right one is the goal. All walkable cells are initially white.
+
+
+Cell B is reachable from cell A iff A and B are both walkable and it's possible to get to B by starting at A and moving only to walkable cells in the four cardinal directions — up, right, down and left.
+
+
+The maze is complicated and you're too lazy. That's why you try to solve it using the following algorithm:
+
+
+Pick a white walkable cell at random and click on it.
+
+
+The cell you picked in the first step and all cells reachable from it turn red.
+
+
+If there's a red path from the start to the goal, you have solved the maze.
+
+Else: goto first step.
+
+
+(Note that once a cell turns red, it will remain red until the maze is solved. Also note that this algorithm will always terminate.)
+
+
+What's the expected number of clicks (expectation value of the number of clicks) you'll have to make to solve the maze?
+
+Input
+The first line of input contains an integer T denoting the number of test cases.
+
+
+The first line of each test case contains two positive integers R and C — the number of rows and columns of the maze, respectively.
+
+
+The following R lines each contain C characters. Each character is either # or o.
+
+
+Output
+For each test case, output a single line containing one real number: the expected number of clicks necessary to solve the maze.

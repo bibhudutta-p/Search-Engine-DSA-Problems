@@ -1,0 +1,26 @@
+Problem
+Read problem statements in Russian, Mandarin and Vietnamese as well.
+You are given two increasing arrays of N integers x1​<x2​<…<xN​ and y1​<y2​<…<yN​.
+For a permutation σ1​,σ2​,…,σN​ of integers 1,2,…,N, let's define A(σ) in the following way:
+
+Consider the points (x1​,yσ1​​),(x2​,yσ2​​),…,(xN​,yσN​​). Then A(σ) equals to the area of the convex hull of these points.
+
+Let S be the sum of A(σ) over all n! permutations. One can show that 2S is an integer under the constraints of the problem.
+Find the remainder of 2S modulo 998244353.
+Input Format
+
+
+The first line contains a single integer T, the number of test cases. The description of test cases follows.
+
+
+The first line of each test case contains a single integer N − the length of the two arrays.
+
+
+The second line of each test case contains N integers x1​,x2​,…,xN​ (x1​<x2​<…<xN​).
+
+
+The third line of each test case contains N integers y1​,y2​,…,yN​ (y1​<y2​<…<yN​).
+
+
+Output Format
+For each test case print the remainder of 2S modulo 998244353.

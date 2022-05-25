@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given two binary strings A and B, each with length N. You may reorder the characters of A in an arbitrary way and reorder the characters of B also in an arbitrary (not necessarily the same) way. Then, you should compute the XOR of the resulting strings. Find the number of distinct values of this XOR which can be obtained, modulo 1,000,000,007 (109+7).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains a single string A with length N.
+The third line contains a single string B with length N.
+
+Output
+For each test case, print a single line containing one integer ― the number of unique XORs modulo 1,000,000,007.

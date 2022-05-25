@@ -1,0 +1,28 @@
+Problem
+
+Genjiko is one of the Japanese traditional games.
+Chef Ciel will take place a variant version of genjiko in her restaurant.
+
+
+The rules of the game are the following:
+
+
+The challenger must be blindfolded.
+Ciel feeds the challenger one of the N foods menus of her restaurant, M times.
+The challenger must answer whether the i-th food and the j-th food are same or not, for all 1 ≤ i < j ≤ M.
+For making the game difficult, Ciel cannot use the same menu for both the i-th menu and the (i+j)-th menu for all 1 ≤ j ≤ K. (The challenger knows this)
+
+
+Ciel wonders how many patterns can be the challenger's answer.
+Your task is calculating the number of the patterns modulo 1000000009 (109+9).
+
+Input
+
+The first line contains an integer T, the number of test cases.
+Then T test cases follow.
+Each test case has 3 integers N, M and K.
+
+Output
+
+Print the number of the patterns of the possible answers modulo 1000000009 (109+9).
+

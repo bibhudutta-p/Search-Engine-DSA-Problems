@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlGoogle</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>AlGoogle</h1>
+    <form>
+        <input type="text" name="question" id="question" placeholder="Search AlGoogle for...">
+        <input type="submit" value="Go!">
+    </form>
+    <div class="loading"></div>
+    <div class="searchedFor"></div>
+    <div class="question">
+        <div class="title">
+
+        </div>
+        <div class="body">
+
+        </div>
+        <div class="url">
+            <a href=""></a>
+        </div>
+    </div>
+    <div class="question">
+        <div class="title">
+
+        </div>
+        <div class="body">
+
+        </div>
+        <div class="url">
+            <a href=""></a>
+        </div>
+    </div>
+    <div class="question">
+        <div class="title">
+
+        </div>
+        <div class="body">
+
+        </div>
+        <div class="url">
+            <a href=""></a>
+        </div>
+    </div>
+    <div class="question">
+        <div class="title">
+
+        </div>
+        <div class="body">
+
+        </div>
+        <div class="url">
+            <a href=""></a>
+        </div>
+    </div>
+    <div class="question">
+        <div class="title">
+
+        </div>
+        <div class="body">
+
+        </div>
+        <div class="url">
+            <a href=""></a>
+        </div>
+    </div>
+    
+</body>
+</html>
+<script>
+    const form = document.querySelector("form");
+    const question_element = form.question;
+    
+    const questions = document.querySelectorAll(".question");
+    const urls = document.querySelectorAll(".url a");
+    const titles = document.querySelectorAll(".title");
+    const body = document.querySelectorAll(".body");
+    const loadingDiv = document.querySelector(".loading");
+    const show = document.querySelector(".searchedFor");
+    //the following for loop is to clear the previous search result
+    //as soon as a new query is submitted and before the new search result is obtained
+    
+    form.addEventListener("submit", async (e)=>{
+        e.preventDefault();
+        const question = question_element.value;
+        // console.log(question);
+        
+        for (let i = 0; i < 5; i++) {
+                titles[i].innerHTML = "";
+                body[i].innerHTML = "";
+                urls[i].innerHTML = "";
+                urls[i]['href'] = "";
+        }
+        loadingDiv.innerHTML = "Loading...";
+        show.innerHTML = "";
+        try {
+            const result = await fetch(`/search?question=${question}`, {method: "GET"});
+            const data = await result.json();
+            // const data = await result.json();
+            loadingDiv.innerHTML = "";
+            show.innerHTML = `<h3>Showing search results for "${data[5]}"</h3>`;
+            for (let i = 0; i < 5; i++) {
+                body[i].innerHTML = `<h4>${data[i].text}</h4>`;
+                titles[i].innerHTML = `<h2>${data[i].title}</h2>`;
+                urls[i].innerHTML = `<h5>Link</h5>`;
+                urls[i]['href'] = `${data[i].url}`;
+            }
+        } catch (error) {
+            // console.log(error);
+            alert(error);
+        }
+        
+    })
+</script>

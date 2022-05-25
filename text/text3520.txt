@@ -1,0 +1,35 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef wants to study reactions between non-miscible reagent samples with different colours. There are N colours (numbered 1 through N). Chef has N+2 test tubes (numbered 1 through N+2), each of them can hold a volume M ml; initially, tubes N+1 and N+2 are empty, while for each i (1≤i≤N), the i-th tube is completely filled and contains M ml of reagents with some colours. Since reagents with different colours do not mix, we can describe the contents of the i-th tube from its bottom to its top by a sequence Bi,1​,Bi,2​,…,Bi,M​, i.e. for each valid j, the j-th mililiter of volume of the i-th tube, measured from the bottom, is filled by a reagent with a colour Bi,j​. The total initial volume of each reagent is equal to M ml.
+To facilitate his study, Chef wants to redistribute the reagents into tubes according to their colours, i.e. at the end, for each colour i, there must be exactly one tube which contains all M ml of this reagent and no reagents with other colours. The specific positions of reagents or empty tubes in this final state do not matter.
+In order to achieve this, you may first reverse the order of reagents in some (possibly none or all) tubes. Then, you may perform operations of two types:
+
+Choose two test tubes P and Q and transfer the topmost 1 ml of reagent from the tube P to the top of the tube Q.
+
+This is only allowed if P is non-empty and Q is not full.
+If Q is empty, the cost of this operation is 0.
+Otherwise, let's denote the colour of the topmost reagent in tube P by U and the colour of the topmost reagent in Q (before this operation) by V. If DU,V​=−1, this operation is not allowed. Otherwise, it is allowed and its cost is DU,V​.
+
+
+Choose a test tube P and increase its capacity by 1 ml. The cost of this operation is CP​.
+
+You are given the costs of pouring reagents on top of each other and information about which reagents react with each other and therefore cannot be poured on top of each other, i.e. the matrix D. It is guaranteed that Di,j​=Dj,i​ for each valid i and j and Di,i​=0 for each valid i.
+You must separate the reagents (reach the state described above) using no more than 220=1,048,576 operations. The sum of costs of the operations you use to achieve this should be as small as possible.
+Input
+
+The first line of the input contains two space-separated integers N and M.
+The second line contains N+2 space-separated integers C1​,C2​,…,CN+2​.
+N lines follow. For each valid i, the i-th of these lines contains N space-separated integers Di,1​,Di,2​,…,Di,N​.
+N more lines follow. For each valid i, the i-th of these lines contains M space-separated integers Bi,1​,Bi,2​,…,Bi,M​.
+
+Output
+
+First, print a single line containing two space-separated integers X and Y (0≤X≤N, 0≤Y≤220) ― the number of test tubes whose contents you wish to initially reverse and the number of operations you wish to perform.
+Then, print a single line containing X space-separated integers A1​,A2​,…,AX​ ― the numbers of the test tubes you wish to initially reverse (1≤Ai​≤N for each valid i).
+Then, print Y lines describing the operations in the order in which you wish to perform them.
+
+To perform an operation of the first type, print a line containing three space-separated integers 1, P and Q (1≤P,Q≤N+2, P=Q).
+To perform an operation of the second type, print a line containing two space-separated integers 2 and P (1≤P≤N+2).
+
+
+

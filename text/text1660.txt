@@ -1,0 +1,19 @@
+Problem
+Read problems statements Hindi , Vietnamese , Mandarin Chinese , Russian and Bengali as well.
+Raja only participates in contests and does not upsolve, but he claims that he has been upsolving. Chef wants to test if he is really improving, so he asks Raja to solve the following problem.
+The median of a sequence of numbers is computed in the following way:
+
+sort the sequence in non-decreasing order
+if the number of elements of this sequence is odd, the median is its middle element
+if the number of elements is even, the median is the average (arithmetic mean) of its two middle elements
+
+For example, the median of [1,3,2] is 2 and the median of [2,3,3,2] is (2+3)/2=5/2.
+You are given a sequence A1​,A2​,…,AN​. Let's call a subsequence Ai1​​,Ai2​​,…,Aik​​ (for any k>0, 1≤i1​<i2​<…<ik​≤N) good if the median of this subsequence is an element of this subsequence. Find the number of good subsequences. Since this number may be large, compute it modulo 1000000007 (109+7).
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer — the number of good subsequences modulo 109+7.

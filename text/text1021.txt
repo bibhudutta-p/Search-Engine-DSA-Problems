@@ -1,0 +1,20 @@
+Problem
+Chef Ceil has some matchsticks in his kitchen.
+Detail of matchsticks:
+There are N matchsticks in total. They are numbered from to 0 to N−1 inclusive. The ith matchstick takes bi​ time to burn when lighted at one end, and it burns at a uniform rate.
+If lighted at both ends simultaneously, the matchstick will take only half of the original time to burn down.
+Arrangement:
+He ties rear end of the all the matchsticks together at one point and the front end is kept free. The matchstick numbered i is adjacent to matchstick numbered i+1 for all 0≤i≤N−2.
+Bodies of matchsticks do not touch each other, except at the rear end.
+Task:
+There are Q queries, in each query we ask:
+If he lights the free end of all matchsticks numbered between L and R inclusive, what will be the time needed for all matchsticks to get completely burnt?
+Input
+
+First line of input contains a single integer N.
+The next line contains N space separated integers, the ith of which is bi​
+The next line contains a single integer Q
+The next Q lines each contain two space separated integers - L and R. The ith line represents the ith query.
+
+Output
+For each query, print the answer on a new line.

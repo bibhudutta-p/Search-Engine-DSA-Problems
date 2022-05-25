@@ -1,0 +1,68 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+    <p>In mathematical terms, the sequence <b>F[N]</b> of Fibonacci numbers is defined by the recurrence relation <b>F[N]</b> = <b>F[N-1]</b> + <b>F[N-2]</b>, with seed values <b>F[1] = 1</b>,<b>F[2] = 1</b>.</p>
+
+<p>Today, Chef gives you a rooted tree, consisting of <b>N</b> nodes. At first, the node <b>1</b> is the root. The nodes are numbered from <b>1</b> to <b>N</b>, and each node has an integer that initially equals to <b>0</b>. Then, Chef asks you to perform <b>M</b> queries. </p>
+
+The queries are as follows:
+
+
+
+A x y
+
+Add F[1] to the integer, associated with the node x, then add F[2] to the integer, associated with the second node on the way from x to y, then add F[3] to the integer, associated with the third node on the way from x to y, and so on. As you know, there is only one simple path from x to y.
+
+
+
+QS x y
+
+Let node x be the root of the tree, output the sum of all integers, associated with the nodes in the subtree of the node y, modulo 1000000009(109+9).
+
+
+
+QC x y
+
+Output the sum of all the integers, associated with the nodes on the way from x to y, modulo 1000000009(109+9).
+
+
+
+R x
+
+All the integers associated with the nodes return to the state after the x-th query. If x is 0, then all of them become equal to 0, as in the very beginning.
+
+
+ 
+Input
+
+The first line of the input consists of two space separated intergers - N and M respectively.
+Then, N-1 lines follow. These N-1 lines describe the tree structure. Each line consists of two intergers - x and y, and that means that there is an edge between the node x and the node y.
+Then, M lines follow. Every single line denotes a single query, which has one of the following forms: (See the sample for the detailed explanation)
+
+
+A x1 y
+
+
+
+
+QS x1 y
+
+
+
+
+QC x1 y
+
+
+
+
+R x1
+
+
+ 
+As you can see, the number x isn't given to you directly. For all queries, actual number x will be equal to x1 xor lastans, where lastans denotes the last number that you have output, or 0 if you haven't output any numbers yet.
+
+ 
+Output
+
+For each query of the type QS or QC, output the answer modulo 109+9
+
+ 

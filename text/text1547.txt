@@ -1,0 +1,15 @@
+Problem
+Arun has an integer N. His friend likes the number 1, so Arun wants to reduce N to 1.
+To do so, he can perform the following move several times (possibly, zero):
+
+Pick two integers X and Y such that X+Y is even and XY is a divisor of N. Then, replace N by XYN​
+
+Note that at each step, XY only needs to be a divisor of the current value of N, and not necessarily a divisor of the integer Arun initially started with.
+Find the minimum number of moves Arun needs to reduce N to 1. If it is not possible to reduce N to 1 using the given operation, print −1 instead.
+Input Format
+
+The first line of input will contain an integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case consists of a single line of input containing one integer N.
+
+Output Format
+For each test case, output on a new line the answer — the minimum number of moves needed to reduce N to 1, or −1 if it is not possible to do so.

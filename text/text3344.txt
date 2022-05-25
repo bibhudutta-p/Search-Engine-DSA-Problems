@@ -1,0 +1,14 @@
+Problem
+Chef has opened a new ice cream parlor. His friend Chefina is going to visit the parlor very soon. Chef knows that Chefina is going to order a triple sundae on her visit. However, he does not know which flavors she would order.
+Chef has three storage containers with capacities X,Y and Z respectively. Each container can store multiple flavors of ice cream. Since Chef does not know which flavors Chefina would order, he wants to store maximum number of flavors in the storage containers.
+Chef has a total of N flavors. In order to store the ith flavor, Chef must select exactly one container and fill it with Ci​ amount of flavor i.
+Note that the total amount of ice cream filled in a container should not exceed its capacity.
+Find the maximum number of flavors Chef can store in the containers.
+Input Format
+
+The first line will contain T - the number of test cases. Then the test cases follow.
+The first line of each test case contains four integers N,X,Y and Z.
+The next line contains N integers, where the ith integer denotes Ci​.
+
+Output Format
+For each test case, output in a single line the maximum number of distinct flavors Chef can store using the three containers.

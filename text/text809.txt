@@ -1,0 +1,13 @@
+Problem
+You may have helped Chef and prevented Doof from destroying the even numbers. But, it has only angered Dr Doof even further. However, for his next plan, he needs some time. Therefore, Doof has built N walls to prevent Chef from interrupting him. You have to help Chef by telling him the number of walls he needs to destroy in order to reach Dr Doof.
+Formally, the whole area can be represented as the first quadrant with the origin at the bottom-left corner. Dr. Doof is located at the origin (0,0). There are N walls, the i-th wall is a straight line segment joining the points (ai​,0) and (0,ai​). For every initial position of Chef (xj​,yj​), find the number of walls he needs to break before reaching Doof. Obviously, chef can't start from a point on the wall. Therefore, if (xj​,yj​) lies on any of the given walls, print −1 in a new line.
+Input
+
+First line contains T, denoting the number of testcases.
+The first line of every test case contains a single integer N denoting the number of walls Dr Doof has built.
+The next line contains N space separated distinct integers each denoting ai​.
+The next line contains a single integer Q denoting the number of times Chef asks for your help.
+The next Q lines contains two space separated integers xj​ and yj​, each denoting the co-ordinates of the starting point of Chef.
+
+Output
+For each query, print the number of walls Chef needs to break in order to reach Dr Doof in a separate line. If Chef tries to start from a point on any of the walls, print −1.

@@ -1,0 +1,14 @@
+Problem
+The famous country Chefland can be represented as a number line. There are N attractions in Chefland, among which the i-th attraction's position is Xi​, and the time taken to completely explore it is Si​ hours. For convenience, we'll assume the time needed to move 1 unit distance is 1 hour.
+One day, Chef decides to visit K distinct attractions. He wants you to plan the trip, including selecting the attractions and arranging them. In addition, he somehow wants the trip to be as boring as possible.
+To him, the boredomness of a trip is the total time wasted, including the time spent while moving between the attractions, and the time spent in exploring the attractions.
+Formally, if you list the indices of the attractions in the order he visits as an array P=[P1​,P2​,P3​,...,PK​], then the boredomness equals ∑i=2K​∣XPi​​−XPi−1​​∣ + ∑i=1K​SPi​​.
+Your task is to find the maximum boredomness his trip could have.
+Input Format
+
+The first line contains T - the number of test cases. Then the test cases follow.
+The first line of each test case contains two space-separated integers N and K - the number of attractions in the city and the number of attractions Chef wants to visit.
+N lines then follow, the i-th of which contains two space-separated integers Xi​ and Si​ - the location and the time needed to completely explore the i-th attraction.
+
+Output Format
+For each test case, output the maximum possible boredomness the trip could have.

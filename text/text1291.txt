@@ -1,0 +1,21 @@
+Problem
+A circular array of length N is defined as follows: N integers A1​,A2​,…,AN​ are placed in a circle in such a way that for each 1≤i<N, Ai​ and Ai+1​ are adjacent, and A1​ and AN​ are also adjacent.
+You are given a circular array A of length N. At the end of each second, the following changes are executed in the array: If Ai​>0 then the elements which are adjacent to Ai​, will get incremented by 1, for all 1≤i≤N.
+For example, consider the array A=[0,0,0,2,0,0,0,5].
+
+
+Initially A4​ and A8​ are greater than zero. So after one second, A3​, A5​, A1​ and A7​ will get incremented by 1. Hence the array will become A=[1,0,1,2,1,0,1,5].
+
+
+After two seconds, the array becomes A=[2,2,2,4,2,2,2,7]. Note that the value of A4​ has become 4, because both, A3​ and A5​ were greater than zero after one second.
+
+
+What will be the sum of elements present in the array A after K seconds?
+Input Format
+
+The first line will contain T, number of testcases. Then T testcases follow.
+The first line of each testcase contains 2 space separated integers N and K.
+The second line of each testcase line contains N integers A1​,A2​,…,AN​.
+
+Output Format
+For each testcase, output in a single line containing the sum of the all the elements present in the array A after K seconds.

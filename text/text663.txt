@@ -1,0 +1,19 @@
+Problem
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+In addition to CP, Chef recently developed an interest in Web Development and started learning HTML. Now he wants to create his own HTML Code Editor. As a subproblem, he wants to check if a typed HTML closing tag has correct syntax or not.
+A closing HTML tag must:
+
+Start with ""
+End with "&gt;"
+Have only lower-case alpha-numeric characters as its body (between "" and "&gt;"). That is, each character of the body should either be a digit or a lower-case English letter.
+Have a non-empty body.
+
+Help Chef by printing "Success" if the tag is fine. If not, print "Error".
+Input
+
+The first line contains an integer T, the number of test cases. Then T test cases follow.
+Each test case is a single line of input, a string describing the tag we need to check.
+
+Output
+For each test case, output in a single line, "Success" if it is a valid closing tag and "Error" otherwise (without quotes).
+You may print each character of the string in uppercase or lowercase (for example, the strings "SuccEss", "success", "Success", "SUCCESS" et cetera will all be treated as identical).

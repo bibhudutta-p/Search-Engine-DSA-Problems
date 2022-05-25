@@ -1,0 +1,19 @@
+Problem
+Read problem statements in Mandarin, Bengali, Russian, and Vietnamese as well.
+Chef is very adventurous, so he asked Bob to give him a task.
+Bob gave him a sequence of blocks with heights A1​,A2​,…,AN​. Chef is at the first block and he has to reach the N-th block using the minimum number of moves to complete the task.
+In one move, he can jump from the i-th block to the j-th block only if the following conditions are satisfied:
+
+i<j
+Ai​≥Aj​
+for all k (i<k<j), Ak​≤Aj​
+
+You have to find the minimum number of moves Chef needs to perform to reach the last block, or determine that it is impossible.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, print a single line containing one integer --- the minimum number of moves or −1 if it is impossible to reach the last block.

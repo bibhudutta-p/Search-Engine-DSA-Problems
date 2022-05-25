@@ -1,0 +1,18 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Dr.D is tired of making up stories, so here is the formal description of this problem :
+You are given a set S={S1​,S2​,…,SK​}, an integer X and a sequence A1​,A2​,…,AM​. Let's define an infinite sequence W1​,W2​,…: for each valid i, Wi​=A((i−1)%M)+1​. Then, let's define a function F(i) for any non-negative integer i in the following way:
+
+F(0)=X
+if i∈S, F(i)=0
+otherwise, for i=0, F(i)=(∑j=1i​F(i−j)⋅Wj​)%(109+7)
+
+Find the value of F(N).
+Input
+
+The first line of the input contains four space-separated integers X, K, M and N.
+The second line contains K space-separated integers S1​,S2​,…,SK​.
+The third line contains M space-separated integers A1​,A2​,…,AM​.
+
+Output
+Print a single line containing one integer F(N).

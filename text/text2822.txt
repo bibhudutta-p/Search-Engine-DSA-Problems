@@ -1,0 +1,13 @@
+Problem
+Consider a permutation P of length N. We call a subarray of P good if it contains the value X.
+Consider a set S containing maximum elements of all good subarrays of P.
+Permutation P is called beautiful if S contains exactly K distinct values.
+Given three integers N, X, and K, you need to find the number of beautiful permutations of length N. Since this number can be very large, output it modulo 998244353.
+Note: A subarray is obtained from an array by removing some elements (possibly none) from the beginning and some elements (possibly none) from the end of the array.
+Input Format
+
+The first line contains T - the number of test cases. Then the test cases follow.
+The first line of each test case contains three space-separated integers N, X, and K - the length of the permutation, the pivot value X, and the number of different values the maximum element of the focused subarrays can take on.
+
+Output Format
+For each test case, output on a single line the number of beautiful permutations modulo 998244353.

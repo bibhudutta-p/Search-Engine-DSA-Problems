@@ -1,0 +1,17 @@
+Problem
+Chef is playing a game, which he starts with a score of S=0. He also has an integer N.
+In one move, Chef does the following:
+
+Uniformly randomly pick an integer X between 0 and 2N−1 (inclusive of both ends)
+Update his score as S→S∣X, where ∣ denotes the bitwise OR operation
+
+For example, if Chef's current score is S=6 and he picks X=10, his new score is 6∣10=14.
+Chef stops when his score S becomes equal to 2N−1.  What is the expected number of moves Chef performs?
+Output the answer modulo 109+7. That is, the answer can be expressed as a fraction P/Q, where gcd(Q,109+7)=1. Print P⋅Q−1(mod 109+7), where Q−1 denotes the modular multiplicative inverse of Q with respect to 109+7.
+Input Format
+
+The first line of input contains an integer T, denoting the number of test cases. The description of T test cases follows.
+Each test case contains a single integer N.
+
+Output Format
+For each test case, output on a new line the expected number of moves Chef performs, modulo 109+7.

@@ -1,0 +1,17 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+Chef likes to eat apples and bananas a lot. Today, he is doing a voluntary service by providing these fruits to needy people in a lunger (a gathering of needy people). The people form a queue to collect fruits from Chef. Chef distributes each person one of the fruits either an apple or a banana.
+You are given information about the way Chef distributed fruits to the people by a string s, whose each character is either 'a' or 'b' denoting whether the corresponding person was distributed an apple or a banana.
+After the event Chef wants to analyze what he could have done to make the event memorable. The event will be memorable if everyone at the end is happy. Whenever a person in the queue get an apple or a banana then he will observe the most recent K fruits distributed (including fruits he previously took, but not counting the fruit he just got) and if all of them were same as the fruit he just got, then he becomes disgruntled.
+The value of K if the person is getting an apple is x, and similarly y for banana.
+To make all the people happy, Chef can change the order of distributing the fruits (apple and bananas) and also can give some people extra kiwi fruits. Since the kiwis are costly, Chef would want to minimize the number of kiwis he needed to distribute. Note that a person leaves the queue as soon as Chef distributes him either an apple or a banana.
+ So Chef should provide a person some kiwis before providing an apple or a banana, otherwise Chef won't be able to provide him kiwi as they would have already left the queue.
+
+Help Chef in finding a way of distributing the fruits to the people that make everyone happy and requires Chef to buy as few kiwis as possible.
+Input
+The first line of the input contains an integer T denoting the number of test cases.
+The first line of each test case contains the string s.
+The second line contains two space separated integers x, y.
+Output
+For each test case, output a single string corresponding to the way in which the fruits should be distributed to the people. Apple fruit is denoted by 'a', banana by 'b', and kiwi by '*'. If there are more than one possible solutions,
+ you can print any. Note that the number of apples in the output should be equal to the number of apples in the initial distributions of fruits denoted by string s. Same goes for bananas.

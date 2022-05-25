@@ -1,0 +1,39 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+
+  After playing board games, buying letters, and shuffling decks, Mathison has finally decided to study. He opens his favorite book,
+  CLRS, and decides to solve a graph problem. The problem is described below and you can find it by its number, 25.1-11, on page 693 (3rd edition only).
+
+
+  You are given a tree
+  with N nodes where each node has a value associated with it.
+
+
+  Define PROD(u, v) to be the product of all values on the path from node u to node v.
+
+
+  The problem is to find the longest path (u, v) such that PROD(u, v) is a
+  cubic number
+  (i.e. there is some natural number k such that k3 = PROD(u, v)).
+
+
+  Mathison has no idea how to solve this problem so he asks you for help! 
+  Given T instances of this task, can you find the answer for each one of them so Mathison can proceed to the next chapter?
+
+Input
+
+  The first line contains the number of tests, T.
+
+
+  The description of a test starts with one line that contains the number of nodes, N.
+
+
+  The second line contains N space-separated integers, representing the values of the nodes.
+
+
+  Each of the following N-1 lines contain a single pair of integers u, v, representing an edge from u to v.
+
+Output
+
+  The output file must contain T lines, each one containing the answer (i.e. the longest path that generates a cubic number) for the corresponding test. If there's no such path then output -1 instead.
+

@@ -1,0 +1,26 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+Hussain really likes playing with arrays. Today he challenged his friend Farah to beat a game he has invented recently. 
+
+
+Hussain will give Farah an array of N positive integers. Farah is allowed to do this move multiple times:
+
+
+Farah can choose three integers (i , j , k) such that k is a positive integer, 1 ≤ i,j ≤ N, and A[i] is divisible by k. Then she should do the following :
+
+A[i] = A[i] / k
+
+
+A[j] = A[j] * k
+
+That is, she should multiply A[j] by k, and divide A[i] by k.
+
+Farah must make all the elements of this array equal, by only performing above move, as many times as she wants.
+Most of the times, it would be impossible to achieve an array of equal elements. So Farah is allowed to insert at most one element. You can prove that she can always insert an element, so that after the insertion, it becomes possible to make the array elements equal (including the new element), through a series of moves. You have to help Farah find the minimum positive integer that she has to insert into the array so that it's possible for her to make all elements equal after inserting this number.or just tell her that there is no need to insert an additional number.
+
+Input
+The first line contains a single integer, N, the number of elements in the array. 
+
+The second line contains N positive space separated integers.
+Output
+In case there is no need to insert an additional number output "justdoit" (without quotations). Otherwise, output the smallest positive integer that Farah must insert into the array. Since this number can be large, you're asked to print the remainder of its division by 109+7

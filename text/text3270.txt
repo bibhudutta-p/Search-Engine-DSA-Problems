@@ -1,0 +1,19 @@
+Problem
+Chef JJ is a fan of random events and calculating probabilities.
+He designed a machine called the binary string randomizer (BSRand). BSRand takes a binary string A (say, of length N) as input and then generates a binary string B (of the same length N) as output using the following algorithm:
+For each i from 1 to N,
+
+Uniformly randomly choose an integer j between 1 and N.
+Uniformly randomly choose an integer k between 1 and N.
+Set Bi​:=Aj​⊕Ak​ (where ⊕ represents the bitwise XOR operation)
+
+Given a binary string A, Chef JJ passes it through BSRand T times (i.e, first he passes the binary string A through the BSRand, then he passes the resultant binary string through BSRand again, and so on. This is done T times in total). Calculate the probability that the final binary string obtained is B.
+You need to print the probability of getting binary string B modulo 998244353. Formally, let M=998244353. It can be shown that the answer can be expressed as an irreducible fraction qp​, where p and q are integers and q≡0(modM). Output p⋅q−1(modM). In other words, output the (unique) integer x which satisfies 0≤x<M and x⋅q≡p(modM).
+Input Format
+
+The first line of the input contains two integers N and T - the length of the binary strings A and B and the number of times chef JJ passes the binary string through BSRand, respectively.
+The second line contains the binary string A.
+The third line contains the binary string B.
+
+Output Format
+Output the probability of getting binary string B from binary string A after passing it through BSRand T times, modulo 998244353.

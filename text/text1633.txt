@@ -1,0 +1,15 @@
+Problem
+JJ is back with another challenge. He challenges you to construct an array A containing N integers such that the following conditions hold:
+
+For all 1≤i≤N, 1≤Ai​≤106
+Every subarray has non-zero XOR. That is, for every 1≤L≤R≤N, AL​⊕AL+1​⊕…⊕AR​=0. Here, ⊕ denotes the bitwise XOR operation.
+
+Can you complete JJ's challenge?
+Under the given constraints, it can be proved that there always exists at least one array satisfying these conditions. If there are multiple possible arrays, print any of them.
+Input Format
+
+The first line contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains an integer N — the size of the array A to be constructed.
+
+Output Format
+For each test case, output a single line containing N space-separated integers, denoting the elements of array A. The ith of these N integers is Ai​. If multiple arrays exist which satisfy the conditions, print any of them.

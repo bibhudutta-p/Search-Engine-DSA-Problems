@@ -1,0 +1,13 @@
+Problem
+Read problems statements Mandarin , Bengali , Hindi , Russian and Vietnamese as well.
+You are given a sequence of positive integers a1​,a2​,…,aN​. You may change up to two elements of this sequence, each of them to any positive integer (not necessarily the same for two elements). Let's denote the resulting sequence by b1​,b2​,…,bN​.
+Consider all 2N subsequences of b1​,b2​,…,bN​. For each subsequence, compute the sum of its elements (0 for the empty subsequence). Let's denote the set of these sums by S; note that a set contains each integer at most once. Finally, NOSS is the size of set S. For example, if [b1​,b2​,b3​]=[17,23,40], then S={0,17,23,40,57,63,80} and NOSS is 7.
+Find the maximum possible NOSS.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers a1​,a2​,…,aN​.
+
+Output
+For each test case, print a single line containing one integer — the maximum possible NOSS.

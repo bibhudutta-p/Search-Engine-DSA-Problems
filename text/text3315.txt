@@ -1,0 +1,14 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given two arrays of positive integers, A and B, both of length N. You must choose a sequence of N non-increasing real numbers R1​,R2​,…RN​ to multiply with B1​,B2​,…BN​ respectively, such that the sum of the squares of their differences with corresponding terms A1​,A2​,…AN​ is minimized.
+Formally, find the minimum possible value of i=1∑N​(Ai​−Ri​Bi​)2, over all possible N-tuples of real numbers R=(R1​,R2​,…RN​) satisfying R1​≥R2​≥⋯≥RN​
+Input
+
+The first line contains an integer T, the number of test cases. Then the test cases follow.
+The first line of each test case contains an integer N, the length of arrays A and B.
+The second line contains N space-separated integers A1​,A2​,…AN​.
+The third line contains N space-separated integers B1​,B2​,…BN​.
+
+Output
+For each test case, print the minimum possible value of the objective as described in the statement.
+Your answer is considered correct if its absolute or relative error does not exceed 10−6.

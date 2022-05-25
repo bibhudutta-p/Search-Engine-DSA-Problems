@@ -1,0 +1,24 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chefland is a country with N cities (numbered 1 through N) and M bidirectional roads (numbered from 1 through M). Each road connects two different cities and no two different roads connect the same pair of cities.
+Bitland declared war on Chefland and after multiple battles, all roads of Chefland have ended up in a very bad state. Moreover, the war is causing psychological damage to the citizens of Chefland — for each valid u, the non-eagerness of the inhabitants of city u on day d is Eu​(d)=Pu​+Qu​⋅d.
+In Chefland, there are K special cities that are very important strategically. Ada, the queen of Chefland, decided to repair some roads and construct new roads in such a way that if any one of these roads is destroyed, it is still possible to reach each special city from any other special city using only the roads that were repaired or constructed.
+It is allowed to work on repairing and constructing different roads simultaneously, but to keep Chefland stable, Ada ordered that on each day, the number of roads that are being repaired and/or constructed must be at most S. Also, whenever we start repairing or constructing a road, the work on that road cannot be paused until the road is finished.
+The earliest day on which we can start repairing or constructing a road is day 1; let's denote the last day on which we finish repairing or constructing a road by T. The queen does not want to wait too much, so for each day between 1 and T inclusive, there must be at least one road which is currently being constructed or repaired. Note that this means T cannot exceed the time it would take to repair and construct all roads.
+For each valid i, the i-th of the original roads connected cities Ui​ and Vi​, its length was Li​ kilometres and the cost of repairing it is described by two parameters Ai​ and Bi​. The workers of Chefland can only repair one kilometer of road per day and it is not allowed to work on different parts of a road at the same time, so it takes exactly Li​ days to repair this road. If we start repairing this road on day d, it costs Ai​+Bi​⋅d.
+For each pair of different cities u and v, let's denote the length of the shortest path between these cities before the original roads were damaged (before Chefland's invasion) by Du,v​. Then, it takes Du,v​ days to construct a brand new road between the cities u and v. This road does not pass through any cities other than u and v. If we start constructing this road on day d, it costs (Eu​(d)+Ev​(d))⋅Du,v​. It is not allowed to construct a road between two cities if they are already directly connected by a road or if they were originally directly connected by a road.
+Help Ada design a plan that minimises the total cost. Formally, determine which roads should be repaired, which ones should be constructed and for each of these roads, determine the day on which the work on this road should start. The total cost of this plan should be as small as possible, while all other constraints must be satisfied perfectly.
+Input
+
+The first line of the input contains four space-separated integers N, M, K and S.
+The second line contains K space-separated integers denoting the indices of the special cities.
+N lines follow. For each i (1≤i≤N), the i-th of these lines contains two space-separated integers Pi​ and Qi​.
+M more lines follow. For each i (1≤i≤M), the i-th of these lines contains five space-separated integers Ui​, Vi​, Li​, Ai​ and Bi​.
+
+Output
+
+First, print a line containing a single integer X denoting the number of roads you want to repair.
+Then, print X lines. Each of these lines should contain two space-separated integers d and e denoting that you want to start repairing road e on day d.
+Next, print a line containing a single integer Y denoting the number of new roads you want to construct.
+Then, print Y lines. Each of these lines should contain three space-separated integers d, u and v denoting that you want to start building a road between cities u and v on day d.
+

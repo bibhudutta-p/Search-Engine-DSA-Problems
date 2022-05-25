@@ -1,0 +1,17 @@
+Problem
+Chef is playing with an expression which consists of integer operands and the following binary
+Bitwise operators -  AND, OR and XOR. He is trying to figure out that what could be the Maximum possible answer of the expression, given that he can perform the operation in any order i.e not necessarily follow the rule of Precedence of operators while evaluating the expression.
+After some time of consistent work Chef starts feeling exhausted and wants you to automate this process for him. Can you help him out?
+The expression has Bitwise operators in symbol format:
+
+&  stands for AND
+|   stands for OR
+^   stands for XOR
+
+NOTE : It is guaranteed that the expression will always be valid, also each OPERATOR will always be preceded and succeeded by an OPERAND.### Input:
+
+The first line of input contains a single integer T denoting the number of test cases.
+The only line of input for each test case is a string which is the Chef's expression to evaluate.
+
+Output:
+For each test case print a single integer i.e the maximum possible value of Chef's expression.

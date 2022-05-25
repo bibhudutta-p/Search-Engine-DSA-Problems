@@ -1,0 +1,39 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+Chef likes solving problems involving a lot of queries with prime numbers. One day, he found a new problem which is difficult for him to solve. So, he needs your help to solve it.
+Given an array a of N integers and Q queries where each query provides you with four integers L, R, X and Y. 
+ For each query, output the value of F(L, R, X, Y) as defined below. 
+
+F(L, R, X, Y) {
+
+     result := 0
+     for( i = X to i = Y )  {
+         if( isPrime(i) ) {
+             for( j = L to j = R ) {
+                  number := a[j]
+                  exponent := 0
+                  while( number % i == 0 ) {
+                     exponent := exponent + 1 
+                     number := number/i
+                  }
+                  result := result + exponent
+              }
+         }
+     }
+     return result
+}
+
+
+
+isPrime(x) returns true if x is Prime otherwise false.
+
+
+Input
+
+First line of the input contains a single integer N denoting the number of elements in a given array.
+Next line contains N integers separated by a space, which denotes a[1], a[2], ..., a[n]. 
+Third line contains Q denoting the number of queries.
+Next Q lines contain four integers L , R , X , Y   separated by a space.
+
+Output
+ Output the value for each F(L, R, X, Y) in a separate line.

@@ -1,0 +1,16 @@
+Problem
+Nayra doesn't like stories of people receiving random arrays as birthday presents, but this time she received random arrays as presents for her own birthday! After struggling for a day trying to figure out what to do with the array, she asked Aryan for help. He gave her the following problem.
+Given 3 integers N,P, and M.
+
+Let f(A) be the MEX of the array A.
+Let g(A)=(f(A))P for the array A .
+
+There are (M+1)N distinct arrays A=[A1​,A2​,…,AN​] such that (0≤Ai​≤M) ∀ (1≤i≤N).
+Calculate the sum of g(A) over all such (M+1)N arrays. Since the answer can be huge, print it modulo 754974721.
+Input Format
+
+First line will contain T, the number of test cases. Then the test cases follow.
+Each test case contains a single line of input, three integers N,P, and M.
+
+Output Format
+For each test case, output a single line containing the value of the given sum modulo 754974721.

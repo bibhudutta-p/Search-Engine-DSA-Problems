@@ -1,0 +1,25 @@
+Problem
+Read problem statements in Mandarin, Russian, and Vietnamese as well.
+You are given two arrays A and B of length N. The array B contains only zeros and ones.
+You are given Q queries, each of which consists of two integers L and R, L≤R.
+Consider a partition of the interval [L,R] into some k≥1 subintervals [l1​,r1​],[l2​,r2​],…,[lk​,rk​] satisfying the following conditions:
+
+l1​=L and rk​=R
+li​≤ri​ for every 1≤i≤k
+ri​+1=li+1​ for every 1≤i<k
+Bli​​+Bli​+1​+⋯+Bri​​=1 for every 1≤i≤k
+
+Note that you are free to choose any k≥1.
+Define the sum of a subinterval [li​,ri​] to be sum(li​,ri​)=Ali​​+Ali​+1​+⋯+Ari​​.
+Given a partition of [L,R] into subintervals, define its goodness to be the number of subintervals in the partition with non-negative sum.
+Find and print the maximum goodness over all partitions satisfying the given conditions.
+Input Format
+
+The first line contains an integer T, denoting the number of test cases. The T test cases then follow:
+The first line of each test case contains two space-separated integers N,Q.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+The third line contains N space-separated integers B1​,B2​,…,BN​.
+Q lines follow, each containing two space-separated integers L,R.
+
+Output Format
+For each query, output in a single line the maximum goodness of a partition of [L,R]. If there is no possible partition, print 0.

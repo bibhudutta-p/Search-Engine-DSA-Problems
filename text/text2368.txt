@@ -1,0 +1,20 @@
+Problem
+"We’ve already come too far to end this now".
+N players advance to the fifth round and the game is going to be Hopscotch. Every player has to select one mannequin before the start of the game.
+Players are numbered 1 to N. You are given an array A of size N, where
+
+If Ai​=i, the ith player selects their own mannequin.
+If Ai​=j where j=i, the ith player decides the mannequin for the jth player.
+If Ai​=0, the ith player hasn’t decided yet.
+
+The VIPs want to know the number of ways that the undecided players can select mannequins such that everyone gets a mannequin, and no undecided players select their own mannequin.
+It is guaranteed that every (non-zero) element in A is unique, i.e, if 1≤i,j≤N are such that i=j,Ai​>0, and Aj​>0, then Ai​=Aj​.
+Since the answer can be very large, print it modulo 109+7.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N denoting the number of players.
+The second line contains N space-separated integers, the ith of which is Ai​ as described in the statement above.
+
+Output Format
+For every test case, print one line containing the number of ways undecided players can select mannequins for others such that everyone receives a mannequin, modulo 109+7.

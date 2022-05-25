@@ -1,0 +1,13 @@
+Problem
+An array is called lovely if the sum of product of each adjacent pair of elements is odd.
+More formally, the array S of size M is lovely if the value ∑i=1M−1​ (Si​.Si+1​) is odd.
+You are given an array A consisting of N positive integers. Find a permutation of array A which is lovely.
+If multiple such permutations are possible, output any. If there is no lovely permutation, output -1.
+Input Format
+
+The first line contains an integer T denoting the number of test cases. The T test cases then follow.
+The first line of each test case contains an integer N.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, if a lovely permutation of A is possible, print a single line containing N integers denoting the elements of any lovely permutation of A. Otherwise, print -1.

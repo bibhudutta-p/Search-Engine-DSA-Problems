@@ -1,0 +1,32 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+In Chefland the ChefSanta gets a list of what children ask from him every year.
+On Christmas Eve, the ChefSanta delivers the presents to the children. This year, after Santa finished delivering all the presents, he realized that he used last year’s list. Now he starts thinking about how he could fix this.
+We know that
+
+Santa has an infinite amount of every kind of present at home
+Santa's reindeer can fly, so he doesn't need roads
+Santa has a bag which has a maximum capacity; this capacity is given
+Santa can leave an infinite amount of presents at every child's house at any moment except the end
+At the end, the Santa has to go to his house, and every house should contain just the present the child from this house wished for.
+
+
+Santa would like to minimize the total distance that he needs to travel to fix things. Can you help him?
+You are not required to find the optimal solution. However, the better your solution is,
+ the more you will get points
+Input
+The first line contains T the number of test cases.
+The next lines contain the descriptions of each test case.
+The first line of each test case contains five space-separated integers N, G, B, X, Y, where N is the number of children in Chefland, G is the number of different presents, B is Santa's bag volume and X, Y are Santa's house coordinates.
+The next line contains G integers P1, ..., PG denoting the volume of each present.
+The i-th of the next N lines contains four space-separated integers Xi, Yi, Ki, Li, where Xi, Yi are the coordinates of the i-th child's house, Ki is last year's present id and Li is this year's present id.
+
+Output
+For each test case (in the order given in the input) the output consists of a sequence of commands for Santa (one command per line).
+You can give the following commands to Santa:
+
+0 — end of the communication
+1 K — travel to XK, YK, where K=0 means travel to Santa's house
+2 K — put one of the presents of type PK to the bag
+3 K — take one of the presents of type PK out from the bag
+

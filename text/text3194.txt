@@ -1,0 +1,10 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+ 
+One day Leha got bored during his geometry class. But his teacher was very careful so the boy had to pretend that he was solving some geometry problem. At first glance he started drawing some senseless stuff. He marked N pairwise different points on the plane and then connected M pairs of these points by straight-line segments. No 3 points lie on the same line. None of these segments intersect(maybe except at the initial N points). Then Leha tried to draw the M+1-th segment but surprisingly it turned out that it was impossible to connect any pair of points by straight-line segment which wouldn't intersect with any of the previous segments. 
+Let's enumerate points from 1 to N. You are given M pairs of integers - numbers of points which are connected by the each straight-line segment. The question is: whether it's possible to choose N points on the Euclidean plane in any way such that they will always fit the situation described above. That is, try to place the given N points and M non-intersecting segments that are given, you will never be able to place M+1th segment.
+ 
+Input
+The first line contains one integer T - the number of test cases. Each test case starts with a line containing two integers N and M. M lines containing a pair of integers each follow describing pairs of points connected by straight-line segments
+Output
+For each test case output a single line containing1 if it's possible to find points which will satisfy the problem statement and 0 otherwise

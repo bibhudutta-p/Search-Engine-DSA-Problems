@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Vietnamese, and Bengali as well.
+You are given two sets of segments on a line, A and B. Set A contains N segments (numbered 1 through N); for each valid i, the i-th of these segments is SA,i​=[LA,i​,RA,i​]. Set B contains M segments (numbered 1 through M); for each valid i, the i-th of these segments is SB,i​=[LB,i​,RB,i​].
+Find ∑i=1N​∑j=1M​∣SA,i​∩SB,j​∣, where ∣SA,i​∩SB,j​∣ denotes the length of the intersection of the i-th segment from set A and the j-th segment from set B. Note that the length of a segment [l,r] is r−l.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+N lines follow. For each valid i, the i-th of these lines contains two space-separated integers LA,i​ and RA,i​.
+M more lines follow. For each valid i, the i-th of these lines contains two space-separated integers LB,i​ and RB,i​.
+
+Output
+For each test case, print a single line containing one integer ― the value of the sum.

@@ -1,0 +1,10 @@
+Problem
+You are given an integer N. Let K be a divisor of N of your choice such that K>1, and let M=KN​. You need to find the smallest K such that M has as many divisors as possible.
+Note: U is a divisor of V if V is divisible by U.
+Input Format
+
+The first line of the input contains an integer T - the number of test cases. The test cases then follow.
+The only line of each test case contains an integer N.
+
+Output Format
+For each test case, output in a single line minimum value of K such that M has as many divisors as possible.

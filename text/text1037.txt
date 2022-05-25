@@ -1,0 +1,18 @@
+Problem
+You are given an array A consisting of N integers.
+From array A, we create a new array B containing all pairwise bitwise ANDs of elements from A. That is, B consists of N⋅(N−1)/2 elements, each of the form Ai​&Aj​ for some 1≤i<j≤N.
+In array B, we repeat the following process till there is only one element remaining:
+
+Let the current maximum and minimum element of array B be X and Y respectively.
+Remove X and Y from array B and insert X∣Y into it.
+
+Determine the last remaining element in array B.
+Here, & denotes the Bitwise AND operation and ∣ denotes the Bitwise OR operation.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N, denoting the number of elements in A.
+The second line of each test case contains N space-separated integers A1​,A2​,…,AN​.
+
+Output Format
+For each test case, print a single line containing one integer — the last remaining element in array B.

@@ -1,0 +1,16 @@
+Problem
+"Don't Drink and Drive, but when you do, Better Call Saul."
+Once Jesse and Walter were fighting over extra cash, and Saul decided to settle it with a game of stone piles whose winner gets the extra money. The game is described as follows :
+There are N piles of stones with A1, A2, ... AN stones in each pile.
+Jesse and Walter move alternately, and in one move, they remove one pile entirely.
+After a total of X moves, if the Sum of all the remaining piles is odd, Walter wins the game and gets the extra cash, else Jesse is the winner.
+Walter moves first.
+Determine the winner of the game if both of them play optimally.
+Input:
+
+The first line will contain T, number of testcases. T testcases follow :
+The first line of each testcase contains two space-separated integers N,X.
+The second line of each testcase contains N space-separated integers A1, A2, ...,AN.
+
+Output:
+For each test case, print a single line containing the string "Jesse" (without quotes), if Jesse wins the game or "Walter" (without quotes) if Walter wins.

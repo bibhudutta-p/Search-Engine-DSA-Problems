@@ -1,0 +1,27 @@
+Problem
+ Read problems statements in Mandarin Chinese and Russian.
+
+Sereja has an array A of N positive integers : A[1], A[2], A[3], ... , A[N]. 
+
+
+In a single operation on the array, he performs the following two steps :  
+
+Pick two indices i, j s.t. A[i] > A[j]
+A[i] -= A[j]
+
+
+
+Sereja can apply these operations any number of times (possibly zero), such that the sum of resulting elements of the array is as small as possible.
+
+
+Help Sereja find this minimum sum.
+
+Input
+
+First line of input contains an integer T - the number of test cases. T test cases follow.
+
+
+First line of each test case contains the integer N. The next line contains N integers — A[1], A[2], A[3], ... , A[N].
+
+Output
+For each test case, output a single line with the answer.

@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef Thanos has an undirected simple graph with N vertices (numbered 1 through N) and M edges (numbered 1 through M). For each valid i, the i-th edge connects vertices ui​ and vi​. Chef Thanos wants to colour the edges in red and green so that the graph would be perfectly balanced, which means that for each vertex, the number of red edges incident to it must be equal to the number of green edges incident to it.
+Obviously, Chef Thanos does not want to leave any edges colourless, but he immediately realised that in such a case, it generally may be impossible to make the graph perfectly balanced, so he decided to colour some of the edges yellow instead, so that it is always possible.
+Since Chef Thanos hates the colour yellow, his satisfaction with the graph will be greater when he uses fewer yellow edges. Can you help him choose how to colour the edges so that you remain in the surviving half of humanity?
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M.
+M lines follow. For each valid i, the i-th of these lines contains two space-separated integers ui​ and vi​.
+
+Output
+Print M lines. For each valid i, the i-th of these lines should contain the integer 0 if you want the i-th edge to be yellow, 1 if you want it to be red or −1 if you want it to be green.

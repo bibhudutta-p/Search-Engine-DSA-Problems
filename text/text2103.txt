@@ -1,0 +1,12 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+You are given N integers: A1, A2, ..., AN. You need to count the number of pairs of indices (i, j) such that 1 ≤ i < j ≤ N and Ai | Aj ≤ max(Ai, Aj).
+Note: Ai | Aj refers to bitwise OR.
+Input
+
+The first line of the input contains an integer T, denoting the number of test cases. The description of each testcase follows.
+The first line of each testcase contains a single integer: N
+The second line of each testcase contains N integers: A1, A2, ..., AN.
+
+Output
+For each test case, output a single line containing the answer for that test case.

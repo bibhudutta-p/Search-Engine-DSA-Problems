@@ -1,0 +1,22 @@
+Problem
+ Read problems statements in Mandarin Chinese, Russian and Vietnamese as well.
+
+You are given a rooted tree of N vertices, the root is at vertex 1. The i-th edge has two parameters associated with it, Ci denoting the cost of the edge and parameter Di.
+
+
+You want to make cost of all the paths from the root to any leaf having equal costs. Cost of a path is sum of costs of all the edges on the path. For that, you can increase or decrease cost of any edge. The time taken in changing cost of i-th edge to X will be Di × |X - Ci|.
+
+
+Find the minimum time required to make cost of all the paths from the root to all leaves equal. Furthmore, you should also output the new edge costs. If there are more than one possible solutions, you can print any of them.
+
+
+Note that you can change costs of edges to negative, but all costs should be integers.
+
+Input
+First line of input contains an integer T denoting number of test cases. T test cases follow.
+First line of each test case contains an integer N denoting number of vertices in the tree.
+Each of the next N - 1 line contains four space separated integers ui, vi, Ci, Di denoting there is an edge between vertex ui and vi with parameters Ci and Di that are described in the statement.
+Output
+For each test case, output N lines.
+First line should contain an integer corresponding to minimum time required.
+In next N - 1 lines, i-th line should contain the updated cost of i-th edge.

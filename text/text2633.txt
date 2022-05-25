@@ -1,0 +1,12 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+An integer X is cool if it has a primitive root modulo X.
+The coolness of a non-empty set of N distinct integers S={x1​,x2​,…,xN​} is the number of cool divisors of ∏i=1N​xi​.
+You are given four integers L, R, A and B. Let S be the set containing all integers between L and R (inclusive). Consider all non-empty subsets of S with size between A and B (inclusive). Find the sum of values of coolness of all these subsets. Since this sum can be huge, compute it modulo 998,244,353.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains four space-separated integers L, R, A and B.
+
+Output
+For each test case, print a single line containing one integer ― the total coolness modulo 998,244,353.

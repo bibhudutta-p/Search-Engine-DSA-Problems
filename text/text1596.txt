@@ -1,0 +1,12 @@
+Problem
+You are given an array A of size N and an integer X.
+Find the count of all the pairs (i,j) such that ((Ai​⊕Aj​) &amp; X)=0. Here ⊕ and &amp; denote bitwise XOR and bitwise AND operations respectively.
+Input Format
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N - the size of the array.
+The second line contains N space-separated integers A1​,A2​,…,AN​ - the elements of the array.
+The third line of each test case contains a single integer X.
+
+Output Format
+For each test case, print a single line containing one integer ― the total number of pairs satisfying the condition.

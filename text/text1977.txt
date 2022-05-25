@@ -1,0 +1,15 @@
+Problem
+Chef's exam is near. There is a total of M subjects in his syllabus. Each subject consists of several topics. However, the questions will be set only from N topics. These topics are numbered 1 through N. The ith topic belongs to Cith​ subject and takes Ti​ hours to cover.
+Chef has only K hours left before the exam and wants to score the maximum marks. If Chef covers x1​ number of topics of the 1st subject, x2​ number of topics of the 2nd subject, and so on upto  xM​ number of topics of the Mth subject in the remaining K hours, he will get a total of ⌈2x1​​ ⌉+⌈2x2​​ ⌉+⋯+⌈2xM​​ ⌉ marks in the exam. So Chef chooses the topics optimally.
+Determine the maximum possible marks Chef can score in the exam.
+Note: ⌈x⌉ : Returns the smallest integer that is greater than or equal to x (i.e  rounds up to the nearest integer). For example, ⌈1.5⌉=2, ⌈5⌉=5.
+Input Format
+
+The first line of input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+Each test case contains three lines of input.
+The first line of each test case contains three space-separated integers N,M,K.
+The second line contains N space-separated integers C1​,C2​,…,CN​.
+The third line contains N space-separated integers T1​,T2​,…,TN​.
+
+Output Format
+For each test case, print a single line containing one integer - the maximum marks Chef can score.

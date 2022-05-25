@@ -1,0 +1,11 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+Chef wants to select a subset S of the set {1,2,…,N} such that there are no two integers x,y∈S which satisfy yx​=M.
+Help Chef find the maximum size of a subset S he can choose and the number of ways in which he can choose a subset S with this maximum size. Since the number of ways to choose S can be very large, calculate it modulo 998,244,353.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers N and M.
+
+Output
+For each test case, print a single line containing two space-separated integers ― the maximum size of a subset Chef can choose and the number of ways to choose a subset with this maximum size modulo 998,244,353. Note that only the number of ways to choose a subset should be printed modulo 998,244,353.

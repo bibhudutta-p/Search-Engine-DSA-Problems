@@ -1,0 +1,18 @@
+Problem
+Chef was impressed by an array A of N non-negative integers. But, he was asked to solve the following problem in order to get this array.
+Given a non-negative integer k, find the number of pairs (i,j) (1≤i<j≤N) such that the following condition holds true:
+(Ai​ ∣ Aj​) + (Ai​⊕Aj​) + (Ai​ &amp; Aj​) =k +Aj​, where
+
+(Ai​∣Aj​) denotes Bitwise OR operation,
+(Ai​ ⊕ Aj​) denotes Bitwise XOR operation,
+(Ai​ &amp; Aj​) denotes Bitwise AND operation.
+
+You, being Chef's friend, help him get this array by solving the above problem.
+Input Format
+
+The first line contains an integer T, the number of test cases.
+The first line of each test case contains two space-separated integers N and k, the number of integers in the array A and the non-negative integer k respectively.
+The next line contains N space-separated non-negative integers A1​,A2​,…,AN​, the elements of the array A.
+
+Output Format
+For each test case, print a single line containing the number of pairs satisfying the mentioned condition.

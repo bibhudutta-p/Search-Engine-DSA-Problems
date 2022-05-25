@@ -1,0 +1,12 @@
+Problem
+Chef has a grid with N equally spaced horizontal lines and M equally spaced vertical lines. The points where a horizontal and a vertical line intersect are called grid points.
+Chef draws a triangle at random on this grid such that the vertices of the triangle lie on grid points and the area of the triangle is non-zero. All triangles satisfying this criteria are equally likely to be drawn by Chef.
+Calculate the expected number of grid points on the perimeter of this triangle, including the three vertices. It is guaranteed that it will be possible to express this value as an irreducible fraction qp​ where q is coprime to 109+7. Let r be the modular mutiplicative inverse of q with respect to modulus 109+7. Output the answer as p⋅r(mod109+7).
+Input:
+
+The first and only line contains 2 integers N and M.
+
+Output:
+
+Output in a single line the answer p⋅r(mod109+7).
+

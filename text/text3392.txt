@@ -1,0 +1,50 @@
+Problem
+Read problem statements in Mandarin, Russian, and Vietnamese as well.
+Given is a N×N grid Arc​ which is a permutation of numbers from 1 to N2. You have to process Q queries, in each query you are asked to find the value of k-th minimum in the subgrid with corners (r1​,c1​) and (r2​,c2​).
+Input Format
+The input consists of seven integers N Q seed minR maxR minC maxC.
+The actual input to the problem will be generated using the following code (C++, use it as a reference to implement the same generator in your programming language, uint64_t is an unsigned 64-bit integer type):
+uint64_t state;
+uint64_t nextRand() { // https://en.wikipedia.org/wiki/Xorshift
+    state ^= state &lt;&lt; 13;
+    state ^= state &gt;&gt; 7;
+    state ^= state &lt;&lt; 17;
+    return state &gt;&gt; 10;
+}
+int nextBounded(int B) {
+    return nextRand() % B;
+}
+
+int N, Q, minR, maxR, minC, maxC;
+
+void genGrid() {
+    vector p(N * N);
+    for (int i = 0; i &lt; N * N; i++)
+        p[i] = i + 1;
+    // https://en.wikipedia.org/wiki/Fisher-Yates_shuffle
+    for (int i = 0; i &lt; N * N; i++)
+        swap(p[i], p[nextBounded(i + 1)]);
+    // A_{rc} is p[(r - 1) * N + (c - 1)]
+}
+
+void genQuery() {
+    int lenR = minR + nextBounded(maxR - minR + 1);
+    int lenC = minC + nextBounded(maxC - minC + 1);
+    int r1 = 1 + nextBounded(N - lenR + 1);
+    int c1 = 1 + nextBounded(N - lenC + 1);
+    int r2 = r1 + lenR - 1;
+    int c2 = c1 + lenC - 1;
+    int k = 1 + nextBounded(lenR * lenC);
+    // (r1 c1 r2 c2 k) is the query described in the statement
+}
+
+int main() {
+    cin &gt;&gt; N &gt;&gt; Q &gt;&gt; state &gt;&gt; minR &gt;&gt; maxR &gt;&gt; minC &gt;&gt; maxC;
+    genGrid();
+    for (int i = 0; i &lt; Q; i++) {
+        genQuery();
+    }
+}
+
+Output Format
+Print Q integers - answers to queries in the order they are generated.

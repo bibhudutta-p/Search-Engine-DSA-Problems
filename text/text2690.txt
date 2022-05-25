@@ -1,0 +1,11 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+In your house, you have a lot of integers. These integers are coloured by Q colours (numbered 1 through Q). For each valid i, you have bi​ integers with colour i and each of these integers has value ai​.
+For each integer i such that 1≤i≤N, you need to find the number of different partitions of i. Here, a partition of i consists of one or more integers from your house such that the sum of values of these integers is equal to i. Two partitions are different if there is a colour such that the number of integers with this colour in one partition is different from the number of integers with this colour in the other partition. Since these numbers could be very big, compute them modulo 998,244,353.
+Input
+
+The first line of the input contains two space-separated integers N and Q.
+Q lines follow. For each valid i, the i-th of these lines contain two space-separated integers ai​ and bi​.
+
+Output
+Print a single line containing N space-separated integers. For each valid i, the i-th of these integers should be the number of partitions of i, modulo 998,244,353.

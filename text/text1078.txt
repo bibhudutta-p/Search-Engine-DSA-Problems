@@ -1,0 +1,10 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given an integer N and a digit D. Find the minimum non-negetive integer you should add to N such that the final value of N does not contain the digit D.
+Input Format
+
+The first line contains T denoting the number of test cases. Then the test cases follow.
+Each test case contains two integers N and D on a single line denoting the original number and the digit you need to avoid.
+
+Output Format
+For each test case, output on a single line the minimum non-negetive integer you should add to N.

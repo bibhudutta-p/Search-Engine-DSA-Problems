@@ -1,0 +1,19 @@
+Problem
+Chef is playing a game, and to win the prize, he must complete it. But he is busy arranging meals for the vortex party, so he asked you the play the game in his place. The game is as below:
+You are given a rooted tree of size N rooted at node 1, where each node i has a value Vi​ assigned to it. Define Pu​ as the parent of node u. You have to perform queries of the following type on the tree:
+
+1XW: Break the edge between node X and PX​ in the tree, and attach X as a child of W (note that this means PX​=W after this operation). It is guaranteed that X is a leaf node of the tree.
+2XK: Change the value on node X to K (i.e. assign VX​←K).
+3XY: Calculate the sum of values of nodes on the path from X to Y.
+
+Note that the queries are accumulative, meaning the changes made in each query is persisted for the following queries.
+Input Format
+
+The first line of the input contains an integer N - the number of nodes in the tree.
+The next line contains N−1 space-separated integers P2​,P3​,…,PN​ - the parents node of 2 to N.
+The next line contains N space-separated integers V1​,V2​,…,VN​ - the initial values of the nodes.
+The next line contains an integer Q - the number of queries.
+Each of the next Q lines contains a query as described in the statement.
+
+Output Format
+For each query of type 3, output on a new line the sum of values of nodes on the path from X to Y.

@@ -1,0 +1,28 @@
+Problem
+ Read problems statements in Mandarin Chinese here
+Problem Statement
+
+As we know, Fibonacci Number is defined as 
+
+Fn=n if n  ≤ 1 
+Fn=Fn-1+Fn-2, otherwise
+
+Now this problem is quite simple: you are given one  prime number  P and one non-negative integer C
+You are expected to find the smallest non-negative integer  n, such that
+Fn≡C(mod P)
+The definition of "mod" could be found here:
+
+here
+
+ 
+Input
+
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+Only one line of each test case, which contains two integers C and P denoting the number described above.
+
+ 
+Output
+
+For each test case, output a single line containing one integer indicates the smallest n. If such n do not exist, output -1 instead
+
+ 

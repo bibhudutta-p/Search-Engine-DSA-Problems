@@ -1,0 +1,27 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+There are N special points on the 2-D plane. You can travel from a special point (xi, yi) to another special point (xj, yj) if and only if |xi - xj| + |yi - yj| ≥ D.
+You need to find the largest integer D, such that we can start at some special point and visit each of the other special points, directly or through other special points. Note that you can visit a special point more than once.
+Input
+
+The first line of the input contains an integer T, denoting the number of test cases. The description of each testcase follows.
+The first line of each testcase contains a single integer, N, which denotes the number of special points.
+The i-th of the next N lines contains two integers, xi and yi, which denotes that (xi, yi) is a special point.
+
+Output
+For each test case, output a single line containing the answer.
+Subtasks
+Subtask #1 (20 points):
+
+2 ≤ N ≤ 103 
+2 ≤ Sum of N over all test cases ≤ 103
+
+Subtask #2 (60 points):
+
+2 ≤ N ≤ 3 * 104
+2 ≤ Sum of N over all test cases ≤ 3 * 104
+
+Subtask #3 (20 points):
+
+Original constraints
+

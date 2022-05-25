@@ -1,0 +1,15 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian.
+
+In this problem Sereja is interested in number of arrays A[1], A[2], ..., A[N] (1 ≤ A[i] ≤ M, A[i] - integer) 
+such that least common multiple (LCM) of all its elements is divisible by number D. 
+
+
+Please, find sum of answers to the problem with D = L, D = L+1, ..., D = R. As answer could be large, please output it modulo 
+(109 + 7).
+
+Input
+First line of input contain integer T - number of test cases. 
+For each test case, only line of input contain four integers N, M, L, R.
+Output
+For each test case, output required sum modulo (109 + 7).

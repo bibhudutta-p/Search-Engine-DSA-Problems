@@ -1,0 +1,19 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Chef has two sequences of integers (A1​,A2​,…,AN​) and (B1​,B2​,…,BN​).
+A sequence of integers is beautiful if it contains only distinct integers. For each valid i:
+
+Chef wants to create a beautiful sequence Si​. Let's denote the length of this sequence by Li​ and the sequence by Si,1​,Si,2​,…,Si,Li​​.
+The sequence Si​ is good if for each valid j, Si,j​ is either equal to Ai+j−1​ or Bi+j−1​. Note that this means Li​ must be at most N−i+1.
+Let's denote the maximum possible value of Li​ (the maximum value such that some good sequence Si​ with this length exists) by Mi​.
+Help Chef find the number of good sequences Si​ that have the maximum possible length Mi​. Since this number may be enormous, compute it modulo 109+7.
+
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+The third line contains N space-separated integers B1​,B2​,…,BN​.
+
+Output
+For each test case, print a single line containing N space-separated integers. For each valid i, the i-th of these integers should be the number of possible sequences Si​ modulo 109+7.

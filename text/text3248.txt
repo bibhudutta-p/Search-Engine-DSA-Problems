@@ -1,0 +1,31 @@
+Problem
+“Do you know what someone with no money has in common with someone with too much money? Living is no fun for them.”
+Gi-Hun wants to know the truth about the game and II-nam has asked him to solve this puzzle in order to get answers to his questions.
+Gi-Hun is given a tree consisting of N nodes numbered from 1 to N, rooted at node 1. Each node i has been assigned a value Ai​.
+Also given is a set of special edges S, consisting of some edges of the given tree (each edge is denoted by a pair of integers).
+Gi-Hun is required to answer Q queries.
+There are 3 different types of queries.
+
+1 u K — consider the subtree of u in the tree, denoted by Tu​. You would like divide Tu​ into K disconnected components by removing exactly K−1 non-special (i.e, not in S) edges from Tu​ such that the following value is maximized:
+
+For v∈Tu​, let Zv​ be the number of edges removed on the path from u to v, plus 1.
+Then, you would like to maximize the value
+∑v∈Tu​​Zv​⋅Av​
+If it is not possible to remove K−1 non-special edges from Tu​, print IMPOSSIBLE instead.
+
+2 u v — add edge u−v to set S. It is guaranteed that this edge is part of the tree and is not already in S.
+3 u v — remove edge u−v from set S. It is guaranteed that this edge is already in S.
+
+Note: The original tree is restored after every query of type 1, i.e, edges are not permanently removed from the tree.
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and Q, denoting the number of nodes of the tree and the number of queries respectively.
+The second line contains N−1 space-separated integers P2​,P3​,…,PN​, where Pi​ is the parent of node i.
+The third line contains N space-separated integers A1​,A2​,…,AN​ — the values of the nodes.
+The fourth line contains a single integer M, denoting the number of edges in the set S.
+The next M lines describe the set S. The i-th of these M lines contains two integers ui​ and vi​, denoting that edge ui​−vi​ is present in S.
+The next Q lines each contain 3 integers describing the queries as given in the statement.
+
+Output Format
+For each query of type 1, output on a new line the maximum value of ∑v∈Tu​​Zv​⋅Av​, or IMPOSSIBLE if there doesn't exist a way to remove K−1 non-special edges.

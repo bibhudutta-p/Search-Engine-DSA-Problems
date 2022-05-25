@@ -1,0 +1,19 @@
+Problem
+ Read problems statements in Mandarin Chinese , Russian and  Vietnamese
+
+Chef is going to leave his home town and shift to a new city. The new city contains exactly N houses. There are roads connecting the houses in such a way that there is exactly one way to go from a house to any other house. Length of each of the roads is known to Chef.
+
+
+Chief is doing a lot of research before shifting to the new city. He wants to know how many pairs of houses (a,b) are there, such that if we multiply length of all the roads on the path from a to b, the product will be divisible by M.
+
+Input
+
+
+First line of the input contains a pair of  integers N and M, where N denotes the number of houses.  
+
+
+Each of the next (N-1) lines contains a triplet of numbers (a,b,c) which will denote that the length of the road between houses a and b is c.
+
+
+Output
+A single integer denoting the number of pair of houses. 

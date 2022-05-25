@@ -1,0 +1,23 @@
+Problem
+A number X is called bad if its binary representation contains odd number of 1 bits. For example, X=13=(1101)2​ is bad while X=3=(11)2​ is not bad.
+Chef calls an array A of length N special if the following conditions hold:
+
+For each 1≤i≤N, 0≤Ai​<220
+All the elements of A are distinct
+There does not exist any non-empty subset of A such that the bitwise XOR of the subset is bad.
+
+For example,
+
+A=[2,3,4] is not special because the XOR of the subset [2,3] is 2⊕3=1, which is bad. (⊕ denotes the bitwise XOR operation)
+A=[3,3] is not special because its elements are not distinct.
+A=[3,5] is special because it satisfies all the conditions.
+
+Chef challenges you to construct any special array of length N. Can you complete Chef's challenge?
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first and only line of each test case contains a single integer N — the length of the special array to be constructed.
+
+Output Format
+For each test case, output a single line containing N space-separated integers, denoting the elements of the special array of length N you constructed.
+Note: It can be proved that a special array of length N always exists under the given constraints.

@@ -1,0 +1,9 @@
+Problem
+ Read problems statements in Mandarin Chinese and Russian as well.
+Two players are playing a game. The game is played on a sequence of positive integer pairs. The players make their moves alternatively. During his move the player chooses a pair and decreases the larger integer in the pair by a positive multiple of the smaller integer in the pair in such a way that both integers in the pair remain positive. If two numbers in some pair become equal then the pair is removed from the sequence. The player who can not make any move loses (or in another words the player who encounters an empty sequence loses). Given the sequence of positive integer pairs determine whether the first player can win or not (assuming that both players are playing optimally).
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+Each test starts with an integer N denoting the number of pairs. Each of the next N lines contains a pair of positive integers. 
+ 
+Output
+For each test case, output a single line containing "YES" if the first player can win and "NO" otherwise. 

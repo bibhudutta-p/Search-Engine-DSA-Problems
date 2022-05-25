@@ -1,0 +1,18 @@
+Problem
+Read problem statements in Mandarin, Vietnamese, and Russian as well.
+The tennis tournament you organized has just finished and now you have to decide the ranking of the N players (indexed by 1,2,…,N) who participated.
+Each pair of players played exactly one game and for each game you know who won (there are no draws in tennis).
+A ranking is a permutation P1​,P2​,…,PN​ of 1,2,…,N; where P1​ represents the winner of the tournament, P2​ is the second in the ranking, etc.
+A ranking is good if for any 1≤i<j≤min(i+⌈2N​⌉,N) the player Pi​ won against Pj​.
+In other words, a ranking is good if, for any two players whose ranking positions differ by at most ⌈2N​⌉, the result of their game is consistent with their order in the ranking.
+Find, if it exists, a good ranking.
+Input Format
+
+The first line contains a single integer T, the number of test cases. Then T test cases follow.
+The first line of each test case contains one integer N, the number of participants.
+Then N lines follow. The i-th of them contains a string Si​ of length n whose characters are either 0 or 1. For any 1≤j≤N with j=i, the j-th character of Si​ is 0 if i lost against j and 1 otherwise. It is guaranteed that for any i=j the j-th character of Si​ is different from the i-th character of Sj​ (so that they are consistent). For any 1≤i≤N, the i-th character of Si​ is 0 (notice that this character does not correspond to any game in the tournament).
+
+Output Format
+For each test case, print −1 if a good ranking does not exist.
+If a good ranking exists, print on a single line the n integers P1​,P2​,…,PN​ corresponding to a good ranking (P1​ is the winning player, P2​ is the runner-up, P3​ is the third in the ranking, etc.).
+If there is more than one good ranking, print any of them.

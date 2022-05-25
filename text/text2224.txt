@@ -1,0 +1,16 @@
+Problem
+Read problems statements in mandarin chinese, russian and vietnamese as well.
+Hussain was doing research on graph theory, and he came up with a new family of graphs called Deadwing Graphs.
+Consider an undirected graph. We can partition the vertices uniquely into connected components, such that two vertices belong to the same connected component if and only if they are connected by a sequence of edges.
+We call a graph Good, if for every vertex, there is a walk starting from that vertex, and ending at the vertex, while using every edge exactly once. In other words, for every vertex, you should be able to start from that vertex, and following the edges, end at the same vertex, and have traversed every edge exactly once.
+A Deadwing Graph is an undirected graph, such that if the graph is decomposed into its connected components, then each connected component is Good.
+Hussain has an undirected graph with N nodes, and a list of M edges: E1, E2, .., EM. The nodes are numbered from 1 to N. He wants you to answer Q queries. Each query is denoted by 2 integers l, r: Consider all the edges between the l-th and the r-th edge. You must tell if the graph formed by these edges forms a Deadwing graph or not. That is, consider a new graph, which has the same set of vertices as the original graph, but the edges are only El, El+1, .., Er. You need to check whether this graph is a Deadwing Graph or not.
+Input
+
+The first line contains 2 integers: N, M, the number of vertices in the graph and the number of edges in the original graph.
+The i-th of the next M lines contains 2 integers: ui , vi. This denotes that there is an edge between ui and vi.
+The next line contains an integer Q denoting the number of queries.
+The next Q lines each contains 2 integers: l , r
+
+Output
+Output Q lines, the i-th of which should contain a single word: "Yes" if the graph formed by the edges in the i-th query is a Deadwing Graph. Otherwise output "No". (Without quotations).

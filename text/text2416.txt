@@ -1,0 +1,21 @@
+Problem
+Read problems statements in Mandarin Chinese, Russian, Vietnamese and Bengali as well.
+A permutation is an array consisting of N distinct integers from 1 to N in arbitrary order.
+Chef has two permutation arrays A and P of length N. Chef performs the following three types of operations on the array A:
+
+1 : Permute the array A according to the order defined by permutation P.That is, replace A with the array B where B[P[i]]=A[i].
+2 x y : Swap the elements at positions x and y in A.
+3 x : Output the element at position x in array A.
+
+For each operation of type 3, Chef wants you to output the element at position x in array A after all preceding operations have been applied.
+Input
+
+The first line contains an integer T, the number of test cases. Then the test cases follow.
+The first line of each test case contains a single integer N.
+The second line contains N integers denoting elements of array A.
+The third line contains N integers denoting elements of array P.
+The fourth line contains a single integer Q, denoting the number of operations to be performed.
+Q lines follow, each describing an operation of one of the three types above.
+
+Output
+For each test case, for each query of type 3, output the answer in a separate line.

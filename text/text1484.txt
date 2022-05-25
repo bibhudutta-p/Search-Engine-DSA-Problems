@@ -1,0 +1,20 @@
+Problem
+You are given a tree with N nodes, which are numbered from 1 to N. It is rooted at Node 1. We define a single operation as follows :-
+
+Put a chip on the root.
+Within an operation, you can "move" as many times as you like.
+A move is defined as picking a node which has a chip on it and then removing the chip from that node and placing a chip on all of its children.
+
+A node is covered if it has at least 1 chip placed on it.
+You can do at most K operations. What is the maximum number of covered nodes that you can obtain?
+Note that there is no constraint on the amount of chips placed on any node.
+Input:
+
+The input contains a single integer, T, which denotes the number of testcases.
+The first line of each testcase will contain two integers, N and K, denoting the number of nodes and operations allowed, respectively.
+The next N−1 lines contain two integers u and v indicating that there is an edge between nodes u and v in the tree.
+
+Output:
+
+The output should consist of T integers printed on separate lines. The integer on the i-th line should be the maximum number of nodes which can be covered in that testcase.
+

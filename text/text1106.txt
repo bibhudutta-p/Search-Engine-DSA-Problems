@@ -1,0 +1,7 @@
+Problem
+ Read problems statements in Russian also.
+Chef likes shopping, and especially he likes to buy oranges. But right now he is short of money. He has only k rubles. There are n oranges. The i-th one costs costi rubles and has weight equal to weighti. Chef wants to buy a set of oranges with the maximal possible weight. Please help him, and tell him this weight.
+Input
+The first line of the input contains an integer T  denoting the number of test cases. The first line of each test case contains two numbers n and k. The following n lines contain two numbers costi and weighti respectively. 
+Output
+For each test case, output a single line containing maximal weight among all the affordable sets of oranges. 

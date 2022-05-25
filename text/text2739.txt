@@ -1,0 +1,14 @@
+Problem
+ Read problems statements in Mandarin Chinese  and Russian
+Leha is a usual student at 'The Usual University for Usual Students'. Sometimes he studies hard; at other times he plays truant and gets busy with other things besides academics. He has already studied at the university for N months. For the ith month (1 ≤ i ≤ N), he has received some non-negative integer grade A[i].
+Now he wants to analyse his progress for some periods of his university education. An arbitrary period, defined by two positive integers L and R, begins at Leha's Lth month at the university and ends at the Rth. The analysis is performed via the following steps.
+1. Write down all the grades for each month from L to R and sort them. Let's call the sorted list S.
+2. Calculate the sum of squared differences of consecutive elements in S, that is, (S[2] - S[1])2 + (S[3] - S[2])2 + ... + (S[R-L+1] - S[R-L])2.
+
+Input
+The first line contains one integer N — the number of months Leha has already studied at the university.
+The second line contains N integers — list A of Leha's grades.
+The third line contains one integer M — the number of periods Leha is interested in analyzing.
+Each of the following M lines contain two integers L and R describing each period.
+Output
+For each query, output one integer — the result of the progress analysis for the corresponding period.

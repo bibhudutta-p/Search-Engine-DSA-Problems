@@ -1,0 +1,27 @@
+Problem
+Read problems statements in Hindi, Mandarin Chinese, Russian, Vietnamese, and Bengali as well.
+You are given a directed graph G with N vertices (numbered 1 through N) and M edges. Let's denote the set of its vertices by V, the set of its edges by E and an edge from a vertex u to a vertex v by (u,v). Then, let's define:
+
+For each u,v∈V, R(u,v) is true if v can be reached from u or false otherwise. Specifically, if u=v, it is always true.
+For each v∈V, a set of vertices N(v)={u∈V∣R(u,v)∧R(v,u)}.
+For each subset U⊆V, two sets of edges Out(U)={(u,v)∈E∣u∈U} and In(U)={(v,u)∈E∣u∈U}.
+
+You need to assign a label to each edge in E; you may only use labels 1 and 2. The costs of labelling an edge are c1​ and c2​ for the labels 1 and 2 respectively.
+In the resulting graph, Q constraints (numbered 1 through Q) need to be satisfied. For each valid i, the i-th constraint is that the number of edges in a set Si​ with the label xi​ should be between li​ and ri​ (inclusive); Si​ is determined by a given vertex wi​ and the type of this constraint ti​ as follows:
+
+ti​=1: Si​=Out(N(wi​))
+ti​=2: Si​=In(N(wi​))
+ti​=3: Si​=Out({wi​})
+ti​=4: Si​=In({wi​})
+
+Find the smallest cost of labelling all the edges in such a way that these Q constraints are satisfied or determine that there is no solution satisfying all constraints.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains three space-separated integers N, M and Q.
+Each of the following M lines contains two space-separated integers u and v denoting a directed edge (u,v).
+The next line contains two space-separated integers c1​ and c2​.
+Q lines follow. For each valid i, the i-th of these lines contains five space-separated integers ti​, wi​, xi​, li​ and ri​.
+
+Output
+For each test case, print a single line containing one integer ― the smallest cost of labelling the edges or −1 if it is impossible to label the edges in such a way that all constraints are satisfied.

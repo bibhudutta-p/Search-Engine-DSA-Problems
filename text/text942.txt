@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Kerim is an environment-friendly guy. Today, he accepted Samir's challenge of planting 20 million trees by 2020. Currently, there are N trees (numbered 1 through N) planted at distinct positions on a line; for each valid i, the position of the i-th tree is Ai​.
+A set of trees is beautiful if for each tree in this set (let's denote its position by x), there is a tree at the position x−1 and/or a tree at the position x+1.
+Kerim's task is to plant some (possibly zero) trees in such a way that the resulting set of all planted trees (the initial N trees and those planted by Kerim) is beautiful. It is only allowed to plant trees at integer (possibly negative) positions. Find the minimum number of trees he needs to plant in order to achieve that.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer ― the minimum number of trees Kerim needs to plant.

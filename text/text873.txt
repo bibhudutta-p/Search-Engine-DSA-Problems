@@ -1,0 +1,13 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Almir had a small sequence A1​,A2​,…,AN​. He decided to make K copies of this sequence and concatenate them, forming a sequence X1​,X2​,…,XNK​; for each valid i and j (0≤j<K), Xj⋅N+i​=Ai​.
+For example, if A=(1,2,3) and K=4, the final sequence is X=(1,2,3,1,2,3,1,2,3,1,2,3).
+A pair (i,j), where 1≤i<j≤N, is an inversion if Xi​>Xj​. Find the number of inversions in the final sequence X.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and K.
+The second line contains N space-separated integers A1​,A2​,…,AN​.
+
+Output
+For each test case, print a single line containing one integer ― the number of inversions in the sequence X.

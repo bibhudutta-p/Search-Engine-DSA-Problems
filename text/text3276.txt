@@ -1,0 +1,26 @@
+Problem
+Read problem statements in Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+Let f(n) be the number of ways to partition the array [1,2,3,…,n] into contiguous subarrays such that every pair of adjacent subarrays in the partition have sums of different parity.
+
+What is a contiguous subarray?
+    A contiguous subarray of an array A is an array that can be obtained by deleting some (possibly none) elements from the front of A and some (possibly none) elements from the end of A. The subarrays of an array A (1-indexed) of size n are given by [Ai​,Ai+1​,…,Aj​] for each pair of integers (i,j) such that 1≤i≤j≤n.
+
+
+What is a partition of an array into contiguous subarrays?
+    A partition of the array A into contiguous subarrays is a set of subarrays of A, {S1​,S2​,S3​,…,Sk​}, such that every element of the array belongs to exactly one of the subarrays S1​,S2​,…,Sk​.
+
+
+Which partitions are counted in f(n)?
+    Consider a partition {S1​,S2​,…,Sk​} of the array [1,2,…,n], where Si​ are in sorted order, i.e. every element in Si​ is smaller than every element in Sj​ for all i<j. Then f(n) is the number of partitions such that sum(Si​)​≡sum(Si+1​)(mod2) for all 1≤i<k. sum(Si​) is the sum of all elements in Si​.
+
+Let S0​(n)=f(n) and Sk+1​(n)=Sk​(1)+Sk​(2)+Sk​(3)+⋯+Sk​(n) for k≥0.
+Given n and k, find Sk​(n)mod998 244 353.
+Input
+
+The first line contains a single integer T, the number of test cases.
+The first and only line of each test case contains two integers n, k.
+
+Output
+
+For each test case print in a separate line, the value of Sk​(n)mod998 244 353.
+

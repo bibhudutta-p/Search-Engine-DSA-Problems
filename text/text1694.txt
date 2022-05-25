@@ -1,0 +1,16 @@
+Problem
+Read problem statements in Hindi, Bengali, Mandarin Chinese, Russian, and Vietnamese as well.
+You are given a string S with length N and you should change it to a palindrome using a sequence of zero or more operations. In one operation, you should choose two adjacent elements of S (two characters) and swap them; however, neither of these elements may be used in any other operation.
+Find the minimum number of operations you have to perform in order to change the string S into a palindrome, or determine that it is impossible.
+Input
+
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains a single string S with length N.
+
+Output
+For each test case:
+
+If it is impossible to make the string S a palindrome, print a single line containing the string "NO" (without quotes).
+Otherwise, print two lines. The first of these lines should contain the string "YES" (without quotes). The second line should contain a single integer ― the minimum required number of operations.
+

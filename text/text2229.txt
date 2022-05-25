@@ -1,0 +1,25 @@
+Problem
+"Stick with the strongest team, that's the only way."
+Gi-Hun and his mates have survived the deadly night, but now it’s time for the tug of war. The game proceeds as follows:
+Two teams have to face off against each other in a tug of war match. The match proceeds in a series of rounds as follows:
+
+Initially, one player from each team will come forward to play.
+The one who wins the round will stay in, while the loser is eliminated. If the round is a draw, both players are eliminated.
+When a member of a team is eliminated, that team then sends another person to play in the next round.
+This process continues as long as both teams have at least one player left.
+
+Note that if a player wins their round, they must stay in for the next round — they cannot be replaced by another player.
+A team is said to win the match if it has at least 1 player remaining, while all players of the opponent's team are eliminated. If both teams have no players left, the match is said to be a draw.
+Gi-Hun has to come up with a strategy for his team to win the game. He saw the opponent queue of N players, where their ith player has strength Ai​. He also knows that the opponent will send the players in the same order as they appear in A. Formally for any two players i and j where $i
+Input Format
+
+The first line of input contains a single integer T, denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains two space-separated integers N and M — the sizes of the opponent team and Gi-Hun's team, respectively.
+The second line of each test case contains N space-separated integers, A1​,A2​,…,AN​ — the strengths of the opponents, in order.
+The third line of each test case contains M space-separated integers, B1​,B2​,…,BM​ — the strengths of Gi-Hun's team.
+
+Output Format
+
+The first line of each test case should contain a single string, either “YES” or “NO”, denoting whether it is possible for Gi-Hun's team to win or not.
+If the first line contains "YES", print a second line containing M space-separated integers — the lexicographically smallest ordering which will allow Gi-Hun's team to win.
+

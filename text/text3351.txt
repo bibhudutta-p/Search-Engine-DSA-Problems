@@ -1,0 +1,7 @@
+Problem
+Alice and Bob are playing a game. A single pawn is placed on a grid. The grid consists of cells (X, Y) for non-negative integers X and Y. Some cells of the grid have been marked as impassable. A move consists of choosing some positive integer D and moving the pawn from (X, Y) either to (X − D, Y) or to (X, Y − D), of course, if this cell belongs to the grid. In other words, we move the pawn a positive number of steps along the row or column towards the origin. The pawn is not allowed to land on nor pass through an impassable cell. Alice and Bob alternate moves, with Alice going first. The first player unable to make a move loses.
+Alice and Bob will play several games on the same grid, but with different starting positions of the pawn. Assuming both players play optimally, determine which player will win each game.
+Input
+Input will begin with an integer T, the number of test cases that follow. Each test case will begin with an integer N, the number of impassable cells. N lines follow with 2 integers each: the X and Y coordinates of an impassable cell. Following this is a line with an integer Q, the number of games to be played on this grid. Q lines follow with 2 integers each: the X and Y coordinates of the pawn.
+Output
+For each test case, print the winner of each of the Q games, one per line.

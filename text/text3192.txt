@@ -1,0 +1,13 @@
+Problem
+Let's define Score of an array B of length M as ∑i=1M​∑j=iM​f(i,j), where f(i,j)=Bi​ ∣ Bi+1​ ∣ … ∣ Bj​ (Here ∣ denotes the bitwise OR operation)
+You are given an array A, consisting of N distinct elements.
+Find the sum of Score over all N! possible permutations of A.
+Since the answer can be large, output it modulo 998244353.
+Input Format
+
+The first line of input contains a single integer T - the number of test cases. The description of T test cases follow.
+The first line of each test case contains an integer N - the length of the array.
+The second line of each test case contains N space-separated distinct integers A1​,A2​,…,An​ representing the array A.
+
+Output Format
+For each test case, output the sum obtained modulo 998244353.

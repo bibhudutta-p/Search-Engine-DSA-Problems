@@ -1,0 +1,13 @@
+Problem
+Read problems statements in Mandarin chinese, Russian and Vietnamese as well.
+You are given N red points and M blue points on a 2D plane.
+You are required to delete the minimum number of points(the deleted points can be of both colors) so that it's possible to draw a line such that all remaining red points are on one side of the line while all remaining blue points are on the other side of the line.
+Input
+
+The first line of the input contains an integer T denoting the number of test cases.
+The first line of each test case contains two space-separated integers N and M.
+Each of the next N lines contains two integers Xri, Yri describing the coordinates of the i-th red point.
+Each of the next M lines contains two integers Xbi, Ybi describing the coordinates of the i-th blue point.
+
+Output
+For each test case, output a single line containing one integer denoting the minimum number of points to be deleted.
