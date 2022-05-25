@@ -18,6 +18,10 @@ const PORT = process.env.PORT || 3000;
 
 let q_body = new Array(3534);
 
+let keywords, IDF, TFIDF, magnitude, titles, urls;
+
+let idf_vec, magnitude_vec, TFIDF_lines, all_keywords, num_of_keywords, all_titles, all_urls;
+
 async function get_q_text(){
     for (let i = 0; i < 3534; i++) {
         let question = await content(`./text/text${i}.txt`);
@@ -26,6 +30,25 @@ async function get_q_text(){
 }
 
 get_q_text();
+
+async function get_all_docs(){
+    keywords = await content("./keywords.txt");
+    IDF = await content("./IDF.txt");
+    TFIDF = await content("./TFIDF.txt");
+    magnitude = await content("./magnitude.txt");
+    titles = await content("./titles.txt");
+    urls = await content("./urls.txt");
+
+    idf_vec = IDF.split(" ");// array of all IDF values (as string)
+    magnitude_vec = magnitude.split(" ");// array of all magnitudes (as string)
+    TFIDF_lines = TFIDF.split("\n");// array to store all the lines of the TFIDF file as string
+    all_keywords = keywords.split(" ");// array of all keywords
+    num_of_keywords = 19955;// all_keywords.length precomputed
+    all_titles = titles.split("\n");// array of all titles
+    all_urls = urls.split("\n");// array of all urls
+}
+
+get_all_docs();
 
 app.get("/", (req,res)=>{
     res.render("index");
@@ -40,7 +63,7 @@ app.get("/search", (req,res)=>{
 
     //tf-idf goes here
     async function search_q(){
-        let keywords, IDF, TFIDF, magnitude, titles, urls;
+        
 
         // Read the 4 .txt files
         // keywords = await fs.readFile(__dirname+"./keywords.txt");
@@ -49,12 +72,7 @@ app.get("/search", (req,res)=>{
         // magnitude = await fs.readFile(__dirname+"./magnitude.txt");
         // titles = await fs.readFile(__dirname+"./titles.txt");
         // urls = await fs.readFile(__dirname+"./urls.txt");
-        keywords = await content("./keywords.txt");
-        IDF = await content("./IDF.txt");
-        TFIDF = await content("./TFIDF.txt");
-        magnitude = await content("./magnitude.txt");
-        titles = await content("./titles.txt");
-        urls = await content("./urls.txt");
+        
 
         // let x = 1;
         // let question = await content(`./text/text${x}.txt`);
@@ -75,14 +93,6 @@ app.get("/search", (req,res)=>{
         // titles = await content(__dirname+"./titles.txt");
         // urls = await content(__dirname+"./urls.txt");
 
-
-        let idf_vec = IDF.split(" ");// array of all IDF values (as string)
-        let magnitude_vec = magnitude.split(" ");// array of all magnitudes (as string)
-        let TFIDF_lines = TFIDF.split("\n");// array to store all the lines of the TFIDF file as string
-        let all_keywords = keywords.split(" ");// array of all keywords
-        let num_of_keywords = 19955;// all_keywords.length precomputed
-        let all_titles = titles.split("\n");// array of all titles
-        let all_urls = urls.split("\n");// array of all urls
         
         // let idf_vec = IDF.toString().split(" ");// array of all IDF values (as string)
         // let magnitude_vec = magnitude.toString().split(" ");// array of all magnitudes (as string)
