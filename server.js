@@ -110,6 +110,9 @@ app.get("/search", (req,res)=>{
         let query_words = q.split(" ");// array of all words in user query
         
         let num_of_words = query_words.length;
+        for (let i = 0; i < num_of_words; i++){
+            query_words[i] = query_words[i].toLowerCase();
+        }
 
         
         
