@@ -25,7 +25,8 @@ let idf_vec, magnitude_vec, TFIDF_lines, all_keywords, num_of_keywords, all_titl
 async function get_q_text(){
     for (let i = 0; i < 3534; i++) {
         let question = await content(`./text/text${i}.txt`);
-        q_body[i] = question;
+        q_body[i] = question.substring(9); 
+        // q_body[i] = question;
     }
 }
 
@@ -55,6 +56,9 @@ app.get("/", (req,res)=>{
 })
 
 let arr;
+let flag;// flag to show error page when user enter gibberish
+let result_idx = new Array(5); //array to store the indices of the top 5 documents
+
 
 app.get("/search", (req,res)=>{
     const q = req.query.question;
@@ -201,7 +205,7 @@ app.get("/search", (req,res)=>{
         // const max_url = all_urls[idx_max];
         // console.log(max_url);
 
-        let result_idx = new Array(5);
+        
 
         for (let i = 0; i < 5; i++) {
             let max_similarity = Math.max(...similarity);
@@ -279,6 +283,7 @@ app.get("/search", (req,res)=>{
                 // text: "adsdbef",
             },
             q,
+            flag,
         ]
         
 
@@ -310,6 +315,14 @@ app.get("/search", (req,res)=>{
     //actual result goes below in the arr
     
     search_q();
+    if (result_idx[0]==-1) {
+        arr.flag = 0;
+    }
+    else {
+        arr.flag = 1;
+    }
+    // console.log(arr.flag);
+    // console.log(result_idx[4]);
     res.json(arr);
 })
 

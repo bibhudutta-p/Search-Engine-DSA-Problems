@@ -6,71 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AlGoogle</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>AlGoogle</h1>
-    <form>
-        <input type="text" name="question" id="question" placeholder="Search AlGoogle for...">
-        <input type="submit" value="Go!">
+    <form class="form">
+        <input class="search-box" type="text" name="question" id="question" placeholder="Search AlGoogle for...">
+        <input class="submit" type="submit" value="Go!">
     </form>
+    <div class="error hide">
+        <div class="tenor-gif-embed centre" data-postid="16558003" data-share-method="host" data-aspect-ratio="1.77778" data-width="60%"><a href="https://tenor.com/view/we-dont-do-that-here-black-panther-tchalla-bruce-gif-16558003">We Dont Do That Here Black Panther GIF</a>from <a href="https://tenor.com/search/we+dont+do+that+here-gifs">We Dont Do That Here GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        <h2 class="error_text"></h2>
+    </div>
     <div class="loading"></div>
-    <div class="searchedFor"></div>
-    <div class="question">
-        <div class="title">
-
-        </div>
-        <div class="body">
-
-        </div>
-        <div class="url">
-            <a href=""></a>
-        </div>
-    </div>
-    <div class="question">
-        <div class="title">
-
-        </div>
-        <div class="body">
-
-        </div>
-        <div class="url">
-            <a href=""></a>
-        </div>
-    </div>
-    <div class="question">
-        <div class="title">
-
-        </div>
-        <div class="body">
-
-        </div>
-        <div class="url">
-            <a href=""></a>
-        </div>
-    </div>
-    <div class="question">
-        <div class="title">
-
-        </div>
-        <div class="body">
-
-        </div>
-        <div class="url">
-            <a href=""></a>
-        </div>
-    </div>
-    <div class="question">
-        <div class="title">
-
-        </div>
-        <div class="body">
-
-        </div>
-        <div class="url">
-            <a href=""></a>
-        </div>
-    </div>
     
+    <div class="main">
+        <div class="searchedFor"></div>
+        <div class="question reveal">
+            <div class="title">
+    
+            </div>
+            <div class="body">
+    
+            </div>
+            <div class="url">
+                <a href=""></a>
+            </div>
+        </div>
+        <div class="question reveal">
+            <div class="title">
+    
+            </div>
+            <div class="body">
+    
+            </div>
+            <div class="url">
+                <a href=""></a>
+            </div>
+        </div>
+        <div class="question reveal">
+            <div class="title">
+    
+            </div>
+            <div class="body">
+    
+            </div>
+            <div class="url">
+                <a href=""></a>
+            </div>
+        </div>
+        <div class="question reveal">
+            <div class="title">
+    
+            </div>
+            <div class="body">
+    
+            </div>
+            <div class="url">
+                <a href=""></a>
+            </div>
+        </div>
+        <div class="question reveal">
+            <div class="title">
+    
+            </div>
+            <div class="body">
+    
+            </div>
+            <div class="url">
+                <a href=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/bibhudutta-pati/">LinkedIn</a>
+        <a class="footer-link" href="https://www.facebook.com/profile.php?id=100008591403501">Facebook</a>
+        <a class="footer-link" href="https://heartbeatsresonant.wordpress.com/">Website</a>
+        <p class="copyright">© Bibhudutta Pati.</p>
+      </div>
 </body>
 </html>
 <script>
@@ -83,6 +98,9 @@
     const body = document.querySelectorAll(".body");
     const loadingDiv = document.querySelector(".loading");
     const show = document.querySelector(".searchedFor");
+    const error_page = document.querySelector(".error");
+    const error_page_text = document.querySelector(".error .error_text");
+    // const gif = document.querySelector(".error div");
     //the following for loop is to clear the previous search result
     //as soon as a new query is submitted and before the new search result is obtained
     
@@ -90,8 +108,26 @@
         e.preventDefault();
         const question = question_element.value;
         // console.log(question);
+
+        // const observer = new IntersectionObserver(entries => {
+        //     entries.forEach(entry => {
+        //         const questions = entry.target.querySelectorAll('.question');
+        //         for (let i = 0; i < 5; i++){
+        //             if (entry.isIntersecting) {
+        //             questions[i].classList.add('active');
+        //             return; // if we added the class, exit the function
+        //             }
+
+        //             // We're not intersecting, so remove the class!
+        //             questions[i].classList.remove('active');
+        //         }
+        //     });
+        // });
+
+        // observer.observe(document.querySelector('.main'));
         
         for (let i = 0; i < 5; i++) {
+            questions[i].classList.remove("active");
                 titles[i].innerHTML = "";
                 body[i].innerHTML = "";
                 urls[i].innerHTML = "";
@@ -104,13 +140,24 @@
             const data = await result.json();
             // const data = await result.json();
             loadingDiv.innerHTML = "";
-            show.innerHTML = `<h3>Showing search results for "${data[5]}"</h3>`;
-            for (let i = 0; i < 5; i++) {
-                body[i].innerHTML = `<h4>${data[i].text}</h4>`;
-                titles[i].innerHTML = `<h2>${data[i].title}</h2>`;
-                urls[i].innerHTML = `<h5>Link</h5>`;
-                urls[i]['href'] = `${data[i].url}`;
+            if(typeof data[0].title !== 'undefined') {
+                error_page.classList.add("hide");
+                error_page_text.innerHTML = "";
+                show.innerHTML = `<h2>SHOWING SEARCH RESULTS FOR "${data[5]}"</h2>`;
+                for (let i = 0; i < 5; i++) {
+                    questions[i].classList.add("active");
+                    body[i].innerHTML = `<h4>${data[i].text}</h4>`;
+                    titles[i].innerHTML = `<h3>${data[i].title}</h3>`;
+                    urls[i].innerHTML = `<h5>Link</h5>`;
+                    urls[i]['href'] = `${data[i].url}`;
+                }
+                
             }
+            else {
+                error_page.classList.remove("hide");
+                error_page_text.innerHTML = `We racked our brains (read servers!), but seems like there aren't any great matches for <em>"${data[5]}"</em>!<br>Could you rephrase your query?!`;
+            }
+            
         } catch (error) {
             // console.log(error);
             alert(error);
