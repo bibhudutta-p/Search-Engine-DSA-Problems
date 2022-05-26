@@ -50,6 +50,7 @@ body{
 
 .searchedFor{
     text-align: left;
+    padding-left: 2rem;
 }
 
 form{
@@ -72,6 +73,14 @@ form{
 }
 .search-box:hover{
     background-color: #B3E8E5;
+}
+
+input, select, textarea{
+    color: black;
+}
+
+textarea:focus, input:focus {
+    color: black;
 }
 
 /* .submit{
@@ -141,9 +150,10 @@ input{
 
 .bottom-container{
     /* height: 200px; */
-    position: absolute;
-    color: white;
+    position: fixed;
     bottom: 0;
+    margin-top: 10rem;
+    color: white;
     width: 100%;
     background-color: #66BFBF;
     height: 4rem;
@@ -159,4 +169,8 @@ input{
     position: relative;
     top: 12px;
   }
+.main{
+    position: sticky;
+    margin-bottom: 10rem;
+}
 
