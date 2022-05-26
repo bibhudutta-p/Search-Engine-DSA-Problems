@@ -25,7 +25,7 @@ let idf_vec, magnitude_vec, TFIDF_lines, all_keywords, num_of_keywords, all_titl
 async function get_q_text(){
     for (let i = 0; i < 3534; i++) {
         let question = await content(`./text/text${i}.txt`);
-        q_body[i] = question.substring(9); 
+        q_body[i] = question; 
         // q_body[i] = question;
     }
 }
