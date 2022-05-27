@@ -1,2 +1,2 @@
-## Search-Engine-DSA-Problems
+# Search-Engine-DSA-Problems
 A search engine for DSA Problems
