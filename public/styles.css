@@ -8,6 +8,11 @@ h1{
     font-size: 8rem;
 }
 
+a{
+    display: block;
+    width: fit-content;
+}
+
 body{
     font-family: 'Montserrat', 'Sans Serif';
     text-align: center;

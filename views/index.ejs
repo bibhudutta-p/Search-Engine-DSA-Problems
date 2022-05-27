@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+<link rel="icon" href="./favicon.ico">
 </head>
 <body>
     <h1>AlGoogle</h1>
@@ -32,7 +33,7 @@
     
             </div>
             <div class="url">
-                <a href=""></a>
+                <a href="" target="_blank" rel="noopener noreferrer"></a>
             </div>
         </div>
         <div class="question reveal">
@@ -43,7 +44,7 @@
     
             </div>
             <div class="url">
-                <a href=""></a>
+                <a href="" target="_blank" rel="noopener noreferrer"></a>
             </div>
         </div>
         <div class="question reveal">
@@ -54,7 +55,7 @@
     
             </div>
             <div class="url">
-                <a href=""></a>
+                <a href="" target="_blank" rel="noopener noreferrer"></a>
             </div>
         </div>
         <div class="question reveal">
@@ -65,7 +66,7 @@
     
             </div>
             <div class="url">
-                <a href=""></a>
+                <a href="" target="_blank" rel="noopener noreferrer"></a>
             </div>
         </div>
         <div class="question reveal" id="last-question">
@@ -75,7 +76,7 @@
             <div class="body">
     
             </div>
-            <div class="url">
+            <div class="url" target="_blank" rel="noopener noreferrer">
                 <a href=""></a>
             </div>
         </div>
@@ -148,7 +149,7 @@
                     questions[i].classList.add("active");
                     body[i].innerHTML = `<h4>${data[i].text}</h4>`;
                     titles[i].innerHTML = `<h3>${data[i].title}</h3>`;
-                    urls[i].innerHTML = `<h5>Link</h5>`;
+                    urls[i].innerHTML = `<h6>Go to problem source</h6>`;
                     urls[i]['href'] = `${data[i].url}`;
                 }
                 
