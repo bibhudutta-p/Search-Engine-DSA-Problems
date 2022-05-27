@@ -2,6 +2,12 @@ const express = require("express");
 const ejs = require("ejs");
 const path = require("path");
 const { readFile } = require('fs/promises')
+const converter = require('number-to-words');
+var spelling = require('./'),
+    dictionary = require('./dictionaries/en_US.js');
+
+var dict = new spelling(dictionary);
+
 
 async function content(path) {  
   return await readFile(path, 'utf8')
@@ -108,10 +114,19 @@ app.get("/search", (req,res)=>{
         
 
         let query_words = q.split(" ");// array of all words in user query
+
+        function isNumeric(n) {// function to identify numbers in a string
+            return !isNaN(parseFloat(n)) && isFinite(n);
+        }
         
         let num_of_words = query_words.length;
-        for (let i = 0; i < num_of_words; i++){
+        for (let i = 0; i < num_of_words; i++){// convert numbers to words like '1' to 'one' and remove capitalizations
+            if(isNumeric(query_words[i])) { query_words[i] = converter.toWords(query_words[i]); } 
             query_words[i] = query_words[i].toLowerCase();
+            let spell_check = dict.lookup(query_words[i]);
+            if(!spell_check.found){
+                query_words[i] = spell_check.suggestions[0];
+            }
         }
 
         
@@ -120,6 +135,7 @@ app.get("/search", (req,res)=>{
         query_words.forEach(element => {
             unique_words.add(element);
         });
+        console.log(unique_words);
 
         /*****************ALL OK TILL HERE*******************/
 
