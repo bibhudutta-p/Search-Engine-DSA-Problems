@@ -9,3 +9,5 @@ A search engine for DSA Problems
   4.1. "urls.txt", "titles.txt", "TFIDF.txt", "IDF.txt", "keywords.txt" and "magnitude.txt" go to the root folder.
   4.2. All the texti.txt (for i = 0 to i = 3534) files go to a folder "./text"
 5. Now start terminal at your root folder and run the command "node server.js" (or "nodemon server.js" if you have nodemon installed).
+## Link to the deployed website:
+https://algoogle.herokuapp.com/
